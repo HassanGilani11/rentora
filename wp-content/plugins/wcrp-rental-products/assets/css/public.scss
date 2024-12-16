@@ -1,0 +1,294 @@
+// Availability checker
+
+.wcrp-rental-products-availability-checker {
+	.wcrp-rental-products-availability-checker-parent {
+		position: relative;
+		display: block;
+	}
+	.wcrp-rental-products-availability-checker-applied {
+		.wcrp-rental-products-availability-checker-applied-notice {
+			margin-bottom: 0;
+		}
+		.wcrp-rental-products-availability-checker-applied-info {
+			margin: 15px 0;
+			.wcrp-rental-products-availability-checker-applied-info-row {
+				> span {
+					display: block;
+				}
+				.wcrp-rental-products-availability-checker-applied-info-row-heading {
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	.wcrp-rental-products-availability-checker-unapplied {
+		.wcrp-rental-products-availability-checker-unapplied-form {
+			.wcrp-rental-products-availability-checker-unapplied-form-field {
+				margin-bottom: 15px;
+				&.wcrp-rental-products-availability-checker-unapplied-form-field-hidden {
+					display: none !important;
+				}
+				.wcrp-rental-products-availability-checker-unapplied-form-field-label {
+					display: block;
+					width: max-content;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
+
+// Availability checker status
+
+.wcrp-rental-products-availability-checker-status,
+.wcrp-rental-products-availability-checker-status-select-options {
+	margin: 15px 0 !important; // Some themes override the WooCommerce notice styling with no margin, this can cause the availability checker status to be displayed directly below the buttons on loops, archives, blocks etc with no gap between, so we use !important here, this can be overridden with a more targetted rule if necessary to remove/amend the gap, but more users will want a gap here than not
+}
+
+.wcrp-rental-products-availability-checker-status {
+	word-wrap: normal !important; // Ensures that words aren't wrapped if theme has added own text related wrapping which causes words like rental available to be split onto next line, making it difficult to read
+	.wcrp-rental-products-availability-checker-status-title {
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+	.wcrp-rental-products-availability-checker-status-info {
+		font-size: 0.9em;
+		.wcrp-rental-products-availability-checker-status-info-row {
+			> span {
+				display: block;
+				margin-top: 5px;
+			}
+			.wcrp-rental-products-availability-checker-status-info-row-heading {
+				font-weight: 700;
+			}
+		}
+	}
+	&.wcrp-rental-products-availability-checker-status-minimal {
+		.wcrp-rental-products-availability-checker-status-title {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.wcrp-rental-products-availability-checker-ajax-placeholder,
+.wcrp-rental-products-availability-checker-status-ajax-placeholder {
+	display: none !important; // These are empty elements that get removed anyway so shouldn't display, but just setting display none incase there is any CSS which makes them visible, e.g. theme sets heights on all divs based on a parent element
+}
+
+// Litepicker
+
+.wcrp-rental-products-is-rental {
+	.litepicker {
+		* { // Some themes (Divi but maybe more) override elements to be box-sizing: border-box which causes the litepicker days to be misaligned from the day headings
+			-webkit-box-sizing: content-box !important;
+			box-sizing: content-box !important;
+		}
+		.container__days {
+			.day-item {
+				&.is-dotted-border {
+					border: 1px solid var( --litepicker-highlighted-day-color-bg );
+					border-style: dashed;
+					box-sizing: border-box !important;
+				}
+				&.is-highlighted {
+					&.is-in-range { // If a highlighted day e.g. disabled start/end dates/days and within range then use the range styling instead, otherwise it's not as clear that the highlighted days are included
+						background-color: var( --litepicker-is-in-range-color ); // Same as Litepicker's .is-in-range CSS
+						border-radius: 0; // Same as Litepicker's .is-in-range CSS
+					}
+				}
+				&.is-locked {
+					color: var( --litepicker-is-locked-color ) !important; // !important here ensures that if a date is higlighted (e.g. disabled rental start/end days) but is also locked then it is visually different, otherwise you might be trying to select a range of dates which go over disabled start/end days but can't select them as says it includes disabled dates and not realising why as the disabled start/end days aren't a visibily different
+				}
+			}
+		}
+	}
+}
+
+// Rental form
+
+.wcrp-rental-products-rental-form-wrap {
+	.wc-pao-addons-container {
+		margin-bottom: 20px; // Margin added to bottom of product add-ons if a rental as without it is too close to below, e.g. qty field
+	}
+	.wcrp-rental-products-rental-form {
+		margin-bottom: 20px;
+		&.wcrp-rental-products-rental-form-after-quantity {
+			&:before { // Ensures the rental form is cleared so after quantity, height is added here as margin-top wouldn't work here due to clear: both;
+				content: ".";
+				display: block;
+				clear: both;
+				visibility: hidden;
+				height: 20px;
+			}
+		}
+		.wcrp-rental-products-rental-period {
+			margin-bottom: 20px; // Consistent with margin-bottom on .wcrp-rental-products-rental-form
+			label {
+				display: block;
+			}
+		}
+		.wcrp-rental-products-rental-dates-wrap {
+			.wcrp-rental-products-rental-dates-parent {
+				position: relative;
+			}
+		}
+		.wcrp-rental-products-in-person-pick-up-return-wrap {
+			display: none; // Shown via JS conditionally
+			.wcrp-rental-products-in-person-pick-up-time-fee,
+			.wcrp-rental-products-in-person-return-time-fee {
+				margin: 20px 0; // Margin ensures gap between .wcrp-rental-products-rental-dates-wrap and between these 2 elements, bottom margin consistent with margin-bottom on .wcrp-rental-products-rental-form
+				label {
+					display: block;
+				}
+				.wcrp-rental-products-in-person-pick-up-time-fee-date,
+				.wcrp-rental-products-in-person-return-time-fee-date {
+					font-weight: 700;
+				}
+				.wcrp-rental-products-in-person-pick-up-time-fee-single-day-select,
+				.wcrp-rental-products-in-person-return-time-fee-single-day-select {
+					display: none !important; // Never shown, see comments on why around markup for these element in the rental form
+				}
+			}
+		}
+		.wcrp-rental-products-available-rental-stock-totals {
+			display: block !important; // Must be done as this also uses the .stock class which has a less targeted display: none for scenarios like where purchasable stock levels hidden for rental part of rental or purchase products
+			margin-top: 20px;
+		}
+		.wcrp-rental-products-information {
+			font-size: 13px;
+			font-style: italic;
+			margin-top: 20px;
+		}
+		.wcrp-rental-products-notice {
+			margin: 20px 0 0 0 !important; // These classes are added in addition to the woocommerce notice classes e.g. .woocommerce-info, some themes amend the margins on these globally, however in the context of these particular notices that are within the rental form the margin should remain as specified here to ensure margin consistency throughout the rental form, hence the !important - but can be overriden using a more targeted selector if required
+		}
+		.wcrp-rental-products-rental-totals {
+			display: none !important; // Some themes override .woocommerce-info which is also a class of this element and make it display when it should not be initially so is !important here, this is overriden with a further inline !important via JS when it should be displayed
+			.wcrp-rental-products-excludes-addons,
+			.wcrp-rental-products-excludes-in-person-pick-up-return-fees,
+			.wcrp-rental-products-rental-return-within {
+				font-size: 0.8em;
+			}
+			.wcrp-rental-products-excludes-addons,
+			.wcrp-rental-products-excludes-in-person-pick-up-return-fees {
+				display: none; // Hidden by default and get shown conditionally via JS
+			}
+		}
+	}
+}
+
+body {
+	&.wcrp-rental-products-is-rental {
+		&:not( .wcrp-rental-products-is-rental-purchase-purchase ) { // Otherwise the rental form layout gets applied to the purchasable part of rental or purchase products
+			&.wcrp-rental-products-rental-form-layout-theme-compatibility,
+			&.wcrp-rental-products-rental-form-layout-light,
+			&.wcrp-rental-products-rental-form-layout-dark {
+				.wcrp-rental-products-rental-form-wrap {
+					.cart,
+					.woocommerce-variation-add-to-cart { // This is outside .variations
+						display: block !important; // As some themes set this to display: flex in attempt to display cart fields horizontally, but as rentals have more fields doesn't fit well, observed with Zakra theme
+					}
+					.variations {
+						.reset_variations {
+							display: none !important; // Has to be hidden as variation select field when 100% pushes it onto the next line, but as WooCommerce uses visibility: hidden when not shown it leaves a large gap, variation can still be amended by changing the select field
+						}
+					}
+					input[type="text"], // These selectors (and the ones included in the further layout styles below) are specifically only targeted to .wcrp-rental-products-rental-form-wrap and not more specific so cover all potential inputs in the area, such as variations, product add-ons, etc, .qty is targeted separately later in these styles as is a number input so doesn't need to be 100%
+					select {
+						height: auto !important; // As some themes set a height, and depending on padding also set causes inner content of field to be cut off, observed with Astra theme
+						max-height: auto !important; // As some elements may have a max set which effects the auto height from being as high as as auto
+						max-width: 100% !important; // As some elements may have a max set lower than the width below, e.g. variation select fields are 70% which would override the width 100% below
+						width: 100% !important;
+					}
+				}
+			}
+			&.wcrp-rental-products-rental-form-layout-light,
+			&.wcrp-rental-products-rental-form-layout-dark {
+				.wcrp-rental-products-rental-form-wrap {
+					.qty {
+						border: 1px solid #999999 !important;
+						border-radius: 0 !important;
+						padding: 10px !important;
+						&:focus {
+							outline-color: #666666 !important;
+						}
+					}
+					input[type="text"],
+					select {
+						border: 1px solid #999999 !important;
+						border-radius: 0 !important;
+						padding: 10px !important;
+						&:focus {
+							outline-color: #666666 !important;
+						}
+					}
+				}
+				&.wcrp-rental-products-rental-form-layout-light {
+					.wcrp-rental-products-rental-form-wrap {
+						.qty {
+							background: #ffffff !important;
+						}
+						input[type="text"],
+						select {
+							background: #ffffff !important;
+						}
+					}
+				}
+				&.wcrp-rental-products-rental-form-layout-dark {
+					.wcrp-rental-products-rental-form-wrap {
+						.qty {
+							background: #000000 !important;
+							color: #ffffff !important;
+						}
+						input[type="text"],
+						select {
+							background: #000000 !important;
+							color: #ffffff !important;
+						}
+					}
+				}
+				&.wcrp-rental-products-rental-form-layout-boxed {
+					.wcrp-rental-products-rental-form-wrap {
+						.cart {
+							box-shadow: 0px 0px 10px #e3e3e3;
+							padding: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Rental or purchase toggle
+
+.wcrp-rental-products-rental-purchase-toggle {
+	+ .product_meta {
+		margin-top: 20px; // If the rental or purchase toggle has the product meta section directly after it (product page) top margin added so there is a gap
+	}
+}
+
+// Spinner
+
+.wcrp-rental-products-spinner {
+	background-image: url( '../icons/spinner.gif' );
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 20px;
+	width: 26px;
+	height: 26px;
+	display: none;
+}
+
+// Compatibility tweaks
+
+.single-product {
+	&.wcrp-rental-products-is-rental {
+		#main {
+			.product {
+				overflow: visible !important; // Ensures calendar visible if using multiple months/columns as some themes use overflow: hidden and this would mean it is cut off behind the right sidebar (regardless of its high z-index), this could potentially cover things in the sidebar but the decision on using multiple months/columns in the calendar is the store owners decision, if it's an issue that this overlaps the sidebar then they can stop it by reducing the months/columns used. Without this CSS the calendar would simply not be functional as behind the sidebar
+			}
+		}
+	}
+}

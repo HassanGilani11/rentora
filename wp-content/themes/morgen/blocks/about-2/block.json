@@ -1,0 +1,16 @@
+{
+    "name": "acf/about-2",
+    "title": "Intro",
+    "description": "A custom Intro block that uses ACF fields.",
+    "style": [ "file:./about-2.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["about", "content"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "about-2.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

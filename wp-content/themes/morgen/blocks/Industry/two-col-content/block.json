@@ -1,0 +1,17 @@
+{
+    "name": "acf/two-col-content",
+    "title": "Two Columns Section",
+    "description": "A custom Column block that uses ACF fields.",
+    "style": [ "file:./two-col-content.css" ],
+    "script": [ "file:./two-col-content.js" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Content", "Columns"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "two-col-content.php"
+    },
+    "supports": {
+        "anchor": false
+    }
+}

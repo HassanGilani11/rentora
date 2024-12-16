@@ -1,0 +1,1082 @@
+*** Rental Products Changelog ***
+
+2024-09-13 - version 5.1.0
+* Add: .pot to languages folder
+* Add: Composer WooCommerce Quality Insights Toolkit (QIT) dependency
+* Add: Margin between rental order line item actions and the new configure button included in latest release of WooCommerce Product Add-ons
+* Add: Rental form notices use WooCommerce classes setting, allows to be disabled if you want to apply your own custom CSS notice styling, or if you have issues with the theme targeting WooCommerce notices and repositioning them to another location in the page
+* Add: Requires WooCommerce dependency header
+* Add: Security deposit amount description below the product option relating to order total/fees
+* Add: wp_set_script_translations to JS assets
+* Update: Add rental product button alert information (including after add product alert) amended
+* Update: AJAX nopriv hooks
+* Update: Availability checker safe redirect functions, including amend of availability checker apply dates redirect setting description
+* Update: Availability checker status display setting description to be more descriptive
+* Update: Change rental order line item button alert information amended
+* Update: Escaping on debug log output
+* Update: JS assets to include sprintf const where previously not included
+* Update: Managing rental orders information relating to recalculating totals amended
+* Update: Rental form markup so add to order functionality only included if accessed via order edit
+* Update: Rental form safe redirect functions
+* Update: Return days display setting description to be more descriptive
+* Update: PHP requires at least 7.4.0
+* Update: WooCommerce requires at least 8.5.0
+* Update: WooCommerce tested up to 9.3.1
+* Update: WordPress requires at least 6.3.0
+* Update: WordPress tested up to 6.6.2
+* Fix: Rental price display rent text setting description incorrect, says rent from/to should be rent for/from
+* Fix: Rental stock field should not allow a decimal number to be used
+* Fix: Rentals dashboard summary flagged rental orders may display an error if an invalid order item id exists
+* Fix: Setting fields with the class wcrp-rental-products-disable-dates-picker do not activate the save settings button upon change, due to changes of how the save settings button activates in recent WooCommerce releases
+* Fix: Typo in known compatibility issues information
+* Remove: BETA flags from some settings/product options
+
+2024-06-28 - version 5.0.1
+* Add: Rental form notice if product is an in person pick up/return with an in person return date of next day
+* Update: composer.json and composer.lock to woocommerce/woocommerce-sniffs 1.0.0
+* Update: Error codes references more specific, referenced in known compatibility issues information
+* Update: In person pick up/return related product options information
+* Update: Known compatibility issues information in settings updated and notice made more prominent
+* Update: phpcs.xml codesniffs
+* Update: rentalFormrentalFormAvailabilityCheckerPopulationInformation variable rename as included duplicated prefix
+* Update: WooCommerce tested up to 9.0.2
+* Update: WordPress tested up to 6.5.5
+
+2024-05-01 - version 5.0.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating, if you don't currently have any issues with 4.4.2, you may wish to consider remaining on this release temporarily until you have tested 5.0.0+ with no issues and once further developments have been released since this milestone
+* Note: This version includes several changes to cart/checkout related functionality, in part for cart/checkout block compatibility, before updating the extension on a production website and regardless of whether you are using the classic or block cart/checkout, we recommended testing the cart/checkout with your product availability/pricing scenarios on a staging/development environment
+* Note: While we have strived to make this extension compatible with cart/checkout blocks, they are a relatively new development and issues may exist, for stability we currently recommend using the classic cart/checkout experience with this extension
+* Note: This version includes WooCommerce Product Add-ons compatibility tweaks, WooCommerce Product Add-ons has had several functional changes and deprecations since the last compatiblity review, therefore if using add-ons for rental products it is recommended you ensure you are using the latest version of the WooCommerce Product Add-ons extension, and on a staging/development environment test products by viewing product pages, making test orders, reviewing order details, etc to ensure add-ons are still being applied as expected before updating both extensions on a production website
+* Note: Due to cart item data changes in this version the update process will flush current carts/sessions
+* Add: Advanced configuration setting for rental_form_update_ajax_request_response_json_console_log
+* Add: Advanced pricing clone option in rentals dashboard tools pricing related option
+* Add: Advanced pricing default setting, used if default option set on product option
+* Add: Advanced pricing product option, allows advanced pricing calculations to be configured and used
+* Add: Advanced pricing wcrp_rental_products_advanced_pricing filter hook
+* Add: Availability checker apply dates redirect setting, if populated with a URL then when dates/quantity applied in the availability checker the user will be redirected to this URL rather than seeing the default applied dates confirmation
+* Add: Availability checker mode setting, AJAX mode added for cache issue scenarios
+* Add: Availability checker status display setting, with standard and minimal option
+* Add: Checkout draft restrictions setting
+* Add: Deposits notice added to add/edit product screen, if taxes enabled and using free version of Deposits & Partial Payments for WooCommerce, shows warning tax handling may not occur unless using premium version
+* Add: Disable rental end notice text setting and wcrp_rental_products_text_disable_rental_end_notice filter hook
+* Add: Disable rental start/end days type clone option in rentals dashboard tools
+* Add: Disable rental start/end days type product option, allowing disable rental start/end days to be start/end days, start days only or end days only
+* Add: Disable rental start/end notice text setting and wcrp_rental_products_text_disable_rental_start_end_notice filter hook, replaces existing settings/filter hooks, see removals below
+* Add: Disable rental start notice text setting and wcrp_rental_products_text_disable_rental_start_notice filter hook
+* Add: Earliest available date product option, when set the product can not be rented before this date
+* Add: In person pick up/return time restrictions clone option in rentals dashboard tools pick up/return related option
+* Add: In person pick up/return time restrictions default setting, used if default option set on product option
+* Add: In person pick up/return time restrictions product option, allowing choice of default, restricted or unrestricted for setting times
+* Add: Multiply add-ons total by number of days selected flat fees conditional via new wcrp_rental_products_multiply_addons_total_by_number_of_days_selected_flat_fees filter hook
+* Add: Notification upon change of rental product product option to rental or purchase to highlight that additional rental price/stock fields are now available to set the rental price/stock
+* Add: Product options/settings where populated is via a format such as 3:10.00, now validate the data as entered and show a notice if invalid with help information/recommendations
+* Add: Product updated restrictions setting
+* Add: Provisioning for wc-checkout-draft order status, as a result of cart/checkout blocks
+* Add: Rental form auto population reset link gets wcrp_rental_products_availability_checker_reset removed upon click, ensures if availability checker included in page, e.g. header, then applying new dates doesn't get immediately reset
+* Add: Rental form available rental stock totals setting
+* Add: Rental form available rental stock totals text setting and wcrp_rental_products_text_available_rental_stock_totals filter hook
+* Add: Rental form calendar custom styling code setting
+* Add: Rental form calendar custom styling setting
+* Add: Rental form layout setting with 6 options
+* Add: Rental form redirect to URL with no period selection pricing type specific query vars if exists in the URL and is not a period selection pricing type
+* Add: Rental form redirect to URL with no rent_period_qty query var if exists, greater than 1 and product is sold individually, done as someone could have bookmarks a URL like ?rent_period=14&rent_period_qty=2 and since then the product has been updated to be only sold individually
+* Add: Rental form redirect to URL with no rent query var if exists in the URL and is not a rental or purchase product
+* Add: Rental form and availability checker wcrp_rental_products_litepicker_language filter hook, allowing filtering of Litepicker calendar library language for potential use in multi-language scenarios
+* Add: Rental form wcrp_rental_products_rental_form_total_days_parenthesis filter hook
+* Add: Rental form wcrp_rental_products_rental_form_total_prefix filter hook
+* Add: Rental or purchase - rental tax override status shipping only option
+* Add: Rentals dashboard actions button icons
+* Add: Rentals dashboard calendar feed URL in a prompt input so can be easily copied for use when subscribing to the feed in a calendar application
+* Add: Rentals dashboard calendar trash order status filter option
+* Add: Rentals dashboard default tab setting
+* Add: Rentals dashboard inventory live view
+* Add: Rentals dashboard inventory notice for date view and live view
+* Add: Rentals dashboard inventory sub tabs for date view and live view
+* Add: Rentals dashboard summary tab including latest rental orders and flagged rental orders
+* Add: Rentals summary dashboard widget
+* Add: Translation information separated off into new section in settings
+* Add: WCRP_Rental_Products_Rentals_Calendar class and functions
+* Add: WCRP_Rental_Products_Rentals_Inventory class and functions
+* Add: WCRP_Rental_Products_Rentals_Summary class and functions
+* Add: WCRP_Rental_Products_Stat_Helpers class and functions
+* Add: WCRP_Rental_Products_Stock_Helpers class and functions
+* Add: WCRP_Rental_Products_Stock_Manipulation class and functions
+* Add: WCRP_Rental_Products_Widgets class and functions
+* Add: WooCommerce Cart/Checkout blocks compatibility
+* Update: Add-ons product options section moved higher so above calendar options
+* Update: Add/edit product notice for "Settings below apply to all variations without manual stock management enabled." notice hidden on add/edit order for variable products as does not apply for certain rental scenarios
+* Update: Alerts punctuation consistency
+* Update: Availability checker if rent from is less than the current date unset cookies, as previously set dates are no longer available as in past
+* Update: Availability checker status layout amended so more legible, especially for stores with limited width where displaying product loops
+* Update: Availability checker status layout now ensures that words aren't wrapped if theme has added own text related wrapping which causes words like rental available to be split onto next line, making it difficult to read
+* Update: Cart/checkout notice consistency with core WooCommerce messaging
+* Update: Cart/checkout notice for unavailable rentals is now conditional and displays either a quantity unavailable (showing the maximum stock available) or dates unavailable message
+* Update: Changelog consistency
+* Update: Class structure amendments
+* Update: Email settings section amended to include button to access specific emails
+* Update: In person pick up/return product options information to be more descriptive
+* Update: Inventory export add space between rental stock out orders
+* Update: Inventory no rental products configured notice to include link to create or edit a rental product
+* Update: Known compatibility issues information
+* Update: Pricing period additional selections field description in variations context
+* Update: Product import/export notice on WooCommerce product import screen amended to open link in new window, so if clicked during an import the user isn't navigated away from the import
+* Update: Product option/setting textarea fields reduced in height, can be expanded using bottom right corner if required
+* Update: Rental form add margin between add-on fields and fields below
+* Update: Rental form auto apply setting when disabled to show apply button, now allows apply button to be clicked if only a single day selected without a further click in the scenario where single and multiple days are allowed for selection
+* Update: Rental form auto select end date setting removal of BETA status
+* Update: Rental form calendar if highlighted disabled days/dates are also fully reserved the disabled color is used on the highlighted days, so visually shows they are also disabled
+* Update: Rental form elements with wrapping class of wcrp-rental-products-disable-rental-start-end-days and wcrp-rental-products-disable-rental-start-end-dates have been replaced by a singular wrapping class of wcrp-rental-products-disable-rental-start-end due to changes relating to disable rental start/end functionality, if you previously used custom CSS to style these elements it is recommended you review and refactor your custom CSS to target the new class
+* Update: Rental form performance improvements, including performance for non-rental products as amount of data used to determine if a rental product reduced
+* Update: Rental order management add rental product to order notices including information regarding recalculating taxes if taxes are enabled
+* Update: Rental price display HTML may display incorrectly if a rental or purchase based product, with the rental or purchase - rental tax/shipping override option enabled and certain WooCommerce tax settings applied
+* Update: Rental product field expand information
+* Update: Rentals dashboard footer version number styling
+* Update: Rentals dashboard inventory modal information to include details of date view vs live view, why availability on frontend may differ to inventory, etc
+* Update: Rentals dashboard tools rental products debug include count of issues in found issues notice
+* Update: Rental price display prefix setting now allows HTML to be included
+* Update: Rental price display suffix setting now allows HTML to be included
+* Update: Rental stock field in variation edit moved so immediately before purchasable stock fields
+* Update: Rental stock field tooltip information
+* Update: Rental stock related calculations refactoring to use new WCRP_Rental_Products_Stock_Helpers class
+* Update: Translation settings information to include details of new wcrp_rental_products_litepicker_language filter hook and various other tweaks
+* Update: Variation product option placeholders from parent to rental tab for clearer description of where data comes from if empty
+* Update: Various tax display related amendments in relation to specific tax settings, such as prices entered inc/exc tax, and inverse display settings
+* Update: WCRP_Rental_Products_Rentals_Dashboard class refactoring, see new related separated classes
+* Update: Woo.com links reverted to WooCommerce.com, due to WooCommerce backtrack
+* Update: WooCommerce Product Add-ons compatibility tweaks
+* Update: WooCommerce tested up to 8.8.3
+* Update: WordPress tested up to 6.5.2
+* Fix: Creation of dynamic property is deprecated PHP notices
+* Fix: DataTables based tables used in dashboard do not include consistent styling for ellipsis in pagination steps
+* Fix: If availability checker quantity disabled and no dates selected the alert prompts user to enter dates and quantity, should only ask to enter dates
+* Fix: If rental form after quantity is enabled and product is sold individually there is a large gap between the hidden quantity field and the rental form
+* Fix: If rental price or rental security deposit amount is attempted to be bulk edited on variations, if the store decimal separator is not a . then the variation product option field values are rounded if value is to 2 decimals
+* Fix: If rental product is a period selection pricing type and pricing period is not populated and so uses defaults, the minimum/maximum days product option should match the default
+* Fix: If rental product is sold individually the availability checker may show product available if quantity greater than 1 in some scenarios, but correctly can't be ordered, availability checker should show unavailable
+* Fix: If WooCommerce Product Add-ons and disabled on rental and/or purchase part of a rental or purchase product the add-ons are still in markup just hidden, now removed
+* Fix: If WooCommerce Product Add-ons are required and disabled on rental and/or purchase part of a rental or purchase product the product may not be able to be added to cart, this is fixed when using product level add-ons, however due to limitations in the extensibility of WooCommerce Product Add-ons it is not possible to fix for global product add-ons which have required fields, information has been added when these product options are enabled to inform of this limitation
+* Fix: PHP setcookie(): Passing null to parameter #2 ($value) of type string is deprecated when clearing availability checker cookies in PHP8.1+
+* Fix: Rental form wrap element is present as an empty div on purchasable part of rental or purchase products when it is not needed
+* Fix: Rentals dashboard calendar rows show trash status as all lowercase when should be uppercase first letter so consistent with WooCommerce order status names
+* Fix: Text string "Sorry, you have added more than 1 of the same products to your cart and we do not have availability to fulfil the combined rental dates selected. Please remove one or more of these products from your cart to continue checkout." can not be translated via this extensions translation strings as textdomain set to woocommerce, should be wcrp-rental-products
+* Fix: Variations bulk edit actions has the rentals optgroup title even when no actions are available, e.g. a non-rental
+* Fix: Variations bulk edit rental specific actions do not work if attempted before a new product is saved initially
+* Fix: WCRP_Rental_Products_Misc::value_colon_price_pipe_explode() can cause PHP warnings of undefined array key 1 and deprecated str_replace(): passing null to parameter #3 if the data was entered in an incorrect format
+* Remove: Disable rental start/end dates and disable rental start/end days notice text setting and equivalent 2 filter hooks, replaced with disable rental start/end notice text setting and wcrp_rental_products_text_disable_rental_start_end_notice filter hook, if you previously modified the text via these old settings/filter hooks, use the new setting/filter hook, note that these have been combined into 1 setting/filter hook due to changes to the notice output required for the new disable rental start/end days type product option, it also recommended to review all other text settings/filter hooks relating to disable rental start/end notices where previously used
+* Remove: Rental form display CSS flex information in settings as new rental form layout setting should make fixes easier
+
+2023-12-22 - version 4.4.2
+* Add: Filter hook wcrp_rental_products_cart_fees_disable_security_deposits
+* Update: Activation notice
+* Update: Changelog keys
+* Update: Code consistency
+* Update: Development assets
+* Update: WooCommerce.com links to Woo.com
+* Update: PHP requires at least 7.3.0
+* Update: WooCommerce requires at least 7.9.0
+* Update: WooCommerce tested up to 8.4.0
+* Update: WordPress requires at least 6.1.0
+* Update: WordPress tested up to 6.4.2
+* Fix: Frontend buttons output from the extension do not use FSE based button classes when a FSE theme active
+* Fix: Rentals data may not be inserted in database for very specific server setups if MySQL config has the lesser used NO_AUTO_VALUE_ON_ZERO enabled
+* Fix: If a rental product has security deposits and the refundable/non-refundable text setting/filter hook is empty the fee name shown to customers has empty brackets
+* Fix: The parameter at position #2 of get_terms() has been deprecated
+
+2023-08-24 - version 4.4.1
+* Note: This is a patch release due to an issue reported with the rentals dashboard calendar specifically when invalid order item data may exist, please ensure the changelog for the 4.4.0 release is also read, we recommend performing this update on a staging/development environment and testing before updating the extension on a production website
+* Fix: Rentals dashboard calendar may display an error if an invalid order item id exists
+
+2023-08-23 - version 4.4.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating
+* Add: High Performance Order Storage (HPOS) compatibility if WooCommerce version is 8.0.0 or higher, note that this version includes several changes for HPOS compatibility, it is recommended you perform this update on a staging/development environment before updating the extension on a production website regardless of whether HPOS enabled, HPOS and the compatibility in this extension are very new, use with caution
+* Add: WCRP_Rental_Products_Cart_Items::cart_item_data_add() rental check due to a limited scenario where third party plugins incorrectly clone cart item meta to other cart items and in doing so make non rentals deemed rentals upon add to cart but before catch by cart checks
+* Add: Rentals dashboard inventory rental stock out orders column, displays links to orders which make up the rental stock out total
+* Add: Cart check debug logging
+* Add: Descriptive titles to all thickbox modals in dashboard
+* Update: Order line item actions now AJAX based with no reload of page required after mark as returned or cancel rental, including order notes updated
+* Update: Rental return reminder email notification send once setting tooltip description
+* Update: Availability checker dates field label now got from rental dates text setting/filter instead of text string
+* Update: Rentals dashboard color keys now time aware, previously were solely date aware e.g. now if a not returned rental is due to be returned at 10am it will remain as current color key until 10am and then become a not returned color key
+* Update: Managing rental orders information
+* Update: Known compatibility issues information
+* Update: Partial PHP file includes ABSPATH conditions
+* Update: PHP requires at least 7.2.0
+* Update: WooCommerce requires at least 7.3.0
+* Update: WooCommerce tested up to 8.0.2
+* Update: WordPress requires at least 5.9.0
+* Update: WordPress tested up to 6.3.0
+* Fix: PHP notices on rentals dashboard triggered due to generic add/update/get meta methods should not be used for internal meta data when debug mode active
+* Fix: Timezone specific fixes
+* Fix: If a rental product has the product title changed or if the product is deleted the rentals dashboard calendar displays the newer name if it was updated (potential for confusion due to not being consistent with the order item title) or does not display any title if it has been deleted
+
+2023-07-12 - version 4.3.3
+* Fix: Return days display on order line items duplicated in each order line item when return days display disabled on frontend
+
+2023-07-07 - version 4.3.2
+* Update: Rentals dashboard display improved on lower screen resolutions
+* Fix: If no rentals have been made the calendar feed will 404, it will now generate with no rentals included allowing the URL to be subscribed to before rentals are made
+
+2023-07-06 - version 4.3.1
+* Update: WooCommerce tested up to 7.8.2
+* Update: WordPress tested up to 6.2.2
+* Fix: Return days display setting is not respected in order email notifications
+
+2023-05-25 - version 4.3.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating
+* Add: Admin notice on clash if Deposits & Partial Payments for WooCommerce has order fully paid status set to completed and return rentals in completed orders setting enabled
+* Add: Assets for icons
+* Add: Calendar feed in person pick up/return events including time
+* Add: Cart/checkout class of wcrp-rental-products-cart-item-is-rental to rental cart/checkout item rows, note this will not work for WooCommerce cart/checkout blocks currently due to them not respecting the woocommerce_cart_item_class filter hook
+* Add: Cart/checkout error codes to some cart check error messages so they can be referenced to known compatibility issues list in settings
+* Add: Filter hook parameter of $cart_item to wcrp_rental_products_cart_item_price
+* Add: Filter hook wcrp_rental_products_text_in_person_pick_up_return
+* Add: Filter hook wcrp_rental_products_text_pick_up_time
+* Add: Filter hook wcrp_rental_products_text_return_date
+* Add: Filter hook wcrp_rental_products_text_return_time
+* Add: Function wcrp_rental_products_rental_time_format
+* Add: Order management managing rental orders meta box information related to partially paid order status when Deposits & Partial Payments for WooCommerce is active
+* Add: Product management product option for in person pick up/return
+* Add: Product management product option for multiply add-ons total by number of days selected
+* Add: Rental form alert if a variable rental product and rental dates are selected without selecting options to determine the specific variation required
+* Add: Rental form class of wcrp-rental-products-notice to all notice elements
+* Add: Rental form if a variable product and maximum quantity alert shown the quantiy field is automatically reduced to the maximum quantity available and a notice shown
+* Add: Rental form information when availability checker dates/quantities have resulted in auto population including link to reset
+* Add: Rental form max attribute to quantity field on product page if a rental and product type is simple, variables remain as was with no max and show alert with a maximum quantity allowed due to variation stock levels got during AJAX request
+* Add: Rentals dashboard calendar feed button if calendar feed enabled
+* Add: Rentals dashboard calendar filter color key
+* Add: Rentals dashboard calendar filter order status
+* Add: Rentals dashboard calendar row hover consistency
+* Add: Rentals dashboard calendar refresh button
+* Add: Rentals dashboard calendar search by product, order, customer, etc
+* Add: Rentals dashboard calendar toggle rentals
+* Add: Rentals dashboard calendar toggle returns expected
+* Add: Rentals dashboard calendar toggle rows limit
+* Add: Rentals dashboard footer including back to top buttons and version information
+* Add: Rentals dashboard inventory refresh button
+* Add: Rentals dashboard inventory row hover color
+* Add: Rentals dashboard tools error notice if clone rental options submitted but no from, to or which options set
+* Add: Rentals dashboard tools pick up/return clone options to tools
+* Add: Setting for archive rentals
+* Add: Setting for in person pick up/return text
+* Add: Setting for pick up date text
+* Add: Setting for pick up time text
+* Add: Setting for rental form auto select end date
+* Add: Setting for rental time format
+* Add: Setting for return date text
+* Add: Setting for return time text
+* Add: Settings for in person pick up/return defaults
+* Update: Cart/checkout rental return within label and value display on items to include date due in addition to number of days
+* Update: Order management add rental product(s) popup if already open refocus the existing popup so user remains where was instead of reopening the window entirely and user having to start from initial URL
+* Update: Order management orders list rental filter to including/excluding so consistent with order name includes rentals prefix
+* Update: Order management rental return within label and value display on items to include date due in addition to number of days
+* Update: Order management WCRP_Rental_Products_Order_Info::after_order_details() display to use notice styling
+* Update: Product management minor styling tweaks to rental product options
+* Update: Rental form alerts/notices consistency
+* Update: Rental form improvements of disable rental start/end dates catch if browser does not support pointer-events: none JavaScript
+* Update: Rental form performance improvements of WCRP_Rental_Products_Product_Rental_Form::rental_form_update_add_manually_disabled_dates_days()
+* Update: Rental form performance improvements upon form update
+* Update: Rentals dashboard calendar current and future rentals now 2 separate color keys
+* Update: Rentals dashboard calendar rows now open orders in a new window upon click so the calendar (and any filters, pagination used) remain available in existing tab for easy return
+* Update: Rentals dashboard shortcut buttons replaced with tabs
+* Update: Rentals dashboard styling tweaks
+* Update: Settings known compatibility issues modal information to be more descriptive and included issues related directly to cart check error codes
+* Update: Settings page restructuring
+* Update: WooCommerce tested up to 7.7.0
+* Fix: Admin other plugins using jQuery UI datepicker may enqueue older versions of the library or modified versions of it which disable pointer-events on disabled dates, this causes any disable date picker based fields for rentals to not be able to deselect a previously disabled date
+* Fix: Admin deactivating extension should clear all scheduled hooks, currently only clears wcrp_rental_products_emails_rental_return_reminders
+* Fix: Order management filtering orders list by excluding rentals may include rentals which have been cancelled
+* Fix: Order management filtering orders list by including rentals does not include rentals which have been cancelled
+* Fix: Order management rental items can be added to a new order before order is fully created and has a bonafide order id which may cause rental stock calculations for availability to be incorrect when rentals have been added to brand new orders not yet created
+* Fix: Order management WCRP_Rental_Products_Order_Info::after_order_details() should only be displayed on shop_order post types, e.g. not shop_subscription, awcdp_payment, etc
+* Fix: Product management due to changes in WooCommerce 7.6.0 to product stock fields to use radio buttons instead of select fields (depending on how many options available) the stock fields cannot be targeted by JS functionality correctly
+* Fix: Product management if price updated via products list quick edit the public price display HTML is returned due to the quick edit AJAX response not the admin price display HTML in the product row
+* Fix: Product management bulk action for variations no longer working due to removal of .do_variation_action element in recent WooCommerce versions
+* Fix: Rental form block based themes e.g. Twenty Twenty Three may convert ampersand in pricing period selection URLs to HTML entities
+* Fix: Rental form if a product is rental or purchase and pricing period selection used on the rental page the default period selection option's price text is the purchasable price not rental price, only effected the option name, not the actual price
+* Fix: Rental form if number of days selected is 1 the total shows 1 days, should be 1 day
+* Fix: Rental form if rental form reset button is enabled and if rental form dates are set and then reset the add to cart button remains enabled and can be clicked to add the previously selected dates to cart
+* Fix: Rental form if WooCommerce Product Add-ons are used if a rental item with add-ons is in cart the price, percentage, etc shown next to the name of add-ons on product pages gets hidden
+* Fix: Rental form if WordPress is installed in a sub directory the loading spinner icon linked from public.min.css will 404 as it is a relative URL to the icon based on WordPress being installed in the root directory
+* Fix: Rental form pricing period selections may 404 when using plain permalink setting of WordPress
+* Fix: Rentals dashboard if view has no rentals shows no events to display message when should be no rentals
+
+2023-03-24 - version 4.2.3
+* Add: Allow rental products to be added to orders with past dates
+* Update: WooCommerce tested up to 7.5.1
+* Fix: Some page builders e.g. UX Builder included in Flatsome theme show an attempt to read property ID on null PHP warning when adding/editing a post if PHP warning display is enabled
+* Remove: Declarations of global $is_IE and $is_winIE in public enqueues, was previously used in earlier releases but no longer needed
+
+2023-03-12 - version 4.2.2
+* Add: Order note added upon rental order item marked as returned via line item button
+* Add: Order note added upon rental order item marked as returned via order status change
+* Add: Order note added upon rental order item cancelled via line item button
+* Add: Order note added upon rental order item cancelled via order status change
+* Add: Order note added upon rental order item added to order
+* Add: Rental availability notice to restock refunded items checkbox in add/edit order when refunds include rentals
+* Update: Alert text to be more descriptive upon removal of rental order item
+* Update: Managing rental orders meta box information
+* Update: Settings page translation information
+* Fix: Purchasing a rental or purchase based rental may reduce/increase purchasable stock during checkout/order edit depending on stock management settings and combination of rental product options selected
+* Fix: If a rental uses period selection pricing type and pricing period not populated default value is not reflected in dates selectable
+
+2023-03-06 - version 4.2.1
+* Update: Minor development asset amendments
+* Update: WooCommerce tested up to 7.4.1
+* Fix: Typo on rental form calendar styling lightbox in settings page
+* Fix: Zero priced rental products may not be purchasable at cart/checkout depending on combination of product options selected
+
+2023-02-10 - version 4.2.0
+* Add: Rentals dashboard inventory date selection allowing inventory data to be viewed for current and future dates
+* Add: Rentals dashboard inventory information lightbox contaning information on how rental stock totals are calculated in the inventory
+* Add: Immediate rental stock replenishment setting, when enabled if rentals are marked as returned the quantity will be immediately available to rent again, if disabled the quantity will remain unavailable until after the end rental date including any return days threshold
+* Add: Rental stock field tooltip fluctuation information
+* Update: Rental form condition changes in relation to new immediate rental stock replenishment setting
+* Update: wcrp_rental_products_check_availability() function condition changes in relation to new immediate rental stock replenishment setting
+* Update: Product links on rentals dashboard inventory now open in a new window to ensure inventory date selection remains set
+* Update: Performance improvements of rentals dashboard inventory queries for faster load times and to reduce risk of timeouts
+* Fix: When using return rentals in completed orders setting which was added in 4.1.0 the inventory data does not account for rentals in completed orders
+
+2023-02-06 - version 4.1.1
+* Fix: PHP8 compatibility issues
+
+2023-02-05 - version 4.1.0
+* Add: Calendar feed setting and related functionality to generate a calendar feed
+* Add: Order management section in settings
+* Add: Return rentals in completed orders setting, now allows you to disable automatic returning of all rentals when an order is set to completed
+* Add: Managing rental orders information setting, now allows you to disable the managing rental orders information when viewing order details in the dashboard
+* Add: WCRP_Rental_Products_Checkout_Stock class and related functionality
+* Update: Rental order management information throughout dashboard in relation to new return rentals in completed orders setting
+* Update: Cancel rentals in failed orders setting fields now include dynamic translation placeholders
+* Update: Various setting field descriptions
+* Update: Known compatibility issues information
+* Update: Rentals dashboard code refactoring
+* Update: WooCommerce tested up to 7.3.0
+* Fix: If stock management is enabled on individual variations and is a rental or purchase based rental if the rental is purchased the purchasable stock level may be reduced and potentially tax/shipping overrides are not reflected depending on core product options and rental options selected
+* Fix: Cannot checkout rental if a variable product is set to rental or purchase with stock management enabled and zero purchasable stock applied at parent level then stock management enabled at variation level with rental stock available
+* Fix: When using product preview if pricing period selections are selected the reloaded page is no longer in preview mode
+* Fix: Cancel and apply buttons in rental form and availability checker cannot be translated
+
+2022-12-23 - version 4.0.3
+* Update: Known compatibility issues information
+* Update: WooCommerce tested up to 7.2.2
+* Update: WordPress tested up to 6.1.1
+
+2022-10-23 - version 4.0.2
+* Update: Managing rental orders meta box information
+* Update: Order line item alerts for better clarity over actions
+
+2022-10-18 - version 4.0.1
+* Update: Minor text changes in dashboard
+* Update: WooCommerce requires at least 5.0.0
+* Update: WooCommerce tested up to 7.0.0
+* Update: WordPress requires at least 5.4.0
+* Update: WordPress tested up to 6.0.3
+* Fix: Possible to select any start day even though a specific week day has been set depending on combinations of product options used
+
+2022-10-01 - version 4.0.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating
+* Note: Due to cart item data changes in this version the update process will flush current carts/sessions
+* Add: Period selection pricing type
+* Add: Period selection select field to rental form calendar when period selection pricing type enabled
+* Add: Period selection pricing type clone rental product options in rentals dashboard tools tab
+* Add: Period selection pricing type debug checks in rentals dashboard tools tab
+* Add: Pricing period additional selections option
+* Add: Pricing period additional selections bulk edit product variations option
+* Add: Enhanced rental order management functionality, in previous versions it was only possible to reduce rental dates or add new orders using shop as customer functionality provided through a third party extension/plugin, now it is possible to add rental products to an order and edit rental products in an order directly from the dashboard if the order has an editable order status. Related data such as rental dates, thresholds, pricing, quantities, etc is now pulled into the order add/edit screen for easier and less manual order management
+* Add: Start day option to force a specific day of the week as the first day of rental, including related amends to availability checker, cart checks, default rental options, etc
+* Add: Start day option within clone rental product options in rentals dashboard tools
+* Add: Disable rental start/end dates setting and product option, similar to disable rental start/end days but for specific dates rather than days of the week
+* Add: Disable rental start/end dates cart checks
+* Add: Disable rental start/end dates clone options to tools in rentals dashboard
+* Add: Disable rental start/end dates notice to rental form on product page when disabled rental start/end dates are set
+* Add: Disable rental start/end dates notice text setting and wcrp_rental_products_text_disable_rental_start_end_dates_notice filter hook
+* Add: Same rental dates required setting, when enabled ensures that all rental products in cart have the same rental dates, only enable this setting if you want to force all rental products in cart to have the same rental dates
+* Add: Same rental dates required cart checks
+* Add: Total overrides on individual variations in variable products, if not populated uses total overrides set at product level where set
+* Add: Total overrides bulk edit product variations option
+* Add: Total overrides variation meta details to import and export information in rentals dashboard tools tab
+* Add: Availability checker minimum days setting to set the minimum amount of days that can selected on the availability checker calendar
+* Add: Availability checker maximum days setting to set the maximum amount of days that can selected on the availability checker calendar
+* Add: Availability checker period multiples setting
+* Add: Availability checker now use the rental form first day setting
+* Add: Availability checker quantity setting to allow the quantity field and display to be disabled if required
+* Add: prepare_security_deposits_array() to WCRP_Rental_Products_Cart_Fees class
+* Add: days_colon_value_pipe_explode() function to WCRP_Rental_Products_Misc class
+* Add: days_total_from_dates() function to WCRP_Rental_Products_Misc class
+* Add: Deselect all on clone rental product options in rentals dashboard tools
+* Add: Customer name to rentals shown in rentals dashboard calendar views so consistent with orders list
+* Add: Rental price shortcut on add/edit product
+* Add: Rental stock shortcut on add/edit product
+* Add: Improved validation of cart item data to reduce risk of adding rental products to cart with missing/incorrect cart item data through custom development/manipulation
+* Add: Rental form start/end notices setting
+* Add: Rental form auto apply setting
+* Add: Rental or purchase toggle shortcode [wcrp_rental_products_rental_purchase_toggle], the toggle is normally automatically added via the woocommerce_single_product_summary hook, however when using some page builders/themes like Elementor this core hook is not used, so this shortcode exists purely to manually include the rental or purchase toggle if it doesn't get displayed automatically due to the missing hook
+* Add: Alert with information on no manual stock amendment required when deleting an order item
+* Add: Performance enhancements for cart checks when disabled days used
+* Add: Rental form maximum date days/specific setting to allow rental form calendar (and availability checker) to be restricted to a maximum date by setting either number of days from today or a specific date, note rental form maximum date days defaults to 730 (2 years), depending on your requirements you may need to increase this for long term rentals
+* Add: wcrp_rental_products_rental_form_maximum_date() function
+* Add: Advanced configuration setting used when instructed by the developers of this extension to diagnose an issue and/or for very specific server configurations
+* Add: wcrp_rental_products_advanced_configuration() function
+* Add: WCRP_Rental_Products_Account class
+* Add: Theme compatibility CSS tweaks
+* Add: Rental form period selection option labels setting
+* Add: Performance improvements to cart checks
+* Add: Recommendation link for use of Deposits & Partial Payments for WooCommerce within add/edit product deposits
+* Add: Known compatibility issues notice and info on settings page
+* Add: Rental form reset button setting
+* Add: Button to access general rental settings from add/edit product screen
+* Update: UX improvements to rental form calendar if a disabled rental start/end date/days are shown, range now covers the highlighted days so clearer that the highlighted days are included, if a single day selection required no longer need to double click the date
+* Update: UX improvements to rental form totals, bolding of total, excluding add-ons info on new line, font sizes, etc
+* Update: UX improvements to settings page
+* Update: WCRP_Rental_Products_Cart_Fees::security_deposits() action hook changed from on woocommerce_before_calculate_totals to woocommerce_cart_calculate_fees to improve compatibility with third party pricing extensions
+* Update: Refactoring of rentalFormCalendar JS methods in rental form
+* Update: Rental form calendar styling information and examples, including recommendations regarding customization
+* Update: Rental information tab on product pages now displayed after product description, before additional information, subject to potential overrides by third parties via woocommerce_product_tabs filter hook
+* Update: Minor tweaks to add/edit product rental product option styling
+* Update: Minor tweaks to tools styling and notices in rentals dashboard
+* Update: Text on rental product info tooltips when adding/editing rental product options
+* Update: Several setting fields now display descriptions directly below the fields rather than in a tooltip
+* Update: Requirements and descriptions of the rental date format and rental form date format settings, it is recommended you read these descriptions and if your settings do not adhere to these requirements change the formats or use the defaults by empyting the fields to ensure no issues
+* Update: Improved visibility of order status completed info on add/edit order screen
+* Update: Description of rental or purchase toggle settings to include details of woocommerce_single_product_summary and new [wcrp_rental_products_rental_purchase_toggle] shortcode
+* Update: Availability checker settings section description updated to include details of recommendation not to disable call to action buttons on product category pages, search pages, WooCommerce blocks, etc if availability checker status display is required
+* Update: Rentals meta box on order screens renamed to managing rental orders and information changed with details on order statuses, cancelling/removing individual rental items, adding/editing rental items, recalculating totals, etc
+* Update: Add/edit product page updates now use existing WooCommerce nonces as opposed to custom nonces added via edit_form_top or within variation output markup, this also ensures rental options can still save if a theme or custom development attempts to use block editor as the product page editor
+* Update: When adding/editing an order each order item can now have non-rental order item meta added/edited, rental order item meta cannot be edited through this method as any edits must use the functionality included which effects rental order item meta
+* Update: Rental stock product option label to Rental stock (in and out) so clearer that this does not fluctuate
+* Update: Advanced product fields now shown without button click
+* Update: Bulk edit field descriptions on dashboard products list
+* Update: WooCommerce tested up to 6.9.4
+* Update: WordPress tested up to 6.0.2
+* Fix: If changing rental product option multiple times when adding/editing a product then clicking cancel on the prompt may not restore the original selection
+* Fix: Orders button at top of rentals dashboard does not return all rental based orders
+* Fix: Disable rental start/end days notice font size is smaller than other notices shown within rental form
+* Fix: If a single day selected rather than a range in the rental form calendar the JS fallbacks for if pointer-events CSS not supported may fail and throw an JS type error due to undefined variables
+* Fix: Cart checks may fail occasionally when using disabled rental dates at setting and product level when a return days threshold is set
+* Fix: Bulk setting variation options may not work consistently when trying to set 0 based values and/or when attempting to empty already set data
+* Fix: Rental form totals rental return within info does not have class like other elements in the totals and only has a unique ID
+* Fix: Security deposit calculation tweaks related to tax/non-tax store configurations and use of prices include/exclude tax settings
+* Fix: If manage stock enabled on a variation the stock status field may appear in variations on initial page load when should be hidden
+* Remove: Reduce rental dates functionality as superceded by new rental order management features
+* Remove: WCRP_Rental_Products_Order_Again class, function within this have been moved into the new overall account class WCRP_Rental_Products_Account
+* Remove: WCRP_Rental_Products_Order_Add class and add_rental_order_info() from WCRP_Rental_Products_Order_Info as no longer required due to new rental order management features which do not require the use of shop as customer functionality
+
+2022-05-28 - version 3.7.3
+* Update: WordPress tested up to 6.0.0
+* Update: WooCommerce tested up to version 6.5.1
+* Fix: If taxes enabled and rental product uses the period pricing type and pricing tiers with negative percentage used and the price + additional periods % option enabled the cart total differs slightly to total calculated on product page
+* Fix: Mini cart displays base price not total for amount of days selected/add-ons, etc depending on rental product options set
+
+2022-04-30 - version 3.7.2
+* Add: Testing related files e.g. composer.json, phpcs.xml, etc for development purposes
+* Fix: Rental form total does not respect the WooCommerce currency position setting
+* Fix: Rental price display is incorrect if a rental product uses period pricing type, pricing period is 1 day, price + additional periods % enabled, additional period % is set and minimum days is greater than 1, note that this was the displayed price under the product title, not the actual calculated total
+
+2022-04-22 - version 3.7.1
+* Add: Add to cart additional validation related to rental only products, rental or purchase excluded as product added to cart can be purchasable part of a rental or purchase product
+* Add: Missing translation const to js assets
+* Add: WCRP_Rental_Products_Order_Again class
+* Update: Rename of included files in includes/partials to be structured in folders with shorter name
+* Update: Rental return reminder beta label removed as email has been tested significantly, feedback implemented and retested
+* Update: Rental return reminder plain and HTML template file names renamed to rental-return-reminder.php to ensure consistency when other email templates potentially added in future, if template overrides were used during the beta these files will need to be renamed to continue working
+* Update: WordPress tested up to 5.9.3
+* Update: WooCommerce tested up to version 6.4.1
+* Fix: Some sprintf/wp_kses_post based strings displayed in the admin dashboard are no longer translation strings since 3.7.0
+* Fix: Order again button shown in order details within my account when clicked creates an order with no rental dates/other data on cart items, this is a regression issue as order again button should not be shown for orders containing rentals
+* Fix: On some server configurations and depending on specific product rental options an inline rental form JS condition has && converted to &#038;&#038; causing a uncaught error stopping rental form calendar from working
+
+2022-03-26 - version 3.7.0
+* Note: This version includes several changes to asset enqueues, update conditions and more, please ensure you read the contents of this changelog, it is recommended you perform this update on a staging/development environment before updating the extension on a production website, update condition changes should not impact any data - however when updating any extension always take a site backup, clear all caches after updating to ensure all assets are reloaded
+* Add: Minified CSS/JS assets created and enqueued
+* Add: WooCommerce not installed/activated notice
+* Update: CSS assets now SCSS
+* Update: Nonce verifications now uses sanitize_key
+* Update: Translator comments to include variable references
+* Update: Comment casing consistency amends
+* Update: Text casing consistency amends
+* Update: Upgrade conditions now use version_compare
+* Update: Enqueues plugins_url function calls so folder name not included that could effect installations where folder renamed
+
+2022-03-17 - version 3.6.0
+* Note: This release adds a rental return reminder email which is disabled by default in WooCommerce > Settings > Emails, this email has a BETA flag, we wish to collect further feedback before removing the BETA status, until this occurs we recommend only enabling this email on a non-production environment to test the functionality with sample order data
+* Add: WCRP_Rental_Products_Emails class
+* Add: WCRP_Rental_Products_Email_Rental_Return_Reminder class
+* Add: WCRP_Rental_Products_Deactivation class
+* Add: Rental return reminder email (BETA) to WooCommerce > Settings > Emails
+* Add: Emails section to rental settings
+* Add: Emails directory at /includes/emails
+* Add: Templates directory at /templates which includes new email templates, these can be overridden in your theme using the same directory structure and file names in your theme's /woocommerce directory
+* Add: Order status on each rental item in rentals dashboard calendar
+* Add: Full rental item title now displays on hover of rental items in rentals dashboard calendar, this helps if the title is longer than the cell boundaries on some calendar views
+* Update: Rental stock/price display column display enhancements
+* Update: Rental product import and export notice on WooCommerce import/export pages
+* Update: Rental product import and export information in tools tab of rentals dashboard
+* Update: WordPress tested up to 5.9.2
+* Update: WooCommerce tested up to version 6.3.1
+* Fix: Cart item label for product add-ons (that includes a price) may display price based off purchase price rather than rental price when add-ons used for rental or purchase based rental products
+* Fix: Products with pricing period multiples enabled may get a "Sorry, you have added more than 1 of the same products to your cart and we do not have availability to fulfil the combined rental dates selected" when product added to cart more than once
+* Fix: When cloning the rental product option if set to "Yes - Rental or purchase" then stock related meta data on purchasable part may be amended incorrectly
+* Fix: Typo in rentals order meta box
+
+2022-02-27 - version 3.5.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating
+* Add: Add-ons section to rental product options
+* Add: Disable add-ons for rental part of rental or purchase products product option
+* Add: Disable add-ons for purchase part of rental or purchase products product option
+* Add: Disable add-ons product options to rental tools clone
+* Add: Configure add-ons button/information on WooCommerce Product Add-ons for add-on functionality
+* Add: WCRP_Rental_Products_Translation class
+* Add: wcrp_rental_products_select_dates_button_html filter to allow select dates button html to be amended or removed
+* Update: Rentals dashboard calendar month, week and day view now limits each day to 10 visible order item rows, the additional entries can be viewed using the new view more link to ensure the calendar is usable when dealing with a large amount of rental order items
+* Update: Shop by customer extension recommendation when adding new rental orders and on rental meta box on order edit screen
+* Update: select_dates_button function name in WCRP_Rental_Products_Product_Display to select_dates_button_html for consistency with rental_price_html, rental_stock_html, etc
+* Update: WordPress tested up to 5.9.1
+* Update: WooCommerce tested up to version 6.2.1
+* Fix: Add to cart button on product page may not enable after selecting a singular date when product's min/max days set to same value
+* Fix: Rental form when selecting an available date range then changing quantity/options which result in previously selected date range being unavailable the add to cart button may remain enabled allowing the customer to add to cart (but would be caught by cart checks at cart/checkout)
+* Fix: Rentals dashboard calendar pa_meta query does not use {$wpdb-prefix}
+* Fix: When adding the same product to cart more than once that has a return days threshold of greater than 1 and is a fixed price rental then checkout may not be able to be completed due to cart checks determining the product as unavailable
+* Fix: Rental form date format setting tooltip missing YYYY
+* Fix: Day names in disable rental start/end days notice on rental form are not translated to WordPress locale setting
+* Fix: Translation files may not load correctly or sporadically due to load_plugin_textdomain, this is now within the new WCRP_Rental_Products_Translation class loaded on the init action
+* Fix: If wcrp_rental_products_default_rental_options filter is used for checkbox based options and the default is changed to yes upon unchecking the option and saving the product the yes value is used and stops the product from saving a non-checked checkbox value
+
+2022-02-03 - version 3.4.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating
+* Update: Rental form UX improvements on product page including rental form no longer removes previously selected dates upon quantity or option changes
+* Update: Availability checker styling changes and additional classes used so inner elements can be targetted for custom CSS tweaks easier
+* Update: Rental date format setting tooltip description updated to correct php.net URL
+* Update: wcrp_rental_products_check_availability function now has an $args parameter, this was required to be added as part of the fixes for multiple same products in cart, it is currently used for excluding a check from wcrp_rental_products_check_availability when necessary but may be used for additional purposes in future
+* Update: WordPress tested up to 5.9.0
+* Update: WooCommerce tested up to version 6.1.1
+* Fix: If more than 1 of the same rental product is added to cart and these products have disabled rental start/end days checkout may be restricted until only one product remains in cart
+* Fix: Availability checker auto date population only works sporadically on Firefox and Safari web browsers
+* Fix: Availability checker can be applied without selecting dates causing default unix 1970 date to be applied, this now also shows an alert if the required fields aren't populated
+* Fix: Availability checker status from cross sell products in cart appear at the top of the cart page (and potentially checkout) due to core WooCommerce's positioning of elements with the WooCommerce notice classes
+* Fix: Rental form totals notice on product page which is initially hidden before rental date selection may be overidden by theme/custom CSS and displayed initially with empty values due to overrides of CSS display property
+* Fix: Fatal error may occur on cart when using WooCommerce Tax extension's automated tax calculations
+* Fix: Divi theme builder may not load correctly due to it attempting to render frontend rental elements in the WordPress dashboard
+* Fix: Products button in rentals dashboard should link to a filtered rental products list but shows all products including non-rentals
+* Fix: Dates displayed in availability checker, cart items and order line items may not be translated to localised formats depending rental date format and WordPress locale setting used
+
+2021-12-04 - version 3.3.0
+* Note: Due to cart/checkout tax calculation fixes in this version the update process will flush current carts/sessions
+* Add: Rental form/availability checker calendar mobile/tablet device enhanced support including swipe actions
+* Add: wcrp-rental-products-is-rental-purchase-purchase product page body class if rental or purchase product and is purchase page
+* Add: wcrp-rental-products-is-rental-purchase-rental product page body class if rental or purchase product and is rental page
+* Update: Minor tweaks to rental form setting descriptions/formatting
+* Update: Tooltip descriptions on calendar months/columns product options with details of mobile/tablet view changes and overflow hidden warnings
+* Fix: Availability checker dates may not pre-populate or be 1 day out on product page if specific non-GMT timezones
+* Fix: Availability checker dates may not occasionally pre-populate even though available due to window on load event
+* Fix: Security deposit may get applied in cart to the purchasable part of rental or purchase based products
+* Fix: Tax may not be displayed correctly in cart depending on certain combinations of the following tax settings: prices entered with tax, display prices in the shop and display prices during cart and checkout and display tax totals
+* Fix: Rental or purchase rental tax status/class and shipping class overrides do not result in WC_Product returning the overridden tax/shipping data - it previously only used the override data during cart/checkout and the WC_Product return data remained the purchasable data, WC_Product will now return tax status/class and shipping class data depending on whether being called in relation to the purchasable or rental
+* Fix: Rental form/availability checker calendar may be cut off on mobile/tablet devices when multiple calendar months/columns displayed
+* Remove: WCRP_Rental_Products_Cart_Items::cart_item_rental_purchase_overrides() function as now data is all returned via WCRP_Rental_Products_Product_WC_Product::return_changes, see related fixes above
+* Remove: WCRP_Rental_Products_Cart_Items::cart_item_price_display() function as superceded by the old wcrp_rental_products_cart_item_price meta added in past updates and new functionality in WCRP_Rental_Products_Cart_Items::cart_item_prices() function
+
+2021-11-13 - version 3.2.0
+* Add: Price + additional periods % and price + additional period % product options
+* Add: Price + additional periods % and price + additional period % to tools (clone rental product options, import/export info and debug)
+* Add: Translation of rentals calendar from WordPress locale setting where FullCalendar supports used locale setting
+* Update: If the rental or purchase toggle has the product meta section directly after it (product page) top margin added so there is a gap
+* Update: Order status change information text on edit order page to include refund status
+* Update: Product option field placeholders to be more descriptive
+* Update: FullCalendar library updated to version 5.10.0
+* Update: FullCalendar library enqueues now use minified JS
+* Update: WordPress tested up to 5.8.2
+* Update: WooCommerce tested up to version 5.9.0
+* Fix: Week numbers do not contain a space between week and number in rentals calendar
+* Fix: Pricing period multiples maximum product option may remain visible when not used when changing from period to fixed pricing on product edit screen
+* Fix: Cancelling or refunding non-rental orders may display an includes rentals notice on orders list
+
+2021-10-25 - version 3.1.4
+* Update: WooCommerce tested up to version 5.8.0
+* Fix: Pricing period multiples does not allow selection of correct end date on rental form calendar if dates span different years
+
+2021-09-26 - version 3.1.3
+* Update: WordPress tested up to 5.8.1
+* Update: WooCommerce tested up to version 5.7.1
+* Fix: If disable rental start/end days is set to Sunday without any other days selected then Sunday remains available for selection
+
+2021-09-13 - version 3.1.2
+* Update: Various display tweaks to grouped products in loops/blocks and the single product page
+* Update: View rental options button now displayed directly below primary button on loops/blocks
+* Update: Availability checker in loops/blocks on rental or purchase products moved to the bottom consistent with rental only products
+* Fix: On product block display if a rental or purchase product add to cart button has container removed
+* Fix: If rental product is included in a grouped product may show fatal error depending on rental settings
+* Fix: Availability checker may not display in loops for rental or purchase products regardless of rental or purchase toggle loops/blocks display setting
+* Fix: Availability checker may display in blocks for rental or purchase products if availability checker status on rental only products setting enabled
+
+2021-09-07 - version 3.1.1
+* Add: Return days display setting
+* Fix: Undefined index: rent PHP notice may occur if debug mode enabled when adding rental or purchase product to cart
+
+2021-08-25 - version 3.1.0
+* Note: This is a milestone release, please ensure you read the contents of this changelog and we recommend performing this update on a staging/development environment and testing before updating the extension on a production website, clear all caches after updating
+* Add: Availability checker block
+* Add: Availability checker shortcode [wcrp_rental_products_availability_checker]
+* Add: Rental or purchase toggle loops/blocks display setting
+* Add: Rental price display override prefix/suffix setting
+* Add: Availability checker status on rental only products setting
+* Add: Availability checker status on rental or purchase products setting
+* Add: Availability checker applied text setting and wcrp_rental_products_text_availability_checker_applied filter
+* Add: Check availability text setting and wcrp_rental_products_text_check_availability filter
+* Add: Disable rental start/end days notice text setting and wcrp_rental_products_text_disable_rental_start_end_days_notice filter
+* Add: Non-refundable text setting and wcrp_rental_products_text_non_refundable filter
+* Add: Refundable text setting and wcrp_rental_products_text_refundable filter
+* Add: Rental available text setting and wcrp_rental_products_text_rental_available filter
+* Add: Rental unavailable text setting and wcrp_rental_products_text_rental_unavailable filter
+* Add: Reset dates text setting and wcrp_rental_products_text_reset_dates filter
+* Add: Security deposit text setting and wcrp_rental_products_text_security_deposit filter
+* Add: View purchase options text setting and wcrp_rental_products_text_view_purchase_options filter
+* Add: View rental options text setting and wcrp_rental_products_text_view_rental_options filter
+* Add: Pricing period multiples maximum product option
+* Add: Price display override product option
+* Add: Total overrides product option
+* Add: Disable rental start/end days product option
+* Add: Security deposit amount product option
+* Add: Security deposit calculation product option
+* Add: Security deposit tax status product option
+* Add: Security deposit tax class product option
+* Add: Security deposit non-refundable product option
+* Add: Rental or purchase - rental tax override product option
+* Add: Rental or purchase - rental tax override status product option
+* Add: Rental or purchase - rental tax override class product option
+* Add: Rental or purchase - rental shipping override product option
+* Add: Rental or purchase - rental ahipping override class product option
+* Add: Rental security deposit amount variation product option
+* Add: Rental security deposit bulk variation edit
+* Add: Rental stock bulk edit on products/variations
+* Add: wcrp-rental-products-is-rental product page body class
+* Add: wcrp-rental-products-is-rental-only product page body class
+* Add: wcrp-rental-products-is-rental-purchase product page body class
+* Add: Description of disable rental days and disable rental start/end days product options
+* Add: Litepicker rental form calendar CSS rules to force box-sizing: content-box as some themes (found with Divi) override this or parent elements which cause the rental form calendar days to become misaligned with day headings
+* Add: wcrp_rental_products_cart_item_price filter for custom development allowing filter of cart item prices for rental products, filter is passed $price variable which includes any WooCommerce Product Add-ons, $addons_total also passed which is the total of WooCommerce Product Add-ons for calculation if required
+* Add: wcrp_rental_products_default_rental_options filter
+* Add: WCRP_Rental_Products_Blocks class
+* Add: WCRP_Rental_Products_Cart_Fees class
+* Add: WCRP_Rental_Products_Shortcodes class
+* Add: wcrp_rental_products_availability_checker_data() function
+* Add: Additional values to wcrp_rental_products_default_rental_options()
+* Add: Link to Litepicker in rental form calendar styling information and fixed typo
+* Add: wcrp_rental_products_check_availability() conditions required for availability checker
+* Add: Select all to clone tool
+* Update: Bulk edit rental price label and description
+* Update: Variation bulk rental price edit labels and alert description
+* Update: Clone tool search product/category description
+* Update: Tidied settings page, moving some field descriptions to tooltips and amending order of fields
+* Update: .woocommerce .product .summary overflow visible for some themes now targetted using new .wcrp-rental-products-is-rental body class so overflow visible does not effect non-rental products
+* Update: wcrp_rental_products_check_availability() function no longer requires $return_days_threshold parameter, this should be omited from use of this function in custom development, removing this variable ensures efficient maintainability of the extension going forward
+* Update: Rearranged tools clone to match order on product page
+* Update: Elements within the rental form have been changed from the previous IDs to include a unique ID on each page load, this is due to potential clashes when multiple rental forms are included in a page and there is a neccessity to change, we have added classes to all these elements using the previous IDs, if you have any custom CSS which were using the old IDs these will need to be updated to classes
+* Update: Rentals dashboard page action URLs to remove non-required query var parameters
+* Update: WCRP_Rental_Products_Product_Display class function names from select_dates_button_loop() and select_dates_button_block() to loop() and block()
+* Update: Rentals calendar variable names to avoid potential clashes on instantiate
+* Update: Disable days checkbox display to fit better if using lower screen sizes
+* Update: WordPress tested up to 5.8
+* Fix: Rentals dashboard inventory does not show variation name in first column
+* Fix: wcrp_rental_products_check_availability() may return unavailable if period pricing type, pricing period > 1 and multiples yes due to minimum/maximum days check
+* Fix: wcrp_rental_products_check_availability() may return available even if within disabled days
+* Fix: If a variable rental product has more than 30 variations the rental form displays no price set notice due to woocommerce_ajax_variation_threshold filter threshold limit
+* Fix: Rental form totals do not respect WooCommerce decimal separator setting
+* Fix: Potential rental form clashes if another WooCommerce extension, theme or custom development attempts to include multiple rental forms in the product page (e.g. quick view on products in the related products section on a single product page)
+* Fix: Extension may cause fatal error on installation if install/update paths require clearing cart sessions if using PHP 8
+* Fix: Upgrade conditions may display wpdb::prepare was called incorrectly notice if PHP debug mode enabled
+
+2021-06-19 - version 3.0.7
+* Add: Placeholder text including information on default values to some rental fields in edit product screen
+* Add: Class and aria-label to select dates button
+* Update: WooCommerce tested up to version 5.4.1
+* Fix: Rental only products within WooCommerce product blocks can be added to cart without selecting dates (except "All Products" block due to filter restrictions on this block)
+* Fix: Rental form after quantity setting not working since 3.0.6
+* Fix: Rental or purchase price display is rounded incorrectly if WooCommerce is set to use a non "." character as WooCommerce decimal separator
+* Fix: Rental information tab should not be displayed on rental or purchase products until viewing rental form
+* Fix: Select dates button does not have a consistent wrapper and class for block buttons to core WooCommerce product block buttons
+
+2021-06-10 - version 3.0.6
+* Add: wcrp_rental_products_rental_price_html() filter to allow filtering of displayed rental prices
+* Add: String substitutions for {rental_price_including_tax} and {rental_price_excluding_tax} to rental price display prefix and rental price display suffix settings
+* Add: Currency symbol to rental price option when bulk editing variations
+* Add: Rental products can now have quantity changed in the cart, if unavailable at the new quantity a notice will be shown
+* Add: WordPress 5.7.2/WooCommerce 5.4.0 compatibility
+* Update: WordPress/WooCommerce header declarations in line with WordPress/WooCommerce compatibility changes
+* Update: Product type name from Rental and purchase to Rental or purchase on variation bulk edits in line with name change in earlier releases
+* Update: Rental form date format setting description
+* Update: Calendar icon throughout dashboard to differentiate between rental icon
+* Update: price_html() function name to rental_price_html() in WCRP_Rental_Products_Product_Display class
+* Fix: Various issues relating to pricing display and calculations when other character than "." is used as the WooCommerce decimal separator, in addition please note that rental prices should be entered using the WooCommerce decimal separator
+* Fix: Rental products cannot be purchased if price is entered at 0
+* Remove: cart_item_quantity() function in WCRP_Rental_Products_Cart_Items class as no longer needed due to quantity change on cart addition
+
+2021-04-07 - version 3.0.5
+* Add: Rental form first day setting
+* Add: wcrp_rental_products_rental_form_first_day() function
+
+2021-03-21 - version 3.0.4
+* Update: Upgrade class to include older version option population as options now populated via upgrade class during update/install
+
+2021-03-20 - version 3.0.3
+* Update: Rentals dashboard calendar red/green to match new WordPress admin colors in 5.7, "current and future rentals" color remains hex value returned from global $_wp_admin_css_colors
+* Update: No rental products yet notice on rentals inventory if no rental products with more descriptive text
+* Update: WordPress tested up to version 5.7
+* Update: WooCommerce tested up to version 5.1.0
+* Fix: Various issues causing PHP 7 based deprecation notices when debug mode enabled
+* Fix: Various PHP 8 based notices/errors, note that the recommended PHP version for this extension remains 7.x
+* Fix: Product data tooltips to right of rental fields icon color is inconsistent due to admin color changes in WordPress 5.7
+* Fix: Customer may see a "you cannot add purchases and rentals of the same product to your cart" notice when attempting to add 2 rental or purchase based rental products to cart
+* Fix: 3.0.0 upgrade conditions incorrectly added "wcrp_rental_products_rental_or_purchase_toggle_position", this has been removed and readded with the correct option name
+* Fix: Undefined offset PHP notice on rentals dashboard inventory tab when debug mode enabled
+* Fix: wpdb::prepare was called incorrectly PHP notice on rentals dashboard inventory tab when debug mode enabled
+* Fix: ID was called incorrectly PHP notice on order list when debug mode enabled
+* Remove: Activation class option population function as done via upgrade class
+* Remove: IE11 custom properties library which was used for IE11 support on the calendar shown via the litepicker library which no longer recommends this library since latest milestone update and therefore this extension no longer supports IE11 in the rental form calendar, if IE11 support is required enqueue litepicker's recommended polyfill
+
+2021-03-06 - version 3.0.2
+* Update: Upgrade class comments
+* Update: Order line item function names inline with equivalent cart line item functions
+* Fix: If return days threshold is 0 order line item not displayed correctly
+
+2021-02-23 - version 3.0.1
+* Fix: Rent for/from price display text incorrect if fixed pricing type
+* Fix: Typos on settings page
+
+2021-02-19 - version 3.0.0
+* Note: This is a milestone release and includes several new features, code restructuring, new filters (in some cases superseding old filters), please ensure you read the items below in this release and we recommend performing this update on a staging/development environment and checking through the updated items before updating the extension on a production website, clear all caches after updating
+* Add: Pricing period multiples option with optional use of pricing tiers when adding/editing a product
+* Add: Rental or purchase type products can now use stock management and are not limited to only in stock
+* Add: Debug tool conditions including pricing period multiples and various other amendments
+* Add: Rentals page tab icons
+* Add: Activation notice with navigation and dismiss
+* Add: Rental import/export notice to WooCommerce import/export page
+* Add: wcrp_rental_products_default_rental_options() function
+* Add: Settings page sections
+* Add: Rental form calendar styling information to settings page
+* Add: Rental or purchase toggle position option
+* Add: Rental or purchase toggle type option
+* Add: Rental price display prefix option and wcrp_rental_products_rental_price_display_prefix filter
+* Add: Rental price display suffix option and wcrp_rental_products_rental_price_display_suffix filter
+* Add: Rental price display rent text option
+* Add: Rental information title option and wcrp_rental_products_rental_information_title filter
+* Add: Rental information heading option
+* Add: Select dates text option and wcrp_rental_products_text_select_dates filter
+* Add: Rental dates text option and wcrp_rental_products_text_rental_dates filter
+* Add: Rent from text option and wcrp_rental_products_text_rent_from filter
+* Add: Rent to text option and wcrp_rental_products_text_rent_to filter
+* Add: Rent for text option and wcrp_rental_products_text_rent_for filter
+* Add: Rental return within text option and wcrp_rental_products_text_rental_return_within filter
+* Add: Rental returned text option and wcrp_rental_products_text_rental_returned filter
+* Add: Rental cancelled text option and wcrp_rental_products_text_rental_cancelled filter
+* Update: File/folder/code/classes structure required for this release and ongoing development
+* Update: Rental more info expanded information due to rental or purchase stock changes and improved styling
+* Update: Descriptive text on right of tools tab
+* Update: Stock check functionality and now runs on woocommerce_check_cart_items to improve performance/page load speed
+* Update: Rental and purchase label changed to rental or purchase
+* Update: Rental/WooCommerce fields toggled when rental type chosen inline with rental or purchase changes
+* Update: Rental product field entry to improve interface and added categorised headings
+* Update: Rental product import/export tool information
+* Update: Pricing tier description on edit product page
+* Update: Notice styling on rental tools page
+* Update: WooCommerce tested upto declaration
+* Update: Litepicker library to 2.0.3
+* Fix: WooCommerce Stripe payment gateway adds own add to cart/checkout buttons which cannot be used for rentals
+* Fix: If rental or purchase and adding rental with "redirect to cart on add to cart" disabled you are redirected to the purchase product page not rental
+* Fix: Clone rental product tool select fields not ordered A-Z
+* Fix: Clone rental product tool specific products does not include non-rental products if _wcrp_rental_products_rental does not already exist on those products
+* Fix: Cart notices have incorrect text domain
+* Fix: Disable rental days checkboxes are not displayed nicely on low width desktop
+* Fix: Issues with before/after price filter as superceded by new filters
+
+2021-01-13 - version 2.8.2
+* Update: Rentals count pip in menu to not include counts for cancelled or returned rentals
+* Update: WordPress tested up to 5.6
+* Fix: Database table not found errors (related to rentals count pip in menu)
+* Fix: Typo on Rentals > Inventory tab top right text
+* Fix: Recent changelog entries do not include an asterisk and therefore cannot be read automatically by external readers
+* Fix: Global post may not exist in some areas of the admin such as custom menu pages and triggers PHP warning with rentals admin footer scripts
+
+2021-01-09 - version 2.8.1
+* Fix: menu_page() function in WCRP_Rental_Products_Rentals class uses wp_ not {$wpdb->prefix}
+
+2020-12-23 - version 2.8.0
+* Add: Inventory tab to rentals section which lists all published rental products and current rental stock total, in, and out information with sorting, search, print and export functionality
+* Add: Tools tab to rentals section with a number of tools for rental product management, always take a backup before using these tools
+* Add: Auto saving of rental product option due to issues with variations not being saved correctly when rental product option not yet saved
+* Add: Rental product field description below field and expand link with details on each option and the relationship to stock/price fields
+* Add: Product ID to rentals calendar information
+* Add: DataTables library for inventory tab
+* Add: WooCommerce 4.8.0 compatibility
+* Update: See variations link when viewing products list to be on a new line for easier readability
+* Update: High integer numbers for unlimited stock/hook priorities
+* Update: Rental product field tooltip description
+* Fix: Conditional edit product data field display may keep stock fields hidden/shown when toggling non-rental/rental
+* Fix: Required stock settings may not be amended to the required values upon save if product types/rental types toggled repeatedly during product edit
+* Fix: Variations with rental stock may be deemed out of stock by cart item checks
+* Fix: "postive" typo on pricing tiers data entry when editing a product
+
+2020-12-06 - version 2.7.0
+* Note: This version includes several new settings, changes and fixes, please ensure you read the items below in this release and we recommend performing this update on a staging/development environment and checking through the updated items before updating the extension on a production website, clear all caches after updating
+* Add: Improvements to rental form usability including form no longer disappears and reappears when quantity or variations changed
+* Add: Option for rental form after quantity
+* Add: Option for rental form date format
+* Add: wcrp_rental_products_rental_form_date_format() function
+* Update: Rental date format field instructions on settings page
+* Update: Settings so descriptions not shown in tooltips
+* Update: Rental form now displays after quantity by default so user selects quantity before rental dates, this can be disabled using the new option in settings
+* Fix: Rental form tooltip days are not translatable
+* Fix: Disable rental dates datepicker in settings and when editing/adding a product is not in site language
+* Fix: Some default strings within apply_filters are not translatable such as "Rental dates:"
+* Fix: Rental form no quantity/no price error messages not styled nicely
+* Fix: Undefined notice appears on dashboard if debug mode enabled related to global $post object in enqueues class
+
+2020-11-21 - version 2.6.1
+* Fix: Disabling Sunday alone as a rental day may not save due to value being 0
+
+2020-11-20 - version 2.6.0
+* Note: This version includes several new features which integrate with various parts of the rentals functionality and therefore we recommend performing this update on a staging/development environment and testing rental functionality before updating the extension on a production website
+* Add: Disable rental days option to allow specific days of the week can be disabled for rental
+* Add: WooCommerce Product Add-ons compatibility
+* Add: Frontend rental calendar now inherits site language and therefore sets calendar specific strings such as month and week days in site language
+* Update: Display of rental totals in rental form to 2 lines, cleaner and also ensures if product add-ons are used the details included for add-ons are is easier to read
+* Fix: allDayDefault JS warning on dashboard rentals calendar
+* Fix: If return days threshold is 0 cart/checkout availability check not used as thinks its empty
+
+2020-11-14 - version 2.5.5
+* Fix: Pricing tier percent can only be 2 decimal places
+* Fix: Percentage rounding issues for non integer pricing tier percentages
+
+2020-11-11 - version 2.5.4
+* Add: WordPress multisite network compatibility
+* Update: Minimum WordPress version requirement
+
+2020-11-04 - version 2.5.3
+* Add: load_plugin_textdomain
+
+2020-11-03 - version 2.5.2
+* Fix: Some websites updating from a previous version may cause a .length JS issue if pricing tier data is empty (pricing tier data should not be empty and previous upgrade functions populate this so this issue may only occur where the upgrade process was interrupted)
+
+2020-11-03 - version 2.5.1
+* Fix: Pricing tiers may calculate incorrectly when multiple pricing tiers assigned
+
+2020-10-29 - version 2.5.0
+* Add: Functionality to mark individual order line items as returned
+* Add: All order line items marked as returned if order status changed to completed
+* Add: Pricing tiers option to fixed pricing type rentals
+* Add: Edit order details with notice on marking the order completed in relation to returning order line item rentals
+* Update: Dashboard rentals calendar to show individual order items as returned even if the order status is not yet completed
+* Update: Labels on rentals calendar color key
+* Update: Edit product rental field tooltips to be more descriptive
+
+2020-10-28 - version 2.4.1
+* Add: Colors to rentals page in dashboard to set event color green if order complete, red if date passed and order not complete, blue if anything else (current/future rentals)
+* Add: Color key to rentals page in dashboard to explain the colors now set due to additional colors above
+* Update: Availability check cart item removal notice text
+* Fix: Availability check may trigger unavailable notice and removal of cart items depending on WordPress timezone settings
+* Fix: If rental is period based and for more than 1 day then mini cart displays the cart item's total as a single day price not the total
+
+2020-10-23 - version 2.4.0
+* Add: Pricing tiers option, adds a pricing tiers toggle for period price rentals, option available when pricing period is 1, adds repeater fields for tiers
+* Add: Week numbers to rentals calendar in dashboard, clickable to view week overview
+* Add: Toggle of various rental pricing options when editing product dependent on pricing option used and values entered
+* Add: wcrp_rental_products_text_rental_dates() filter
+* Add: wcrp_rental_products_price_before() filter
+* Add: wcrp_rental_products_price_after() filter
+* Update: Rental datepicker so if single date selectable then can be selected without double click/tap
+* Update: Cart check/removal of products from cart functionality when rental products updated
+* Fix: Unavailable rental dates not correctly taking into account return days threshold prior to a disabled date, now fixed a customer can no longer rent a product on a date if there isn't enough time to return it before the next customer's rental
+* Remove: Text before view rental options/purchase links when product is rental and purchasable
+
+2020-10-18 - version 2.3.3
+* Add: WooCommerce 4.6.0 compatibility
+* Update: Litepicker to be enqueued globally in the frontend due to issues with themes/plugins using quick view and attempting to get litepicker on non-product pages
+* Fix: If pricing type is period, pricing period is 1 use the rental price multiplied by the minimum days to display a from rental price on archive/product page, previously this would show the 1 day price which isn't selectable due to the minimum days set
+
+2020-10-16 - version 2.3.2
+* Add: Default_rental_options function for WCRP_Rental_Products_Products class, all existing references to default rental options now get the default rental options from this class function
+* Fix: Default rental options not being used during cart calculations if options left empty resulting in rental products being removed from cart
+
+2020-10-15 - version 2.3.1
+* Add: Rental pricing type option including population of option with period for existing rental products as all previous rentals were period based up until this release
+* Update: Filter rental and purchase label to be consistent with product rental setting label
+
+2020-09-30 - version 2.3.0
+* Note: This version removes the existing non day price display setting and replaces it with a pricing period setting which allows you to specify the amount of days the price entered is for, this means you no longer need to calculate a rental price per day if you wish to specify, for example, a price per week. Due to this during the upgrade process if at site or product level you were previously using the non day price display setting and your minimum/maximum days settings were equal the prices you entered will be recalculated by multiplying the existing price per day by the days set to give a price for the period you were using, if you were using the non day pricing setting in any way we strongly recommend performing this update on a staging/development environment and checking your pricing and rental settings before updating the extension on a production website
+* Add: Pricing period setting which supercedes non day price display
+* Add: Upgrade conditions for this version to add meta at product level and remove options no longer required
+* Add: Cart functionality to remove products from cart if rental meta has changed as could effect availability of rentals not yet purchased but in cart
+* Add: Condition to wcrp_rental_products_check_availability() to return unavailable if product no longer a rental
+* Add: Minimum/maximum days auto populated and read only if non-per day pricing period used
+* Add: wcrp_rental_products_rental_information_title filter
+* Add: wcrp_rental_products_text_select_dates filter
+* Add: Rental date format setting
+* Add: wcrp_rental_products_rental_date_format() function
+* Add: WordPress 5.5.1 and WooCommerce 4.5.2 compatibility
+* Update: Functionality so majority of settings are set at product level
+* Update: Order of settings in rentals panel on edit product
+* Update: Tooltip text on rental fields when editing product and in settings including adding info on defaults if fields are empty
+* Update: Labels of rental price field to remove per day text due to pricing period changes
+* Update: Button text from select options to select dates for rentals on archive pages, this can now be filtered if required using the filters added in this version
+* Fix: Undefined $is_IE and $is_winIE variable notice
+* Fix: Duplicated cart notice when items removed due to availability check
+* Fix: Some themes cut off the rental form on product page due to overflow hidden on product summary div
+* Remove: Non day price display option as superceded by pricing period setting
+* Remove: Inline js comments from rental form
+* Remove: Notice on rentals panel on edit product as no longer required due to settings removed
+
+2020-09-06 - version 2.2.0
+* Add: Disable rental dates setting at default setting and product level
+* Add: Rental information setting at default setting and product level, adds a rental information tab to product page when enabled
+* Update: Rental settings now in own section under WooCommerce > Settings > Products > Rental products
+* Update: Setting tooltips to display as text in settings section
+* Update: Non day price display option information in settings and edit product with details on not showing suffix if min/max days equal
+* Update: Rental tab panel notice in edit product with disabled dates information
+* Update: wcrp_rental_products_check_availability() function to include disabled dates check
+* Update: Links to settings page to go to new settings section
+
+2020-08-21 - version 2.1.4
+* Add: Conditions to non day price display option so if min/max days the same but not 7 or 30 display rental price without per day suffix
+* Add: Rental stock total to product stock column on dashboard products page
+* Fix: Price display suffix from WooCommerce tax settings not displayed for rentals
+
+2020-08-20 - version 2.1.3
+* Fix: Cart calculation issue with variation rental and purchase products
+
+2020-08-18 - version 2.1.2
+* Add: Changing order status to refunded or cancelled makes rental stock reserved within the order available again
+* Add: Products and orders buttons to top of rentals page
+* Add: Add rental order button to top left of orders and edit order pages
+* Add: Cancel rental option to order line items
+* Add: Cancelled meta to order item if cancelled/refunded so user knows this has occured
+* Add: Information throughout dashboard on adding new rental orders
+* Update: wcrp_rental_products_order_has_rentals() function to include checking for orders with cancelled rentals
+* Update: Rental stock so dates reserved on failed payment status as customer can pay later via their account
+* Update: Rentals so once order complete now remain on the rentals page so historic rentals visible
+* Update: Order rentals meta box information
+* Update: Rentals suffix on order names
+* Update: Restock refunded items label on order pages to include non-rental text if order contains rentals
+* Update: Reduce rental dates option to a button, opens reduce rental dates as select fields in lightbox instead of litepicker due to complications around WooCommerce ajax updating of line items and losing dates set
+* Fix: Deleting rental order item should make rental dates available again
+* Fix: Non-translated product data notice
+* Remove: Restrictions on rental order edit, orders with rentals are now editable as per WooCommerce rules with exceptions for rental quantities and meta
+* Remove: Order rental text which replaced "order is no longer editable" as no longer require due to removal of non-editable functionality
+* Remove: Litepicker enqueue from edit order page as no longer required due to changes in reduce rental dates functionality
+* Remove: Support information from rental product data notice
+* Remove: Overview text at top of rentals page
+
+2020-08-11 - version 2.1.1
+* Update: Rental product data checkbox fields to selects to ensure default checkbox settings can be overridden
+* Fix: Rental stock remains unavailable after order trashed and emptied
+
+2020-08-10 - version 2.1.0
+* Add: Forcing of manage stock, stock status and backorders settings for rental products, this ensures rental products bypass WooCommerce stock checks/reservation on cart/checkout, this is a requirement to ensure rental products can be purchased with this extension going forward, previously rental purchase products allowed stock statuses, levels and backorders, this has to be removed as the only way to bypass WooCommerce's checks is by backtracing WooCommerce's functions to manipulate the functionality in the absence of any filters, the previous method requires intense server resource/memory to complete and is therefore not feasible for use or continued development within this extension going forward. We have written and requested some filters to be included in WooCommerce however there is no guarantee that these will be added into WooCommerce and is WooCommerce's decision to include as they see fit inline with their development, if they do get included we will look at the feasibility of adding back manage stock, stock status and backorders to rental products in future. This update will set any rental products to the new required stock settings, it is recommended you test this update on a staging/development environment before committing to updating on a production website
+* Add: Further tooltip information on rental stock fields in relation to rental stock total not increasing/decreasing
+* Fix: Issue with allowing add to cart of disabled dates if disabled date already selected while changing quantity required
+* Fix: Issue with rentals becoming unavailable for further orders after first booking even though stock available
+* Remove: Some product data notices which are no longer required due to forcing of stock settings as described above
+
+2020-08-08 - version 2.0.5
+* Add: Rentals count total (from current day) pip to rentals sub menu item
+* Add: Rental unavailable due to no rental price set notice on rental form
+* Update: Rentals sub menu item to be under orders sub menu item
+* Update: Rental form return within days total to not display if return days set to 0
+* Fix: Rent from price may show purchase price depending on meta set if a rental purchase variable product
+* Fix: Variation rental price may use purchase price on cart if rental price not set
+* Fix: Price total calculating as NaN on some stores where theme/plugins remove the quantity field from product page
+* Fix: Rental form days total tooltip not positioned as expected when inline display enabled
+* Fix: Rental return days showing as 1 on rental calendar if return days set to 0
+
+2020-08-01 - version 2.0.4
+* Add: Unavailable dates now disabled within rental dates picker
+* Add: Reset rental form on clear variation
+* Add: WooCommerce 4.3.1 compatibility
+* Update: Rental form no longer shows if no variation options selected
+* Update: Exceeded rental quantity notice text
+* Update: Product availability check removal notice text within cart/checkout
+* Fix: Rental total quantity calculation issues in specific scenarios
+* Fix: Not getting parent variable stock level if variation has empty rental stock
+* Remove: Availability messages removed (superceded by disabled dates)
+* Remove: Context parameter from wcrp_rental_products_check_availability() function (as no longer required due to disabled dates)
+
+2020-07-20 - version 2.0.3
+* Add: Overview message to rentals page
+* Add: Feature/support message to product edit page
+* Add: WooCommerce 4.3.0 tweaks related to new reserve stock functions
+* Update: Rental price fields to include currency symbol
+* Update: Unavailable date message to include details on return day clashes
+* Fix: Rental and purchase products cannot checkout if purchasable product is not available and WooCommerce hold stock enabled
+
+2020-07-12 - version 2.0.2
+* Add: Minimum days, maximum days, months, columns and inline default settings
+* Add: Start days threshold, return days threshold, minimum days, maximum days, months, columns and inline product level settings
+* Add: Settings button to Rentals page
+* Add: Upgrade conditions for 2.0.2 to remove/amend database data as per 2.0.2 structure
+* Add: WooCommerce 4.3.0 compatibility
+* Update: Rental form totals styling to use standard WooCommerce information styles
+* Update: All rental calculations/availability checks to use product level settings if available or the default settings if not available
+* Update: wcrp_rental_products_check_availability() arguments to include return days threshold
+* Update: jQuery datepicker to Litepicker throughout frontend and dashboard, from/to dates now selectable from one field
+* Remove: Date format option and data as all dates now consistently stored in ISO format
+
+2020-07-04 - version 2.0.1
+* Add: Full rental stock/availability functionality to use rental stock as a separate entity to standard WooCommerce stock levels
+* Add: Rental stock/availability check/notices on product page
+* Add: Rental stock/availability check on cart/checkout pages
+* Add: Rentals calendar (see WooCommerce menu) to display summary of all rentals including return days
+* Add: WCRP_Rental_Products_Misc class
+* Add: WCRP_Rental_Products_Rentals class
+* Add: WCRP_Rental_Products_Upgrade class
+* Add: wcrp_rental_products_check_availability() function
+* Add: Rental entry fields disable manual entry to force datepicker use and typing incorrect dates
+* Add: Upgrade functionality
+* Add: Reduce rental dates to order edit
+* Add: Rental order management information to edit order page
+* Add: Removal of rental only products from add product to manually created order (as rental availability cannot be checked when manually adding new order)
+* Add: Pricing/stock field information depending on rental type on product edit page
+* Add: {$wpdb->prefix}wcrp_rental_products_rentals database table
+* Add: Assets folder
+* Add: CSS assets for admin/public stylesheets
+* Add: Fullcalendar library
+* Add: WCRP_RENTAL_PRODUCTS_VERSION named constant
+* Add: Install function on activation
+* Add: WooCommerce 4.2.2 compatability
+* Update: Rental icon throughout WordPress/WooCommerce in dashboard
+* Update: Rental stock/pricing field use depending on rental type on product edit page
+* Update: Orders filters for rental orders to use order item meta instead of removed _wcrp_rental_products_rental_status
+* Update: Restrictions of order edit for orders containing rentals
+* Update: Various code structure changes
+* Fix: Rental products not showing in grouped products search on product edit page
+* Fix: Non-rental stock levels display for rentals
+* Fix: Various non-translated strings
+* Fix: Incorrect text domain on Start days threshold setting
+* Fix: Rental products reduce non-rental stock
+* Fix: Rental total incorrect for variations upon select for certain price/stock conditions
+* Remove: Quantity edit from rental products in cart as does not take availability into account
+* Remove: _wcrp_rental_products_rental_status meta as filtering of rental orders now done with standard order statuses
+* Remove: _wcrp_rental_products_start_days_threshold and _wcrp_rental_products_return_days_threshold meta from individual products, setting now global only
+
+2020-06-13 - version 2.0.0
+* Add: Rental and purchase functionality allowing products to be purchasable outright or rented
+* Add: Rental product data tab icon on product edit
+* Add: wcrp_rental_products_is_rental_purchase() function
+* Add: wcrp_rental_products_order_has_rentals() function
+* Add: Products filter to filter product list by rental only, rental & purchase or all rentals
+* Add: Rental price field for simple and variations used when product is rental & purchasable
+* Add: Bulk change rental price field within product list in dashboard
+* Add: Bulk variation change rental price field option in variations list within product edit screen
+* Add: Rental only and also available as rental information to pricing on product list within dashboard
+* Add: Information to rental product data tab regarding pricing/stock
+* Add: Various PHP classes
+* Update: File/folder structure
+* Update: wcrp_rental_products_is_rental() to wcrp_rental_products_is_rental_only() inline with newly added purchase function
+
+2020-06-04 - version 1.0.2
+* Add: Grouped products type compatibility
+* Add: wcrp_rental_products_is_rental() function
+* Add: WooCommerce 4.2.0 compatibility
+
+2020-06-01 - version 1.0.1
+* Fix: Issue with woocommerce_loop_add_to_cart_link filter use with 3 arguments affecting some themes
+
+2020-05-12 - version 1.0.0
+* New: Initial release

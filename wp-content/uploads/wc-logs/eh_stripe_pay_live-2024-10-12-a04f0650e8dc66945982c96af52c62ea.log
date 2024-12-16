@@ -1,0 +1,33 @@
+2024-10-12T11:58:01+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Rentora - Charge - Order #1992 ) ------------------->
+stdClass Object
+(
+    [id] => ch_3Q93xMJAyyZXevqD0qtoh6xM
+    [amount] => 3000
+    [amount_refunded] => 0
+    [currency] => AUD
+    [order_amount] => 3000.00
+    [order_currency] => AUD
+    [captured] => Captured
+    [transaction_id] => txn_3Q93xMJAyyZXevqD02FHSzYT
+    [mode] => Test
+    [metadata] => stdClass Object
+        (
+            [Agent] => Mozilla/5.0 (Linux; Android 14; 23021RAAEG  ) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36 Chrome/118.0.0.0 APICodeVersion/2.1.16
+            [Billing Email] => muhammad.hammad@work-tech.co
+            [Customer IP] => 175.107.228.202
+            [Products] => Lawn Mover
+            [Referer] => https://rentora.com.au/checkout/
+            [Total Shipping] => 0
+            [Total Tax] => 0
+            [WP customer #] => 28
+            [order_id] => 1992
+        )
+
+    [created] => 2024-10-12 11:58:00
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( credit )
+    [status] => succeeded
+    [origin_time] => 2024-10-12 11:58:01
+)

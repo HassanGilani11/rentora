@@ -1,0 +1,16 @@
+{
+    "name": "acf/horizontal-accordion-project-detail",
+    "title": "Horizontal Accordion Project Detail",
+    "description": "A custom Horizontal Accordion Project Detail block for the hero section, using ACF fields.",
+    "style": [ "file:./horizontal-accordion-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["hero", "featured", "project"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "horizontal-accordion-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

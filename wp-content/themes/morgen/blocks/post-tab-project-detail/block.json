@@ -1,0 +1,16 @@
+{
+    "name": "acf/post-tab-project-detail",
+    "title": "Post Tab Project Detail",
+    "description": "A custom Post Tab Project Detail block that uses ACF fields.",
+    "style": [ "file:./post-tab-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["post", "tab"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "post-tab-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

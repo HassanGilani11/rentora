@@ -1,0 +1,16 @@
+{
+    "name": "acf/develop-section",
+    "title": "Develop Section",
+    "description": "A custom Industry Section block that uses ACF fields and ACF Post Type.",
+    "style": [ "file:./develop-section.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Develop", "Post Type"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "develop-section.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

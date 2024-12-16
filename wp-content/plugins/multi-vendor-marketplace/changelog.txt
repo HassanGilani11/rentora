@@ -1,0 +1,7 @@
+*** Multi Vendor Marketplace ***
+
+2024-09-09 - version 1.0.1
+ * Tweak -  Display improvements related to Block based Themes
+
+2024-04-18 - version 1.0.0
+ * Initial Release

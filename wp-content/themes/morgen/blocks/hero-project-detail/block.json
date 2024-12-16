@@ -1,0 +1,16 @@
+{
+    "name": "acf/hero-project-detail",
+    "title": "Hero Project Detail",
+    "description": "A custom Hero Project Detail block for the hero section, using ACF fields.",
+    "style": [ "file:./hero-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["hero", "featured", "project"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

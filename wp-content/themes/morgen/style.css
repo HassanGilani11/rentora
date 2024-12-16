@@ -1,0 +1,30 @@
+/*
+Theme Name: Morgen Energy
+Theme URI: https://cigul.com/
+Author: Abdul
+Author URI: https://cigul.com/
+Description: Custom ACF Blocks Theme For Morgen Energy
+Requires at least: 5.9
+Tested up to: 6.4
+Version: 1.1
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, block-styles, blog, portfolio, news
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom css */
+.menu-contact{
+    margin-left: 20px;
+}
+
+.morgen-single-inner .wp-block-pullquote {
+    padding: 0 20px;
+    border-left: 2px solid #A884FF;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
+}

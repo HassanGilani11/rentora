@@ -1,0 +1,135 @@
+.section-text-with-box {
+    border-top: 2px solid #1e3e37;
+    border-bottom: 2px solid #1e3e37;
+}
+
+.flex-layout-layout {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.custom-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.custom-layout.col-12 {
+    flex-basis: 100%; /* Full width for the image section */
+}
+
+.custom-layout.col-6 {
+    flex-basis: 50%; /* Half width for the text section */
+}
+
+.flex-layout-layout .col-6.w-layout-cell1{
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+.custom-stack-2 {
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    background-color: #F5F5F5;
+    padding: 0;
+}
+
+.image {
+    width: 100%; /* Full width of the container */
+}
+
+.heading-6 {
+    font-family: 'TroisMilleRegular';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 43.2px;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px !important;
+}
+
+.paragraph,
+.paragraph-2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 140%;
+    margin-top:50px;
+}
+
+.div-block-8 {
+    grid-row-gap: 21px;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 100%; /* Adjust as needed */
+    display: flex;
+}
+
+.button-2 {
+    padding: 12px 24px;
+    border-radius: 100px;
+    background-color: #1E3E37;
+    color: #D7E6FF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.button-2:hover {
+    background-color: #A884FF;
+    color: #fff;
+}
+
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.section-text-with-box div#w-node-_9342ce6d-22a1-941b-a87a-983f78d4eea0-fc02dae8{
+    margin-bottom:80px;
+    padding: 0 20px;
+}
+@media screen and (max-width: 991px) {
+    .flex-layout-layout {
+        flex-direction: column; /* Stack vertically on smaller screens */
+    }
+    .custom-layout {
+        flex-basis: 100%; /* Full width for all columns */
+    }
+}
+/* Hide mobile image on desktop and larger screens */
+.mobile-image {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .section-text-with-box .col-6.w-layout-cell1{
+       width: 100%;
+       padding: 10px 20px;       
+    }
+    .div-block-8 .heading-6 {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 35px;
+    }
+    .div-block-8 .paragraph-2{
+        margin-top:0px;
+        font-size: 16px;
+        color: #1E3E37;
+        font-weight: 500;        
+    }    
+    /* On screens less than 768px (usually mobile), show the mobile image and hide the desktop image */
+    .desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+    }    
+}

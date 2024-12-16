@@ -1,0 +1,1204 @@
+#mvr_edit_product_frame,
+#mvr_edit_coupon_frame {
+	background: url(../../images/wpspin-2x.gif) center center no-repeat;
+}
+
+.multi-vendor-marketplace {
+	display: block;
+	width: 100%;
+	float: initial;
+}
+
+.mvr-dashboard {
+	width: 100%;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid rgba(0, 0, 0, .05);
+	box-sizing: border-box;
+}
+
+.mvr-dashboard-top-navigation {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 15px;
+	float: left;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+	box-sizing: border-box;
+}
+
+.mvr-dashboard-top-navigation a {
+	display: flex;
+	align-items: center;
+	color: #00f !important;
+	float: left;
+}
+
+.mvr-dashboard-top-navigation a:hover {
+	text-decoration: underline;
+	color: #00f !important;
+}
+
+.mvr-dashboard-top-navigation a img {
+	max-width: 124px;
+	height: auto !important;
+	margin-right: 5px;
+}
+
+.mvr-dashboard-top-navigation ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	float: right;
+}
+
+.mvr-dashboard-top-navigation ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.mvr-dashboard-top-navigation ul li a {
+	color: #303030 !important;
+	text-decoration: none !important;
+	font-size: 16px;
+}
+
+.mvr-dashboard-top-navigation ul li a:hover {
+	color: #82237c !important;
+}
+
+.mvr-dashboard-top-navigation ul li.mvr-dashboard-navigation-link--mvr-notification a:before {
+	content: "\f16d";
+}
+
+.mvr-dashboard-top-navigation ul li.mvr-dashboard-navigation-link--mvr-enquiry a:before {
+	content: "?";
+	font-size: 11px;
+	padding: 5px;
+	border-radius: 50%;
+	border: 1px solid #303030;
+	line-height: 5px;
+	margin-top: 3px;
+}
+
+.mvr-dashboard-top-navigation ul li.mvr-dashboard-navigation-link--mvr-enquiry a:hover::before {
+	border: 1px solid #82237c;
+}
+
+.mvr-notification-count-wrapper,
+.mvr-enquiry-count-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	margin: 1px 0 -1px 2px;
+	padding: 0 5px;
+	min-width: 18px;
+	height: 18px;
+	border-radius: 9px;
+	background: #82237c;
+	color: #fff;
+	font-size: 11px;
+	line-height: 1.6;
+	text-align: center;
+	z-index: 26;
+}
+
+.mvr-notification-count-wrapper span,
+.mvr-enquiry-count-wrapper span {
+	line-height: 1.7;
+}
+
+h1.entry-title {
+	display: inline-block;
+	font-size: 23px;
+	font-weight: 400;
+	color: #1d2327;
+	margin: 0;
+	padding: 9px 0 4px;
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+a.mvr-page-title-action {
+	padding: .6180469716em 1.41575em;
+	position: relative;
+	margin-left: 5px;
+	top: -3px;
+	text-decoration: none !important;
+	border: 1px solid #82237c;
+	border-radius: 5px;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: normal;
+	background: #82237c !important;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 10px !important;
+}
+
+a.mvr-page-title-action:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000;
+	box-shadow: 0 0 3px #ccc inset;
+}
+
+.mvr-enquiry-reply-send-btn {
+	padding: .6180469716em 1.41575em;
+	position: relative;
+	margin-left: 0px;
+	top: -3px;
+	text-decoration: none;
+	border: 1px solid #82237c;
+	border-radius: 5px;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: normal;
+	background: #82237c !important;
+	color: #fff !important;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 0 !important;
+}
+
+/*Vendor navigation design*/
+
+.mvr-dashboard .mvr-dashboard-navigation {
+	width: 20%;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-dashboard-navigation ul {
+	margin-left: 0;
+	border-right: 1px solid rgba(0, 0, 0, .05);
+	padding: 0 !important;
+	margin-bottom: 30px;
+	list-style: none;
+	background: #f7f7f7;
+	margin-top: 0 !important;
+}
+
+.mvr-dashboard-navigation ul li {
+	list-style: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+	position: relative;
+	/*    background: #fff;*/
+	padding: 0 15px;
+	margin: 0;
+}
+
+.mvr-dashboard-navigation ul li a {
+	padding: .857em 0;
+	display: block;
+	color: #303030;
+	opacity: .7;
+	text-decoration: none !important;
+}
+
+.mvr-dashboard-navigation ul li a:hover,
+.mvr-dashboard-navigation ul li.is-active a {
+	opacity: 1;
+}
+
+.mvr-dashboard-navigation ul li.is-active {
+	margin-right: -1px;
+	background: #fff;
+}
+
+.mvr-dashboard-navigation-link a:before {
+	content: "\f102";
+	font-family: dashicons;
+	line-height: inherit;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 15px;
+	float: left;
+}
+
+li.mvr-required-tab a:after {
+	content: "\f534";
+	font-family: dashicons;
+	line-height: inherit;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 0;
+	float: right;
+	color: #d63638;
+}
+
+.mvr-dashboard-navigation-link--mvr-home a:before {
+	content: "\f311"
+}
+
+.mvr-dashboard-navigation-link--mvr-products a:before {
+	content: "\f312";
+}
+
+.mvr-dashboard-navigation-link--mvr-orders a:before {
+	content: "\f174";
+}
+
+.mvr-dashboard-navigation-link--mvr-coupons a:before {
+	content: "\f524";
+}
+
+.mvr-dashboard-navigation-link--mvr-payments a:before {
+	content: "\f526";
+}
+
+.mvr-dashboard-navigation-link--mvr-customers a:before {
+	content: "\f110";
+}
+
+.mvr-dashboard-navigation-link--mvr-duplicate a:before {
+	content: "\f105";
+}
+
+.mvr-dashboard-navigation-link--mvr-reviews a:before {
+	content: "\f154";
+}
+
+.mvr-dashboard-navigation-link--mvr-logout a:before {
+	content: "\f310";
+}
+
+.mvr-dashboard-navigation-link--mvr-social-links a:before {
+	content: "\f237";
+}
+
+.mvr-dashboard-navigation-link--mvr-staff a:before {
+	content: "\f338";
+}
+
+.mvr-dashboard-navigation-link--mvr-transaction a:before {
+	content: "\f515";
+}
+
+.mvr-dashboard-navigation-link--mvr-payout a:before {
+	content: "\f16a";
+}
+
+.mvr-dashboard-navigation-link--mvr-withdraw a:before {
+	content: "\f346";
+}
+
+.mvr-dashboard-navigation-link--mvr-profile a:before {
+	content: "\f110";
+	font-size: 11px;
+	padding: 5px 2px;
+	border-radius: 49%;
+	border: 1px solid #303030;
+	line-height: 5px;
+	margin-top: 5px;
+}
+
+.mvr-dashboard-navigation-link--mvr-profile a:hover:before {
+	border: 1px solid #82237c;
+}
+
+/*.mvr-dashboard-navigation ul li a i {
+				margin-right: 15px;
+}
+
+*/
+.mvr-dashboard-navigation ul li a:hover,
+.mvr-dashboard-navigation ul li.is-active a {
+	color: #82237c;
+}
+
+/* Vendor navigation design */
+
+.mvr-dashboard .mvr-dashboard-content {
+	width: 78%;
+	display: block;
+	float: left;
+	margin-left: 2%;
+	margin-right: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.mvr-wrap ul.subsubsub {
+	list-style: none;
+	margin: 8px 0 0;
+	padding: 0;
+	font-size: 13px;
+	float: left;
+	color: #646970;
+}
+
+.mvr-wrap ul.subsubsub li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.mvr-wrap ul.subsubsub li a {
+	line-height: 2;
+	padding: .2em;
+	text-decoration: none;
+	font-size: 14px;
+	color: #82237c;
+	font-weight: 400
+}
+
+.mvr-wrap ul.subsubsub li a.current {
+	color: #000;
+	font-weight: 600;
+}
+
+.mvr-wrap ul.subsubsub li a .count {
+	color: #50575e;
+	font-weight: 400
+}
+
+.mvr-wrap form p.mvr-search-box {
+	margin: 0 0 10px 0;
+	text-align: right;
+	width: 100%;
+}
+
+.mvr-wrap form p.mvr-search-box input[type="search"] {
+	margin: 0 4px 0 0;
+	padding: 0 8px;
+	line-height: 2.15384615;
+	min-height: 30px;
+	box-shadow: 0 0 0 transparent;
+	border-radius: 4px;
+	border: 1px solid #8c8f94;
+	background-color: #fff;
+	color: #2c3338;
+	min-height: 30px;
+	max-width: 180px;
+}
+
+.mvr-wrap form p.mvr-search-box button {
+	margin: 0;
+	padding: 0 10px;
+	vertical-align: baseline;
+	color: #82237c;
+	border: 1px solid #82237c;
+	background: #fff;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 18px;
+	min-height: 35px;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	text-transform: unset;
+}
+
+/* Dashboard frontend table */
+
+.mvr-frontend-table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.mvr-frontend-table tr {
+	border: none !important;
+}
+
+.mvr-frontend-table thead {
+	background: #f7f7f7;
+}
+
+.mvr-frontend-table thead th {
+	padding: 20px 15px !important;
+	color: #737373;
+	background: #f7f7f7;
+	border: none !important;
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	/*    word-break: break-all;*/
+}
+
+.mvr-frontend-table tbody tr:nth-child(2n) {
+	background: #fafafa;
+}
+
+.mvr-frontend-table tbody td {
+	padding: 15px;
+	color: #666;
+	background: none;
+	border: none !important;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	/*    word-break: break-all;*/
+}
+
+.mvr-frontend-table tbody td img {
+	width: 50px;
+	height: auto;
+	margin: auto;
+}
+
+.mvr-frontend-table tbody td a {
+	color: #82237c;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.mvr-frontend-table tbody td a.button {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin: 0 5px 5px 0;
+	background: #82237c;
+	border: 1px solid #82237c;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+	line-height: 18px !important;
+	text-transform: unset;
+}
+
+.mvr-frontend-table tbody td a.view,
+.mvr-frontend-table tbody td a.delete {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin-bottom: 5px;
+	background: #fff;
+	border: 1px solid #82237c;
+	color: #000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-frontend-table tbody td a.button:hover {
+	background: #82237c;
+	border: #82237c;
+	color: #fff;
+	border: 1px solid #82237c;
+}
+
+.mvr-frontend-table tbody td a:hover {
+	text-decoration: underline;
+}
+
+.mvr-frontend-table tbody td span {
+	color: #666;
+	font-size: 14px;
+}
+
+
+.mvr-frontend-table tfoot {
+	border: none;
+	box-shadow: none;
+}
+
+.mvr-frontend-table tfoot td {
+	padding-right: 0;
+	background: none;
+	border: none;
+}
+
+.mvr-frontend-table tfoot nav {
+	float: right;
+	border: 0;
+	clear: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.mvr-frontend-table tfoot nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+
+.mvr-frontend-table tfoot nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.mvr-frontend-table tfoot nav ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-frontend-table tfoot nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none;
+}
+
+.mvr-frontend-table tfoot nav ul li .current {
+	background: none;
+	border: none;
+}
+
+.mvr-frontend-table tfoot nav ul li a.current,
+.mvr-frontend-table tfoot nav ul li a:hover {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+/* Dashboard frontend table end */
+
+/* Payment Details information */
+
+.mvr-dashboard-content form p.woocommerce-form-row,
+.mvr-dashboard-content form p.form-row {
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.mvr-dashboard-content form p.woocommerce-form-row label,
+.mvr-dashboard-content form p.form-row label {
+	width: 100%;
+	display: block;
+	line-height: 2;
+	color: #666;
+	float: left;
+	font-size: 16px;
+}
+
+.mvr-dashboard-content form p.woocommerce-form-row label .required,
+.mvr-dashboard-content form p.form-row label .required {
+	color: #82237c;
+}
+
+.mvr-dashboard-content form p.woocommerce-form-row select,
+.mvr-dashboard-content form p.form-row select,
+.mvr-dashboard-content form p.form-row input[type='text'],
+.mvr-dashboard-content form p.woocommerce-form-row input[type='text'],
+.mvr-dashboard-content form p.woocommerce-form-row input[type='number'],
+.mvr-dashboard-content form p.woocommerce-form-row input[type='tel'],
+.mvr-dashboard-content form p.woocommerce-form-row input[type='email'],
+.mvr-dashboard-content form p.woocommerce-form-row input[type='password'] {
+	width: 100%;
+	display: block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-dashboard-content .mvr-address-form .form-row-first {
+	width: 47.0588235294%;
+	float: left;
+	margin-right: 5.8823529412%;
+	clear: both;
+}
+
+.mvr-dashboard-content .mvr-address-form .form-row-last {
+	width: 47.0588235294%;
+	float: right;
+	margin-right: 0;
+}
+
+.mvr-payment-form p button,
+.mvr-payout-form p button,
+.mvr-profile-form p button,
+.mvr-address-form p button,
+.mvr-social-links-form p button {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin: 10px 0;
+	background: #82237c !important;
+	border: 1px solid #82237c !important;
+	color: #fff !important;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: normal;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+	line-height: 18px;
+	text-transform: unset;
+}
+
+.mvr-payment-form p button:hover,
+.mvr-payout-form p button:hover,
+.mvr-profile-form p button:hover,
+.mvr-address-form p button:hover,
+.mvr-social-links-form p button:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000 !important;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+/* Payment Details information end*/
+
+/* withdraw overview design */
+
+.mvr-withdraw-amount-wrapper,
+.mvr-withdraw-form-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 15px 0;
+	clear: both;
+}
+
+.mvr-vendor-amount,
+.mvr-vendor-available-withdraw-amount,
+.mvr-vendor-locked-amount,
+.mvr-vendor-withdraw-charge,
+.mvr-transaction-total-amount,
+.mvr-transaction-processing-amount,
+.mvr-transaction-completed-amount,
+.mvr-admin-commission {
+	width: 100%;
+	background: #fff;
+	float: left;
+}
+
+.mvr-vendor-amount,
+.mvr-vendor-locked-amount,
+.mvr-vendor-withdraw-charge,
+.mvr-transaction-total-amount,
+.mvr-transaction-processing-amount,
+.mvr-transaction-completed-amount,
+.mvr-admin-commission {
+	background: #fbfbfb;
+}
+
+.mvr-vendor-amount label,
+.mvr-vendor-available-withdraw-amount label,
+.mvr-vendor-locked-amount label,
+.mvr-vendor-withdraw-charge label,
+.mvr-transaction-total-amount label,
+.mvr-transaction-processing-amount label,
+.mvr-transaction-completed-amount label,
+.mvr-admin-commission label {
+	color: #777;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	width: 30%;
+	padding: 15px;
+}
+
+.mvr-vendor-amount span,
+.mvr-vendor-available-withdraw-amount span,
+.mvr-vendor-locked-amount span,
+.mvr-vendor-withdraw-charge,
+.mvr-transaction-total-amount,
+.mvr-transaction-processing-amount,
+.mvr-transaction-completed-amount,
+.mvr-admin-commission {
+	color: #000;
+}
+
+.mvr-withdraw-form-wrapper .mvr-withdraw-form p .woocommerce-Button {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin-bottom: 5px;
+	background: #fff;
+	border: 1px solid #82237c;
+	color: #000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-withdraw-form-wrapper .mvr-withdraw-form p .mvr-withdraw-amount.mvr-price-error {
+	border: 2px solid #d63638;
+}
+
+.mvr-withdraw-form-wrapper .mvr-withdraw-form p div.mvr-error-tip {
+	color: #d63638;
+}
+
+.mvr-withdraw-form-wrapper .mvr-withdraw-form p .woocommerce-Button:hover {
+	background: #82237c;
+	color: #fff;
+}
+
+/* withdraw overview design end */
+
+/* overview design */
+
+.mvr-dashboard-stats {
+	display: block;
+	width: 100%;
+	float: left;
+	margin: 15px 0;
+	clear: both;
+}
+
+.mvr-dashboard-stats-container {
+	display: block;
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 35px;
+	position: relative;
+	box-shadow: 0 0 3px #000 inset;
+	background: #fbfbfb;
+	padding: 10px;
+	box-sizing: border-box;
+	min-height: 125px;
+}
+
+.mvr-orders-container {
+	margin-right: 0;
+}
+
+.mvr-dashboard-stats-container-data {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.mvr-dashboard-stats-container-data strong {
+	font-size: 24px;
+	font-weight: 600;
+	width: 100%;
+	float: left;
+}
+
+.mvr-dashboard-stats-container-data label {
+	font-size: 16px;
+	font-weight: 500;
+	color: #666;
+	width: 100%;
+	margin: 15px 0 0 0;
+	float: left;
+}
+
+.mvr-dashboard-stats-container .mvr-dashboard-stats-container-icon {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 10px;
+	top: -15px;
+	box-shadow: 0 0 2px #000;
+	text-align: center;
+}
+
+/*.mvr-dashboard-stats-container-icon span {
+				float: left;
+}*/
+
+.mvr-dashboard-stats-container-icon span {
+	font-family: dashicons;
+	line-height: inherit;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+	margin-top: 7px;
+}
+
+.mvr-cross-sale-container-data strong {
+	color: #1d7fff !important;
+}
+
+.mvr-admin-commission-container-data strong {
+	color: #f3d91a !important;
+}
+
+.mvr-earning-container-data strong {
+	color: #234F1E !important;
+}
+
+.mvr-sold-items-container-data strong {
+	color: #17f0da !important;
+}
+
+.mvr-orders-container-data strong {
+	color: #3fb95e !important;
+}
+
+.mvr-cross-sale-container-icon {
+	background: #1d7fff !important;
+}
+
+.mvr-admin-commission-container-icon {
+	background: #f3d91a !important;
+}
+
+.mvr-earning-container-icon {
+	background: #234F1E !important;
+}
+
+.mvr-sold-items-container-icon {
+	background: #17f0da !important;
+}
+
+.mvr-orders-container-icon {
+	background: #3fb95e !important;
+}
+
+.mvr-profile-form p {
+	position: relative;
+}
+
+.mvr-profile-form p .mvr-logo-remove {
+	position: absolute;
+	top: 26px;
+	left: 54px;
+	width: 22px;
+	height: 22px;
+	color: #000;
+	font-size: 11px;
+	background: #f00;
+	border-radius: 50%;
+	padding: 0;
+	line-height: 0.2;
+	border: none;
+}
+
+.mvr-profile-form p .mvr-banner-remove {
+	position: absolute;
+	top: 26px;
+	left: 99%;
+	width: 22px;
+	height: 22px;
+	color: #000;
+	font-size: 11px;
+	background: #f00;
+	border-radius: 50%;
+	padding: 0;
+	line-height: 0.2;
+	border: none;
+}
+
+/* overview design end */
+
+/* Enquery design */
+
+.mvr-customer-details {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.mvr-customer-details div {
+	width: 100%;
+	float: left;
+}
+
+.mvr-customer-details div.mvr-customer-name:nth-child(odd),
+.mvr-customer-details div.mvr-customer-email:nth-child(odd) {
+	background: #fbfbfb;
+}
+
+.mvr-customer-details div {
+	color: #000;
+}
+
+.mvr-customer-details div label {
+	color: #777;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	width: 30%;
+	padding: 15px;
+}
+
+.mvr-enquiry-replies {
+	float: left;
+	width: 100%;
+	display: block;
+	margin: 20px 0;
+}
+
+.mvr-enquiry-replies div {
+	background: #fff;
+	width: 100%;
+	float: left;
+	border: 1px solid #fbfbfb;
+	margin-bottom: 15px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.mvr-enquiry-replies div label {
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #fbfbfb;
+	margin-bottom: 10px;
+}
+
+.mvr-dashboard-reviews .mvr-reviews-table__cell-review-rating span {
+	color: #82237c !important;
+	font-size: 18px;
+}
+
+/* Enquery design end*/
+
+/* staff design */
+
+.mvr-dashboard-content .mvr-vendor-product-management,
+.mvr-dashboard-content .mvr-vendor-order-management,
+.mvr-dashboard-content .mvr-vendor-coupon-management {
+	float: left;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, .05);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: auto !important;
+	border-top: 0;
+}
+
+.mvr-dashboard-content .mvr-staff-form h3 {
+	margin: 10px 0;
+	padding: 10px 0;
+	color: #000;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.mvr-dashboard-content .mvr-staff-capabilities-wrapper h4 {
+	padding: 5px 10px;
+	margin: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 18px;
+	font-weight: 500;
+	border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.mvr-dashboard-content .mvr-staff-capabilities-wrapper h4:after {
+	content: "\f343";
+	font-family: dashicons;
+	line-height: inherit;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	text-align: center;
+	float: right;
+}
+
+.mvr-dashboard-content .mvr-staff-capabilities-wrapper h4.mvr-active:after {
+	content: "\f347";
+}
+
+.mvr-dashboard-content .mvr-vendor-product-management p,
+.mvr-dashboard-content .mvr-vendor-order-management p,
+.mvr-dashboard-content .mvr-vendor-coupon-management p {
+	margin: 10px 0;
+	padding: 0 10px;
+	width: 100%;
+	float: left;
+}
+
+.mvr-dashboard-content .mvr-vendor-product-management p label,
+.mvr-dashboard-content .mvr-vendor-order-management p label,
+.mvr-dashboard-content .mvr-vendor-coupon-management p label {
+	width: 200px;
+	display: block;
+	line-height: 2;
+	color: #666;
+	float: left;
+	font-size: 16px;
+}
+
+.mvr-vendor-staff-details {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 15px 0;
+	display: flex;
+	border-bottom: 1px dashed #ccc;
+}
+
+.mvr-vendor-staff-details .mvr-vendor-staff-info {
+	margin-left: 10px;
+}
+
+.mvr-page-title-action {
+	padding: .6180469716em 1.41575em;
+	position: relative;
+	margin: 10px 0;
+	text-decoration: none !important;
+	border: 1px solid #82237c;
+	border-radius: 5px;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: normal;
+	background: #82237c !important;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 10px !important;
+}
+
+.mvr-page-title-action:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000;
+	box-shadow: 0 0 3px #ccc inset;
+}
+
+a.mvr-button-next,
+a.mvr-button-prev {
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 10px 0;
+	background: #fff;
+	border: 1px solid #82237c;
+	color: #000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+a.mvr-button-next:hover,
+a.mvr-button-prev:hover {
+	background: #82237c;
+	border: #82237c;
+	color: #fff;
+	border: 1px solid #82237c;
+}
+
+@media screen and (max-width: 768px) {
+
+	.mvr-dashboard .mvr-dashboard-navigation {
+		width: 100%;
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	.mvr-dashboard .mvr-dashboard-content {
+		width: 100%;
+		display: block;
+		float: left;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 15px;
+	}
+
+	.mvr-frontend-table {
+		border: 1px solid #f1f1f1;
+	}
+
+	.mvr-frontend-table tbody tr {
+		display: block;
+	}
+
+	.mvr-frontend-table thead {
+		display: none;
+	}
+
+	.mvr-frontend-table tr td::before {
+		float: left;
+		content: attr(data-title) ": ";
+		font-weight: 700;
+	}
+
+	.mvr-frontend-table tfoot tr td {
+		border: none;
+		text-align: center !important;
+	}
+
+	.mvr-frontend-table tfoot tr td nav {
+		float: none;
+	}
+
+	.mvr-frontend-table tfoot tr td::before {
+		float: left;
+		content: " ";
+	}
+
+	.mvr-frontend-table tr td {
+		display: block;
+		border-right: 0;
+		border-bottom: 1px solid #f1f1f1;
+		text-align: right !important;
+	}
+
+	.mvr-frontend-table tbody td button {
+		float: none;
+	}
+
+	.mvr-dashboard-content .mvr-address-form .form-row-first {
+		width: 100%;
+	}
+
+	.mvr-dashboard-content .mvr-address-form .form-row-last {
+		width: 100%;
+		float: left;
+	}
+
+	.mvr-vendor-amount label,
+	.mvr-vendor-available-withdraw-amount label,
+	.mvr-vendor-locked-amount label,
+	.mvr-vendor-withdraw-charge label {
+		width: 50%;
+	}
+
+	.mvr-dashboard-stats-container {
+		display: block;
+		width: 100%;
+		float: left;
+		margin-right: 0;
+		margin-bottom: 35px;
+		position: relative;
+		box-shadow: 0 0 3px #000 inset;
+		background: #fbfbfb;
+		padding: 10px;
+		box-sizing: border-box;
+		min-height: 125px;
+	}
+
+}

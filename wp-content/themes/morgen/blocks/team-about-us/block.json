@@ -1,0 +1,17 @@
+{
+    "name": "acf/team-about-us",
+    "title": "Team About Us",
+    "description": "A custom Team About Us block that uses ACF fields.",
+    "style": [ "file:./team-about-us.css" ],
+    "script": ["file:./team-about-us.js"],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["post", "tab", "team"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "team-about-us.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

@@ -1,0 +1,859 @@
+// Dashboard widgets
+
+#wcrp-rental-products-dashboard-widget-rentals-summary {
+	.inside {
+		margin: 0;
+		padding: 0;
+		table {
+			border: 0;
+			margin-bottom: 10px;
+			td {
+				padding: 10px 13px;
+				.dashicons {
+					color: #666666; // Matches color used for tooltips in WooCommerce settings
+					cursor: help;
+					font-size: 14px;
+					height: 14px;
+					margin-top: 3px;
+					width: 14px;
+				}
+				&:last-of-type {
+					text-align: right;
+				}
+			}
+		}
+		.subsubsub {
+			float: none;
+			margin: 0px 8px 10px 10px;
+			li {
+				color: #dcdcde;
+			}
+		}
+	}
+}
+
+// Orders
+
+#wcrp-rental-products-order-details-notice {
+	margin: 20px 0 10px 0 !important;
+	padding-left: 12px !important;
+	p {
+		font-size: 11px !important;
+	}
+}
+
+#wcrp-rental-products-restock-refunded-items-notice {
+	line-height: 1.5;
+	font-size: 0.7em;
+	font-style: italic;
+}
+
+#wcrp-rental-products-managing-rental-orders {
+	.inside {
+		ul {
+			list-style: inside;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.wcrp-rental-products-order-line-item-actions {
+	> a {
+		margin-right: 5px !important;
+	}
+	+ .configure_order_item { // This is the configure button that WooCommerce Product Add-ons uses to add add-ons in the add/edit order screen, we add additional margin so it has a gap between the rental order line item actions
+		margin-top: 15px;
+	}
+}
+
+// Products
+
+.wcrp-rental-products-stock-price-display {
+	line-height: 1.2;
+	hr {
+		margin: 4px 0;
+		opacity: 0.5;
+	}
+}
+
+#woocommerce-product-data {
+	.wc-tabs {
+		.wcrp_rental_products_tab {
+			a {
+				&:before {
+					content: '\f508';
+				}
+			}
+		}
+	}
+	#inventory_product_data {
+		._sku_field {
+			+ .woocommerce-message {
+				display: none !important; // Hides the "Settings below apply to all variations without manual stock management enabled." notice, this is because in some scenarios, e.g. variable product, rental only, the settings below are hidden so would be confusing
+			}
+		}
+	}
+	#variable_product_options {
+		.woocommerce_variations {
+			.woocommerce_variation {
+				.woocommerce_variable_attributes {
+					p {
+						&[class^="form-field _wcrp_rental_products_"] {
+							.description {
+								color: #c3c4c7;
+								display: block;
+								font-size: 10px;
+								font-style: italic;
+								margin-top: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.wcrp-rental-products-value-colon-price-validation { // Outside #wcrp-rental-products-panel as these notices also get displayed via the variations tab
+		& + .notice { // This is the notice that gets inserted after .wcrp-rental-products-value-colon-price-validation by the valueColonPriceValidation() JS function
+			float: left;
+			margin-left: 30px !important;
+			width: 96.5%; // This ensures the notice width is consistent with the notices in expands
+		}
+		&.wcrp-rental-products-value-colon-price-validation-variation {
+			& + .notice { // WooCommerce styles notices in variations differently, so we need to amend that so displays nicer
+				color: red; // Same color as the remove link on the variation
+				display: block;
+				border-top: 0;
+				float: none; // Stops description after the field from starting on right side of notice
+				margin: 0 !important;
+				padding-left: 0;
+				p {
+					margin: 0;
+				}
+			}
+		}
+	}
+	#wcrp-rental-products-panel {
+		display: none;
+		.notice {
+			margin: 15px 12px;
+			padding: 0 5px;
+			p {
+				line-height: 1.6;
+				margin: 0;
+				padding-left: 5px !important;
+				padding-right: 5px !important;
+			}
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		.wcrp-rental-products-panel-heading {
+			font-weight: 700;
+			padding: 10px 10px 2px 10px;
+			border-top: 1px solid #eeeeee;
+			background: rgb( 250, 250, 250 );
+			background: linear-gradient( 180deg, rgba( 250, 250, 250, 1 ) 0%, rgba( 0, 0, 0, 0 ) 100% );
+			.dashicons {
+				font-size: 15px;
+				vertical-align: text-top;
+				text-align: left;
+			}
+			&:first-of-type {
+				border-top: 0;
+			}
+		}
+		.wcrp-rental-products-panel-paragraph-full-width {
+			line-height: 1.6;
+			padding: 5px 12px !important;
+		}
+		.wcrp-rental-products-panel-field-description {
+			margin: -5px 12px 12px 192px; // 192px is based off label/legend width above
+			color: #c3c4c7;
+			font-size: 10px;
+			font-style: italic;
+			&.wcrp-rental-products-panel-field-description-full-width {
+				margin: -5px 12px 12px 12px;
+			}
+		}
+		.wcrp-rental-products-panel-info-expand {
+			box-shadow: inset 0 10px 15px 0 rgba( 0, 0, 0, 0.05 );
+			border-top: 1px solid #f3f3f3;
+			display: none;
+			padding: 0 15px 15px 15px;
+			.notice {
+				margin-left: 0;
+				margin-right: 0;
+				p {
+					padding-left: 5px !important;
+					padding-right: 5px !important;
+				}
+			}
+			&.wcrp-rental-products-panel-info-expand-border-bottom {
+				border-bottom: 1px solid #f3f3f3;
+				margin-bottom: 15px;
+			}
+			> p {
+				&:first-of-type {
+					font-weight: 700; // Makes first paragraph bold, this is done on > p as without it would make <p>s in other elements like notice divs bold too
+				}
+			}
+			p {
+				line-height: 1.6;
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+			ul {
+				list-style: disc;
+				margin-left: 12px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+			table {
+				.dashicons-yes {
+					color: #46b450;
+				}
+				.dashicons-no {
+					color: #dc3232;
+				}
+			}
+			pre {
+				background-color: #333333;
+				color: #eeeeee;
+				font-size: 10px;
+				padding: 15px;
+				white-space: pre-wrap;
+			}
+		}
+		#wcrp-rental-products-pricing-tiers-data-expand {
+			display: none;
+			border-bottom: 1px solid #eeeeee;
+			border-top: 1px solid #eeeeee;
+			padding: 0;
+			.button {
+				margin: 0 10px 15px 12px;
+			}
+			.options_group {
+				&:last-child {
+					margin-bottom: 15px;
+					border-bottom: 1px solid #eeeeee;
+				}
+			}
+			.wcrp-rental-products-pricing-tiers-info {
+				color: #c3c4c7;
+				display: inline-block;
+				font-size: 10px;
+				font-style: italic;
+				margin: -1px 0 10px 0;
+				@media( max-width: 1400px ) {
+					width: 70%;
+					margin-bottom: 12px;
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+		.form-field {
+			label,
+			legend {
+				&:first-child {
+					width: 180px;
+				}
+			}
+			label {
+				line-height: 1.6;
+				.wcrp-rental-products-panel-field-label-description {
+					color: #c3c4c7;
+					display: block;
+					font-size: 10px;
+					font-style: italic;
+					margin-top: 5px;
+					padding-right: 20px;
+				}
+			}
+			&.wcrp-rental-products-panel-form-field-label-wide {
+				label {
+					width: 400px;
+				}
+			}
+			&._wcrp_rental_products_disable_rental_days,
+			&._wcrp_rental_products_disable_rental_start_end_days {
+				label {
+					&:not( :first-of-type ) {
+						margin: 0 15px 0 0;
+						width: 40px;
+					}
+					input[type="checkbox"] {
+						display: block;
+					}
+				}
+			}
+		}
+		#wcrp-rental-products-panel-general-rental-settings {
+			border-top: 1px solid #eeeeee;
+			padding: 15px 12px 5px 12px;
+		}
+	}
+}
+
+// Rentals dashboard
+
+#wcrp-rental-products-rentals {
+	.nav-tab-wrapper {
+		margin-bottom: 15px;
+		.nav-tab {
+			.dashicons {
+				margin-right: 2px;
+				font-size: 16px;
+				vertical-align: text-top;
+				text-align: left;
+			}
+		}
+	}
+	.wcrp-rental-products-rentals-tab-info {
+		float: right;
+		font-size: 11px;
+		font-weight: 700;
+		@media( max-width: 1600px ) {
+			border-top: 1px solid #c3c4c7;
+			padding: 15px 0;
+			text-align: left;
+			width: 100%;
+		}
+		@media( max-width: 600px ) {
+			border-top: 0;
+		}
+	}
+	.wcrp-rental-products-rentals-sub-tabs {
+		border-bottom: 1px solid #c3c4c7;
+		color: #646970; // Color for the separators, same color used from WooCommerce settings sub links
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+		.wcrp-rental-products-rentals-sub-tab {
+			text-decoration: none;
+			&.wcrp-rental-products-rentals-sub-tab-active {
+				color: #000000; // Same color used from WooCommerce settings sub links
+				font-weight: 600; // Same font weight used from WooCommerce settings sub links
+			}
+		}
+	}
+	.wcrp-rental-products-rentals-actions {
+		align-items: center;
+		border-bottom: 1px solid #c3c4c7;
+		display: flex;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+		@media( max-width: 1600px ) {
+			display: block;
+		}
+		> div {
+			width: 50%;
+			@media( max-width: 1600px ) {
+				width: 100%;
+			}
+			label {
+				margin-right: 5px;
+				@media( max-width: 1600px ) {
+					display: block;
+					width: 100%;
+					&:not( :last-of-type ) {
+						margin-bottom: 10px;
+					}
+				}
+			}
+			.dashicons {
+				color: #666666; // Matches color used for tooltips in WooCommerce settings
+				cursor: help;
+				font-size: 14px;
+				height: 14px;
+				margin: 2px 0 0 3px;
+				width: 14px;
+			}
+			.button {
+				.dashicons {
+					color: inherit;
+					cursor: pointer;
+					font-size: 16px;
+					height: 16px;
+					margin: 6px 5px 6px 0;
+					width: 16px;
+				}
+			}
+			&:last-of-type {
+				text-align: right;
+				@media( max-width: 1600px ) {
+					margin-top: 15px;
+					text-align: left;
+				}
+				.button {
+					margin-left: 10px;
+					@media( max-width: 1600px ) {
+						margin: 0 10px 0 0;
+					}
+				}
+			}
+		}
+	}
+	.wcrp-rental-products-rentals-footer {
+		align-items: center;
+		border-top: 1px solid #c3c4c7;
+		clear: both;
+		display: flex;
+		margin-top: 20px;
+		padding-top: 20px;
+		> div {
+			width: 33.3333%;
+			&:nth-child(2) {
+				color: #c3c4c7;
+				font-size: 10px;
+				text-align: center;
+			}
+			&:nth-child(3) {
+				text-align: right;
+			}
+		}
+	}
+}
+
+.woocommerce_page_wcrp-rental-products-rentals {
+	// WordPress footer thank you for creating with WordPress and version number/get updated version link hidden as we display Rental Products version in our footer, so the version/get updated version link might confuse the user that an update to this extension is available
+	#wpbody-content {
+		padding-bottom: 20px;
+	}
+	#wpfooter {
+		display: none;
+	}
+}
+
+// Rentals dashboard > summary
+
+#wcrp-rental-products-rentals-summary-actions {
+	> div {
+		&:first-of-type {
+			width: 80%;
+		}
+		&:last-of-type {
+			width: 20%;
+		}
+	}
+}
+
+.wcrp-rental-products-rentals-summary-section-wrap {
+	display: flex;
+	margin: 0 -10px;
+	.wcrp-rental-products-rentals-summary-section {
+		margin: 0 10px;
+		width: 50%;
+		h2 {
+			margin-top: 0;
+		}
+		.wcrp-rental-products-summary-orders-table {
+			height: 800px;
+			overflow: scroll;
+			padding-right: 30px;
+			.dataTables_wrapper {
+				.top {
+					margin-top: 5px;
+				}
+				.dataTables_filter {
+					float: left;
+					margin-bottom: 15px;
+					input {
+						margin-left: 5px;
+					}
+				}
+				.dt-buttons {
+					float: right;
+					.button {
+						margin-left: 5px;
+					}
+				}
+				.dataTables_paginate {
+					float: right;
+					margin-left: 5px;
+					.button {
+						margin-left: 10px;
+					}
+				}
+				&#wcrp-rental-products-rentals-summary-orders-table-latest_wrapper {
+					.dataTables_paginate {
+						display: none; // Pagination does not display for latest rental orders as there is no pagination to click through
+					}
+				}
+			}
+			.wcrp-rental-products-datatable {
+				margin-bottom: 15px;
+				thead {
+					background-color: #ffffff;
+					position: sticky;
+					top: 0;
+				}
+				tbody {
+					tr {
+						&:hover {
+							td {
+								background-color: #dcdcde;
+							}
+						}
+						td {
+							vertical-align: middle;
+							&.wcrp-rental-products-rentals-summary-orders-table-order-status {
+								// The following styles make the order statuses consistent with the core orders section, note that the colors here are taken directly from woocommerce/client/legacy/css/admin.scss
+								span {
+									background-color: #e5e5e5;
+									border-bottom: 1px solid rgba( 0, 0, 0, .05 );
+									border-radius: 4px;
+									display: inline-block; // Ensures long order status names going over 1 line look okay
+									font-size: 11px;
+									padding: 2px 8px; // Top/bottom margin ensures it doesn't make row height any bigger, so rows same height as single rows in flagged orders
+								}
+								&.wcrp-rental-products-rentals-summary-orders-table-order-status-completed {
+									span {
+										background-color: #c8d7e1;
+										color: #2e4453;
+									}
+								}
+								&.wcrp-rental-products-rentals-summary-orders-table-order-status-failed {
+									span {
+										background-color: #eba3a3;
+										color: #761919;
+									}
+								}
+								&.wcrp-rental-products-rentals-summary-orders-table-order-status-on-hold {
+									span {
+										background-color: #f8dda7;
+										color: #94660c;
+
+									}
+								}
+								&.wcrp-rental-products-rentals-summary-orders-table-order-status-processing {
+									span {
+										background-color: #c6e1c6;
+										color: #5b841b;
+									}
+								}
+								&.wcrp-rental-products-rentals-summary-orders-table-order-status-trash {
+									span {
+										background-color: #eba3a3;
+										color: #761919;
+									}
+								}
+							}
+							&:not( .dataTables_empty ) { // Stops no results found message getting aligned to right
+								&:last-of-type {
+									text-align: right; // Aligns view order button to right
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Rentals dashboard > calendar
+
+#wcrp-rental-products-rentals-color-key {
+	span {
+		display: inline-block;
+		@media( max-width: 1600px ) {
+			display: block;
+			margin-bottom: 5px;
+		}
+	}
+	div {
+		display: inline-block;
+		border-radius: 3px;
+		color: #ffffff;
+		cursor: help;
+		margin-left: 5px;
+		padding: 2px 5px;
+		@media( max-width: 1600px ) {
+			margin-left: 0;
+		}
+	}
+}
+
+#wcrp-rental-products-rentals-calendar-search {
+	width: 200px;
+	&::placeholder {
+		font-size: 11px;
+	}
+}
+
+#wcrp-rental-products-rentals-calendar {
+	max-width: 100%;
+	margin: 0 auto;
+	.fc-toolbar {
+		margin-bottom: 15px;
+		@media( max-width: 1600px ) {
+			display: block;
+		}
+		&.fc-header-toolbar {
+			margin: 0 0 15px 0;
+		}
+		&.fc-footer-toolbar {
+			margin: 15px 0 -5px 0;
+		}
+		.fc-toolbar-chunk {
+			.fc-button-group {
+				@media( max-width: 1600px ) {
+					display: block;
+				}
+			}
+			.fc-toolbar-title {
+				display: inline-block !important;
+				font-size: 16px !important;
+				font-weight: 700 !important;
+				@media( max-width: 1600px ) {
+					margin: 15px 0;
+				}
+			}
+		}
+	}
+	.fc-view-harness {
+		background-color: #ffffff;
+		.wcrp-rental-products-rentals-fc-event {
+			&.fc-daygrid-dot-event {
+				&:hover {
+					background-color: #dcdcde !important;
+				}
+			}
+		}
+		.fc-list-table {
+			.wcrp-rental-products-rentals-fc-event {
+				&:hover {
+					td {
+						background-color: #dcdcde !important;
+						a {
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	.button {
+		margin-right: 10px !important;
+		text-transform: lowercase !important;
+		&:first-letter {
+			text-transform: uppercase !important;
+		}
+		&:last-of-type {
+			margin-right: 0 !important;
+		}
+	}
+	.fc-toolbar-title {
+		font-size: 1.1em !important;
+	}
+}
+
+// Rentals dashboard > inventory
+
+#wcrp-rental-products-rentals-inventory-info {
+	display: none;
+}
+
+#wcrp-rental-products-rentals-inventory-date {
+	.wcrp-rental-products-single-date-picker {
+		width: 189px; // So ends roughly same size of search field below
+	}
+	input {
+		&[type="submit"] {
+			margin-left: 5px;
+			@media( max-width: 1600px ) {
+				margin: 15px 0 0 0;
+			}
+		}
+	}
+}
+
+.wcrp-rental-products-rentals-inventory-rental-stock-out-orders {
+	height: 50px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#wcrp-rental-products-rentals-inventory_wrapper {
+	.dataTables_filter {
+		float: left;
+		margin-bottom: 15px;
+		input {
+			margin-left: 5px;
+		}
+	}
+	.dt-buttons {
+		float: right;
+		margin-right: 15px;
+		.button {
+			margin-left: 5px;
+		}
+	}
+	.dataTables_length {
+		float: right;
+		margin-bottom: 15px;
+	}
+	.dataTables_info {
+		float: left;
+		margin-top: 6px;
+		margin-left: 15px;
+	}
+	.dataTables_paginate {
+		float: right;
+		margin-left: 10px;
+		.button {
+			margin-left: 10px;
+		}
+	}
+	.wcrp-rental-products-datatable {
+		margin-bottom: 15px;
+		thead {
+			tr {
+				th {
+					cursor: pointer;
+				}
+			}
+		}
+		tbody {
+			tr {
+				&:hover {
+					td {
+						background-color: #dcdcde;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Rentals dashboard > tools
+
+.wcrp-rental-products-rentals-tools-section-wrap {
+	display: flex;
+	margin: 0 -10px;
+	.wcrp-rental-products-rentals-tools-section {
+		width: 33.3333%;
+		background: #fff;
+		border: 1px solid #ccd0d4;
+		box-shadow: 0 1px 1px rgba( 0, 0, 0, .04 );
+		padding: 20px;
+		margin: 0 10px;
+		select {
+			width: 350px; // This must be a px value and not %
+		}
+		h2 {
+			margin-top: 0;
+		}
+		ul {
+			list-style: disc;
+			margin-left: 15px;
+			li {
+				margin-bottom: 15px;
+				ul {
+					margin-top: 15px;
+				}
+			}
+		}
+		.description {
+			margin-top: 10px;
+			font-size: 11px;
+			font-style: italic;
+		}
+		.button {
+			margin-right: 10px;
+		}
+		#wcrp-rental-products-rentals-tools-clone-rental-product-options-which {
+			display: none;
+			label {
+				+ .description {
+					margin: 5px 0 8px 0px;
+				}
+			}
+			.notice {
+				margin-top: 15px;
+			}
+		}
+		#wcrp-rental-products-rentals-tools-clone-rental-product-options-to {
+			display: none;
+			.notice {
+				margin-top: 15px;
+			}
+		}
+		#wcrp-rental-products-rentals-tools-clone-rental-product-options-to-categories-select {
+			display: none;
+		}
+		#wcrp-rental-products-rentals-tools-clone-rental-product-options-to-products-select {
+			display: none;
+		}
+		#wcrp-rental-products-rentals-tools-rental-product-import-and-export-information-instructions {
+			overflow-x: hidden;
+			overflow-y: scroll;
+			height: 400px;
+			padding: 0 20px;
+			margin-bottom: 20px;
+			background: #f1f1f1;
+			border: 1px solid #ccd0d4;
+		}
+		#wcrp-rental-products-rentals-tools-rental-products-debug-issues {
+			max-height: 300px;
+			background-color: #f1f1f1;
+			border: 1px solid #ccd0d4;
+			padding: 0 15px;
+			margin-bottom: 15px;
+			overflow-y: scroll;
+		}
+	}
+}
+
+// Settings
+
+#wcrp-rental-products-settings-compatibility-issues-info,
+#wcrp-rental-products-settings-rental-form-calendar-styling-info,
+#wcrp-rental-products-settings-availability-checker-info,
+#wcrp-rental-products-settings-rental-purchase-toggle-info,
+#wcrp-rental-products-settings-translation-info {
+	display: none;
+}
+
+.wcrp-rental-products-settings-compatibility-issues-info-notice {
+	margin: 20px 0;
+}
+
+@media( min-width: 1920px ) {
+	#wcrp-rental-products-settings-title-text-description {
+		+ table {
+			tbody {
+				align-items: center;
+				display: flex;
+				flex-wrap: wrap;
+				tr {
+					width: 25%;
+					input {
+						width: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Disable dates picker
+
+.wcrp-rental-products-disable-dates-picker-widget {
+	.ui-state-disabled {
+		pointer-events: all !important; // This was added as other plugins may enqueue older versions of jQuery UI datepicker (or modified versions of), where the pointer-events are disabled on .ui-state-disabled, for our disable dates picker it is a neccessity to be able to click a disabled date to remove it from the disabled dates, hence this CSS ensures pointer-events does not get disabled
+	}
+}
+
+// Tooltip
+
+.wcrp-rental-products-tooltip-word-break {
+	word-break: break-all;
+}

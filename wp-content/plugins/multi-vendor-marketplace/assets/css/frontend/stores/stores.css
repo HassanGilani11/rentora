@@ -1,0 +1,142 @@
+.multi-vendor-for-woocommerce,
+.multi-vendor-for-woocommerce .mvr-stores-wrapper {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.mvr-stores-wrapper ul.mvr-stores {
+	width: 100%;
+	float: initial;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list {
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 4.235801032em;
+	position: relative;
+	padding: 20px;
+	background: #fcfcfc;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	display: inline-block;
+	word-break: keep-all;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.first {
+	clear:both !important
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.last {
+	margin-right:0 !important
+}
+
+.mvr-stores-wrapper ul.mvr-stores.columns-1 li.mvr-store-list{
+	width:100%;
+	margin-right:0;
+	float:none
+}
+
+.mvr-stores-wrapper ul.mvr-stores.columns-2 li.mvr-store-list {
+	width:47.8260869565%;
+	float:inline-start;
+	margin-right:4.347826087%
+}
+.mvr-stores-wrapper ul.mvr-stores.columns-3 li.mvr-store-list {
+	width:30.4347826087%;
+	float:inline-start;
+	margin-right:4.347826087%
+}
+.mvr-stores-wrapper ul.mvr-stores.columns-4 li.mvr-store-list {
+	width:21.7391304348%;
+	float:inline-start;
+	margin-right:4.347826087%
+}
+
+.mvr-stores-wrapper ul.mvr-stores.columns-5 li.mvr-store-list{
+	width:16.9%;
+	margin-right:3.8%
+}
+
+.mvr-stores-wrapper ul.mvr-stores.columns-6 li.mvr-store-list {
+	width:13.0434782609%;
+	float:inline-start;
+	margin-right:4.347826087%
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list:hover {
+	background: #fff;
+	box-shadow: 0 0 3px #000 inset;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list a.mvr-store-link {
+	text-decoration: none;
+	float: left;
+	color: #550679db;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list a.mvr-store-link img.mvr-store-banner {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto 1.618em;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list a.mvr-store-link img.mvr-store-logo {
+	position: absolute;
+	padding: 10px;
+	width: 60px;
+	height: auto;
+	box-sizing: border-box;
+	right: 40px;
+	top: 40px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list a.mvr-store-link h2.mvr-loop-store-name {
+	width: 100%;
+	display: block;
+	margin: 15px 0;
+	padding:0;
+	color: #000;
+	font-size: 20px !important;
+	font-weight: 500 !important;
+	text-transform: none;
+}
+
+.mvr-single-store-tab-content h2 {
+	font-size: 24px !important;
+	font-weight: 500 !important;
+	text-transform: unset !important;
+}
+
+.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list a.mvr-store-link br {
+	float: left;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list {
+		width: 100% !important;
+		list-style: none;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 4.235801032em;
+		text-align: center;
+		position: relative;
+	}
+	.mvr-stores-wrapper ul.mvr-stores li.mvr-store-list a.mvr-store-link img.mvr-store-banner {
+		width: 100%;
+		height: auto;
+		margin: 0 auto 1.618em;
+	}
+}

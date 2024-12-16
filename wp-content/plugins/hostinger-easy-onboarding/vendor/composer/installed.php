@@ -1,0 +1,76 @@
+<?php return array(
+    'root' => array(
+        'name' => 'hostinger/hostinger-easy-onboarding',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'c6d79b909a31e4760ff323a41783c3dadf782add',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'hostinger/hostinger-easy-onboarding' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'c6d79b909a31e4760ff323a41783c3dadf782add',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hostinger/hostinger-wp-amplitude' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '1574b50a48422ebbc5c4af72491ad65d14d977a3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hostinger/hostinger-wp-amplitude',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'hostinger/hostinger-wp-helper' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a5baff98a65c570146e4f2f0193136efbf75b54b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hostinger/hostinger-wp-helper',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'hostinger/hostinger-wp-menu-manager' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '766ab6448cfc411e4a58e6dac0399d8280efd4e8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hostinger/hostinger-wp-menu-manager',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'hostinger/hostinger-wp-surveys' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a2e7c36657b8e140d0e64e924499fcf6bc5a28bb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hostinger/hostinger-wp-surveys',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'yahnis-elsts/plugin-update-checker' => array(
+            'pretty_version' => 'v5.4',
+            'version' => '5.4.0.0',
+            'reference' => 'e8e53e6d98e37fa7c895c93417f52e3775494715',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yahnis-elsts/plugin-update-checker',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

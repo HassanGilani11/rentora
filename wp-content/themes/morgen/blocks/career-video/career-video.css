@@ -1,0 +1,45 @@
+.career-video h2 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 48px;
+}
+.cvs-vid-wrap {
+  width: 100%;
+  height: 738px;
+  position: relative;
+  max-width: 1312px;
+  margin: auto;
+}
+.cvs-vid-wrap iframe {
+  width: 100%;
+  height: 100%;
+}
+/* .cvs-card-body-wrap {
+  margin-top: 20px;
+  text-align: center;
+}
+.cvs-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  cursor: pointer;
+} */
+.career-video {
+  padding: 100px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .career-video {
+    padding: 65px 0;
+  }
+  .career-video h2 {
+    margin-bottom: 48px;
+    font-size: 40px;
+    text-align: left;
+    padding: 0 20px;
+  }
+  .cvs-vid-wrap {
+    height: 375px;
+  }
+}

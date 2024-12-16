@@ -1,0 +1,5635 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rental Products\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-13 10:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: wcrp-rental-products"
+
+#: includes/partials/rentals-dashboard/tools.php:147
+#: includes/partials/rentals-dashboard/tools.php:148
+#: includes/partials/rentals-dashboard/tools.php:148
+#: includes/partials/rentals-dashboard/tools.php:152
+#: includes/partials/rentals-dashboard/tools.php:152
+#: includes/partials/rentals-dashboard/tools.php:154
+#: includes/partials/rentals-dashboard/tools.php:154
+#: includes/partials/rentals-dashboard/tools.php:155
+#: includes/partials/rentals-dashboard/tools.php:155
+#: includes/partials/rentals-dashboard/tools.php:156
+#: includes/partials/rentals-dashboard/tools.php:156
+#: includes/partials/rentals-dashboard/tools.php:160
+#: includes/partials/rentals-dashboard/tools.php:160
+#: includes/partials/rentals-dashboard/tools.php:163
+#: includes/partials/rentals-dashboard/tools.php:163
+#: includes/partials/rentals-dashboard/tools.php:165
+#: includes/partials/rentals-dashboard/tools.php:165
+#: includes/partials/rentals-dashboard/tools.php:166
+#: includes/partials/rentals-dashboard/tools.php:166
+#: includes/partials/rentals-dashboard/tools.php:167
+#: includes/partials/rentals-dashboard/tools.php:167
+#: includes/partials/rentals-dashboard/tools.php:168
+#: includes/partials/rentals-dashboard/tools.php:168
+#: includes/partials/rentals-dashboard/tools.php:169
+#: includes/partials/rentals-dashboard/tools.php:169
+#: includes/partials/rentals-dashboard/tools.php:174
+#: includes/partials/rentals-dashboard/tools.php:174
+#: includes/partials/rentals-dashboard/tools.php:176
+#: includes/partials/rentals-dashboard/tools.php:176
+#: includes/partials/rentals-dashboard/tools.php:177
+#: includes/partials/rentals-dashboard/tools.php:177
+#: includes/partials/rentals-dashboard/tools.php:178
+#: includes/partials/rentals-dashboard/tools.php:178
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:183
+#: includes/partials/rentals-dashboard/tools.php:183
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:188
+#: includes/partials/rentals-dashboard/tools.php:188
+#: includes/partials/rentals-dashboard/tools.php:188
+#: includes/partials/rentals-dashboard/tools.php:188
+#: includes/partials/rentals-dashboard/tools.php:189
+#: includes/partials/rentals-dashboard/tools.php:189
+#: includes/partials/rentals-dashboard/tools.php:189
+#: includes/partials/rentals-dashboard/tools.php:189
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:194
+#: includes/partials/rentals-dashboard/tools.php:194
+#: includes/partials/rentals-dashboard/tools.php:195
+#: includes/partials/rentals-dashboard/tools.php:195
+#: includes/partials/rentals-dashboard/tools.php:198
+#: includes/partials/rentals-dashboard/tools.php:198
+#: includes/partials/rentals-dashboard/tools.php:200
+#: includes/partials/rentals-dashboard/tools.php:200
+#: includes/partials/rentals-dashboard/tools.php:201
+#: includes/partials/rentals-dashboard/tools.php:201
+#: includes/partials/rentals-dashboard/tools.php:202
+#: includes/partials/rentals-dashboard/tools.php:202
+#: includes/partials/rentals-dashboard/tools.php:203
+#: includes/partials/rentals-dashboard/tools.php:203
+#: includes/partials/rentals-dashboard/tools.php:203
+#: includes/partials/rentals-dashboard/tools.php:203
+#: includes/partials/rentals-dashboard/tools.php:204
+#: includes/partials/rentals-dashboard/tools.php:204
+#: includes/partials/rentals-dashboard/tools.php:204
+#: includes/partials/rentals-dashboard/tools.php:204
+#: includes/partials/rentals-dashboard/tools.php:207
+#: includes/partials/rentals-dashboard/tools.php:207
+#: includes/partials/rentals-dashboard/tools.php:209
+#: includes/partials/rentals-dashboard/tools.php:209
+msgid "\""
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+#: includes/class-wcrp-rental-products-rentals-inventory.php:82
+#: includes/class-wcrp-rental-products-rentals-inventory.php:143
+#: includes/class-wcrp-rental-products-cart-fees.php:153
+#: includes/class-wcrp-rental-products-product-rental-form.php:1106
+#: includes/partials/rentals-dashboard/summary.php:76
+#: includes/partials/rentals-dashboard/summary.php:141
+msgid "#"
+msgstr ""
+
+#. %1$s: Deposits & Partial Payments for WooCommerce name, %2$s: completed order status name, %3$s: Rental Products name
+#: includes/class-wcrp-rental-products-notices-admin.php:67
+#, php-format
+msgid ""
+"%1$s has order fully paid status setting set to %2$s and %3$s has return "
+"rentals in completed orders setting set to enabled."
+msgstr ""
+
+#. %s: Deposits & Partial Payments for WooCommerce name
+#: includes/class-wcrp-rental-products-product-fields.php:753
+#, php-format
+msgid ""
+"%s is active, it is recommended you configure deposits directly in that and "
+"not use the options below by setting the amount to empty, including on any "
+"variations if a variable product."
+msgstr ""
+
+#. %s: number of found issues
+#: includes/partials/rentals-dashboard/tools.php:699
+#, php-format
+msgid "%s issues found."
+msgstr ""
+
+#. %s: email title
+#: includes/class-wcrp-rental-products-emails.php:114
+#, php-format
+msgid "%s sent to customer."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+#: includes/class-wcrp-rental-products-settings.php:803
+#: includes/class-wcrp-rental-products-settings.php:805
+#: includes/class-wcrp-rental-products-rentals-inventory.php:179
+#: includes/class-wcrp-rental-products-cart-fees.php:163
+#: includes/class-wcrp-rental-products-cart-fees.php:173
+#: includes/class-wcrp-rental-products-cart-items.php:182
+#: includes/class-wcrp-rental-products-product-display.php:544
+#: includes/class-wcrp-rental-products-product-display.php:548
+#: includes/class-wcrp-rental-products-order-line-items.php:364
+#: includes/class-wcrp-rental-products-order-line-items.php:667
+#: includes/class-wcrp-rental-products-order-line-items.php:739
+#: includes/class-wcrp-rental-products-product-rental-form.php:719
+#: includes/class-wcrp-rental-products-product-rental-form.php:723
+#: includes/class-wcrp-rental-products-product-rental-form.php:746
+#: includes/class-wcrp-rental-products-product-rental-form.php:750
+#: includes/class-wcrp-rental-products-product-rental-form.php:804
+#: includes/class-wcrp-rental-products-product-rental-form.php:831
+#: includes/class-wcrp-rental-products-product-rental-form.php:862
+#: includes/class-wcrp-rental-products-product-rental-form.php:889
+#: includes/class-wcrp-rental-products-product-rental-form.php:968
+#: includes/class-wcrp-rental-products-product-rental-form.php:978
+#: includes/class-wcrp-rental-products-product-rental-form.php:3972
+#: includes/partials/rentals-dashboard/tools.php:713
+msgid "("
+msgstr ""
+
+#. %s: total
+#: includes/class-wcrp-rental-products-enqueues-assets.php:243
+#, php-format
+msgid "(filtered from %s)"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:147
+msgid "(Rental only)"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:148
+msgid "(Rental or purchase)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+#: includes/class-wcrp-rental-products-settings.php:803
+#: includes/class-wcrp-rental-products-settings.php:805
+#: includes/class-wcrp-rental-products-rentals-inventory.php:179
+#: includes/class-wcrp-rental-products-cart-fees.php:163
+#: includes/class-wcrp-rental-products-cart-fees.php:173
+#: includes/class-wcrp-rental-products-cart-items.php:182
+#: includes/class-wcrp-rental-products-product-display.php:544
+#: includes/class-wcrp-rental-products-product-display.php:548
+#: includes/class-wcrp-rental-products-order-line-items.php:364
+#: includes/class-wcrp-rental-products-order-line-items.php:667
+#: includes/class-wcrp-rental-products-order-line-items.php:739
+#: includes/class-wcrp-rental-products-product-rental-form.php:719
+#: includes/class-wcrp-rental-products-product-rental-form.php:723
+#: includes/class-wcrp-rental-products-product-rental-form.php:746
+#: includes/class-wcrp-rental-products-product-rental-form.php:750
+#: includes/class-wcrp-rental-products-product-rental-form.php:804
+#: includes/class-wcrp-rental-products-product-rental-form.php:831
+#: includes/class-wcrp-rental-products-product-rental-form.php:862
+#: includes/class-wcrp-rental-products-product-rental-form.php:889
+#: includes/class-wcrp-rental-products-product-rental-form.php:972
+#: includes/class-wcrp-rental-products-product-rental-form.php:978
+#: includes/class-wcrp-rental-products-product-rental-form.php:3972
+#: includes/partials/rentals-dashboard/tools.php:713
+msgid ")"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:804
+#: includes/class-wcrp-rental-products-product-rental-form.php:831
+#: includes/class-wcrp-rental-products-product-rental-form.php:862
+#: includes/class-wcrp-rental-products-product-rental-form.php:889
+msgid "+"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:139
+#: includes/class-wcrp-rental-products-settings.php:298
+#: includes/class-wcrp-rental-products-settings.php:804
+#: includes/class-wcrp-rental-products-settings.php:1177
+msgid ","
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+#: includes/class-wcrp-rental-products-rentals-tools.php:522
+#: includes/class-wcrp-rental-products-rentals-tools.php:571
+#: includes/class-wcrp-rental-products-rentals-tools.php:631
+#: includes/class-wcrp-rental-products-rentals-tools.php:631
+#: includes/class-wcrp-rental-products-rentals-tools.php:688
+#: includes/class-wcrp-rental-products-rentals-tools.php:688
+#: includes/class-wcrp-rental-products-cart-fees.php:179
+#: includes/class-wcrp-rental-products-order-info.php:180
+#: includes/class-wcrp-rental-products-order-info.php:191
+#: includes/class-wcrp-rental-products-product-fields.php:1465
+#: includes/class-wcrp-rental-products-product-fields.php:1480
+#: includes/class-wcrp-rental-products-product-rental-form.php:2865
+#: includes/partials/rentals-dashboard/tools.php:713
+msgid "-"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:298
+#: includes/class-wcrp-rental-products-settings.php:591
+#: includes/class-wcrp-rental-products-settings.php:806
+#: includes/class-wcrp-rental-products-settings.php:1177
+#: includes/class-wcrp-rental-products-order-line-items.php:667
+#: includes/class-wcrp-rental-products-order-line-items.php:739
+#: includes/class-wcrp-rental-products-product-fields.php:1478
+#: includes/class-wcrp-rental-products-product-fields.php:1493
+#: includes/class-wcrp-rental-products-product-rental-form.php:912
+#: includes/class-wcrp-rental-products-product-rental-form.php:1572
+#: includes/class-wcrp-rental-products-product-rental-form.php:1572
+#: includes/class-wcrp-rental-products-product-rental-form.php:3972
+#: includes/partials/rentals-dashboard/calendar.php:46
+msgid "."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+msgid "/"
+msgstr ""
+
+#. Author of the plugin
+msgid "99w"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:530
+#: includes/class-wcrp-rental-products-availability-checker.php:541
+#: includes/class-wcrp-rental-products-order-line-items.php:420
+#: includes/class-wcrp-rental-products-enqueues-assets.php:259
+#: includes/class-wcrp-rental-products-enqueues-assets.php:260
+#: includes/partials/rentals-dashboard/tools.php:152
+#: includes/partials/rentals-dashboard/tools.php:154
+#: includes/partials/rentals-dashboard/tools.php:155
+#: includes/partials/rentals-dashboard/tools.php:156
+#: includes/partials/rentals-dashboard/tools.php:174
+#: includes/partials/rentals-dashboard/tools.php:176
+#: includes/partials/rentals-dashboard/tools.php:177
+#: includes/partials/rentals-dashboard/tools.php:178
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:183
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:188
+#: includes/partials/rentals-dashboard/tools.php:189
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:194
+#: includes/partials/rentals-dashboard/tools.php:195
+#: includes/partials/rentals-dashboard/tools.php:198
+#: includes/partials/rentals-dashboard/tools.php:200
+#: includes/partials/rentals-dashboard/tools.php:201
+#: includes/partials/rentals-dashboard/tools.php:202
+#: includes/partials/rentals-dashboard/tools.php:203
+#: includes/partials/rentals-dashboard/tools.php:204
+#: includes/partials/rentals-dashboard/tools.php:207
+#: includes/partials/rentals-dashboard/tools.php:209
+msgid ":"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:147
+#: includes/partials/rentals-dashboard/tools.php:148
+#: includes/partials/rentals-dashboard/tools.php:152
+#: includes/partials/rentals-dashboard/tools.php:160
+#: includes/partials/rentals-dashboard/tools.php:174
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:198
+#: includes/partials/rentals-dashboard/tools.php:207
+msgid "="
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:192
+msgid ">"
+msgstr ""
+
+#: assets/js/admin.js:26
+msgid ""
+"A popup will now open, navigate to rental products and click the add to "
+"order button from the product page. Once finished close the popup to refresh "
+"the items within this order."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:259
+msgid "activate to sort column ascending"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:260
+msgid "activate to sort column descending"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:259
+msgid "Add pricing tier"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:639
+msgid "Add rental product(s)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1106
+msgid "Add to order"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:839
+msgid "Add-ons"
+msgstr ""
+
+#: assets/js/admin.js:32
+#, javascript-format
+msgid ""
+"Add-ons that have been configured via the %s extension cannot be applied via "
+"the popup, if you require these to be applied you can use that extension's "
+"configure button on the item, however please note that this functionality is "
+"limited and unaware of the amount of days rented so manual total adjustment "
+"may be required. Alternatively, consider the use of a shop as customer "
+"extension in your order management workflow."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:165
+msgid "Adding or changing rental items"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:259
+msgid "Adding..."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:702
+msgid ""
+"Adds rental information to a tab on the product page. This will be used in "
+"addition to any rental information which has been set at product level."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:946
+msgid ""
+"Adds rental information to a tab on the product page. This will be used in "
+"addition to any rental information which may be set via rental settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:951
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:857
+msgid "Advanced configuration"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1686
+msgid "Advanced pricing"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:394
+msgid "Advanced pricing defaults"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:308
+msgid "AJAX"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:143
+#: includes/partials/rentals-dashboard/calendar.php:153
+msgid "All"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:44
+msgid "all orders"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:99
+msgid "All products"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:103
+msgid "All products in specific categories"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:43
+msgid "all rental orders"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:101
+msgid "All rental products"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:105
+msgid "All rental products in specific categories"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-filters.php:42
+msgid "All rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:198
+msgid ""
+"Allow a customer to select multiples of this pricing period (e.g. if pricing "
+"period is 7 the customer can select a 7, 14, 21, etc day period). If the "
+"customer selects multiple pricing periods the price is multiplied by the "
+"amount of pricing periods."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:139
+#, php-format
+msgid ""
+"Allowed formats are %s. Day, month and year must be included, if these are "
+"not included and/or if using incorrect formats then it is likely to cause "
+"issues with rental functionality."
+msgstr ""
+
+#. %s: default availability checker quantity
+#: includes/class-wcrp-rental-products-settings.php:352
+#, php-format
+msgid ""
+"Allows a customer to specify the quantity required for the rental dates "
+"selected in the availability checker. If disabled defaults quantity to %s "
+"and hides the quantity."
+msgstr ""
+
+#. %s: more info link
+#: includes/class-wcrp-rental-products-product-fields.php:332
+#, php-format
+msgid "Allows advanced pricing calculations to be configured and used. %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:335
+msgid ""
+"Allows an additional level of calculation on the total. Requires knowledge "
+"of PHP and WordPress filter hooks."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:416
+msgid ""
+"Allows customers to select pick up/return times, in addition to charging "
+"fees depending on the times selected"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:934
+msgid ""
+"Allows the customer to select dates immediately without first selecting the "
+"date selection field."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:10
+msgid ""
+"Always take a backup and test on a staging/development environment before "
+"using these tools."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:192
+msgid "and"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:604
+msgid "Any"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:46
+msgid ""
+"Any days with less rows than the limit are unaffected and list based views "
+"always show all rows."
+msgstr ""
+
+#: assets/js/admin.js:129
+msgid ""
+"Any rental stock reserved for this item will be made available again, no "
+"manual action is required to make it available, regardless of any prompts to "
+"do so."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:149
+msgid "Any variations where the variable (parent) product has the meta above"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:311
+#: includes/class-wcrp-rental-products-product-rental-form.php:2811
+msgid "Apply"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:809
+msgid "Archive rentals (BETA)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:179
+msgid "Are you sure you want to cancel this rental?"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:130
+msgid ""
+"Are you sure you want to clone rental product options to the selected "
+"product(s)? Always take a backup and test on a staging/development "
+"environment before using this tool."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:721
+msgid ""
+"Are you sure you want to fix the issues? Always take a backup and test on a "
+"staging/development environment before using this tool."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:127
+msgid "Are you sure you want to mark this rental as returned?"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1830
+msgid "Are you sure you want to remove this pricing tier?"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1354
+msgid ""
+"Are you sure? On change the selected option and product/variation stock "
+"options will be amended and saved."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:100
+msgid ""
+"As the inventory can be used to view rental stock totals for dates in the "
+"future the rental stock totals assume that rentals will have have been "
+"returned by the expected return dates (including any return days thresholds)."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:74
+#: includes/partials/rentals-dashboard/summary.php:16
+msgid "at"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:184
+msgid ""
+"Automatically applies the dates selected in the rental form calendar. If "
+"disabled then cancel and apply buttons are shown instead, the apply button "
+"must be clicked to apply the dates selected."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:192
+msgid ""
+"Automatically sets the end date when a start date is selected in the rental "
+"form calendar. This will only occur on rental products which allow selection "
+"of a singular range, e.g. does not occur if pricing type is period and "
+"pricing period multiplies is enabled as multiples of the minimum range can "
+"be selected."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1156
+msgid "Automatically translate from English to other languages:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:395
+msgid "Availability"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:290
+#: includes/blocks/availability-checker/src/index.js:6
+msgid "Availability Checker"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:295
+#: includes/class-wcrp-rental-products-settings.php:298
+msgid "Availability checker"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:898
+msgid "Availability checker applied text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:383
+msgid "Availability checker apply dates redirect"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:43
+msgid ""
+"Availability checker dates/quantities selected are lost and/or become "
+"incorrect when browsing through different pages."
+msgstr ""
+
+#: includes/blocks/availability-checker/src/index.js:14
+msgid "Availability checker for rentals appears here"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:326
+msgid "Availability checker maximum days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:313
+msgid "Availability checker minimum days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:302
+msgid "Availability checker mode"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:339
+msgid "Availability checker period multiples"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:347
+msgid "Availability checker quantity"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:356
+msgid "Availability checker status display"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:367
+msgid "Availability checker status on rental only products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:375
+msgid "Availability checker status on rental or purchase products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:911
+#: includes/class-wcrp-rental-products-upgrade.php:1220
+msgid "Available"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:907
+msgid "Available rental stock totals text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:138
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:145
+msgid "Back to top"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1687
+msgid ""
+"Before enabling this setting, see the related information under this option "
+"when adding/editing a rental product."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:213
+msgid ""
+"Before importing please ensure you have read all the information above. "
+"Remember that instead of importing you can create/edit a rental product and "
+"then assign that rental product's options to one or more other products "
+"using the clone rental product options tool."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:614
+msgid "Button"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:76
+#: includes/class-wcrp-rental-products-settings.php:839
+#: includes/class-wcrp-rental-products-widgets.php:84
+#: includes/class-wcrp-rental-products-product-fields.php:891
+msgid "Calendar"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:46
+msgid ""
+"Calendar based views will now show all rental rows in each day without the "
+"need to click the more link to reveal more rows than the limit, click this "
+"button again to re-apply the limit of"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:792
+#: includes/partials/rentals-dashboard/calendar.php:190
+msgid "Calendar feed"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:88
+msgid "Calendar of rentals. Color key (hover for info):"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:312
+#: includes/class-wcrp-rental-products-product-rental-form.php:2812
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:536
+msgid "Cancel rental"
+msgstr ""
+
+#. %s: failed order status name
+#: includes/class-wcrp-rental-products-settings.php:763
+#, php-format
+msgid "Cancel rentals in %s orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:151
+msgid "Cancelling, removing or refunding rental items"
+msgstr ""
+
+#: assets/js/admin.js:1029
+msgid ""
+"Cannot reset to defaults as rental form calendar custom styling is disabled."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:711
+msgid "Cart and checkout"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:44
+msgid ""
+"Cart/checkout displays an error stating product has recently been updated "
+"and pricing/availability may have changed, and can not checkout until "
+"product is removed from cart."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:41
+msgid "Cause"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:535
+msgid "Change rental"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:33
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:56
+msgid "Change to:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:920
+#: includes/class-wcrp-rental-products-upgrade.php:710
+msgid "Check availability"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:916
+msgid "Check availability text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:718
+msgid "Checkout draft restrictions"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:123
+msgid ""
+"Choose the layout of the rental form. The theme option displays the rental "
+"form as per your theme CSS. The theme compatibility option can be used if "
+"you find the theme option is displaying the rental form oddly, this option "
+"still uses most of your theme CSS but attempts to override some rental form "
+"elements to ensure they are displayed vertically and form field sizes are "
+"consistent. The light and dark options are similar to theme compatibility "
+"with some additional styling applied."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:117
+#: includes/class-wcrp-rental-products-settings.php:224
+#: includes/class-wcrp-rental-products-settings.php:298
+#: includes/class-wcrp-rental-products-settings.php:591
+#: includes/class-wcrp-rental-products-settings.php:1177
+#: includes/partials/rentals-dashboard/inventory.php:46
+#: includes/partials/rentals-dashboard/inventory.php:49
+msgid "click here"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:130
+msgid "Clone"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:16
+msgid "Clone Rental Product Options"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-tools.php:435
+msgid "Clone rental product options completed successfully."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-tools.php:449
+#: includes/class-wcrp-rental-products-rentals-tools.php:465
+#: includes/class-wcrp-rental-products-rentals-tools.php:481
+msgid "Clone rental product options could not be completed."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:21
+msgid "Clone rental product options from this rental product:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:97
+msgid "Clone rental product options to:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:17
+msgid ""
+"Clones rental product options from a specific product to another product or "
+"set of products. This does not clone rental price or rental stock fields as "
+"these are generally unique to each product, these can be bulk changed using "
+"the bulk edit tools within the dashboard or via import/export."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:18
+msgid ""
+"Cloning will change any existing stock based options on the destination "
+"product(s) and its variations. This effectively replicates the stock option "
+"changes which occur automatically in the background when editing a rental "
+"product via the dashboard."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:141
+msgid "Color key"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:915
+#: includes/partials/rentals-dashboard/tools.php:74
+msgid "Columns"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:458
+msgid "complexities"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:714
+msgid "Configure cart and checkout related settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:853
+msgid "Configure miscellaneous settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:750
+msgid "Configure order and rental management related settings."
+msgstr ""
+
+#. %s: email notifications link
+#: includes/class-wcrp-rental-products-settings.php:883
+msgid "Configure rental related emails."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:829
+msgid "Configure rentals dashboard related settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-notices-admin.php:28
+msgid "Configure settings"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:557
+msgid ""
+"Configure specific dates to be disabled for rental, used in addition to any "
+"dates automatically disabled where no availability."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:397
+msgid ""
+"Configure the advanced pricing defaults used if not set at product level."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:298
+msgid "Configure the availability checker shown by block or shortcode."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:432
+msgid ""
+"Configure the in person pick up/return defaults used if not set at product "
+"level."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:894
+msgid "Configure the most commonly used text references."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:85
+msgid "Configure the rental date/time formats."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:116
+msgid "Configure the rental form shown on rental product pages."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:679
+msgid "Configure the rental information display."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:591
+msgid ""
+"Configure the rental or purchase toggle shown on products of a rental or "
+"purchase type."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:634
+msgid "Configure the rental price display."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:51
+#, php-format
+msgid ""
+"Consider disabling the functionality entirely or alternatively disable this "
+"functionality only for rental products by hiding the quick pay methods on "
+"rental products with some custom CSS, target the element based off the "
+"rental product body class of %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:63
+msgid ""
+"Consider disabling the return rentals in completed orders setting or disable "
+"the automated order status change in the shipping integration, if possible "
+"only for orders containing rentals."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:59
+#, php-format
+msgid "Consider using %s as alternative."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:176
+msgid "Create or edit a product"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:46
+msgid "CSS layout rules, likely coming from the theme/page builder."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:89
+#: includes/partials/rentals-dashboard/calendar.php:144
+msgid "Current"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:18
+msgid "Current rentals:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:57
+#: includes/partials/rentals-dashboard/summary.php:112
+msgid "Customer"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:129
+msgid "Dark"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:130
+msgid "Dark boxed"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:82
+msgid "Dashboard"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:65
+#: includes/partials/rentals-dashboard/summary.php:58
+msgid "Date"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:55
+msgid "Date view"
+msgstr ""
+
+#. %s: inventory info link
+#: includes/partials/rentals-dashboard/inventory.php:46
+#, php-format
+msgid ""
+"Date view shows estimated rental stock totals for the date set. Rentals are "
+"considered in when the rental dates (including any return days thresholds) "
+"have past, regardless of if marked as returned or not. For more details on "
+"how the inventory works, %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:98
+msgid "Date view:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:300
+#: includes/class-wcrp-rental-products-product-rental-form.php:719
+#: includes/class-wcrp-rental-products-product-rental-form.php:746
+#: includes/class-wcrp-rental-products-product-rental-form.php:2237
+#: includes/class-wcrp-rental-products-product-rental-form.php:2779
+msgid "day"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:62
+msgid "Day calendar"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:63
+msgid "Day list"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:166
+msgid "Days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:301
+#: includes/class-wcrp-rental-products-cart-items.php:182
+#: includes/class-wcrp-rental-products-order-line-items.php:364
+#: includes/class-wcrp-rental-products-product-rental-form.php:719
+#: includes/class-wcrp-rental-products-product-rental-form.php:746
+#: includes/class-wcrp-rental-products-product-rental-form.php:984
+#: includes/class-wcrp-rental-products-product-rental-form.php:2237
+#: includes/class-wcrp-rental-products-product-rental-form.php:2780
+msgid "days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1823
+msgid "Days greater than"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:261
+msgid ""
+"Days greater than should be greater than the minimum rental period as rental "
+"price display may not be accurate without override."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:149
+msgid "Debug log (being displayed due to an advanced configuration setting):"
+msgstr ""
+
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:109
+msgid "Defaults to"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:744
+msgid "Deposits"
+msgstr ""
+
+#: assets/js/admin.js:38
+#, javascript-format
+msgid ""
+"Deposits and partial payments that have been configured via the %s extension "
+"cannot be applied using this method due to limitations of that extension, if "
+"you require these to be applied then consider the use of a shop as customer "
+"extension in your order management workflow."
+msgstr ""
+
+#: assets/js/admin.js:952
+msgid "Deselect all"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:874
+#: includes/partials/rentals-dashboard/tools.php:70
+msgid "Disable add-ons for purchase part of rental or purchase products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:863
+#: includes/partials/rentals-dashboard/tools.php:68
+msgid "Disable add-ons for rental part of rental or purchase products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:45
+msgid ""
+"Disable any optimization/performance related settings, enable settings one "
+"by one to find root cause, check website for general JavaScript errors in "
+"your browser dev tools, fix any JavaScript errors, these will likely be "
+"coming from other extensions, plugins, or your theme."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:554
+#: includes/class-wcrp-rental-products-settings.php:561
+#: includes/class-wcrp-rental-products-product-fields.php:667
+#: includes/partials/rentals-dashboard/tools.php:46
+msgid "Disable rental dates"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:681
+#: includes/partials/rentals-dashboard/tools.php:48
+msgid "Disable rental days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:943
+msgid "Disable rental end notice text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:934
+msgid "Disable rental start notice text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:569
+#: includes/class-wcrp-rental-products-product-fields.php:700
+#: includes/partials/rentals-dashboard/tools.php:50
+msgid "Disable rental start/end dates"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:714
+#: includes/partials/rentals-dashboard/tools.php:52
+msgid "Disable rental start/end days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:732
+#: includes/partials/rentals-dashboard/tools.php:54
+msgid "Disable rental start/end days type"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:925
+msgid "Disable rental start/end notice text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:573
+msgid ""
+"Disable rental start/end on specific dates. Used in addition to any disabled "
+"rental start/end dates set at product level. Upon clicking the field above "
+"previously disabled dates appear light gray in the calendar, click date "
+"again to enable."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:565
+msgid ""
+"Disable rentals on specific dates. Used in addition to any disabled rental "
+"dates set at product level. Upon clicking the field above previously "
+"disabled dates appear light gray in the calendar, click date again to enable."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-notices-admin.php:28
+msgid "Dismiss notice"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:371
+msgid ""
+"Display availability checker status in loops/blocks on rental only products."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:379
+msgid ""
+"Display availability checker status in loops/blocks on rental or purchase "
+"products. It is recommended this is disabled as the price/add to cart of the "
+"purchasable part of a rental or purchase product is shown on loops/blocks, "
+"if availability checker status is displayed a customer may confuse the "
+"price/add to cart as being for the rental."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:258
+msgid ""
+"Displays a notice instructing the customer that the dates selected cannot "
+"start/end on the highlighted days in the rental form calendar if a product "
+"has disabled start/end dates/days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:242
+msgid ""
+"Displays a reset button within the rental form calendar used to reset "
+"previously selected dates. Disabled by default as a new date or range is "
+"easily selectable without the need to reset first."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:668
+msgid "Displays rent for/from text in the rental price display."
+msgstr ""
+
+#. %s: zero return days threshold
+#: includes/class-wcrp-rental-products-settings.php:869
+msgid ""
+"Displays the number of days a customer has to return an item in customer "
+"facing areas such as the product rental form, cart, checkout and emails. If "
+"disabled any return days threshold applied is still used for calculating "
+"availability, the only difference is the number of days to return the item "
+"are not displayed to the customer. Disabling this setting is useful if you "
+"wish to instruct the customer to return a product within x days using your "
+"own messaging, but need to set the return days threshold higher. An example "
+"would be that you have a rental that needs to be returned within 3 days but "
+"you also want to allow an additional 3 days to service the product before it "
+"is made available for rental again. With this setting disabled you can set "
+"the return days threshold to 6, which would ensure the rental is only "
+"available after 6 days from the end rental date, and instruct the customer "
+"to return it within 3 days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:176
+msgid ""
+"Displays the rental form after the quantity field on product pages, if "
+"disabled this will display the rental form before the quantity field."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:695
+msgid ""
+"Displays the rental information title as a heading within the rental "
+"information tab."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:660
+msgid ""
+"Displays the rental price display prefix/suffix when rental price display "
+"has been overridden on the product."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:200
+msgid ""
+"Displays the total rental stock available for the rental dates, quantity and "
+"other options selected."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:623
+msgid ""
+"Displays the view rental options toggle link/button on rental or purchase "
+"products within loops/blocks. View purchase options toggle link/button will "
+"not display as the purchasable part of a rental or purchase product is "
+"always shown on loops/blocks. Rental or purchase toggle position does not "
+"apply to this setting."
+msgstr ""
+
+#. %s: decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:354
+#, php-format
+msgid ""
+"Do not alter the %s decimal separator, this will get converted to the store "
+"decimal separator automatically"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:38
+msgid "documentation"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:114
+msgid "Due"
+msgstr ""
+
+#. %1$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1749
+#: includes/class-wcrp-rental-products-product-fields.php:1791
+#, php-format
+msgid "e.g. 1030:0%1$s00|1230:5%1$s00"
+msgstr ""
+
+#. %1$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1721
+#: includes/class-wcrp-rental-products-product-fields.php:1735
+#: includes/class-wcrp-rental-products-product-fields.php:1777
+#, php-format
+msgid "e.g. 1300:5%1$s00|1500:0%1$s00"
+msgstr ""
+
+#. %1$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1763
+#, php-format
+msgid "e.g. 1700:0%1$s00|1900:5%1$s00"
+msgstr ""
+
+#. %1$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1677
+#, php-format
+msgid "e.g. 1:5%1$s00|2:10%1$s00"
+msgstr ""
+
+#. %1$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1663
+#, php-format
+msgid "e.g. 3:5%1$s00|7:10%1$s00"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:165
+msgid "e.g. product, order, customer, etc"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:656
+#: includes/partials/rentals-dashboard/tools.php:44
+msgid "Earliest available date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:879
+msgid "Emails"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:155
+msgid "empty"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:342
+msgid "Enable availability checker period multiples"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:350
+msgid "Enable availability checker quantity"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:370
+msgid "Enable availability checker status on rental only products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:378
+msgid "Enable availability checker status on rental or purchase products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:199
+msgid "Enable available rental stock totals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:795
+msgid "Enable calendar feed"
+msgstr ""
+
+#. %s: failed order status name
+#: includes/class-wcrp-rental-products-settings.php:767
+#, php-format
+msgid "Enable cancel rentals in %s orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:721
+msgid "Enable checkout draft restrictions"
+msgstr ""
+
+#. %s: more info link
+#: includes/class-wcrp-rental-products-product-fields.php:409
+#, php-format
+msgid ""
+"Enable if the product can only be picked up/returned in person, read the "
+"following info. %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:757
+msgid "Enable immediate rental stock replenishment"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:787
+msgid "Enable managing rental orders information"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:730
+msgid "Enable product updated restrictions"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:667
+msgid "Enable rent for/from text in rental price display"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:175
+msgid "Enable rental form after quantity"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:183
+msgid "Enable rental form auto apply"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:191
+msgid "Enable rental form auto select end date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:222
+msgid "Enable rental form calendar custom styling"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:249
+msgid "Enable rental form notices use WooCommerce classes"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:241
+msgid "Enable rental form reset button"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:257
+msgid "Enable rental form start/end notices"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:694
+msgid "Enable rental information heading within the tab"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:622
+msgid "Enable rental or purchase toggle loops/blocks display"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:659
+msgid "Enable rental price display override prefix/suffix"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:867
+msgid "Enable return days display"
+msgstr ""
+
+#. %s: completed order status name
+#: includes/class-wcrp-rental-products-settings.php:778
+#, php-format
+msgid "Enable return rentals in %s orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:738
+msgid "Enable same rental dates required"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:738
+msgid "End days only (BETA)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:167
+msgid "Ensure the order is set to an order status which allows order editing"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:739
+msgid ""
+"Ensures that all rental products in cart have the same rental dates, only "
+"enable this setting if you want to force all rental products in cart to have "
+"the same rental dates."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:197
+msgid ""
+"Enter pricing period additional selections - for format see the tooltip on "
+"this field when editing a variation"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:137
+msgid "Enter rental price"
+msgstr ""
+
+#. %s: currency symbol
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:45
+#, php-format
+msgid "Enter rental price (%s)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:67
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:167
+msgid "Enter rental stock"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:249
+msgid "Enter security deposit amount"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:223
+msgid ""
+"Enter total overrides - for format see the tooltip on this field when "
+"editing a variation"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1648
+msgid ""
+"Enter total stock available for rental. This is used for availability "
+"calculations and does not fluctuate as rentals are reserved/returned. Rental "
+"stock for every possible future date is calculated from this overall total "
+"minus any rentals reserved, disabled dates, etc. Any other stock options "
+"displayed are for non-rentals. Set to empty for unlimited."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:367
+msgid "Example code snippet:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:213
+msgid "Example multiple rules CSS variable override:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:211
+msgid "Example single rule root CSS variable override:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:181
+msgid "Exclude archived rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:978
+msgid "Excluding any selected add-ons"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:981
+msgid "Excluding any selected pick up/return fees"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:143
+msgid "Export"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:216
+msgid "Export products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-filters.php:39
+msgid "Filter by rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:340
+msgid "Filter hook:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:253
+msgid "First"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:41
+#: includes/partials/rentals-dashboard/tools.php:721
+msgid "Fix"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:689
+msgid "Fix completed."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:166
+#: includes/class-wcrp-rental-products-product-fields.php:791
+msgid "Fixed"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:113
+msgid "Flagged"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:102
+msgid "Flagged Rental Orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:215
+msgid "for"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:298
+msgid "For details on how to use the availability checker"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1177
+msgid "For information on how to use translations with this extension"
+msgstr ""
+
+#. %s: allowed formats
+#: includes/class-wcrp-rental-products-settings.php:139
+msgid ""
+"Format of rental dates displayed when a customer selects dates using the "
+"rental form on product pages."
+msgstr ""
+
+#. %s: PHP date/time formats URL
+#: includes/class-wcrp-rental-products-settings.php:93
+msgid ""
+"Format of rental dates used throughout the frontend of your store, emails "
+"and in most areas of this dashboard, excluding the rental form and "
+"availability checker (see rental form date format setting)."
+msgstr ""
+
+#. %s: PHP date/time formats URL
+#: includes/class-wcrp-rental-products-settings.php:103
+msgid ""
+"Format of rental times used throughout the frontend of your store, emails "
+"and in most areas of this dashboard."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:686
+#: includes/class-wcrp-rental-products-product-fields.php:719
+msgid "Fri"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:154
+#: includes/class-wcrp-rental-products-product-fields.php:609
+msgid "Friday"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:90
+#: includes/partials/rentals-dashboard/calendar.php:145
+msgid "Future"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:177
+msgid "General order management information"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1009
+msgid "General rental settings"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:796
+msgid ""
+"Generates a calendar feed hourly in ICS format which can be used in a "
+"calendar application which allows subscription to calendars via URL. This "
+"allows you to view events from the rentals dashboard calendar in your chosen "
+"calendar application. The calendar is not navigable from the frontend of "
+"your store and the calendar URL includes a unique ID, however it is possible "
+"that someone could access this URL and therefore only non-identifiable "
+"information is included in the calendar feed. Note that although the "
+"calendar feed is regenerated hourly the refresh frequency is controlled by "
+"your calendar application. After enabling this setting it can take up to one "
+"hour for the feed to generate on the URL below, until then the URL will 404."
+msgstr ""
+
+#. %s: customer first name
+#: templates/emails/rental-return-reminder.php:10
+#: templates/emails/plain/rental-return-reminder.php:12
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:602
+msgid "High"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://99w.co.uk"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/rental-products/"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:86
+msgid "ID"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-tools.php:522
+#: includes/class-wcrp-rental-products-rentals-tools.php:571
+#: includes/class-wcrp-rental-products-rentals-tools.php:631
+#: includes/class-wcrp-rental-products-rentals-tools.php:688
+#: includes/partials/rentals-dashboard/tools.php:713
+msgid "ID:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:152
+#: includes/partials/rentals-dashboard/tools.php:160
+#: includes/partials/rentals-dashboard/tools.php:174
+#: includes/partials/rentals-dashboard/tools.php:181
+#: includes/partials/rentals-dashboard/tools.php:186
+#: includes/partials/rentals-dashboard/tools.php:192
+#: includes/partials/rentals-dashboard/tools.php:198
+#: includes/partials/rentals-dashboard/tools.php:207
+msgid "If"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:469
+msgid ""
+"If a customer selects a multiple day rental, the quantity will be reserved "
+"for the date range, excluding the last day, to allow other rentals to be "
+"picked up on that date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:468
+msgid ""
+"If a customer selects a single day rental, the quantity will be reserved for "
+"the entire day, regardless of pick up/return times"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:876
+msgid ""
+"If a rental or purchase based product, disable add-ons for the purchase."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:865
+msgid "If a rental or purchase based product, disable add-ons for the rental."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:158
+msgid "If a variable product all variations must also use the above."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:658
+msgid ""
+"If an earliest available date is set then the customer cannot select dates "
+"before this date. When using this option any start days threshold set does "
+"not apply. If the start day option is set to a specific day then the "
+"earliest available date will be the start day on/after the date set."
+msgstr ""
+
+#. %s: default
+#. %s: default value
+#: includes/class-wcrp-rental-products-settings.php:95
+#: includes/class-wcrp-rental-products-settings.php:105
+#: includes/class-wcrp-rental-products-settings.php:141
+#: includes/class-wcrp-rental-products-product-fields.php:183
+#: includes/class-wcrp-rental-products-product-fields.php:211
+#: includes/class-wcrp-rental-products-product-fields.php:571
+#: includes/class-wcrp-rental-products-product-fields.php:588
+#: includes/class-wcrp-rental-products-product-fields.php:626
+#: includes/class-wcrp-rental-products-product-fields.php:643
+#: includes/class-wcrp-rental-products-product-fields.php:902
+#: includes/class-wcrp-rental-products-product-fields.php:919
+#, php-format
+msgid "If empty defaults to %s"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1465
+msgid "If empty uses rental tab pricing period additional selections"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1493
+#: includes/class-wcrp-rental-products-product-fields.php:1495
+msgid "If empty uses rental tab security deposit amount"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1478
+#: includes/class-wcrp-rental-products-product-fields.php:1480
+msgid "If empty uses rental tab total overrides"
+msgstr ""
+
+#. %s: in person return date information link
+#: includes/class-wcrp-rental-products-product-fields.php:458
+#, php-format
+msgid ""
+"If in person return date is set to same day, there are a few %s that should "
+"be considered."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:465
+msgid "If in person return date is set to same day:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:336
+msgid ""
+"If incorrectly configured it may cause rental products to be unavailable "
+"and/or have incorrect pricing, and in some scenarios cause fatal PHP errors."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:55
+msgid ""
+"If occurs when adding to cart from a product page, the standard WooCommerce "
+"add to cart form may not be being used, ask your theme/page builder support "
+"for clarity on if you are using it, and if not how to reinstate it. If there "
+"are other means of adding rental products to cart outside the product page, "
+"it is likely your theme/page builder, extension/plugin or custom development "
+"is adding add to cart links/buttons that technically should not be there as "
+"rental products cannot be added to cart outside the product page. In this "
+"scenario discuss the issue with the party responsible to see if they can be "
+"conditionally hidden/removed if the product is a rental."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:386
+msgid ""
+"If populated with an internal URL, when dates/quantity are applied in the "
+"availability checker, the user will be redirected to this URL instead of "
+"being shown the default applied dates confirmation. Note that external URLs "
+"can not be used for this redirect."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:154
+msgid ""
+"If rental item is cancelled it does not adjust the totals or perform a "
+"refund, if either is required this should be done manually"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:153
+msgid ""
+"If rental item is cancelled or removed then the rental stock reserved will "
+"be made available again"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:155
+msgid ""
+"If rental item is refunded then the cancel rental or mark as returned button "
+"should be used after (depending on partial or full refund of the rental item)"
+" for the rental stock reserved to be made available again"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:147
+msgid ""
+"If setting custom order statuses on the order then it should still be "
+"transitioned through any relevant order statuses above to ensure rental "
+"stock is reserved/made available again (e.g. if you use custom order "
+"statuses to trigger shipping notification emails)"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:128
+msgid ""
+"If the clone to option selected above potentially includes non-rental "
+"products that were created while the Rental Products extension was not "
+"active it is strongly recommended that all the rental product options are "
+"cloned."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:343
+msgid ""
+"If the minimum/maximum days above are set, greater than 1, and both the same "
+"to force a period selection, then enabling this setting will allow selection "
+"of multiples of that period e.g. if minimum/maximum days are set to 7 then "
+"enabling this setting will allow a period to be selected of 7, 14, 21 days, "
+"etc."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:161
+msgid ""
+"If the order includes rental security deposits (as a product in the order "
+"has the security deposits product option enabled) then you may wish to "
+"refund the security deposit upon satisfactory return of the product"
+msgstr ""
+
+#. %1$s: cancelled order status name, %2$s: refunded order status name
+#: includes/class-wcrp-rental-products-order-info.php:143
+#, php-format
+msgid ""
+"If the order is deleted (after trashing) or if the order status is %1$s or "
+"%2$s then all rental stock reserved for the order will be made available "
+"again, in addition if the order status is %2$s all rental items will be "
+"marked as cancelled"
+msgstr ""
+
+#. %1$s: cancelled order status name, %2$s: refunded order status name, %3$s: failed order status name
+#: includes/class-wcrp-rental-products-order-info.php:124
+#, php-format
+msgid ""
+"If the order is deleted (after trashing) or if the order status is %1$s, "
+"%2$s or %3$s then all rental stock reserved for the order will be made "
+"available again, in addition if the order status is %2$s all rental items "
+"will be marked as cancelled"
+msgstr ""
+
+#. %1$s: pending order status name, %2$s: on-hold order status name, %3$s: processing order status name
+#: includes/class-wcrp-rental-products-order-info.php:119
+#, php-format
+msgid ""
+"If this order has a status of %1$s, %2$s or %3$s then the rental items "
+"within this order have rental stock reserved"
+msgstr ""
+
+#. %1$s: pending order status name, %2$s: on-hold order status name, %3$s: processing order status name, %4$s: partially paid order status name, %5$s: Deposits & Partial Payments for WooCommerce name
+#: includes/class-wcrp-rental-products-order-info.php:114
+#, php-format
+msgid ""
+"If this order has a status of %1$s, %2$s, %3$s or %4$s* then the rental "
+"items within this order have rental stock reserved (* = order status of %5$s)"
+msgstr ""
+
+#. %1$s: pending order status name, %2$s: on-hold order status name, %3$s: processing order status name, %4$s: failed order status name, %5$s: partially paid order status name, %6$s: Deposits & Partial Payments for WooCommerce name
+#: includes/class-wcrp-rental-products-order-info.php:133
+#, php-format
+msgid ""
+"If this order has a status of %1$s, %2$s, %3$s, %4$s or %5$s* then the "
+"rental items within this order have rental stock reserved (* = order status "
+"of %6$s)"
+msgstr ""
+
+#. %1$s: pending order status name, %2$s: on-hold order status name, %3$s: processing order status name, %4$s: failed order status name
+#: includes/class-wcrp-rental-products-order-info.php:138
+#, php-format
+msgid ""
+"If this order has a status of %1$s, %2$s, %3$s, or %4$s then the rental "
+"items within this order have rental stock reserved"
+msgstr ""
+
+#. %1$s: checkout draft order status name
+#: includes/class-wcrp-rental-products-settings.php:723
+#, php-format
+msgid ""
+"If using cart/checkout blocks (as opposed to classic cart/checkout) then "
+"orders with the %1$s status can exist (checkout drafts). By default these "
+"are restricted from view in the orders section and the option to change "
+"status to it is disabled. This is because it is possible to change the order "
+"status from %1$s to one which reserves rental stock for the items included "
+"in the order, however the stock may have already been reserved in newer "
+"orders since the draft was created. It is strongly recommended this setting "
+"remains enabled, if it is disabled and rental order statuses are changed "
+"from %1$s to a status which reserves rental stock it is highly likely "
+"overlaps in rental stock will occur."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:74
+msgid ""
+"If you are experiencing any issues with this extension, and/or are using "
+"caching via a plugin or your host, click the button below for important "
+"information to consider."
+msgstr ""
+
+#. %s: rentals dashboard tools link
+#: includes/class-wcrp-rental-products-notices-admin.php:92
+#, php-format
+msgid ""
+"If you are importing/exporting rental products, please ensure you read the "
+"%s before continuing."
+msgstr ""
+
+#. %1$s: cache documentation link, %2$s: plugin title
+#: includes/class-wcrp-rental-products-settings.php:38
+#, php-format
+msgid ""
+"If you find the issues only occur when these are active, then consider using "
+"alternative caching methods, or reconfigure any existing caching methods to "
+"not perform aggressive caching methods (e.g. full page caching), or disable "
+"the caching methods entirely. It may be possible to continue using "
+"aggressive caching methods when configured in a specific way. One general "
+"example, usually to rectify issues adding to cart, is to set any cache "
+"lifespans to 10 hours or less, see this %1$s for information, note this link "
+"is for the %2$s plugin, however the principle described applies to any "
+"caching method used."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:184
+msgid ""
+"If you have rentals which allow selections of both single and multiple days "
+"in the same calendar you may wish to disable this setting so a double click "
+"is not required for single day rentals in this scenario."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:224
+#, php-format
+msgid ""
+"If you prefer to apply your own custom styling via other methods, we "
+"recommend keeping this setting disabled and use your own CSS as per these %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:418
+msgid ""
+"If you require functionality more bespoke than this option provides, or to "
+"offer the option of both shipped and in person pick up/returns, consider "
+"disabling this option and adding optional in person pick up/return time "
+"options in product pages and/or in the cart/checkout"
+msgstr ""
+
+#: assets/js/admin.js:28
+msgid ""
+"If you were looking to add a non-rental product, cancel this prompt and use "
+"the add product(s) button instead."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1157
+msgid ""
+"If you wish to automatically translate the text in this extension from "
+"English to other languages then use an automatic translation plugin."
+msgstr ""
+
+#. %1$s: text option name prefix, %2$s general option name prefix
+#: includes/class-wcrp-rental-products-settings.php:1165
+#, php-format
+msgid ""
+"If you wish to manually translate the text in this extension and you have a "
+"multilingual store where a user can select a language to show manually added "
+"translations you will need to use a translation plugin. The translation "
+"plugin used will need to have functionality to not only translate the text "
+"included within extensions/plugins but also WordPress options stored in the "
+"database. This is because the most commonly used text references in this "
+"extension are stored as settings (WordPress options stored in the database) "
+"and therefore the translation plugin used needs to be able to translate "
+"these too. The option names for the text have the %1$s prefix, note there "
+"may be other text based settings (e.g. rental information title) with only "
+"the %2$s you wish to alter too. Some translation plugins allow you to modify "
+"any visible text, this effectively achieves the same result without "
+"translating the options directly."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1160
+msgid ""
+"If you wish to manually translate the text in this extension from English to "
+"a different language you can do this by modifying the text settings shown "
+"within this page, these are the most commonly used text references, then "
+"modify any other text references you wish to translate using a translation "
+"plugin."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:754
+msgid "Immediate rental stock replenishment"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:215
+msgid "Import products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1154
+msgid "Important notice on use of translation plugins:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:349
+msgid "Important to note:"
+msgstr ""
+
+#. %s: settings link
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:110
+#, php-format
+msgid ""
+"In addition to the above, availability may also differ from the inventory "
+"due to immediate rental stock replenishment in %s."
+msgstr ""
+
+#. %s: rental settings link
+#: includes/class-wcrp-rental-products-product-fields.php:453
+#, php-format
+msgid ""
+"In person pick up and return times/fees below must be populated or set to "
+"use the defaults populated in %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1773
+msgid "In person pick up times/fees"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1717
+msgid "In person pick up times/fees (multiple day rentals)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1731
+msgid "In person pick up times/fees (single day rentals)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:956
+#: includes/class-wcrp-rental-products-product-fields.php:402
+#: includes/class-wcrp-rental-products-upgrade.php:1094
+msgid "In person pick up/return"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:429
+msgid "In person pick up/return defaults"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:455
+msgid ""
+"In person pick up/return may be unavailable if times/fees are incorrectly "
+"set as per the tooltip information below, except where unrestricted."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:952
+msgid "In person pick up/return text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1696
+msgid "In person pick up/return time restrictions"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1706
+msgid "In person return date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1787
+msgid "In person return times/fees"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1745
+msgid "In person return times/fees (multiple day rentals)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1759
+msgid "In person return times/fees (single day rentals)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:544
+msgid "In stock"
+msgstr ""
+
+#. %s: shortcode
+#: includes/class-wcrp-rental-products-settings.php:584
+#, php-format
+msgid ""
+"In this scenario seek support from your page builder/theme support team on "
+"how to reinstate this hook or alternatively use the %s shortcode on your "
+"product page template, however this should only be used if the toggle is not "
+"added automatically due to the missing hook."
+msgstr ""
+
+#: assets/js/admin.js:780
+msgid "In your calendar application, subscribe to this feed URL:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:183
+msgid "Include archived rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:191
+msgid "Includes rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:239
+msgid ""
+"Increase/decrease price by percentage by number of days selected. Applies to "
+"product and any variations."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:938
+msgid "Information"
+msgstr ""
+
+#. %s: rental settings link
+#: includes/class-wcrp-rental-products-order-info.php:91
+#, php-format
+msgid ""
+"Information on managing rental orders based on the %s currently configured."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:932
+#: includes/partials/rentals-dashboard/tools.php:76
+msgid "Inline"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:224
+msgid "instructions"
+msgstr ""
+
+#: assets/js/admin.js:1290
+#, javascript-format
+msgid ""
+"Invalid, ensure days entered are in digits, and totals entered include the "
+"%1$s decimal separator, e.g. 3:5%1$s00."
+msgstr ""
+
+#: assets/js/admin.js:1262
+#, javascript-format
+msgid ""
+"Invalid, ensure pricing periods entered are in digits, and prices entered "
+"include the %1$s decimal separator, e.g. 3:5%1$s00."
+msgstr ""
+
+#: assets/js/admin.js:1276
+#, javascript-format
+msgid ""
+"Invalid, ensure times entered are 4 digits, and fees entered include the "
+"%1$s decimal separator, e.g. 1000:0%1$s00."
+msgstr ""
+
+#: assets/js/admin.js:1312
+#, javascript-format
+msgid ""
+"Invalid, enter pricing period additional selections in the format 1:5%1$s00 "
+"(single) or 3:5%1$s00|7:10%1$s00 (multiple)."
+msgstr ""
+
+#: assets/js/admin.js:1318
+#, javascript-format
+msgid ""
+"Invalid, enter times/fees in the format 1000:0%1$s00 (single) or 1000:"
+"0%1$s00|1400:10%1$s00 (multiple)."
+msgstr ""
+
+#: assets/js/admin.js:1324
+#, javascript-format
+msgid ""
+"Invalid, enter total overrides in the format 1:5%1$s00 (single) or 1:"
+"5%1$s00|2:10%1$s00 (multiple)."
+msgstr ""
+
+#: assets/js/admin.js:1216
+#, javascript-format
+msgid ""
+"Invalid, pricing period additional selections should be entered on a single "
+"line, separate multiple pricing period additional selections with the %1$s "
+"character, e.g. 3:5%2$s00|7:10%2$s00."
+msgstr ""
+
+#: assets/js/admin.js:1222
+#, javascript-format
+msgid ""
+"Invalid, times/fees should be entered on a single line, separate multiple "
+"times/fees with the %1$s character, e.g. 1000:0%2$s00|1400:10%2$s00."
+msgstr ""
+
+#: assets/js/admin.js:1228
+#, javascript-format
+msgid ""
+"Invalid, total overrides should be entered on a single line, separate "
+"multiple total overrides with the %1$s character, e.g. 1:5%2$s00|2:10%2$s00."
+msgstr ""
+
+#: assets/js/admin.js:1234 assets/js/admin.js:1330
+msgid "Invalid."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:77
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:117
+#: includes/class-wcrp-rental-products-settings.php:840
+#: includes/class-wcrp-rental-products-widgets.php:85
+#: includes/partials/rentals-dashboard/inventory.php:46
+#: includes/partials/rentals-dashboard/inventory.php:49
+msgid "Inventory"
+msgstr ""
+
+#. %s: inventory info link
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:117
+#, php-format
+msgid "Inventory of all published rental products. For more details, %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:912
+msgid "is unavailable"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:41
+msgid "Issue"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:174
+msgid ""
+"It is recommended the recalculate button is used to recalculate all totals "
+"after making changes to the order contents"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:169
+#: assets/js/admin.js:27
+msgid ""
+"It is recommended the recalculate button is used to recalculate all totals "
+"after making changes to the order contents."
+msgstr ""
+
+#. %s: Deposits & Partial Payments for WooCommerce name
+#: includes/class-wcrp-rental-products-product-fields.php:758
+#, php-format
+msgid ""
+"It is recommended to use the premium version of %s, which has tax handling "
+"capabilities, without this tax calculations may be inaccurate."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:209
+msgid ""
+"It is strongly recommended you only customize the root CSS variables and not "
+"add any additional styling rules as this may cause the calendar to operate "
+"incorrectly and/or display inconsistently."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:389
+msgid ""
+"It is strongly recommended you thoroughly test any advanced pricing code on "
+"a staging/development environment before use on a production website."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:417
+msgid ""
+"It offers a simple means of offering in person pick up/return time/fee "
+"options, however depending on your availability/pricing requirements it "
+"might not be suitable for every use case"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:358
+msgid ""
+"Items in cart with advanced pricing cannot have their quantity changed at "
+"cart level"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:45
+msgid ""
+"jQuery is undefined and/or general JavaScript errors. jQuery can be "
+"undefined if you have enabled any optimization/performance related settings "
+"in a plugin or your hosting, these can sometimes move where jQuery is "
+"enqueued to the bottom of the website. General JavaScript errors can also "
+"cause this issue, as after an error occurs no further JavaScript can "
+"function."
+msgstr ""
+
+#. %s: order number
+#: templates/emails/rental-return-reminder.php:13
+#: templates/emails/plain/rental-return-reminder.php:15
+#, php-format
+msgid ""
+"Just to let you know &mdash; your order #%s includes rentals which are due "
+"to be returned to us soon:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:803
+#: includes/class-wcrp-rental-products-settings.php:805
+msgid "KB"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:74
+msgid "Known compatibility issues"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:254
+msgid "Last"
+msgstr ""
+
+#. %1$s: latest orders number, %2$s: all rental orders link, %3$s: all orders link
+#: includes/partials/rentals-dashboard/summary.php:41
+#, php-format
+msgid ""
+"Latest %1$s rental orders (excluding orders where all rentals cancelled), "
+"you can also view %2$s, or %3$s."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:35
+msgid "Latest Rental Orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:127
+msgid "Light"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:128
+msgid "Light boxed"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3972
+msgid "Line item added:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:613
+msgid "Link"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:56
+msgid "Live view"
+msgstr ""
+
+#. %s: inventory info link
+#: includes/partials/rentals-dashboard/inventory.php:49
+#, php-format
+msgid ""
+"Live view shows rental stock totals for the current date and time. Rentals "
+"are considered out unless marked as returned or cancelled. For more details "
+"on how the inventory works, %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:101
+msgid "Live view:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:197
+msgid "Loading rentals..."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:248
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1162
+msgid "Loco Translate"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:601
+msgid "Low"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:74
+msgid "Managing rental orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:784
+msgid "Managing rental orders information"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1159
+msgid "Manually translate from English to a different language:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1163
+msgid ""
+"Manually translate from English to multiple languages with language "
+"selection:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:534
+msgid "Mark as returned"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:584
+msgid "Maximum days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:586
+msgid ""
+"Maximum number of days that can be selectable by customer. Set to 0 for "
+"unlimited."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:209
+msgid ""
+"Maximum number of multiples that can be selectable by customer (e.g. if "
+"pricing period multiples is enabled, pricing period is 7 and this option is "
+"4 a customer can select a 7, 14, 21 or 28 day rental but no more). Set to 0 "
+"for unlimited."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:362
+msgid "Minimal"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:567
+msgid "Minimum days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:569
+msgid "Minimum number of days that must be selectable by customer."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:850
+msgid "Misc"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:682
+#: includes/class-wcrp-rental-products-product-fields.php:715
+msgid "Mon"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:150
+#: includes/class-wcrp-rental-products-product-fields.php:605
+msgid "Monday"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:58
+msgid "Month calendar"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:59
+msgid "Month list"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:898
+#: includes/partials/rentals-dashboard/tools.php:72
+msgid "Months"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:91
+#: includes/class-wcrp-rental-products-product-fields.php:332
+#: includes/class-wcrp-rental-products-product-fields.php:409
+msgid "More info"
+msgstr ""
+
+#. %s: multiply addons total by number of days selected flat fees filter hook
+#: includes/class-wcrp-rental-products-product-fields.php:854
+#, php-format
+msgid ""
+"Multiplies the add-ons total by the number of days which have been selected. "
+"When enabled if you want to exclude add-ons with flat fees from being "
+"multiplied use the %s filter hook and return it false."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:851
+#: includes/partials/rentals-dashboard/tools.php:66
+msgid "Multiply add-ons total by number of days selected"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1463
+msgid ""
+"Must match the pricing period additional selections from the rental tab "
+"(pricing can be different), should not include the period entered in the "
+"pricing period (days) field in the rental tab, price for that period is the "
+"price set on this variation."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:255
+msgid "Next"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1711
+msgid "Next day (rent to date + 1 day)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:503
+#: includes/class-wcrp-rental-products-product-display.php:514
+#: includes/class-wcrp-rental-products-product-display.php:562
+#: includes/class-wcrp-rental-products-product-display.php:572
+#: includes/class-wcrp-rental-products-product-fields.php:77
+#: includes/class-wcrp-rental-products-product-fields.php:102
+msgid "No"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:186
+msgid "No archived rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:238
+msgid "No data available"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:156
+msgid "No debug logs yet."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:170
+msgid "No flagged rental orders."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:699
+msgid "No issues found."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:95
+msgid "No latest rental orders."
+msgstr ""
+
+#. %s: create or edit product link
+#: includes/partials/rentals-dashboard/inventory.php:176
+#, php-format
+msgid ""
+"No rental products configured yet. %s and set as a rental product to see it "
+"included here."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:32
+msgid "No rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:251
+msgid "No results found."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:59
+msgid "No shipping class"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:32
+msgid "No, yes - rental only, yes - rental or purchase"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:965
+#: includes/class-wcrp-rental-products-upgrade.php:722
+msgid "Non-refundable"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:961
+msgid "Non-refundable text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-tools.php:688
+msgid "Non-rental"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:53
+msgid ""
+"Nonce used during add to cart is invalid or has expired (nonce is a number "
+"generated to validate form submission). Generally occurs due to the use of "
+"aggressive caching methods where expired nonces are being cached."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:48
+msgid ""
+"Nonce used during rental form update is invalid or has expired (nonce is a "
+"number generated to validate form submission). Generally occurs due to the "
+"use of aggressive caching methods where expired nonces are being cached."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:46
+msgid "None"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:61
+msgid ""
+"None required, this error ensures rental form data being passed to the cart "
+"has not been manipulated."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:591
+msgid "Not appearing?"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:92
+#: includes/partials/rentals-dashboard/calendar.php:147
+msgid "Not returned"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:508
+msgid "Not set"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:203
+msgid ""
+"Note that in the unlikely event that you are using the Litepicker library "
+"for other non-rental calendars the styling applied will effect those too."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:869
+#, php-format
+msgid ""
+"Note that return days are not displayed in any scenario if the product has a "
+"return days threshold of %s, or if the product is an in person pick "
+"up/return."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:224
+msgid ""
+"Note that this checks for common issues but is not a guaranteed means of "
+"finding and/or fixing issues. If you still have issues after using this tool "
+"we recommend deleting any products with issues and recreating them or "
+"alternatively review the data directly in the database for incorrect values. "
+"See rental product import and export information for correct values."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:250
+msgid ""
+"Notices displayed in the rental form will use WooCommerce CSS classes and "
+"therefore have the standard WooCommerce notice styling when enabled. Disable "
+"this if you want to apply your own custom CSS notice styling, or if you have "
+"issues with the theme targeting WooCommerce notices and repositioning them "
+"to another location in the page."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:917
+msgid ""
+"Number of columns to show within the calendar before pagination. On "
+"mobile/tablet devices this option may be ignored to ensure the calender is "
+"legible."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:641
+msgid ""
+"Number of days after the rental dates for the customer to return rented "
+"products."
+msgstr ""
+
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:108
+msgid ""
+"Number of days before the rental return date (+ any rental return days "
+"threshold) to send the reminder"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:624
+msgid ""
+"Number of days including the current day before rental dates selectable by "
+"customer. If a specific start day is set the next available start day is "
+"selected in conjunction with this start days threshold."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:900
+msgid ""
+"Number of months to show within the calendar before pagination. On "
+"mobile/tablet devices this option may be ignored to ensure the calender is "
+"legible."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1690
+msgid "Off"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1691
+msgid "On"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:785
+#: includes/class-wcrp-rental-products-product-rental-form.php:843
+msgid "on"
+msgstr ""
+
+#. %s: more info link
+#: includes/class-wcrp-rental-products-product-fields.php:91
+#, php-format
+msgid ""
+"On change the selected option and product/variation stock options will be "
+"amended and saved. %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:2865
+msgid "on previously selected dates"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:169
+msgid ""
+"Once cancelled ensure the order is an editable order status, then use the "
+"add item(s) button to add the product again. Depending on the changes you "
+"may wish to modify line item totals and take an additional payment, or "
+"refund for the difference."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:860
+msgid ""
+"Only populate when instructed by the developers of this extension to "
+"diagnose an issue or for specific server configurations."
+msgstr ""
+
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:98
+msgid "Only send one reminder per order"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:66
+msgid ""
+"Only updates if product type is simple, for bulk variable product updates "
+"consider a product import."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:100
+msgid "Options"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:484
+#: includes/class-wcrp-rental-products-product-fields.php:498
+#: includes/class-wcrp-rental-products-product-fields.php:512
+#: includes/class-wcrp-rental-products-product-fields.php:526
+#: includes/class-wcrp-rental-products-product-fields.php:540
+#: includes/class-wcrp-rental-products-product-fields.php:554
+msgid "or leave empty to use defaults from rental settings"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:56
+#: includes/partials/rentals-dashboard/summary.php:111
+msgid "Order"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+msgid "Order #"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:747
+msgid "Order and rental management"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:179
+msgid "Order management basics"
+msgstr ""
+
+#: assets/js/admin.js:17
+msgid ""
+"Order must be created initially before rental products can be added. You can "
+"create the order as pending initially and then change the order status as "
+"required once the order is populated."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:151
+msgid "Order status"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:93
+msgid "Order statuses"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:79
+msgid "Orders (opens in a new tab)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-filters.php:67
+msgid "Orders excluding rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-filters.php:66
+msgid "Orders including rentals"
+msgstr ""
+
+#. %s: no maximum value
+#: includes/class-wcrp-rental-products-settings.php:813
+#, php-format
+msgid ""
+"Orders which are older than the amount of days set (based on date order "
+"created) will have any rentals marked as returned archived. Set to %s to "
+"disable, any rentals already archived will remain so. When orders are "
+"created each rental within the order has associated database data which is "
+"queried to check availability, display the rentals dashboard calendar, etc. "
+"By archiving the data no longer needed for querying (e.g. rentals marked as "
+"returned) it can increase performance. Other than potential performance "
+"improvements, the only noticable difference is that archived rentals will no "
+"longer appear in the rentals dashboard calendar, but can be shown by "
+"clicking the include archived rentals button."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:79
+msgid "Orders*"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:299
+msgid ""
+"Override the rental price display with specific text entered. The rental "
+"price display suffix/prefix will be applied, this can be disabled in "
+"settings. This is simply the price displayed to the customer near the "
+"product title, it has no bearing on rental price calculations."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1675
+#, php-format
+msgid ""
+"Overrides the total based on the number of days rented. Enter in format of 1:"
+"5%2$s00|2:10%2$s00 (this example makes a 1 day rental %1$s5%2$s00 and a 2 "
+"day rental %1$s10%2$s00). When using total overrides the rental price "
+"display remains as calculated based off the non-overriden pricing, therefore "
+"it is recommended you also use a price display override."
+msgstr ""
+
+#. %1$s: passed parameter, %2$s: passed parameter
+#: includes/class-wcrp-rental-products-product-fields.php:345
+#, php-format
+msgid "Parameters: %1$s and %2$s."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:87
+msgid "Parent ID"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1827
+msgid "Percent"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:262
+msgid ""
+"Percent should use a positive or negative number (e.g. 25 for a 25% price "
+"increase or -25 for a 25% price decrease on the total)."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:164
+msgid "Period"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:165
+msgid "Period selection"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:974
+#: includes/class-wcrp-rental-products-upgrade.php:1100
+msgid "Pick up date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:970
+msgid "Pick up date text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:983
+#: includes/class-wcrp-rental-products-upgrade.php:1106
+msgid "Pick up time"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:979
+msgid "Pick up time text"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:37
+msgid "Pick up/return related"
+msgstr ""
+
+#. %s: select dates text
+#: includes/class-wcrp-rental-products-availability-checker.php:413
+#, php-format
+msgid "Please %s and quantity to check availability."
+msgstr ""
+
+#. %s: select dates text
+#: includes/class-wcrp-rental-products-availability-checker.php:418
+#, php-format
+msgid "Please %s to check availability."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:142
+msgid ""
+"Please note that if you use a different import/export method to the standard "
+"WooCommerce product import and export tools the column/values referenced "
+"below may be interpreted differently."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:2329
+msgid "Please select all required product option(s)."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:163
+msgid ""
+"prefixed meta should not exist/be empty with the exception of this optional "
+"meta:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:256
+msgid "Previous"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:283
+msgid "Price + additional period %"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:272
+msgid "Price + additional periods %"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:297
+msgid "Price display override"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:978
+msgid "priced per day"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:153
+msgid "Pricing"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:179
+msgid "Pricing period (days)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1659
+msgid "Pricing period additional selections"
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1661
+#, php-format
+msgid ""
+"Pricing period additional selections are used in addition to the lowest "
+"period set on pricing period (days). Enter in format of 3:5%2$s00|7:10%2$s00 "
+"(this example adds 2 additional pricing period selections, a 3 day rental "
+"for %1$s5%2$s00 and a 7 day rental for %1$s10%2$s00)."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:196
+msgid "Pricing period multiples"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:207
+msgid "Pricing period multiples maximum"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:34
+msgid "Pricing related"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:237
+msgid "Pricing tiers"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:160
+msgid "Pricing type"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:35
+msgid ""
+"Pricing type, pricing period (days), pricing period multiples, pricing "
+"period multiples maximum, pricing period additional selections, pricing "
+"tiers, price + additional periods %, price + additional period %, price "
+"display override, total overrides, advanced pricing, minimum days and "
+"maximum days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:135
+msgid "Print"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:180
+msgid "Processing refunds"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:249
+msgid "Processing..."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:85
+msgid "Product"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:4024
+msgid ""
+"Product added to order, continue adding more rental products or close this "
+"popup to refresh the items within the order. Once closed, it is recommended "
+"the recalculate button is used to recalculate all totals after making "
+"changes to the order contents."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-cart-checks.php:60
+#: includes/class-wcrp-rental-products-cart-checks.php:103
+#: includes/class-wcrp-rental-products-cart-checks.php:168
+msgid "product page"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:727
+msgid "Product updated restrictions"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:80
+msgid "Products (opens in a new tab)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:80
+msgid "Products*"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:133
+msgid "Purchasable price"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:121
+msgid "Purchasable stock"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:503
+#: includes/class-wcrp-rental-products-product-display.php:510
+#: includes/class-wcrp-rental-products-product-display.php:514
+#: includes/class-wcrp-rental-products-product-display.php:562
+#: includes/class-wcrp-rental-products-product-display.php:566
+#: includes/class-wcrp-rental-products-product-display.php:572
+msgid "Purchase"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:109
+msgid "Purchases"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:180
+#: includes/class-wcrp-rental-products-availability-checker.php:241
+#: includes/class-wcrp-rental-products-product-fields.php:790
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1572
+msgid "Quantity previously entered has been reduced to"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:554
+msgid "Quantity:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-notices-admin.php:28
+msgid "Read documentation"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:172
+msgid "Recalculating totals"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:193
+msgid "Refresh calendar"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:79
+msgid "Refresh inventory"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:30
+msgid "Refresh summary"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:992
+#: includes/class-wcrp-rental-products-upgrade.php:728
+msgid "Refundable"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:988
+msgid "Refundable text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:159
+msgid "Refunding rental security deposits"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:49
+msgid ""
+"Reinstate the missing hook or use the rental or purchase toggle shortcode. "
+"See the related information linked in the rental or purchase toggle settings "
+"section."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1830
+msgid "Remove pricing tier"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:156
+msgid ""
+"Removing rental items from the order using the delete item icon is not "
+"recommended if the customer has already made payment as the rental item "
+"would then no longer exist to register a refund against it in future"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1830
+msgid "Removing..."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1001
+#: includes/class-wcrp-rental-products-upgrade.php:603
+msgid "Rent for"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:997
+msgid "Rent for text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1010
+#: includes/class-wcrp-rental-products-upgrade.php:591
+msgid "Rent from"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1006
+msgid "Rent from text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1019
+#: includes/class-wcrp-rental-products-upgrade.php:597
+msgid "Rent to"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1015
+msgid "Rent to text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-tools.php:631
+#: includes/class-wcrp-rental-products-product-display.php:503
+#: includes/class-wcrp-rental-products-product-display.php:510
+#: includes/class-wcrp-rental-products-product-display.php:514
+#: includes/class-wcrp-rental-products-product-display.php:562
+#: includes/class-wcrp-rental-products-product-display.php:566
+#: includes/class-wcrp-rental-products-product-display.php:572
+#: includes/class-wcrp-rental-products-product-fields.php:27
+#: includes/class-wcrp-rental-products-product-fields.php:67
+#: includes/class-wcrp-rental-products-product-fields.php:115
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:104
+msgid "Rental"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1028
+#: includes/class-wcrp-rental-products-upgrade.php:734
+msgid "Rental available"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1024
+msgid "Rental available text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1037
+#: includes/class-wcrp-rental-products-upgrade.php:621
+msgid "Rental cancelled"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1033
+msgid "Rental cancelled text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:739
+msgid "Rental cancelled:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:669
+msgid ""
+"Rental cannot occur if the dates selected include any of these dates. These "
+"will be used in addition to any disabled rental dates which are set in "
+"rental settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:693
+msgid "Rental cannot occur if the dates selected include any of these days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:702
+msgid ""
+"Rental cannot occur if the dates selected start/end on these dates, but can "
+"occur if dates selected go through these dates. These will be used in "
+"addition to any disabled rental start/end dates which are set in rental "
+"settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:726
+msgid ""
+"Rental cannot occur if the dates selected start/end on these days, but can "
+"occur if dates selected go through these days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:205
+msgid "Rental could not be cancelled due to an error."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:153
+msgid "Rental could not be marked as returned due to an error."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:89
+msgid "Rental date format"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:82
+msgid "Rental date/time formats"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1046
+#: includes/class-wcrp-rental-products-upgrade.php:585
+msgid "Rental dates"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1042
+msgid "Rental dates text"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:326
+msgid "Rental enabled on unsupported product type"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:113
+msgid "Rental form"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:172
+msgid "Rental form after quantity"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1168
+msgid "Rental form and availability checker calendar language:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:180
+msgid "Rental form auto apply"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:188
+msgid "Rental form auto select end date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:196
+msgid "Rental form available rental stock totals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:219
+msgid "Rental form calendar custom styling"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:231
+msgid "Rental form calendar custom styling code"
+msgstr ""
+
+#: assets/js/admin.js:1025
+msgid ""
+"Rental form calendar custom styling code has been reset to the defaults. "
+"Remember to save settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:224
+msgid "Rental form calendar styling"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:61
+msgid "Rental form data was manipulated before transit."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:135
+msgid "Rental form date format"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:145
+msgid "Rental form first day"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:120
+msgid "Rental form layout"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:262
+msgid "Rental form maximum date days"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:276
+msgid "Rental form maximum date specific"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:246
+msgid "Rental form notices use WooCommerce classes"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:45
+msgid ""
+"Rental form on product pages and/or availability checker does not work, such "
+"as the calendar does not open when clicking rental dates field."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:46
+msgid "Rental form on product pages is displayed oddly or does not fit well."
+msgstr ""
+
+#. %s: error code
+#: includes/class-wcrp-rental-products-settings.php:48
+#, php-format
+msgid ""
+"Rental form on product pages not functioning as expected, shows error code "
+"%s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:161
+msgid "Rental form period selection option labels"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:238
+msgid "Rental form reset button"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:254
+msgid "Rental form start/end notices"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:36
+msgid ""
+"Rental functionality issues are usually caused by a caching plugin and/or "
+"caching features enabled by your web host. Try deactivating any caching "
+"plugins and/or caching features in your web hosting."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:676
+#: includes/class-wcrp-rental-products-settings.php:687
+#: includes/class-wcrp-rental-products-settings.php:699
+#: includes/class-wcrp-rental-products-product-fields.php:944
+#: includes/class-wcrp-rental-products-upgrade.php:567
+#: includes/partials/rentals-dashboard/tools.php:78
+msgid "Rental information"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:691
+msgid "Rental information heading"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:683
+msgid "Rental information title"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:667
+msgid "Rental marked as returned:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-filters.php:40
+msgid "Rental only"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:631
+#: includes/partials/rentals-dashboard/tools.php:667
+msgid "Rental only product with incorrect stock options"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-filters.php:41
+msgid "Rental or purchase"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:991
+#: includes/partials/rentals-dashboard/tools.php:86
+msgid "Rental or purchase - rental shipping override"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1001
+#: includes/partials/rentals-dashboard/tools.php:88
+msgid "Rental or purchase - rental shipping override class"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:957
+#: includes/partials/rentals-dashboard/tools.php:80
+msgid "Rental or purchase - rental tax override"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:979
+#: includes/partials/rentals-dashboard/tools.php:84
+msgid "Rental or purchase - rental tax override class"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:967
+#: includes/partials/rentals-dashboard/tools.php:82
+msgid "Rental or purchase - rental tax override status"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:588
+#: includes/class-wcrp-rental-products-settings.php:591
+msgid "Rental or purchase toggle"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:49
+msgid "Rental or purchase toggle does not display."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:619
+msgid "Rental or purchase toggle loops/blocks display"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:596
+msgid "Rental or purchase toggle position"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:607
+msgid "Rental or purchase toggle type"
+msgstr ""
+
+#. %s: rental product body class
+#: includes/class-wcrp-rental-products-settings.php:51
+msgid "Rental order item data missing, such as rent from/to dates."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:62
+msgid "Rental orders last 30 days"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:24
+msgid "Rental orders last 30 days:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:53
+msgid "Rental orders last 7 days"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:22
+msgid "Rental orders last 7 days:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:44
+msgid "Rental orders today"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:20
+msgid "Rental orders today:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:103
+msgid ""
+"Rental orders which may require action, such as rentals not returned by due "
+"date."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1055
+#: includes/class-wcrp-rental-products-upgrade.php:940
+msgid "Rental period"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1051
+msgid "Rental period text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:139
+#: includes/class-wcrp-rental-products-product-fields.php:154
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:27
+msgid "Rental price"
+msgstr ""
+
+#. %s: currency symbol
+#: includes/class-wcrp-rental-products-product-fields.php:1642
+#, php-format
+msgid "Rental price (%s)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:172
+msgid ""
+"Rental price and pricing period (days) should be set to the lowest period "
+"selection. Add additional pricing period selections (days and price) using "
+"the pricing period additional selections option."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:631
+msgid "Rental price display"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:656
+msgid "Rental price display override prefix/suffix"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:638
+msgid "Rental price display prefix"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:664
+msgid "Rental price display rent text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:647
+msgid "Rental price display suffix"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:510
+msgid "Rental price is displayed on each variation"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:73
+#: includes/class-wcrp-rental-products-product-fields.php:99
+#: includes/partials/rentals-dashboard/tools.php:31
+msgid "Rental product"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:135
+msgid "Rental Product Import and Export Information"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-notices-admin.php:92
+msgid "rental product import and export information"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:92
+msgid ""
+"Rental product options selected above will only be cloned if the destination "
+"product(s) are simple or variable products (the supported rental product "
+"types). Grouped products do not apply as rental options are not set on "
+"grouped products, they are just a collection of other products. The clone "
+"does not apply to variations of a variable product."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:44
+msgid "Rental product was added to cart, but since then has been updated."
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-wcrp-rental-products-blocks.php:27
+msgid "Rental Products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:20
+#: includes/class-wcrp-rental-products-widgets.php:71
+msgid "Rental products"
+msgstr ""
+
+#. %s: error code
+#: includes/class-wcrp-rental-products-settings.php:57
+#, php-format
+msgid ""
+"Rental products cannot be added to cart, shows error code %s, specifically "
+"when using an AJAX add to cart method."
+msgstr ""
+
+#. %s: error code
+#: includes/class-wcrp-rental-products-settings.php:53
+#: includes/class-wcrp-rental-products-settings.php:55
+#: includes/class-wcrp-rental-products-settings.php:61
+#, php-format
+msgid "Rental products cannot be added to cart, shows error code %s."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:221
+msgid "Rental Products Debug"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-notices-admin.php:28
+msgid "Rental Products has been activated."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:222
+msgid ""
+"Rental products require some core WooCommerce product meta and rental "
+"specific meta to be set correctly. When you add/edit products through the "
+"dashboard these are taken care of automatically. If you have attempted to "
+"import product data and you have some product data issues you can use this "
+"tool to find rental products with potential issues with an option to try "
+"fixing the issues automatically."
+msgstr ""
+
+#: wcrp-rental-products.php:169
+msgid "Rental Products requires WooCommerce to be installed and activated."
+msgstr ""
+
+#. %s version number
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:142
+#, php-format
+msgid "Rental Products v%s"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:902
+#: includes/class-wcrp-rental-products-upgrade.php:692
+msgid "Rental products will now show availability for your selected dates."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:26
+msgid "Rental products:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:876
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:17
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:20
+msgid "Rental return reminder"
+msgstr ""
+
+#. %s: processing order status name
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:19
+#, php-format
+msgid ""
+"Rental return reminder emails are sent to customers before the rent to date "
+"including any return days threshold concludes for any rental products in an "
+"order. Reminders are only sent for orders with a status of %s, this is "
+"because these are orders that are deemed paid but not yet returned. In "
+"addition to the email a private note that a reminder email has been sent "
+"will also be added to the order for future reference."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1064
+#: includes/class-wcrp-rental-products-upgrade.php:609
+msgid "Rental return within"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1060
+msgid "Rental return within text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1073
+#: includes/class-wcrp-rental-products-upgrade.php:615
+msgid "Rental returned"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1069
+msgid "Rental returned text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:162
+msgid ""
+"Rental security deposits need to be manually refunded, it does not occur "
+"automatically upon marking a rental item as returned, etc"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:91
+#: includes/class-wcrp-rental-products-product-fields.php:453
+msgid "rental settings"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:127
+#: includes/class-wcrp-rental-products-product-fields.php:396
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:50
+msgid "Rental stock"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1647
+msgid "Rental stock (in and out)"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:90
+msgid "Rental stock in"
+msgstr ""
+
+#. %s: edit post link
+#: includes/class-wcrp-rental-products-product-display.php:556
+msgid "Rental stock is displayed on each variation"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:91
+msgid "Rental stock out"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:92
+msgid "Rental stock out orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:92
+msgid ""
+"Rental stock reserved can be made available by marking as returned/cancelled "
+"after refund"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:89
+msgid "Rental stock total"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:99
+msgid "Rental time format"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1082
+#: includes/class-wcrp-rental-products-upgrade.php:752
+msgid "Rental unavailable"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1078
+msgid "Rental unavailable text"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:386
+msgid "Rental with fixed pricing type and price + additional periods % enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:368
+msgid "Rental with fixed pricing type and pricing period multiples enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:350
+msgid "Rental with fixed pricing type and pricing period not 1"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:604
+msgid ""
+"Rental with in person pick up/return and return days threshold incorrect"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:486
+msgid ""
+"Rental with period pricing type, pricing period 1 and pricing period "
+"multiples enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:426
+msgid ""
+"Rental with period pricing type, pricing period greater than 1 and maximum "
+"days incorrect"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:408
+msgid ""
+"Rental with period pricing type, pricing period greater than 1 and minimum "
+"days incorrect"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:464
+msgid ""
+"Rental with period pricing type, pricing period greater than 1, pricing "
+"period multiples disabled and price + additional periods % enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:446
+msgid ""
+"Rental with period pricing type, pricing period greater than 1, pricing "
+"period multiples disabled and pricing tiers enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:580
+msgid "Rental with period selection pricing type and maximum days incorrect"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:562
+msgid "Rental with period selection pricing type and minimum days incorrect"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:544
+msgid ""
+"Rental with period selection pricing type and price + additional periods % "
+"enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:508
+msgid ""
+"Rental with period selection pricing type and pricing period multiples "
+"enabled"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:526
+msgid "Rental with period selection pricing type and pricing tiers enabled"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:25
+msgid "Rentals"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:805
+msgid "rentals archive database table size: "
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:947
+#: includes/class-wcrp-rental-products-upgrade.php:1238
+msgid "Rentals cannot end on days highlighted with a dotted border."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:938
+#: includes/class-wcrp-rental-products-upgrade.php:1232
+msgid "Rentals cannot start on days highlighted with a dotted border."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-upgrade.php:716
+msgid "Rentals cannot start/end on"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:929
+#: includes/class-wcrp-rental-products-upgrade.php:898
+#: includes/class-wcrp-rental-products-upgrade.php:1226
+msgid "Rentals cannot start/end on highlighted days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:35
+msgid "Rentals current"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:24
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:72
+msgid "Rentals Dashboard"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:826
+#: includes/class-wcrp-rental-products-notices-admin.php:28
+msgid "Rentals dashboard"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:833
+msgid "Rentals dashboard default tab"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:803
+msgid "Rentals database table size: "
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-filters.php:65
+msgid "Rentals filter"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:21
+msgid "Rentals Summary"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:91
+msgid "Rentals that have been returned."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:92
+msgid "Rentals that have not been returned and are due."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:90
+msgid "Rentals that occur on future dates/times."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:89
+msgid ""
+"Rentals that span the current date/time except where already returned or due "
+"to be returned."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1091
+#: includes/class-wcrp-rental-products-upgrade.php:758
+msgid "Reset dates"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1087
+msgid "Reset dates text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:2891
+msgid "Reset?"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:92
+msgid "Restock refunded items disabled as refund includes rental items"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1700
+msgid "Restricted"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1100
+#: includes/class-wcrp-rental-products-upgrade.php:1112
+msgid "Return date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1096
+msgid "Return date text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:864
+msgid "Return days display"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:639
+msgid "Return days threshold"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:38
+msgid ""
+"Return days threshold, in person pick up/return, in person pick up/return "
+"time restrictions, in person return date, in person pick up times/fees (same "
+"day), in person pick up times/fees if single day rental (same day), in "
+"person return times/fees (same day), in person return times/fees if single "
+"day rental (same day), in person pick up times/fees (next day) and in person "
+"return times/fees (next day)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+msgid "Return expected"
+msgstr ""
+
+#. %s: completed order status name
+#: includes/class-wcrp-rental-products-settings.php:774
+#, php-format
+msgid "Return rentals in %s orders"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1109
+#: includes/class-wcrp-rental-products-upgrade.php:1118
+msgid "Return time"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1105
+msgid "Return time text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:91
+#: includes/partials/rentals-dashboard/calendar.php:146
+msgid "Returned"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:48
+#: includes/class-wcrp-rental-products-settings.php:53
+msgid ""
+"Review the caching information at the top of this list. Potentially try "
+"setting cache lifespan to 10 hours or less via your caching methods."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:803
+#: includes/class-wcrp-rental-products-settings.php:805
+msgid "rows"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:145
+msgid "Rules below apply to any rental product, which is any product with:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:229
+msgid "Run debug"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1710
+msgid "Same day (rent to date)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:735
+msgid "Same rental dates required"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:188
+#: includes/partials/rentals-dashboard/tools.php:189
+#: includes/partials/rentals-dashboard/tools.php:203
+#: includes/partials/rentals-dashboard/tools.php:204
+msgid "Same value as"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:687
+#: includes/class-wcrp-rental-products-product-fields.php:720
+msgid "Sat"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:155
+#: includes/class-wcrp-rental-products-product-fields.php:610
+msgid "Saturday"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:250
+#: includes/partials/rentals-dashboard/calendar.php:164
+msgid "Search"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1118
+#: includes/class-wcrp-rental-products-upgrade.php:764
+msgid "Security deposit"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1801
+#: includes/partials/rentals-dashboard/tools.php:56
+msgid "Security deposit amount"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:786
+#: includes/partials/rentals-dashboard/tools.php:58
+msgid "Security deposit calculation"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:833
+#: includes/partials/rentals-dashboard/tools.php:64
+msgid "Security deposit non-refundable"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:821
+#: includes/partials/rentals-dashboard/tools.php:62
+msgid "Security deposit tax class"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:809
+#: includes/partials/rentals-dashboard/tools.php:60
+msgid "Security deposit tax status"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1114
+msgid "Security deposit text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:780
+msgid ""
+"Security deposits are included in the order total during checkout, "
+"transaction fees on the total, including security deposits, will apply if "
+"using a card payment provider."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1802
+msgid ""
+"Security deposits are paid during checkout and may be manually refunded to "
+"the customer upon satisfactory return of the product. For further details on "
+"refunding a security deposit see the managing rental orders information when "
+"editing an order. Enter a monetary amount."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:23
+msgid "Select a rental product"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:90 assets/js/admin.js:958
+msgid "Select all"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:113
+msgid "Select categories"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1127
+#: includes/class-wcrp-rental-products-upgrade.php:579
+msgid "Select dates"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1123
+msgid "Select dates text"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:122
+msgid "Select products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:607
+msgid "Select rental dates/options"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:111
+msgid "Select specific categories:"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:120
+msgid "Select specific products:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:836
+msgid "Select which tab should be active upon accessing the rentals dashboard."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:147
+msgid ""
+"Selecting a yes option will amend any existing stock options set, including "
+"variations of variable products."
+msgstr ""
+
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:96
+msgid "Send once"
+msgstr ""
+
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:99
+msgid ""
+"Sends a reminder once that an order has returns due, after this no further "
+"reminders are sent. If this is disabled multiple reminders are sent based on "
+"the due return dates (e.g. if the order contains 3 rentals, 2 with the same "
+"return date and 1 with a different return date, it will send one reminder "
+"that rentals are due within the order before the first and second returns "
+"are due and a second reminder before the third return is due)."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:285
+msgid ""
+"Set additional period percentage used (e.g. 10 for a 10% additional period "
+"percentage)."
+msgstr ""
+
+#. %s: Reset to defaults/styling instructions link
+#: includes/class-wcrp-rental-products-settings.php:224
+#, php-format
+msgid ""
+"Set custom styling for the rental form calendar. When enabled a further "
+"setting will appear below, change the color/pixel values only. If you wish "
+"to reset these to the defaults, %s. "
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:70
+msgid "Set date"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:164
+msgid ""
+"Set how option labels are displayed when the product is using the period "
+"selection pricing type. If weeks used then the options display as weeks e.g. "
+"if period selections are 1, 7, 14 (entered in days) it will display these as "
+"1 day, 1 week and 2 weeks. Day periods which do not divide into weeks remain "
+"in days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:788
+msgid ""
+"Set how security deposit is calculated. Fixed is the same value regardless "
+"of quantity, the quantity option multiplies the security deposit amount by "
+"the quantity."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1687
+msgid "Set if advanced pricing calculations should be used."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:404
+msgid "Set if the rental can only be picked up/returned in person."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:845
+msgid "Set in add-ons tab"
+msgstr ""
+
+#: assets/js/admin.js:715
+msgid "Set in general tab"
+msgstr ""
+
+#: assets/js/admin.js:716
+msgid "Set in inventory tab"
+msgstr ""
+
+#: assets/js/admin.js:710 assets/js/admin.js:711
+msgid "Set in variations tab"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:105
+msgid "Set rental price"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:107
+msgid "Set rental pricing period additional selections"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:109
+msgid "Set rental security deposit amount"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:106
+msgid "Set rental stock"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:108
+msgid "Set rental total overrides"
+msgstr ""
+
+#. %1$s: rental price including tax placeholder, %2$s: rental price excluding tax placeholder, %3$s: rental price display suffix filter hook
+#: includes/class-wcrp-rental-products-settings.php:651
+#, php-format
+msgid ""
+"Set text to appear after a rental product price. You can also have rental "
+"prices substituted here using %1$s and/or %2$s. Note this can also be "
+"filtered via the %3$s filter hook."
+msgstr ""
+
+#. %1$s: rental price including tax placeholder, %2$s: rental price excluding tax placeholder, %3$s: rental price display suffix filter hook
+#: includes/class-wcrp-rental-products-settings.php:642
+#, php-format
+msgid ""
+"Set text to appear before a rental product price. You can also have rental "
+"prices substituted here using %1$s and/or %2$s. Note this can also be "
+"filtered via the %3$s filter hook."
+msgstr ""
+
+#. %s: default days
+#: includes/class-wcrp-rental-products-settings.php:266
+#, php-format
+msgid ""
+"Set the maximum amount of days from today that the rental form will allow "
+"date selection up to. If empty defaults to %s."
+msgstr ""
+
+#. %s: no maximum value
+#: includes/class-wcrp-rental-products-settings.php:330
+#, php-format
+msgid ""
+"Set the maximum amount of days that can selected on the availability checker "
+"calendar. This field and the one above can be set to the same number "
+"(greater than 1) to force a period for selection. Set to %s for no maximum."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:280
+msgid ""
+"Set the maximum date that the rental form will allow date selection up to, "
+"if populated this setting overrides the rental form maximum date days "
+"setting above."
+msgstr ""
+
+#. %s: no minimum value
+#: includes/class-wcrp-rental-products-settings.php:317
+msgid ""
+"Set the minimum amount of days that can selected on the availability checker "
+"calendar. This field and the one below can be set to the same number "
+"(greater than 1) to force a period for selection."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:181
+msgid ""
+"Set the period of the price set in days (e.g. 7 would make the price set be "
+"for a 7 day rental)."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1643
+msgid "Set the rental price."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:823
+msgid "Set the security deposit tax class."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:811
+msgid "Set the security deposit tax status."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1003
+msgid ""
+"Set the shipping class of the rental part of a rental or purchase product. "
+"Requires rental or purchase - rental shipping override option to be enabled."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:981
+msgid ""
+"Set the tax class of the rental part of a rental or purchase product. "
+"Requires rental or purchase - rental tax override option to be enabled."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:969
+msgid ""
+"Set the tax status of the rental part of a rental or purchase product. "
+"Requires rental or purchase - rental tax override option to be enabled."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:162
+msgid ""
+"Set the type of pricing. The period pricing type allows you to set a number "
+"of days the price is for (e.g. 3 day rental for $10.00), the period "
+"selection pricing type allows you to set a number of periods for selection "
+"(e.g. choose between a 1 day rental for $10.00, 3 day rental for $20.00, etc)"
+" and the fixed pricing type uses the same price regardless of the number of "
+"days selected."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1719
+#, php-format
+msgid ""
+"Set times/fees to pick up the rental. Times should be higher than \"in "
+"person return times/fees (multiple day rentals)\". First time/fee entered is "
+"the default selection. Enter in format of 1300:5%2$s00|1500:0%2$s00 (this "
+"example would allow selection of 2 pick up times, one at 13:00 with a fee of "
+"%1$s5%2$s00 and one at 15:00 with a fee of %1$s0%2$s00)."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1775
+#, php-format
+msgid ""
+"Set times/fees to pick up the rental. Times should be higher than \"in "
+"person return times/fees\". First time/fee entered is the default selection. "
+"Enter in format of 1300:5%2$s00|1500:0%2$s00 (this example would allow "
+"selection of 2 pick up times, one at 13:00 with a fee of %1$s5%2$s00 and one "
+"at 15:00 with a fee of %1$s0%2$s00)."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1733
+#, php-format
+msgid ""
+"Set times/fees to pick up the rental. Times should be lower than \"in person "
+"return times/fees (single day rentals)\". First time/fee entered is the "
+"default selection. Enter in format of 1300:5%2$s00|1500:0%2$s00 (this "
+"example would allow selection of 2 pick up times, one at 13:00 with a fee of "
+"%1$s5%2$s00 and one at 15:00 with a fee of %1$s0%2$s00)."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1761
+#, php-format
+msgid ""
+"Set times/fees to return the rental. Times should be higher than \"in person "
+"pick up times/fees (single day rentals)\". First time/fee entered is the "
+"default selection. Enter in format of 1700:0%2$s00|1900:5%2$s00 (this "
+"example would allow selection of 2 return times, one at 17:00 with a fee of "
+"%1$s0%2$s00 and one at 19:00 with a fee of %1$s5%2$s00)."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1747
+#, php-format
+msgid ""
+"Set times/fees to return the rental. Times should be lower than \"in person "
+"pick up times/fees (multiple day rentals)\". First time/fee entered is the "
+"default selection. Enter in format of 1030:0%2$s00|1230:5%2$s00 (this "
+"example would allow selection of 2 return times, one at 10:30 with a fee of "
+"%1$s0%2$s00 and one at 12:30 with a fee of %1$s5%2$s00)."
+msgstr ""
+
+#. %1$s: currency symbol, %2$s: price decimal separator
+#: includes/class-wcrp-rental-products-product-fields.php:1789
+#, php-format
+msgid ""
+"Set times/fees to return the rental. Times should be lower than \"in person "
+"pick up times/fees\". First time/fee entered is the default selection. Enter "
+"in format of 1030:0%2$s00|1230:5%2$s00 (this example would allow selection "
+"of 2 return times, one at 10:30 with a fee of %1$s0%2$s00 and one at 12:30 "
+"with a fee of %1$s5%2$s00)."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:483
+#: includes/class-wcrp-rental-products-product-fields.php:497
+#: includes/class-wcrp-rental-products-product-fields.php:511
+#: includes/class-wcrp-rental-products-product-fields.php:525
+#: includes/class-wcrp-rental-products-product-fields.php:539
+#: includes/class-wcrp-rental-products-product-fields.php:553
+msgid "Set to empty to use defaults from rental settings."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1707
+msgid "Set when an in person return should occur."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:835
+msgid "Set whether the security deposit is non-refundable."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:75
+msgid "Set whether this product is a rental."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:414
+msgid "Sets a product to be available for in person pick up/return:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:734
+msgid ""
+"Sets whether the disable rental start/end days option above should apply to "
+"start/end days, start days only, or end days only."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:94
+msgid ""
+"Sets whether this product is a rental. Review and understand how each option "
+"works below:"
+msgstr ""
+
+#. %1$s: cancelled order status name, %2$s: refunded order status name
+#: includes/class-wcrp-rental-products-order-info.php:54
+#, php-format
+msgid ""
+"Setting order status to %1$s or %2$s will cancel all rentals within the "
+"order."
+msgstr ""
+
+#. %1$s: completed order status name, %2$s: cancelled order status name, %3$s: refunded order status name
+#: includes/class-wcrp-rental-products-order-info.php:49
+#, php-format
+msgid ""
+"Setting order status to %1$s will mark all rentals within the order as "
+"returned and setting order status to %2$s or %3$s will cancel all rentals "
+"within the order."
+msgstr ""
+
+#. %1$s: completed order status name, %2$s: cancelled order status name, %3$s: refunded order status name, %4$s: failed order status name
+#: includes/class-wcrp-rental-products-order-info.php:35
+#, php-format
+msgid ""
+"Setting order status to %1$s will mark all rentals within the order as "
+"returned and setting order status to %2$s, %3$s or %4$s will cancel all "
+"rentals within the order."
+msgstr ""
+
+#. %1$s: cancelled order status name, %2$s: refunded order status name, %3$s: failed order status name
+#: includes/class-wcrp-rental-products-order-info.php:40
+#, php-format
+msgid ""
+"Setting order status to %1$s, %2$s or %3$s will cancel all rentals within "
+"the order."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:87
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:110
+msgid "settings"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:81
+msgid "Settings (opens in a new tab)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:81
+msgid "Settings*"
+msgstr ""
+
+#. %s: completed order status name
+#: includes/class-wcrp-rental-products-settings.php:63
+msgid ""
+"Shipping integration automatically sets orders to completed causing rentals "
+"to be marked as returned."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:45
+msgid "Shipping only"
+msgstr ""
+
+#. %s: select field
+#: includes/class-wcrp-rental-products-enqueues-assets.php:247
+#, php-format
+msgid "Show %s"
+msgstr ""
+
+#. %1$s: start, %2$s: end, %3$s: total
+#: includes/class-wcrp-rental-products-enqueues-assets.php:240
+#, php-format
+msgid "Showing %1$s to %2$s of %3$s"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-enqueues-assets.php:241
+msgid "Showing 0 to 0 of 0"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:99
+msgid ""
+"Shows estimated rental stock totals for the date set. Rentals are considered "
+"in when the rental dates (including any return days thresholds) have past, "
+"regardless of if marked as returned or not."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:788
+msgid ""
+"Shows information on rental order management when viewing order details in "
+"the dashboard. When enabled the user has the choice of toggling this on or "
+"off via the screen options, if disabled it is removed for all users with no "
+"screen option available."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:102
+msgid ""
+"Shows rental stock totals for the current date and time. Rentals are "
+"considered out unless marked as returned or cancelled."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/inventory.php:88
+msgid "SKU"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:337
+msgid ""
+"Some example use cases are seasonal or quantity specific calculations. By "
+"using the filter hook below you can filter the total conditionally based on "
+"the passed data."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:51
+msgid ""
+"Some payment methods enable quick pay functionality, such as buy now buttons "
+"on product pages. Depending on the integration, the standard cart/checkout "
+"process may get bypassed, reesulting in missing rental data, which in turn "
+"may cause further issues."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:63
+#, php-format
+msgid ""
+"Some shipping integrations automatically set orders to the %s status upon "
+"dispatch."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:49
+msgid ""
+"Some themes/page builders are missing a core WooCommerce hook on the product "
+"page."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1155
+msgid ""
+"Some translation plugins create multiple product instances by cloning or "
+"duplicating products to allow you to translate for each language (sometimes "
+"in the background without you knowing), in doing this they then attempt to "
+"sync price, stock, etc between the instances, however due to the complex "
+"nature of rental price and stock data using translation plugins which do "
+"this are extremely likely to give unexpected results or not work at all - so "
+"do not use a translation plugin which does this, if you are unsure if your "
+"translation plugin does this reach out to the support team of the "
+"translation plugin."
+msgstr ""
+
+#. %1$s: product title, %2$s: product page link, %3$s: error code number
+#: includes/class-wcrp-rental-products-cart-checks.php:168
+#, php-format
+msgid ""
+"Sorry, \"%1$s\" could not be added to cart due to a validation error. Please "
+"try refreshing the %2$s and try again. Error code: %3$s."
+msgstr ""
+
+#. %1$s: product title, %2$s: product page link, %3$s: error code number
+#: includes/class-wcrp-rental-products-cart-checks.php:60
+#: includes/class-wcrp-rental-products-cart-checks.php:103
+#, php-format
+msgid ""
+"Sorry, \"%1$s\" could not be added to cart. Please try adding again from the "
+"%2$s. Error code: %3$s."
+msgstr ""
+
+#. %1$s: product title, %2$s: maximum quantity available
+#: includes/class-wcrp-rental-products-cart-checks.php:358
+#, php-format
+msgid ""
+"Sorry, \"%1$s\" has a maximum quantity limit of %2$s. Please reduce the "
+"quantity to %2$s or less."
+msgstr ""
+
+#. %1$s: product title, %2$s: maximum quantity available
+#: includes/class-wcrp-rental-products-cart-checks.php:363
+#, php-format
+msgid ""
+"Sorry, \"%1$s\" is unavailable on these dates for the quantity selected. "
+"Please reduce the quantity to %2$s or less, or remove it from your cart and "
+"try alternative dates."
+msgstr ""
+
+#. %s: product title
+#: includes/class-wcrp-rental-products-cart-checks.php:337
+#, php-format
+msgid ""
+"Sorry, \"%s\" has recently been updated and pricing/availability may have "
+"changed. Please remove the product from your cart and add again."
+msgstr ""
+
+#. %s: product title
+#: includes/class-wcrp-rental-products-cart-checks.php:370
+#, php-format
+msgid ""
+"Sorry, \"%s\" is unavailable on the rental dates selected. Please remove it "
+"from your cart and try alternative dates."
+msgstr ""
+
+#. %s: product title
+#: includes/class-wcrp-rental-products-cart-checks.php:375
+#, php-format
+msgid "Sorry, \"%s\" is unavailable. Please remove it from your cart."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3873
+msgid "Sorry, product could not be added to order due to an error."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:4030
+msgid ""
+"Sorry, product could not be added to order due to availability, it may have "
+"become unavailable recently prior to the add to order request."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3885
+msgid ""
+"Sorry, product could not be added to order due to insufficient permissions."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1572
+msgid "Sorry, the maximum quantity available for rental is"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1185
+msgid ""
+"Sorry, there was an error in price calculation, please try refreshing the "
+"page and try again."
+msgstr ""
+
+#. %s: error code
+#: includes/class-wcrp-rental-products-product-rental-form.php:2339
+#, php-format
+msgid ""
+"Sorry, there was an error, please try refreshing the page. Error code: %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1670
+msgid ""
+"Sorry, these dates cannot be selected as they contain days where unavailable."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3242
+msgid ""
+"Sorry, these dates cannot be selected as they end on the highlighted days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3315
+msgid "Sorry, these dates cannot be selected as they include unavailable days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3229
+msgid ""
+"Sorry, these dates cannot be selected as they start on the highlighted days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3191
+msgid ""
+"Sorry, these dates cannot be selected as they start or end on the "
+"highlighted days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:3216
+msgid ""
+"Sorry, these dates cannot be selected as they start/end on the highlighted "
+"days."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1568
+msgid "Sorry, this product is out of stock for rental."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:1584
+msgid "Sorry, this product is unavailable for rental due to a pricing issue."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-cart-checks.php:312
+msgid ""
+"Sorry, when ordering multiple rental products they must all have the same "
+"rental dates."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-cart-checks.php:249
+msgid ""
+"Sorry, you cannot add a purchase and rental of the same product to cart. If "
+"you require a purchase and rental of the same product then these must be "
+"ordered separately."
+msgstr ""
+
+#. %s: products with issues
+#: includes/class-wcrp-rental-products-cart-checks.php:470
+#, php-format
+msgid ""
+"Sorry, you have added more than 1 of the same products \"%s\" to your cart "
+"and we do not have availability to fulfil the combined rental dates selected."
+" Please remove one or more of these products from your cart to continue "
+"checkout."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:602
+msgid ""
+"Specific day of the week rental must start on. Use with caution if setting "
+"this to a specific day while also disabling dates/days via the other "
+"availability options, consider potential clashes."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:107
+msgid "Specific products"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:307
+#: includes/class-wcrp-rental-products-settings.php:361
+msgid "Standard"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:359
+msgid ""
+"Standard displays rental available/unavailable text and the dates/quantities "
+"which have been selected, minimal only displays the rental "
+"available/unavailable text."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:600
+#: includes/partials/rentals-dashboard/tools.php:40
+msgid "Start day"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:737
+msgid "Start days only (BETA)"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:622
+#: includes/partials/rentals-dashboard/tools.php:42
+msgid "Start days threshold"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:115
+msgid "Start typing a category to search."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:124
+msgid "Start typing a product to search."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:736
+msgid "Start/end days"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:60
+msgid "Status"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:75
+#: includes/class-wcrp-rental-products-settings.php:838
+#: includes/class-wcrp-rental-products-widgets.php:83
+msgid "Summary"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:84
+msgid "Summary of latest and flagged rental orders."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:688
+#: includes/class-wcrp-rental-products-product-fields.php:721
+msgid "Sun"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:156
+#: includes/class-wcrp-rental-products-product-fields.php:611
+msgid "Sunday"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:44
+msgid "Taxable"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:891
+msgid "Text"
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:911
+#, php-format
+msgid ""
+"Text used for available rental stock totals. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:947
+#, php-format
+msgid ""
+"Text used for disable rental end notice. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:938
+#, php-format
+msgid ""
+"Text used for disable rental start notice. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:929
+#, php-format
+msgid ""
+"Text used for disable rental start/end notice. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:920
+#, php-format
+msgid ""
+"Text used for references to check availability. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:956
+#, php-format
+msgid ""
+"Text used for references to in person pick up/return. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:965
+#, php-format
+msgid ""
+"Text used for references to non-refundable. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:974
+#, php-format
+msgid ""
+"Text used for references to pick up date. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:983
+#, php-format
+msgid ""
+"Text used for references to pick up time. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:992
+#, php-format
+msgid ""
+"Text used for references to refundable. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1001
+#, php-format
+msgid ""
+"Text used for references to rent for. Note this can also be filtered via the "
+"%1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1010
+#, php-format
+msgid ""
+"Text used for references to rent from. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1019
+#, php-format
+msgid ""
+"Text used for references to rent to. Note this can also be filtered via the "
+"%1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1028
+#, php-format
+msgid ""
+"Text used for references to rental available. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1037
+#, php-format
+msgid ""
+"Text used for references to rental cancelled. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1046
+#, php-format
+msgid ""
+"Text used for references to rental dates. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1055
+#, php-format
+msgid ""
+"Text used for references to rental period. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1064
+#, php-format
+msgid ""
+"Text used for references to rental return within. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1073
+#, php-format
+msgid ""
+"Text used for references to rental returned. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1082
+#, php-format
+msgid ""
+"Text used for references to rental unavailable. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1091
+#, php-format
+msgid ""
+"Text used for references to reset dates. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1100
+#, php-format
+msgid ""
+"Text used for references to return date. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1109
+#, php-format
+msgid ""
+"Text used for references to return time. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1118
+#, php-format
+msgid ""
+"Text used for references to security deposit. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1127
+#, php-format
+msgid ""
+"Text used for references to select dates. Note this can also be filtered via "
+"the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1136
+#, php-format
+msgid ""
+"Text used for references to view purchase options. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:1145
+#, php-format
+msgid ""
+"Text used for references to view rental options. Note this can also be "
+"filtered via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:902
+#, php-format
+msgid ""
+"Text used when availability checker applied. Note this can also be filtered "
+"via the %1$s filter hook. Recommended is \"%2$s\"."
+msgstr ""
+
+#. %s: completed order status name
+#: includes/class-wcrp-rental-products-order-info.php:99
+#, php-format
+msgid ""
+"The %s order status should only be used when all rental items within the "
+"order are returned"
+msgstr ""
+
+#. %s: recommended plugin link
+#: includes/class-wcrp-rental-products-settings.php:1162
+#: includes/class-wcrp-rental-products-settings.php:1167
+#, php-format
+msgid "The %s plugin is the current recommendation at time of writing."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:55
+msgid ""
+"The add to cart method used does not pass all the required rental form data "
+"to the cart."
+msgstr ""
+
+#. %s: recommended link
+#: includes/class-wcrp-rental-products-settings.php:59
+msgid ""
+"The AJAX add to cart method used does not pass all the required rental form "
+"data to the cart."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:43
+msgid "The availability checker dates/quantities have been cached."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:288
+msgid ""
+"The availability checker is a form which allows customers to select their "
+"preferred rental dates and quantity, once these have been selected it will "
+"show an availability status on rental products in product category pages, "
+"search pages, most core WooCommerce product blocks, etc - excluding "
+"variable/grouped products as these require selection of options. Once the "
+"availability checker is set it also auto populates the rental dates and "
+"quantity on product pages if available. For period selection pricing type "
+"products the period selection where available is highlighted."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:291
+msgid ""
+"The availability checker status is displayed on products in product category "
+"pages, search pages, most core WooCommerce product blocks, etc is added "
+"after the call to action button (add to cart, select options, read more, etc)"
+", therefore these buttons must not be disabled via a setting of your theme "
+"or an extension/plugin and/or custom development if you want the "
+"availability checker status to be displayed. The availability checker status "
+"is displayed automatically, it doesn't require a block/shortcode."
+msgstr ""
+
+#. %s: literpicker language filter hook
+#: includes/class-wcrp-rental-products-settings.php:1170
+#, php-format
+msgid ""
+"The calendar displayed in the rental form and availability checker uses the "
+"Litepicker library, the day/days text within this can be translated using "
+"the methods above, however all the other references used within it, such as "
+"month names, are set through a language setting of the library. By default "
+"the language will be as per your WordPress language setting. In the scenario "
+"where your store has multiple languages with language selection, you may "
+"wish to use the %s filter hook to return a different ISO language string as "
+"per the user language selection."
+msgstr ""
+
+#. %s: root CSS variables prefix
+#: includes/class-wcrp-rental-products-settings.php:208
+#, php-format
+msgid ""
+"The calendars shown in the rental form and availability checker use several "
+"root CSS variables which you can override to customize the styling, they are "
+"named with the %s prefix. You can view these variables and their values when "
+"inspecting the rental form styles using the development tools in your web "
+"browser."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-notices-admin.php:67
+msgid ""
+"The combination of these settings this will cause rentals to be "
+"automatically marked as returned in deposit/partial payment based orders "
+"upon becoming fully paid. One of these settings should be changed "
+"immediately."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:169
+msgid ""
+"The dates and quantities for this rental are reserved, to change this rental "
+"it will need to be cancelled via the cancel rental button to make the "
+"reserved dates and quantities available again."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:148
+msgid ""
+"The first day of the week in the rental form calendar. Day selected will be "
+"the first column in the calendar."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:368
+msgid ""
+"The following example will add 10.00 to the total of any rental product "
+"where the rent from date selected is the 25th December 2024."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1707
+msgid ""
+"The in person pick up and return times/fees below are based on the in person "
+"return date selected above. You may wish to populate the settings for both "
+"options to cover all product data scenarios."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:96
+msgid ""
+"The inventory shows the rental stock totals of all published rental products."
+msgstr ""
+
+#. %s: Deposits & Partial Payments for WooCommerce link
+#: includes/class-wcrp-rental-products-product-fields.php:765
+#, php-format
+msgid ""
+"The options below add a security deposit which is paid during checkout, "
+"alternatively for a partial deposit with the remaining balance paid later "
+"use %s."
+msgstr ""
+
+#: assets/js/admin.js:18
+msgid ""
+"The order must be created because rental items added are reserved "
+"immediately which requires the order to exist, they are reserved immediately "
+"to ensure availability is correct for both this order and customers "
+"currently using the store."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:599
+msgid ""
+"The position of the toggle for rental or purchase based products. Low is in "
+"the position below the add to cart button and high is in the position below "
+"the price."
+msgstr ""
+
+#. %s: action hook
+#: includes/class-wcrp-rental-products-settings.php:582
+#, php-format
+msgid ""
+"The rental or purchase toggle is added automatically via the %s action hook, "
+"generally it is not removed as it is a core WooCommerce hook, however if the "
+"toggle is not displayed it is likely you are using a page builder/theme that "
+"has removed it."
+msgstr ""
+
+#. %s: button class
+#: includes/class-wcrp-rental-products-settings.php:611
+#, php-format
+msgid ""
+"The toggle type for rental or purchase based products. The button type uses "
+"the %s class, styling is normally included in your theme but not guaranteed."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:125
+msgid "Theme"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:126
+msgid "Theme compatibility"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:97
+msgid "There are 2 views available, date view and live view."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:106
+msgid ""
+"There are a variety of factors which determine the availability of a rental "
+"product, this can mean that the totals you see in the inventory do not match "
+"the availability a customer sees when choosing a rental on specific "
+"dates/quantities, such as accounting for the return days thresholds of "
+"rentals prior to the dates they have selected."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1158
+msgid ""
+"There are various plugins available which offer automatic translation, we do "
+"not recommend a specific one."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:881
+msgid ""
+"There is a limitation when either of the disable add-ons options above are "
+"enabled if you are using global product add-ons with required selection, "
+"even though the product add-ons are not displayed, the product won't allow "
+"add to cart, this is due to a limitation in the extensibility of the "
+"WooCommerce Product Add-ons extension. Product level add-ons are unaffected "
+"by this. It is therefore not recommended to combine either of the above 2 "
+"options with global product add-ons which have required selection."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1029
+msgid ""
+"There was an AJAX error when attempting to save the rental product option, "
+"do not amend any other options and save this product using the normal "
+"publish/update buttons."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:2887
+msgid ""
+"These dates and quantity have been automatically populated as this product "
+"is available for your previously selected dates and quantity."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:2883
+msgid ""
+"These dates have been automatically populated as this product is available "
+"for your previously selected dates."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:104
+msgid ""
+"This can occur temporarily when the product has had rental stock reduced and "
+"more than the new level was already reserved. Once those reserved rentals "
+"have been returned the negative rental stocks levels will rectify."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:180
+msgid ""
+"This documentation refers to automatic and manual refunds, for automatic "
+"refunds this is in the context of performing a refund via the WooCommerce "
+"order screen without the need to manually login to your payment provider to "
+"process it, it should not be confused with a means of automatically "
+"processing refunds upon marking a rental item as returned, etc"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:44
+msgid ""
+"This is expected behaviour when the product updated restrictions setting is "
+"enabled, consider disabling this in some limited scenarios, see the related "
+"information for the product updated restrictions setting from the cart and "
+"checkout settings section."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1059
+msgid ""
+"This product is now a rental or purchase product, remember to set rental "
+"price/stock in the additional rental price/stock fields which are now "
+"available."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:139
+#: includes/class-wcrp-rental-products-settings.php:148
+#: includes/class-wcrp-rental-products-settings.php:184
+#: includes/class-wcrp-rental-products-settings.php:224
+#: includes/class-wcrp-rental-products-settings.php:242
+#: includes/class-wcrp-rental-products-settings.php:266
+#: includes/class-wcrp-rental-products-settings.php:280
+msgid "This setting is also used for the availability checker."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:685
+#: includes/class-wcrp-rental-products-product-fields.php:718
+msgid "Thu"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:153
+#: includes/class-wcrp-rental-products-product-fields.php:608
+msgid "Thursday"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:59
+msgid "Time"
+msgstr ""
+
+#. %1$s: filter hook, %2$s: recommended filter hook value
+#: includes/class-wcrp-rental-products-settings.php:687
+#, php-format
+msgid ""
+"Title used as the rental information tab and inner heading displayed on the "
+"product page. Note this can also be filtered via the %1$s filter hook. "
+"Recommended is \"%2$s\"."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-availability-checker.php:607
+msgid "to"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:168
+msgid ""
+"To add a rental item click the add item(s) button and select add rental "
+"product(s) - note that if you are attempting to add a rental or purchase "
+"type product and require the purchasable part of the product use the add "
+"product(s) button instead of add rental product(s)"
+msgstr ""
+
+#. %s: WooCommerce Product Add-ons link
+#: includes/class-wcrp-rental-products-product-fields.php:887
+#, php-format
+msgid ""
+"To add fields e.g. text, select, checkboxes, etc that collect information "
+"and/or charge additional fees use %s."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:169
+msgid "To change a rental item click the change rental button for instructions"
+msgstr ""
+
+#. %s: export custom meta option title
+#: includes/partials/rentals-dashboard/tools.php:139
+#, php-format
+msgid ""
+"To import and/or export rental product data you can use the standard "
+"WooCommerce product import and export tools (use the buttons below to access)"
+". Rental products are no different to non-rental products, they just have "
+"some additional meta attached to them. Use the \"%s\" option when exporting "
+"to see the additional meta."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-line-items.php:92
+msgid ""
+"To refund and restock non-rental items refund these separately to rental "
+"items"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:37
+msgid "Toggle rentals"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:40
+msgid "Toggle returns expected"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:43
+msgid "Toggle rows limit"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:78
+#: includes/class-wcrp-rental-products-settings.php:841
+#: includes/class-wcrp-rental-products-widgets.php:86
+msgid "Tools"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:61
+msgid "Total"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-stat-helpers.php:28
+msgid ""
+"Total number of current rentals across all orders except where rental dates "
+"past, or the rental has been marked as returned or cancelled. This total is "
+"not quantity based."
+msgstr ""
+
+#. %s: last days
+#: includes/class-wcrp-rental-products-stat-helpers.php:74
+#, php-format
+msgid ""
+"Total number of rental orders in the last %s days, excluding orders where "
+"all rentals cancelled."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-stat-helpers.php:69
+msgid ""
+"Total number of rental orders today, excluding orders where all rentals "
+"cancelled."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-stat-helpers.php:92
+msgid "Total number of rental products."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1673
+msgid "Total overrides"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:963
+msgid "Total:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1167
+msgid "TranslatePress"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1174
+#: includes/class-wcrp-rental-products-settings.php:1177
+msgid "Translation"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:46
+msgid ""
+"Try using a different rental form layout from the rental form settings "
+"section."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:43
+msgid ""
+"Try using the availability checker AJAX mode from the availability checker "
+"settings section."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:683
+#: includes/class-wcrp-rental-products-product-fields.php:716
+msgid "Tue"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:151
+#: includes/class-wcrp-rental-products-product-fields.php:606
+msgid "Tuesday"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-inventory.php:26
+#: includes/class-wcrp-rental-products-rentals-inventory.php:115
+#: includes/class-wcrp-rental-products-product-display.php:544
+#: includes/class-wcrp-rental-products-enqueues-assets.php:188
+msgid "Unlimited"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1701
+msgid "Unrestricted"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:673
+#: includes/class-wcrp-rental-products-product-fields.php:706
+msgid ""
+"Upon clicking the field above previously disabled dates appear light gray in "
+"the calendar, click date again to enable."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:93
+#, php-format
+msgid ""
+"Use a <a href=\"%s\" target=\"_blank\">PHP date format</a>. Day, month and "
+"year must be included. Errors in the format used may cause issues with "
+"rental functionality."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:103
+#, php-format
+msgid ""
+"Use a <a href=\"%s\" target=\"_blank\">PHP time format</a>. Hours and "
+"minutes must be be included, seconds should not be included. Errors in the "
+"format used may cause issues with rental functionality."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:993
+msgid ""
+"Use a different rental shipping class than the purchasable shipping class "
+"for the rental part of rental or purchase products."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:959
+msgid ""
+"Use a different tax status/class than the purchasable tax status/class for "
+"the rental part of rental or purchase products."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:210
+msgid ""
+"Use any of the variable names you wish to change and add these overrides to "
+"your theme stylesheet or using the additional CSS section within the theme "
+"customizer."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1689
+#: includes/class-wcrp-rental-products-product-fields.php:1699
+#: includes/class-wcrp-rental-products-product-fields.php:1709
+msgid "Use default from rental settings"
+msgstr ""
+
+#. %1$s block, %2$s: shortcode
+#: includes/class-wcrp-rental-products-settings.php:290
+#, php-format
+msgid ""
+"Use the %1$s block or %2$s shortcode to display the availability checker. We "
+"recommend including the availability checker throughout your customer "
+"journey e.g. in a sidebar so it is visible to customers as they browse "
+"products in your store and if they wish they can reset it. It is not "
+"recommended to include it on product pages as it may cause confusion with "
+"the rental form."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:43
+msgid ""
+"Used for the rental part of rental or purchase products, if a rental only "
+"product use the price option to set the rental price. Only updates if "
+"product type is simple, for bulk variable product updates consider a product "
+"import."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1773
+#: includes/class-wcrp-rental-products-product-fields.php:1787
+msgid "Used only when in person return date is NEXT DAY"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1717
+#: includes/class-wcrp-rental-products-product-fields.php:1731
+#: includes/class-wcrp-rental-products-product-fields.php:1745
+#: includes/class-wcrp-rental-products-product-fields.php:1759
+msgid "Used only when in person return date is SAME DAY"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:206
+msgid ""
+"Using the default styling is strongly recommended, however if you wish to "
+"customize the styling, see the instructions below."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-display.php:510
+#: includes/class-wcrp-rental-products-product-display.php:556
+msgid "Variations"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:122
+msgid "Various tools which can be used for rental product management purposes."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:74
+msgid "View known compatibility issues"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/summary.php:82
+#: includes/partials/rentals-dashboard/summary.php:157
+msgid "View order"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1136
+#: includes/class-wcrp-rental-products-upgrade.php:770
+msgid "View purchase options"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1132
+msgid "View purchase options text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1145
+#: includes/class-wcrp-rental-products-upgrade.php:776
+msgid "View rental options"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:1141
+msgid "View rental options text"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:684
+#: includes/class-wcrp-rental-products-product-fields.php:717
+msgid "Wed"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:152
+#: includes/class-wcrp-rental-products-product-fields.php:607
+msgid "Wednesday"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:34
+msgid "Week"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:723
+#: includes/class-wcrp-rental-products-product-rental-form.php:750
+msgid "week"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:60
+msgid "Week calendar"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/calendar.php:61
+msgid "Week list"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:167
+msgid "Weeks"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:723
+#: includes/class-wcrp-rental-products-product-rental-form.php:750
+msgid "weeks"
+msgstr ""
+
+#. %1%s: completed order status name, %2%s: processing order status name
+#: includes/class-wcrp-rental-products-settings.php:780
+#, php-format
+msgid ""
+"When enabled if an order is set to %1$s then all rentals within the order "
+"are automatically marked as returned, this is recommended, however you can "
+"disable this setting if you want to set an order to %1$s and manually mark "
+"each order item as returned. This is useful in some limited scenarios, such "
+"as if you are using an automated shipping integration which sets dispatched "
+"orders to %1$s. If this setting is disabled then rental return email "
+"reminders will not be sent as these check for all non-returned items in %2$s "
+"orders."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:758
+msgid ""
+"When enabled if rentals are marked as returned the quantity will be "
+"immediately available to rent again. If disabled the quantity will remain "
+"unavailable until the date due to be returned in customer facing areas such "
+"as the rental form on the product page, disabling does not effect rentals "
+"dashbord inventory totals. Note that if the archive rentals setting is "
+"enabled, any returned rentals archived will be immediately replenished "
+"regardless of this setting."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:274
+msgid ""
+"When enabled the price will be the period price + a percentage of the period "
+"price multiplied by the amount of periods selected (e.g. 7 day pricing "
+"period product is $100 with additional periods % at 10% then if a customer "
+"selects a 14 day rental, which is 2 x 7 day periods, then the price will be "
+"$100 + $10 as the second period is 10% of $100)."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:731
+msgid ""
+"When enabled, if a product has been added to cart and since then has been "
+"updated, then the cart/checkout will display a notice that the product has "
+"been updated and pricing/availability may have changed, and checkout can not "
+"continue until the product is removed from the cart. It is recommended this "
+"is enabled, if disabled a customer might place an order with outdated "
+"pricing/availability, for the latter this may mean overlaps in availability. "
+"There are some limited scenarios where you may wish to consider disabling "
+"this, such as if using other functionality which updates product data when a "
+"product is added to cart."
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:143
+msgid ""
+"When importing rental products you should ensure the data listed below is "
+"correct, if this data is not correct it is highly likely you will see "
+"product data issues:"
+msgstr ""
+
+#. %1$s: failed order status name
+#: includes/class-wcrp-rental-products-settings.php:769
+#, php-format
+msgid ""
+"When orders are set to %1$s then rental stock is still reserved as the order "
+"can still be accessed through the customer's account and they can make a "
+"payment at a later date. Enabling this setting means that when an order is "
+"set to %1$s then all the rentals within the order are cancelled, removing "
+"the reservation of the rental stock. The ability to make payment against a "
+"%1$s order with rental products included is disabled too."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-order-info.php:103
+msgid ""
+"When rentals are returned mark each rental item within the order as returned"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:1697
+msgid ""
+"When restricted the in person pick up times set below must be lower/higher "
+"than return times (see tooltip information of each option). If not set "
+"correctly the in person pick up/return will be unavailable. When "
+"unrestricted they can be set without any restrictions. Restricted is "
+"recommended to reduce risk of overlaps in availability. In scenarios where "
+"there is unlimited rental stock or there are rental stock reserves to "
+"account for overlaps in availability, you may wish to set this to "
+"unrestricted."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-rental-form.php:777
+msgid ""
+"When selecting dates above, exclude the return date. The return date will be "
+"automatically calculated and shown below."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-settings.php:305
+msgid ""
+"When using the standard mode the availability checker form included via "
+"block/shortcode, and the statuses shown on products (e.g. in category pages) "
+"are output immediately in the page code. However, depending on if you have "
+"caching enabled on your store and how it is configured you may notice that "
+"the form and/or statuses shown can become empty or incorrectly populated on "
+"cached pages. If you are experiencing this issue then consider using the "
+"AJAX mode and purge any caches after enabling. Note that regardless of the "
+"mode used, on product pages the auto population of dates/quantities is AJAX "
+"based."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:361
+msgid ""
+"Where any third party functionality is used that programmatically changes "
+"cart quantities this is likely to cause pricing inaccuracies, so is not "
+"recommended"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:470
+msgid ""
+"Where limited rental stock available, a customer may not be able to select a "
+"rental date range where the return date is the same as the start date of "
+"another rental e.g. if rental stock is 1, a customer places an order which "
+"reserves a rental to be picked up on the 15th and returned on the 17th, "
+"another customer will not be able to reserve a rental which has a return "
+"date of the 15th, due to the various combinations of availability scenarios "
+"which can potentially occur and how the rental form functions, if you have "
+"limited rental stock and are likely to meet this scenario, consider using "
+"the next day in person return date option instead"
+msgstr ""
+
+#: includes/partials/rentals-dashboard/tools.php:29
+msgid "Which rental product options should be cloned:"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:105
+msgid "Why do customers sometimes see different availability to the inventory?"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-dashboard.php:103
+msgid "Why do I have negative rental stock totals?"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce extension by 99w."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-calendar.php:255
+#: includes/partials/rentals-dashboard/summary.php:135
+msgid "x"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:78
+#: includes/class-wcrp-rental-products-product-fields.php:103
+msgid "Yes - Rental only"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:79
+#: includes/class-wcrp-rental-products-product-fields.php:104
+msgid "Yes - Rental or purchase"
+msgstr ""
+
+#. %1$s: WooCommerce current version, %2$s: WooCommerce fix version
+#: includes/class-wcrp-rental-products-stock-manipulation.php:217
+#, php-format
+msgid ""
+"You are using WooCommerce %1$s with cart/checkout blocks and have rental or "
+"purchase based products. In some availability scenarios for these products "
+"you may experience cart/checkout issues. This is fixed in WooCommerce %2$s, "
+"update to this version, or use classic cart/checkout."
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:364
+msgid ""
+"You may wish to also use a price display override in some scenarios, such as "
+"where advanced pricing effects the minimum rental price displayed"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-fields.php:467
+msgid ""
+"You must enter pick up and return times/fees for both single and multiple "
+"day rentals"
+msgstr ""
+
+#: includes/emails/class-wcrp-rental-products-email-rental-return-reminder.php:21
+msgid "Your {site_title} order has rentals due for return soon"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-widgets.php:82
+#: includes/class-wcrp-rental-products-widgets.php:83
+#: includes/class-wcrp-rental-products-widgets.php:84
+#: includes/class-wcrp-rental-products-widgets.php:85
+#: includes/class-wcrp-rental-products-widgets.php:86
+#: includes/partials/rentals-dashboard/inventory.php:55
+msgid "|"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-rentals-inventory.php:196
+#: includes/class-wcrp-rental-products-enqueues-assets.php:222
+msgid "—"
+msgstr ""
+
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:32
+#: includes/class-wcrp-rental-products-product-bulk-edits.php:55
+msgid "— No change —"
+msgstr ""

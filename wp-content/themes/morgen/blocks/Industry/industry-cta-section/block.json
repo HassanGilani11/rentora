@@ -1,0 +1,17 @@
+{
+    "name": "acf/industry-cta-section",
+    "title": "Industry Page CTA Section",
+    "description": "A custom CTA Block that uses ACF fields.",
+    "style": [ "file:./industry-cta-section.css" ],
+    "script": [ "file:./industry-cta-section.js" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Content", "Columns"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "industry-cta-section.php"
+    },
+    "supports": {
+        "anchor": false
+    }
+}

@@ -1,0 +1,193 @@
+/* View order content */
+
+.mvr-dashboard-content p {
+	color: #6d6d6d !important;
+	font-size: 16px !important;
+	padding: 0;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.mvr-dashboard-content p mark {
+	color: #000 !important;
+}
+
+
+.mvr-dashboard-content p mark .order-number,
+.mvr-dashboard-content p mark .order-date,
+.mvr-dashboard-content p mark .order-status {
+	text-decoration: none;
+	font-weight: 600;
+	color: #000;
+}
+
+.mvr-dashboard-content .woocommerce-order-details,
+.mvr-dashboard-content .woocommerce-customer-details {
+	width: 100%;
+	float: left;
+	display: block;
+	margin-bottom: 15px !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details h2,
+.mvr-dashboard-content .woocommerce-customer-details h2 {
+	color: #000;
+	font-size: 22px !important;
+	font-weight: 500 !important;
+	padding: 0;
+	margin: 0 0 15px 0;
+	width: 100%;
+	text-transform: none;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details {
+	width: 100%;
+	float: left;
+	border-collapse: collapse;
+	border: 1px solid rgba(0,0,0,.05);
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details thead tr:nth-child(odd){
+	background: #fcfcfc !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details tr {
+	border-bottom: none !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details tbody tr:nth-child(odd){
+	background: #fff !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details tfoot tr:nth-child(odd){
+	background: #fcfcfc !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details tfoot tr:nth-child(even){
+	background: #fff !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details th,
+.mvr-dashboard-content .woocommerce-order-details .order_details td {
+	padding: 1.41575em;
+	color: #6d6d6d;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 16px;
+	border: none;
+	background: none !important;
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details td.product-name {
+	border-right: 1px solid rgba(0,0,0,.05);
+}
+
+.mvr-dashboard-content .woocommerce-order-details .order_details th {
+	font-weight: 600;
+	color: #000;
+	border-right: 1px solid rgba(0,0,0,.05);
+}
+
+.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--billing-address {
+	width: 41.1764705882%;
+	float: left;
+	margin-right: 5.8823529412%;
+}
+
+.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--shipping-address {
+	width: 52.9411764706%;
+	float: right;
+	margin-right: 0;
+}
+
+.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--billing-address address,
+.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--shipping-address address {
+	margin: 0 0 1.41575em;
+	color: #6d6d6d;
+	font-size: 16px;
+}
+
+.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--billing-address p,
+.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--shipping-address p {
+	margin-bottom: 15px;
+	color: #444;
+}
+
+.mvr-order-details form {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.mvr-order-details form .mvr-order-status {
+	width: 150px;
+	display: block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-order-details form .button {
+	padding: 0.6180469716em 1.41575em;
+	position: relative;
+	margin-left: 5px;
+	text-decoration: none;
+	border: 1px solid #82237c;
+	border-radius: 5px;
+	text-shadow: none;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: normal;
+	background: #82237c !important;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 0px !important;
+
+}
+
+.mvr-dashboard-content .mvr-customer-phone,
+.mvr-dashboard-content .mvr-customer-email{
+	display: block;
+	width: 100% !important;
+	margin: 0 !important;
+	float: none;
+
+}
+
+.mvr-order-details-table .wc-item-meta li {
+	list-style: none;
+}
+
+.mvr-order-details-table .wc-item-meta li .wc-item-meta-label {
+	float: left;
+}
+
+.mvr-order-details-table .wc-item-meta li p {
+	float: left;
+	margin: 0 0 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--billing-address {
+		width: 100%;
+		float: left;
+		margin-right: 0;
+	}
+
+	.mvr-dashboard-content .woocommerce-customer-details .woocommerce-column--shipping-address {
+		width: 100%;
+		float: right;
+		margin-right: 0;
+	}
+}

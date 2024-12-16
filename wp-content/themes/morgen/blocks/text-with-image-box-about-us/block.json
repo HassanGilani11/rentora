@@ -1,0 +1,16 @@
+{
+    "name": "acf/text-with-image-box-about-us",
+    "title": "Text with Image Box About Us",
+    "description": "A custom Text with Image Box About Us block that uses ACF fields.",
+    "style": [ "file:./text-with-image-box-about-us.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["about", "content", "intro"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "text-with-image-box-about-us.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

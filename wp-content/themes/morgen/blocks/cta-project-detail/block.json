@@ -1,0 +1,16 @@
+{
+    "name": "acf/cta-project-detail",
+    "title": "CTA Project Detail",
+    "description": "A custom CTA Project Detail block that uses ACF fields.",
+    "style": [ "file:./cta-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["CTA", "ProjectDetail"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "cta-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

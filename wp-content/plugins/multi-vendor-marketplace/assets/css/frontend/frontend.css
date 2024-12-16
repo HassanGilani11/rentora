@@ -1,0 +1,229 @@
+/* Register form */
+
+.multi-vendor-marketplace .mvr-vendor-login-form-wrapper form,
+.multi-vendor-marketplace .mvr-vendor-register-form-wrapper form {
+	border: none !important;
+	padding: 0 !important;
+}
+
+
+.multi-vendor-marketplace .mvr-vendor-register-form-wrapper form {
+	border: none !important;
+	padding: 0 !important;
+}
+
+.multi-vendor-marketplace .mvr-vendor-register-form-wrapper form.mvr-vendor-form-register span {
+	display: block !important;
+}
+
+.multi-vendor-marketplace .mvr-vendor-register-form-wrapper form.mvr-vendor-form-register span .show-password-input {
+	top: 2.5em;
+}
+
+.mvr-hide {
+	display: none !important;
+}
+
+.mvr-disabled {
+	pointer-events: none;
+	opacity: .5 !important;
+	cursor: not-allowed !important;
+	padding: 5px 10px;
+}
+
+.mvr-frontend-table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.mvr-form-field-empty {
+	box-shadow: rgb(255, 0, 0) 0px 2px !important;
+}
+
+.mvr-frontend-table thead {
+	background: #f7f7f7;
+}
+
+.mvr-frontend-table thead th {
+	padding: 15px;
+	color: #333;
+	background: #f7f7f7;
+	border: none;
+	text-transform: capitalize;
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	word-break: break-all;
+}
+
+.mvr-frontend-table tbody tr:nth-child(2n) {
+	background: #fafafa;
+}
+
+.mvr-frontend-table tbody td {
+	padding: 15px;
+	color: #666;
+	background: none;
+	border: none;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+	word-break: break-all;
+}
+
+.mvr-frontend-table tbody td img {
+	width: 50px;
+	height: auto;
+	margin: auto;
+}
+
+.mvr-frontend-table tbody td a {
+	color: #00f;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.mvr-frontend-table tbody td a:hover {
+	text-decoration: underline;
+}
+
+.mvr-frontend-table tbody td span {
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+}
+
+.mvr-frontend-table tbody td .lty-lottery-remove-watchlist {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	color: #fff;
+	background: none;
+	border-radius: 5px;
+	border: none;
+	box-shadow: none;
+	font-weight: 600;
+}
+
+.mvr-frontend-table tbody td .lty-lottery-remove-watchlist span {
+	margin-right: 5px;
+	color: #f00;
+	font-size: 30px;
+}
+
+.mvr-frontend-table tfoot {
+	border: none;
+	box-shadow: none;
+}
+
+.mvr-frontend-table tfoot td {
+	padding-right: 0;
+	background: none;
+	border: none;
+}
+
+.mvr-frontend-table tfoot nav {
+	float: right;
+	border: 0;
+	clear: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.mvr-frontend-table tfoot nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+
+.mvr-frontend-table tfoot nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.mvr-frontend-table tfoot nav ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-frontend-table tfoot nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none;
+}
+
+.mvr-frontend-table tfoot nav ul li .current {
+	background: none;
+	border: none;
+}
+
+.mvr-frontend-table tfoot nav ul li .current a,
+.mvr-frontend-table tfoot nav ul li a:hover {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+.mvr-store-banner {
+	width: 100% !important;
+	min-width: 100% !important;
+}
+
+.mvr-profile-form p .mvr-banner-remove {
+	left: 99% !important;
+}
+
+.mvr-spmv-table__cell-actions .button {
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.mvr-frontend-table {
+		border: 1px solid #f1f1f1;
+	}
+
+	.mvr-frontend-table tbody tr {
+		display: block;
+	}
+
+	.mvr-frontend-table thead {
+		display: none;
+	}
+
+	.mvr-frontend-table tr td::before {
+		float: left;
+		content: attr(data-title) ": ";
+		font-weight: 700;
+	}
+
+	.mvr-frontend-table tfoot tr td {
+		border: none;
+		text-align: center !important;
+	}
+
+	.mvr-frontend-table tfoot tr td nav {
+		float: none;
+	}
+
+	.mvr-frontend-table tfoot tr td::before {
+		float: left;
+		content: " ";
+	}
+
+	.mvr-frontend-table tr td {
+		display: block;
+		border-right: 0;
+		border-bottom: 1px solid #f1f1f1;
+		text-align: right !important;
+	}
+
+	.mvr-frontend-table tbody td button {
+		float: none;
+	}
+}

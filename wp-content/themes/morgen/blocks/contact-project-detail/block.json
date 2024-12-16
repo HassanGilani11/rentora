@@ -1,0 +1,17 @@
+{
+    "name": "acf/contact-project-detail",
+    "title": "Contact Project Detail",
+    "description": "A custom Contact Project Detail block that uses ACF fields.",
+    "style": [ "file:./contact-project-detail.css" ],
+    "script": [ "file:./contact-project-detail.js" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Contact", "featured","ProjectDetail"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "contact-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

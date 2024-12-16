@@ -1,0 +1,16 @@
+{
+    "name": "acf/animate",
+    "title": "Fog Animation Section",
+    "description": "A custom Animated block that uses ACF fields.",
+    "style": [ "file:./animate.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Animte", "Section"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "animate.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

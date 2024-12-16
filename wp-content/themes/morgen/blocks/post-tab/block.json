@@ -1,0 +1,17 @@
+{
+    "name": "acf/post-tab",
+    "title": "Post Tab",
+    "description": "A custom Post block that uses ACF fields.",
+    "style": [ "file:./post-tab.css" ],
+    "script": ["file:./post-tab.js"],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["post", "tab"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "post-tab.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

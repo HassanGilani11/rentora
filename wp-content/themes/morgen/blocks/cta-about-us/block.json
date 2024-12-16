@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "acf/cta-about-us",
+    "title": "CTA About Us",
+    "description": "A custom CTA About Us block that uses ACF fields.",
+    "style": [ "file:./cta-about-us.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["CTA", "content"],
+    "align"         : "full",
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "cta-about-us.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

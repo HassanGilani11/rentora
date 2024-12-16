@@ -1,0 +1,16 @@
+{
+    "name": "acf/image-with-text-project-detail",
+    "title": "Image with Text Project Detail",
+    "description": "A custom mage with Text Project Detail block that uses ACF fields.",
+    "style": [ "file:./image-with-text-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["project", "content"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "image-with-text-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

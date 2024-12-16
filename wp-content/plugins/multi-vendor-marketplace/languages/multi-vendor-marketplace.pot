@@ -1,0 +1,5679 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: multi-vendor-marketplace\n"
+"POT-Creation-Date: 2024-09-09 11:31+0530\n"
+"PO-Revision-Date: 2018-04-27 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Trltylator: \n"
+"Content-Trltyfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_attr_e;esc_html__;esc_attr__;esc_html_x;esc_attr_x\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: multi-vendor-marketplace.php\n"
+
+#: includes/abstracts/class-mvr-abstract-email.php:176
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:178
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:184
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:187
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %1$s."
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:195
+msgid "Email Subject"
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:198
+#: includes/abstracts/class-mvr-abstract-email.php:207
+#, php-format
+msgid "Defaults to <code>%1$s</code>"
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:204
+msgid "Email Heading"
+msgstr ""
+
+#: includes/abstracts/class-mvr-abstract-email.php:214
+msgid "Send Email to Admin"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:203
+#: includes/admin/mvr-admin-functions.php:38
+#: includes/admin/mvr-admin-functions.php:115
+#: includes/admin/mvr-admin-functions.php:372
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:217
+#: includes/frontend/class-mvr-form-handler.php:436
+msgid "Please enter valid email address"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:220
+msgid "Are you sure you want to delete this note?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:221
+msgid "Are you sure you want to delete this Vendor?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:222
+msgid "Are you sure you want to delete this Commission?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:223
+msgid "Are you sure you want to delete this Withdrawal Request?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:224
+msgid "Are you sure you want to delete this Transaction?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:225
+msgid "Are you sure you want to delete this Payout?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:226
+msgid "Are you sure you want to delete this Enquiry?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:227
+msgid "Are you sure you want to delete this Staff?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:228
+msgid "Are you sure you want to continue to proceed payment?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:229
+msgid "Are you sure you want to continue to reject the payment?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:239
+msgid "Vendor Payment Paid Successfully"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:241
+msgid "Withdraw amount should not be less than the minimum amount"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:242
+msgid "Withdraw amount should not more than the available amount"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:243
+#: includes/frontend/class-mvr-frontend-scripts.php:173
+msgid "Are you sure you want to delete this product?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:247
+#: includes/frontend/class-mvr-frontend-scripts.php:171
+msgid "Withdrawal Amount :"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:248
+#: includes/frontend/class-mvr-frontend-scripts.php:172
+msgid "Withdrawal Charge Amount :"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:250
+msgid "This Order already has a commission entry. Are you sure you want to recalculate this order?"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:251
+msgid "No Vendor(s) were associated with the Order"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:265
+#: includes/frontend/class-mvr-frontend-scripts.php:230
+#, php-format
+msgid "Please enter a value with one monetary decimal point (%s) without thousand separators and currency symbols."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:266
+msgid "Commission created successfully"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:267
+msgid "Please enter the amount not more than the available amount"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:268
+msgid "Please enter the amount more than 0"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:275
+msgid "Export"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:276
+#: includes/admin/class-mvr-admin-assets.php:277
+#: includes/admin/class-mvr-admin-exporters.php:43
+#: includes/admin/class-mvr-admin-exporters.php:49
+#: includes/admin/views/html-admin-page-generate-payout.php:16
+#: includes/admin/views/html-admin-page-generate-payout.php:75
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:16
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:145
+msgid "Generate Payout"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:311
+#: includes/frontend/class-mvr-frontend-scripts.php:211
+msgid "No matches found"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:312
+#: includes/frontend/class-mvr-frontend-scripts.php:213
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:313
+#: includes/frontend/class-mvr-frontend-scripts.php:214
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:314
+#: includes/frontend/class-mvr-frontend-scripts.php:215
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:315
+#: includes/frontend/class-mvr-frontend-scripts.php:216
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:316
+#: includes/frontend/class-mvr-frontend-scripts.php:217
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:317
+#: includes/frontend/class-mvr-frontend-scripts.php:218
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:318
+#: includes/frontend/class-mvr-frontend-scripts.php:219
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:319
+#: includes/frontend/class-mvr-frontend-scripts.php:220
+msgid "Searching&hellip;"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:342
+#: includes/frontend/class-mvr-frontend-scripts.php:187
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:345
+msgid "Choose an Image"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:346
+msgid "Add Image"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:347
+msgid "Vendor Description"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:352
+#: includes/frontend/class-mvr-frontend-scripts.php:200
+msgid "Shop Name available"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:353
+#: includes/frontend/class-mvr-frontend-scripts.php:201
+msgid "Shop Name already exist"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:354
+#: includes/frontend/class-mvr-frontend-scripts.php:202
+msgid "Available"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:355
+#: includes/frontend/class-mvr-frontend-scripts.php:203
+msgid "Unavailable"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:356
+#: includes/frontend/class-mvr-frontend-scripts.php:204
+msgid "Please enter the Shop Name in 3 or more characters"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-assets.php:357
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:355
+#: includes/frontend/class-mvr-form-handler.php:88
+#: includes/frontend/class-mvr-form-handler.php:195
+#: includes/frontend/class-mvr-form-handler.php:836
+#: includes/frontend/class-mvr-frontend-scripts.php:205
+msgid "Please enter 3 or more characters for the shop slug"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:37
+msgid "Withdraw Export"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:147
+msgid "Payout Generated successfully for the selected Data"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:237
+#: includes/admin/class-mvr-admin-exporters.php:385
+msgid "Insufficient privileges to export withdraw."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:321
+msgid "Insufficient privileges to payout."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:482
+#: includes/class-mvr-post-types.php:162
+msgid "All Vendors"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:483
+msgid "Include Vendors"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-exporters.php:484
+msgid "Exclude Vendors"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:58
+msgid "Store Banner"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:60
+#: includes/class-mvr-notification-manager.php:516
+#: templates/form-user-vendor-register.php:53
+#: templates/form-vendor-register.php:89
+#: templates/single-store/tab/terms-and-conditions.php:18
+msgid "Terms & Conditions"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:61
+msgid "Vendor Action"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:62
+msgid "Vendor Amount"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:63
+msgid "Vendor Notes"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:67
+msgid "Staff Action"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:70
+msgid "Payout Batch Receivers"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:71
+msgid "Transaction Logs"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:74
+#: includes/admin/class-mvr-admin-meta-boxes.php:86
+#: includes/admin/class-mvr-admin-post-types.php:751
+#: includes/admin/class-mvr-admin-post-types.php:847
+#: includes/admin/class-mvr-admin-post-types.php:860
+#: includes/admin/class-mvr-admin-post-types.php:873
+#: includes/admin/mvr-admin-functions.php:507
+#: includes/admin/mvr-admin-functions.php:529
+#: includes/admin/mvr-admin-functions.php:545
+#: includes/admin/mvr-admin-functions.php:586
+#: includes/admin/mvr-admin-functions.php:641
+#: includes/admin/mvr-admin-functions.php:661
+#: includes/admin/mvr-admin-functions.php:1033
+#: includes/admin/views/html-admin-commission-preview.php:37
+#: includes/class-mvr-install.php:518 includes/class-mvr-post-types.php:151
+#: includes/export/class-mvr-withdraw-csv-exporter.php:92
+msgid "Vendor"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:82
+#: includes/admin/settings-page/class-mvr-admin-settings-spmv.php:25
+msgid "Single Product Multiple Vendors"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:88
+#: includes/admin/class-mvr-admin-meta-boxes.php:89
+#: includes/admin/meta-boxes/views/html-coupon-save.php:19
+#: includes/admin/meta-boxes/views/html-product-save.php:19
+msgid "Save"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-meta-boxes.php:131
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:339
+#: templates/single-store/tab/reviews.php:35
+msgid "Reviews"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:220
+#: includes/admin/class-mvr-admin-post-types.php:221
+#: includes/admin/class-mvr-admin-post-types.php:222
+msgid "Vendor Updated"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:223
+msgid "Vendor Saved"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:224
+msgid "Vendor Submitted"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:229
+#: includes/admin/class-mvr-admin-post-types.php:230
+#: includes/admin/class-mvr-admin-post-types.php:231
+msgid "Staff Updated"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:232
+msgid "Staff Saved"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:233
+msgid "Staff Submitted"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:238
+msgid "Product Updated"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:239
+msgid "Product Published"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:240
+msgid "Product Submitted"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:241
+msgid "Product Draft Updated"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:296
+#: includes/admin/mvr-admin-functions.php:565
+#: includes/admin/mvr-admin-functions.php:700
+#: templates/emails/email-staff-details.php:48
+#: templates/emails/email-vendor-details.php:47
+#: templates/emails/email-withdraw-details.php:47
+msgid "Vendor Name"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:327
+msgid "Invalid withdraw request."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:335
+msgid "Invalid Vendor."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:362
+#: includes/class-mvr-ajax.php:857
+msgid "Invalid PayPal Email."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:371
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:385
+#: includes/class-mvr-action-scheduler.php:344 includes/class-mvr-ajax.php:864
+#: includes/export/class-mvr-vendor-generate-payout.php:235
+#: includes/export/class-mvr-withdraw-generate-payout.php:299
+msgid "Payout received."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:396
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:410
+#: includes/class-mvr-action-scheduler.php:371 includes/class-mvr-ajax.php:888
+#: includes/export/class-mvr-vendor-generate-payout.php:261
+#: includes/export/class-mvr-withdraw-generate-payout.php:324
+#: includes/export/class-mvr-withdraw-generate-payout.php:347
+msgid "Payout Received Successful"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:397
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:411
+#: includes/class-mvr-action-scheduler.php:372 includes/class-mvr-ajax.php:889
+#: includes/export/class-mvr-vendor-generate-payout.php:262
+#: includes/export/class-mvr-withdraw-generate-payout.php:325
+#: includes/export/class-mvr-withdraw-generate-payout.php:348
+msgid "You have received a payout! Thanks!!"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:402
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:416
+#: includes/class-mvr-action-scheduler.php:377 includes/class-mvr-ajax.php:894
+#: includes/export/class-mvr-vendor-generate-payout.php:267
+#: includes/export/class-mvr-withdraw-generate-payout.php:330
+msgid "New Payout entry created."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:449
+msgid "Withdrawal payout was completed successfully."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:470
+msgid "Withdraw request marked as paid."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:482
+msgid "Withdraw request was rejected."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:523
+msgid "PayPal Batch Item Updated."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:567
+msgid "Payout batch id was updated successfully."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:613
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:243
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:258
+#: includes/admin/list-tables/class-mvr-admin-list-table-notification.php:257
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout.php:253
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:436
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:120
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:245
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:261
+#: includes/admin/views/html-admin-page-generate-payout.php:52
+msgid "All Vendor(s)"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:722
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:131
+msgid "Vendor Dashboard Page"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:726
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:74
+msgid "Vendor Registration Page"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:730
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:93
+msgid "Vendor Login Page"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:734
+msgid "Vendor Stores Page"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-post-types.php:753
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/class-mvr-admin-settings.php:100
+#: includes/admin/class-mvr-admin-settings.php:125
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-settings.php:151
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/admin/class-mvr-admin-settings.php:153
+msgid "Your settings have been reset."
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:194
+msgid "Default Multi Vendor Pages Successfully Installed"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:202
+msgid "Database verified successfully"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:216
+#: includes/admin/class-mvr-admin.php:359
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:226
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:216
+#: includes/admin/class-mvr-admin.php:217
+#: includes/admin/class-mvr-admin.php:218
+#: includes/admin/class-mvr-admin.php:219
+#: includes/admin/class-mvr-admin.php:220
+#: includes/admin/class-mvr-admin.php:221
+#: includes/admin/class-mvr-admin.php:222
+#: includes/admin/class-mvr-admin.php:223
+#: includes/admin/class-mvr-admin.php:224
+msgid "Multi Vendor"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:217
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:697
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:208
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:15
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:25
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:48
+msgid "Commission"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:218
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:269
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:125
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:220
+#: includes/admin/mvr-admin-functions.php:1043
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:261
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:229
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:25
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:67
+#: includes/admin/views/html-admin-commission-preview.php:45
+#: includes/functions/mvr-commission-functions.php:59
+msgid "Withdraw"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:219
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:126
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:273
+msgid "Transaction"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:220
+#: includes/admin/class-mvr-admin.php:379
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:127
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:226
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payout.php:14
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:297
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:234
+#: includes/admin/views/html-payout.php:18
+#: includes/entity/class-mvr-transaction.php:237
+msgid "Payout"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:221
+#: includes/admin/class-mvr-admin.php:383
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:128
+#: includes/admin/views/html-notification.php:18
+#: includes/class-mvr-query.php:207
+msgid "Notification"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:222
+#: includes/admin/class-mvr-admin.php:387
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:129
+#: includes/admin/views/html-enquiry.php:18 includes/class-mvr-query.php:210
+#: templates/single-store/tab/enquiry.php:16
+msgid "Enquiry"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:223
+#: includes/admin/class-mvr-admin.php:395
+msgid "Store Review"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:224
+#: includes/admin/class-mvr-admin.php:399 includes/class-mvr-install.php:543
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:363 includes/class-mvr-install.php:546
+#: includes/class-mvr-post-types.php:150 includes/class-mvr-post-types.php:152
+msgid "Vendors"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:367
+#: includes/admin/views/html-commission.php:19
+msgid "Earnings"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:371
+#: includes/admin/views/html-withdraw.php:19
+msgid "Withdrawal Requests"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:375
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:230
+#: includes/admin/views/html-transaction.php:19
+msgid "Transactions"
+msgstr ""
+
+#: includes/admin/class-mvr-admin.php:391
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:130
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:232
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-staff.php:14
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:321
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:238
+#: includes/class-mvr-install.php:530 includes/class-mvr-post-types.php:199
+#: includes/class-mvr-post-types.php:200 includes/class-mvr-post-types.php:201
+msgid "Staff"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:201
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:399
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:215
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:418
+#: includes/admin/list-tables/class-mvr-admin-list-table-notification.php:215
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout-batch.php:203
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout-batch.php:349
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout.php:210
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout.php:430
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:156
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:214
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:201
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:423
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:132
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:194
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:215
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:608
+#: includes/functions/mvr-dashboard-functions.php:634
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:224
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:239
+#: includes/admin/list-tables/class-mvr-admin-list-table-notification.php:238
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout.php:234
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:417
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:226
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:242
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:305
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:320
+#: includes/admin/list-tables/class-mvr-admin-list-table-notification.php:319
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout-batch.php:268
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:556
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:331
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:515
+#: includes/functions/mvr-template-functions.php:1307
+#: includes/functions/mvr-template-functions.php:1363
+#: includes/functions/mvr-template-functions.php:1418
+#: includes/functions/mvr-template-functions.php:1487
+#: includes/functions/mvr-template-functions.php:1542
+#: includes/functions/mvr-template-functions.php:1598
+#: includes/functions/mvr-template-functions.php:1654
+#: includes/functions/mvr-template-functions.php:1710
+msgid "All"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:382
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:409
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout.php:414
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:155
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:407
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:123
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:592
+#, php-format
+msgid "ID: %s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:385
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:388
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout.php:419
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:412
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:597
+#: includes/admin/mvr-admin-functions.php:1034
+#: includes/admin/mvr-admin-functions.php:1038
+#: includes/export/class-mvr-withdraw-csv-exporter.php:191
+#: includes/export/class-mvr-withdraw-csv-exporter.php:239
+#: includes/export/class-mvr-withdraw-csv-exporter.php:256
+#: includes/export/class-mvr-withdraw-csv-exporter.php:273
+#: includes/export/class-mvr-withdraw-csv-exporter.php:290
+#: includes/export/class-mvr-withdraw-csv-exporter.php:307
+#: includes/export/class-mvr-withdraw-csv-exporter.php:324
+#: includes/export/class-mvr-withdraw-csv-exporter.php:341
+msgid "Not found"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:425
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:428
+#, php-format
+msgid "%1$s Order ID: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:435
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:438
+#, php-format
+msgid "%1$s Withdrawal ID: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:595
+#: templates/emails/email-withdraw-details.php:48
+msgid "Withdraw Amount"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:596
+#: includes/admin/mvr-admin-functions.php:1129
+msgid "Withdraw Charge"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:597
+#: includes/admin/mvr-admin-functions.php:509
+#: includes/admin/mvr-admin-functions.php:530
+#: includes/admin/mvr-admin-functions.php:547
+#: includes/admin/mvr-admin-functions.php:568
+#: includes/admin/mvr-admin-functions.php:588
+#: includes/admin/mvr-admin-functions.php:645
+#: includes/admin/mvr-admin-functions.php:665
+#: includes/admin/mvr-admin-functions.php:683
+#: includes/admin/mvr-admin-functions.php:704
+#: includes/admin/mvr-admin-functions.php:1073
+msgid "Status"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:598
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:15
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:20
+#: includes/admin/mvr-admin-functions.php:569
+#: templates/emails/email-withdraw-details.php:50
+msgid "Payment Method"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:618
+#: includes/admin/meta-boxes/views/html-payout-batch-data-panel.php:43
+msgid "Not Found"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:693
+#: templates/dashboard/order/order-details.php:54
+#: templates/emails/email-order-details.php:47
+msgid "Product"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:694
+#: templates/emails/email-order-details.php:48
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:695
+#: includes/admin/views/html-admin-commission-preview.php:63
+msgid "Tax"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-commission.php:696
+#: templates/dashboard/order/order-details.php:55
+msgid "Total"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:463
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout-batch.php:409
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:806
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:286
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-enquiry.php:467
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout-batch.php:413
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:290
+msgid "M j, Y"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-payout-batch.php:386
+msgid "Check Batch ID"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:211
+msgid "Unapprove this review"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:212
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:460
+msgid "Unapprove"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:219
+msgid "Approve this review"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:220
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:464
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:229
+msgid "Mark this review as spam"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:231
+msgid "Spam"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:238
+msgid "Restore this review from the spam"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:239
+msgid "Not Spam"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:248
+msgid "Restore this review from the Trash"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:249
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:472
+msgid "Restore"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:258
+msgid "Delete this review permanently"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:259
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:266
+msgid "Move this review to the Trash"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:267
+#: includes/functions/mvr-review-functions.php:177
+msgid "Trash"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:283
+msgid "Edit this review"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:284
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:39
+#: includes/admin/views/html-admin-commission-preview.php:92
+#: includes/functions/mvr-dashboard-functions.php:620
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:317
+msgid "Show more details"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:468
+msgid "Mark as spam"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:474
+msgid "Not spam"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:478
+#: includes/admin/meta-boxes/views/html-staff-action.php:37
+#: includes/admin/meta-boxes/views/html-vendor-action.php:36
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:480
+#: includes/admin/meta-boxes/views/html-staff-action.php:39
+#: includes/admin/meta-boxes/views/html-vendor-action.php:38
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:624
+#, php-format
+msgid "In reply to %s."
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:652
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:680
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:702
+#: templates/single-store/store-header.php:55
+msgid "No reviews"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:680
+msgid "No approved reviews"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:702
+msgid "No pending reviews"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:729
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:131
+#: includes/admin/mvr-admin-functions.php:624
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:239
+#: includes/admin/views/html-review.php:18
+msgid "Review"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:729
+#: includes/functions/mvr-dashboard-functions.php:666
+#: templates/dashboard/reply-enquiry.php:45
+msgid "Reply"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-review.php:753
+#: templates/dashboard/reviews.php:58
+#, php-format
+msgid "%1$d out of 5"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:212
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:192
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:213
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:193
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:239
+#: templates/dashboard/duplicate.php:74
+#: templates/dashboard/form-edit-staff.php:76
+#: templates/dashboard/products.php:94 templates/dashboard/staff.php:86
+#, php-format
+msgid "%1$s Name: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:241
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:233
+#: templates/dashboard/form-edit-staff.php:78 templates/dashboard/staff.php:88
+#, php-format
+msgid "%1$s Email: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-staffs.php:256
+msgid "No Vendor Found"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:268
+#: includes/admin/mvr-admin-functions.php:1052
+#: includes/admin/views/html-admin-commission-preview.php:47
+#: includes/functions/mvr-commission-functions.php:58
+msgid "Order"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:448
+msgid "Credit"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:448
+msgid "Debit"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-transaction.php:453
+#, php-format
+msgid "From: %1$s ID: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:124
+msgid "Commissions"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:229
+#, php-format
+msgid "%1$s Vendor Name: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:231
+#, php-format
+msgid "%1$s Store Name: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:249
+msgid "Pay"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:263
+msgid "Form Filling"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:277
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:279
+msgid "Subscribed"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:284
+#: templates/dashboard/duplicate.php:76 templates/dashboard/products.php:96
+#, php-format
+msgid "%1$s Status: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:288
+#, php-format
+msgid "%1$s ID: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:303
+#, php-format
+msgid "%1$s Tax : %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:317
+#, php-format
+msgid "%1$s From: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:326
+#, php-format
+msgid "%1$s Type: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:335
+#, php-format
+msgid "%1$s Commission: %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:346
+#, php-format
+msgid "%1$s Criteria: %2$s Greater then %3$s of %4$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:362
+#, php-format
+msgid "%1$s Product(s): %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-vendors.php:364
+#, php-format
+msgid "%1$s Order(s): %2$s"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:216
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:659
+msgid "Mark as Paid"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:217
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:645
+msgid "Make Payment"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:330
+msgid "There was no Bank Transfer method selected"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:332
+msgid "There was no PayPal method selected"
+msgstr ""
+
+#: includes/admin/list-tables/class-mvr-admin-list-table-withdraw.php:673
+#: includes/class-mvr-post-types.php:526
+#: includes/functions/mvr-vendor-functions.php:196
+msgid "Reject"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-coupon-data.php:142
+msgid "Coupon saved"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-payout-batch-data.php:60
+msgid "Add Log: "
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-payout-batch-data.php:60
+msgid "Add a log for your reference."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-payout-batch-data.php:64
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:131
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-staff.php:33
+msgid "Add"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-product-data.php:216
+msgid "Product saved"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-staff-data.php:82
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:190
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:14
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-profile.php:14
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:303
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:235
+msgid "Profile"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-staff-data.php:91
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:238
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:25
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:240
+msgid "Capabilities"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:93
+#: includes/admin/views/html-admin-pay-vendor.php:20
+msgid "Total Amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:97
+#: includes/admin/views/html-admin-pay-vendor.php:24
+msgid "Available Amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:101
+#: includes/admin/views/html-admin-pay-vendor.php:28
+msgid "Locked Amount"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:127
+msgid "Add note: "
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:127
+msgid "Add a note for your reference, or add a customer note."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:196
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:21
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:309
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:236
+msgid "Address"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:202
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:15
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:315
+msgid "Social Links"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:214
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:25
+msgid "Payment"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:347
+#: includes/frontend/class-mvr-form-handler.php:78
+msgid "Please Enter the Shop name 3 or more characters"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:351
+#: includes/frontend/class-mvr-form-handler.php:82
+#: includes/frontend/class-mvr-form-handler.php:189
+#: includes/frontend/class-mvr-form-handler.php:830
+msgid "Shop Name already exists. Please try another"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-mvr-meta-box-vendor-data.php:359
+#: includes/frontend/class-mvr-form-handler.php:92
+#: includes/frontend/class-mvr-form-handler.php:199
+#: includes/frontend/class-mvr-form-handler.php:838
+msgid "Shop slug already exists. Please try another"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-coupon-vendor.php:19
+#: includes/admin/meta-boxes/views/html-product-spmv.php:51
+#: includes/admin/meta-boxes/views/html-product-vendor.php:19
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:40
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:53
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:73
+msgid "Search for a Vendor"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-data-panel.php:96
+msgid "Check Payout Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-data-panel.php:105
+msgid "Total Payout Fee: "
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-data-panel.php:109
+msgid "Total Amount Paid: "
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-note.php:20
+#: includes/admin/meta-boxes/views/html-vendor-note.php:20
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-note.php:26
+#: includes/admin/meta-boxes/views/html-vendor-note.php:26
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-note.php:29
+#: includes/admin/meta-boxes/views/html-vendor-note.php:29
+msgid "Delete note"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-payout-batch-notes.php:30
+#: includes/admin/meta-boxes/views/html-vendor-notes.php:30
+msgid "There are no notes yet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-spmv.php:61
+msgid "Assign Products"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-staff-action.php:25
+#: includes/admin/meta-boxes/views/html-vendor-action.php:24
+msgid "Choose a Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-staff-action.php:46
+#: includes/admin/meta-boxes/views/html-vendor-action.php:45
+msgid "Create"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-staff-action.php:46
+#: includes/admin/meta-boxes/views/html-vendor-action.php:45
+#: templates/dashboard/order/order-details.php:45
+msgid "Update"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-store-banner.php:18
+msgid "Remove store banner"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-store-banner.php:19
+msgid "Set store banner"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:15
+msgid "Vendor needs to be selected first"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:22
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:29
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:30
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:15
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:22
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:23
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:48
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:52
+msgid "Product Management"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:40
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:41
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:32
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:33
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:59
+msgid "Product Creation"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:51
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:52
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:42
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:43
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:66
+msgid "Product Modification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:62
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:63
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:52
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:53
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:73
+msgid "Published Product Modification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:73
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:74
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:62
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:63
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:80
+msgid "Manage Inventory"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:84
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:85
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:72
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:73
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:87
+msgid "Product Deletion"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:104
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:111
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:112
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:87
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:94
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:95
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:107
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:111
+msgid "Order Management"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:122
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:123
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:104
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:105
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:118
+msgid "Order Status Modification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:133
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:134
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:114
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:115
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:125
+msgid "Commission Info Display"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:153
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:161
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:162
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:129
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:136
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:137
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:137
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:141
+msgid "Coupon Management"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:173
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:174
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:146
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:147
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:148
+msgid "Coupon Creation"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:185
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:186
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:156
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:157
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:155
+msgid "Coupon Modification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:197
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:198
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:166
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:167
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:162
+msgid "Published Coupon Modification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:209
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-capability.php:210
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:176
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-capability.php:177
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:169
+msgid "Coupon Deletion"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:16
+msgid "Profile Picture:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:17
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:15
+#: templates/dashboard/form-edit-staff.php:72 templates/dashboard/staff.php:82
+msgid "Profile Picture"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:20
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:19
+msgid "User ID:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:25
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:29
+msgid "Name:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:30
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:34
+msgid "Email:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/staff-tab/html-staff-data-profile.php:34
+msgid "Vendor:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:24
+msgid "Staff ID:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-staff-data.php:40
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:27
+msgid "First Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:35
+msgid "Last Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:43
+msgid "Number"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:51
+msgid "Street"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:59
+msgid "City"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:70
+msgid "Country"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:71
+#: templates/dashboard/form-edit-address.php:90
+msgid "Select a Country"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:85
+msgid "State"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:86
+#: templates/dashboard/form-edit-address.php:105
+msgid "Select a State"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:97
+msgid "Zip Code"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-address.php:105
+msgid "Contact"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:20
+msgid "Commission From"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:30
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:61
+msgid "Admin Commission is Calculated"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:40
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:60
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-withdraw.php:49
+msgid "Value"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:49
+#: includes/admin/mvr-admin-functions.php:1149
+msgid "Commission Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:61
+msgid "Value."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:69
+#: includes/admin/mvr-admin-functions.php:1165
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:90
+msgid "Tax Calculation"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:79
+#: includes/admin/mvr-admin-functions.php:1157
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:97
+msgid "Calculate Commission after Applying Admin Created Coupons"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-commission.php:88
+#: includes/admin/mvr-admin-functions.php:1161
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:103
+msgid "Calculate Commission after Applying Vendor Created Coupons"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:30
+#: includes/frontend/class-mvr-form-handler.php:1247
+msgid "Account Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:31
+msgid "Account Name."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:40
+#: includes/frontend/class-mvr-form-handler.php:1248
+msgid "Account Number"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:41
+msgid "Account Number."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:49
+msgid "Account Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:60
+#: includes/export/class-mvr-withdraw-csv-exporter.php:97
+#: includes/frontend/class-mvr-form-handler.php:1249
+msgid "Bank Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:61
+msgid "Bank Name."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:70
+#: includes/export/class-mvr-withdraw-csv-exporter.php:101
+msgid "IBAN"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:71
+msgid "IBAN."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:80
+#: includes/export/class-mvr-withdraw-csv-exporter.php:102
+msgid "SWIFT"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:81
+msgid "SWIFT."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:90
+msgid "PayPal Email"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payment.php:91
+msgid "PayPal Email."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payout.php:19
+msgid "Payout Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-payout.php:30
+msgid "Payout Schedule"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-profile.php:21
+#: includes/admin/mvr-admin-functions.php:1037
+msgid "Store Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-profile.php:22
+#: templates/stores/filters.php:26
+msgid "Enter Store Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-profile.php:32
+msgid "Store Slug"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-profile.php:43
+msgid "Admin"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-profile.php:44
+msgid "Enter Vendor Email"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:21
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:22
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:30
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:31
+msgid "X"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:39
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:40
+msgid "Youtube"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:48
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:49
+msgid "Instagram"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:57
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:58
+msgid "Linkedin"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:66
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-social-links.php:67
+msgid "Pinterest"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-staff.php:16
+msgid "Staff:"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-staff.php:22
+msgid "Search for a Staff"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-staff.php:46
+msgid "Selected Staff"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-staff.php:59
+#: includes/class-mvr-ajax.php:1393
+msgid "No Staff Found"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-withdraw.php:15
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:176
+msgid "Withdrawal Charge"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-withdraw.php:20
+msgid "Withdrawal From"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-withdraw.php:30
+msgid "Enable charge for Withdrawal request"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/vendor-tab/html-vendor-data-withdraw.php:39
+msgid "Charging Type"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:393
+msgid "Select page"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:444
+#: includes/functions/mvr-common-functions.php:270
+msgid "Bank Transfer"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:445
+#: includes/admin/mvr-admin-functions.php:727
+#: includes/functions/mvr-common-functions.php:271
+msgid "PayPal"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:480
+msgid "Simple Products"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:481
+msgid "Variable Products"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:508
+msgid "Payable Amount"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:510
+msgid "Subscription"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:511
+msgid "Registered Date & Time"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:512
+msgid "Tax Cost"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:513
+msgid "Commission Value "
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:514
+msgid "Products & Orders"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:528
+#: templates/emails/email-staff-details.php:47
+msgid "Staff Name"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:531
+#: templates/dashboard/reply-enquiry.php:30
+msgid "Created Date"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:546
+msgid "Activity"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:548
+msgid "Admin Earnings"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:549
+msgid "Vendor Earnings"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:550
+msgid "Date & Time"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:566
+msgid "Requested Amount"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:567
+msgid "Withdrawal Charges"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:570
+#: includes/admin/mvr-admin-functions.php:646
+#: includes/admin/mvr-admin-functions.php:666
+msgid "Last Modified on"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:585
+#: includes/functions/mvr-dashboard-functions.php:216
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:587
+#: includes/admin/mvr-admin-functions.php:606
+#: includes/functions/mvr-dashboard-functions.php:217
+#: includes/functions/mvr-dashboard-functions.php:242
+msgid "Message"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:589
+#: includes/admin/mvr-admin-functions.php:607
+#: includes/admin/mvr-admin-functions.php:684
+#: includes/admin/mvr-admin-functions.php:1088
+msgid "Date and Time"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:604
+#: includes/admin/mvr-admin-functions.php:681
+#: includes/admin/mvr-admin-functions.php:1029
+#: includes/export/class-mvr-withdraw-csv-exporter.php:91
+msgid "ID"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:605
+#: includes/admin/mvr-admin-functions.php:621
+#: includes/admin/mvr-admin-functions.php:643
+#: includes/functions/mvr-dashboard-functions.php:241
+msgid "Type"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:622
+msgid "Author"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:623
+msgid "Rating"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:625
+msgid "Store"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:626
+msgid "Submitted on"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:642
+#: includes/admin/mvr-admin-functions.php:662
+#: includes/admin/mvr-admin-functions.php:702
+#: includes/admin/mvr-admin-functions.php:1078
+#: includes/export/class-mvr-withdraw-csv-exporter.php:93
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:644
+msgid "Source"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:663
+#: templates/emails/email-staff-details.php:49
+#: templates/emails/email-vendor-details.php:49
+msgid "Email"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:664
+#: includes/admin/mvr-admin-functions.php:682
+msgid "Batch ID"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:699
+msgid "S.no"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:701
+msgid "Papal Email"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:703
+msgid "Fee"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:728
+msgid "Bank"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:900
+msgid "Click the image to edit or update"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1063
+msgid "From"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1068
+msgid "From ID"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1083
+msgid "Vendor Earning"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1121
+msgid "Withdraw Settings From"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1125
+msgid "Withdraw Charge Type"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1136
+msgid "Criteria"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1143
+msgid "Criteria Value"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1153
+msgid "Commission Value"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1158
+#: includes/admin/mvr-admin-functions.php:1162
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/mvr-admin-functions.php:1158
+#: includes/admin/mvr-admin-functions.php:1162
+msgid "No"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:25
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:48
+msgid "Troubleshoot Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:58
+msgid "Delete All Vendor Data upon Uninstall"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:62
+msgid "Removes all  the data and tables related to Multi Vendor plugin upon deleting the Vendor plugin"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:70
+msgid "Default Pages"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:89
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:101
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:25
+#: includes/class-mvr-install.php:472
+msgid "Vendor Registration"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:107
+#: includes/class-mvr-install.php:478
+msgid "Vendor Login"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:112
+msgid "Stores Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:113
+msgid "Page contents: [mvr_stores]"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:132
+msgid "Page contents: [mvr_dashboard]"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:150
+msgid "Terms & Conditions Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:168
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:191
+msgid "Stores Endpoints"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:193
+msgid "Endpoints are appended to your page URLs to handle specific actions on stores page. They should be unique."
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:196
+msgid "Single Store Slug"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:200
+msgid "Enter the Vendor Store URL(siteurl/text-defined/vendor)"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:208
+msgid "Dashboard Endpoints"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:210
+msgid "Endpoints are appended to your page URLs to handle specific actions on dashboard page. They should be unique."
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:213
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:227
+msgid "Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:219
+#: includes/class-mvr-query.php:105
+msgid "Add new product"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:225
+msgid "Edit product"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:231
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:228
+msgid "Orders"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:237
+msgid "View Order"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:243
+msgid "Coupons"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:249
+#: includes/class-mvr-query.php:125
+msgid "Add new coupon"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:255
+msgid "Edit Coupon"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:267
+msgid "Add Withdraw Request"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:279
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:231
+msgid "Customers"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:285
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:232
+#: includes/functions/mvr-dashboard-functions.php:501
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:291
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:233
+msgid "Payments"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:327
+#: includes/admin/views/html-admin-add-staff.php:14
+#: includes/admin/views/html-admin-add-staff.php:75
+msgid "Add Staff"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:333
+#: includes/class-mvr-post-types.php:205
+msgid "Edit Staff"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:345
+msgid "Store Notification"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:351
+msgid "Store Enquiry"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:357
+msgid "Store Enquiry Reply"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:379
+msgid "Create Default Pages"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:382
+msgid "Create Pages"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:383
+#: templates/dashboard/order/order-details.php:211
+#: templates/emails/email-order-details.php:87
+msgid "Note:"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:383
+msgid "Clicking this button will  install all the missing multi vendor pages. Pages already defined and set up will not be replaced."
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:398
+msgid "Verify Base Database Tables"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:401
+msgid "Verify Database"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-advanced.php:402
+msgid "Verify if all base database tables are present."
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-capabilities.php:94
+msgid "Allowed Product Types"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:53
+msgid "Calculate the Admin Commission when the Order Status Reaches"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:69
+msgid "Commission Criteria Value"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:73
+msgid "Threshold Value"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:77
+msgid "Admin Commission Type"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-commission.php:84
+msgid "Admin Commission Value"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:25
+msgid "Localization"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:201
+msgid "Localization Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:237
+msgid "Social Link"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:241
+msgid "Single Store"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:242
+msgid "Single Product Multi Vendor"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:266
+msgid "Home Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:271
+msgid "Products Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:276
+msgid "Orders Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:281
+msgid "Coupons Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:286
+msgid "Withdraw Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:291
+msgid "Transactions Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:296
+msgid "Customers Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:301
+msgid "Duplicate Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:306
+msgid "Payments Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:311
+msgid "Payout Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:316
+msgid "Profile Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:321
+msgid "Address Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:326
+msgid "Social Links Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:331
+msgid "Staff Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:336
+msgid "Review Menu Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:345
+msgid "Product Image Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:350
+msgid "Product Details Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:355
+msgid "Product Price Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:360
+msgid "Product Categories Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:365
+msgid "Product Tags Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:370
+msgid "Product Actions Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:375
+msgid "Add New Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:380
+msgid "Search Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:385
+msgid "Edit Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:390
+msgid "View Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:395
+msgid "Delete Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:404
+msgid "Order ID Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:409
+msgid "Order Date Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:414
+msgid "Order Status Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:419
+msgid "Order Total Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:424
+msgid "Order Actions Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:429
+msgid "Order Search Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:434
+msgid "Order View Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:443
+msgid "Withdraw ID Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:448
+msgid "Withdraw Status Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:453
+msgid "Withdraw Amount Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:458
+msgid "Withdraw Charge Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:463
+msgid "Withdraw Payment Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:468
+msgid "Withdraw Date Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:473
+msgid "Withdraw Search Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:478
+msgid "Withdraw Total Amount Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:483
+msgid "Withdraw Available Amount Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:488
+msgid "Withdraw Locked Amount Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:493
+msgid "Withdrawal Charge Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:498
+msgid "Add New Withdrawal Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:503
+msgid "Withdrawal Amount Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:508
+msgid "Withdrawal Submit Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:517
+msgid "Transaction ID Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:522
+msgid "Transaction Status Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:527
+msgid "Transaction Amount Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:532
+msgid "Transaction Description Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:537
+msgid "Transaction Date Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:542
+msgid "Transaction Search Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:547
+msgid "Transaction Total Amount Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:552
+msgid "Transaction Completed Amount Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:557
+msgid "Transaction Processing Amount Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:562
+msgid "Transaction Admin Commission Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:571
+msgid "Customer Email Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:576
+msgid "Customer Last Active Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:581
+msgid "Customer Register Date Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:586
+msgid "Customer Orders Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:591
+msgid "Customer Total Spend Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:596
+msgid "Customer Address Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:605
+msgid "Duplicate Product Image Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:610
+msgid "Duplicate Product Details Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:615
+msgid "Duplicate Product Price Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:620
+msgid "Duplicate Product Categories Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:625
+msgid "Duplicate Product Tags Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:630
+msgid "Duplicate Product Actions Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:635
+msgid "Search Duplicate Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:640
+msgid "Duplicate Product Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:649
+msgid "Payment Method Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:654
+msgid "Account Name Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:659
+msgid "Account Number Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:664
+msgid "Account Type Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:669
+msgid "Bank Name Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:674
+msgid "IBAN Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:679
+msgid "SWIFT Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:684
+msgid "PayPal Email Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:693
+msgid "Payout Type Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:698
+msgid "Payout Schedule Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:707
+msgid "Vendor Store Logo Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:712
+msgid "Vendor Store Banner Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:717
+msgid "Vendor Name Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:722
+msgid "Vendor Store Name Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:727
+msgid "Vendor Slug Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:732
+msgid "Vendor Email Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:737
+msgid "Vendor Description Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:742
+msgid "Vendor Terms & Conditions Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:751
+msgid "First Name Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:756
+msgid "Last Name Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:761
+msgid "Address 1 Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:766
+msgid "Address 2 Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:771
+msgid "City Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:776
+msgid "Country Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:781
+msgid "State Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:786
+msgid "Zip Code Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:791
+msgid "Phone Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:800
+msgid "Facebook Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:805
+msgid "X Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:810
+msgid "Youtube Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:815
+msgid "Instagram Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:820
+msgid "Linkedin Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:825
+msgid "Pinterest Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:834
+msgid "Staff Image Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:839
+msgid "Staff Name Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:844
+msgid "Staff Date Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:849
+msgid "Staff Actions Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:854
+msgid "Add New Staff Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:859
+msgid "Search Staff Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:864
+msgid "Staff Edit Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:869
+msgid "Staff Delete Button Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:874
+msgid "Username Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:879
+msgid "User Email Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:884
+msgid "Create Password Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:889
+msgid "Confirm Password Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:898
+msgid "Review Customer Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:903
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1055
+msgid "Rating Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:908
+msgid "Review Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:913
+msgid "Review Date Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:922
+msgid "Product Management Header Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:927
+msgid "Product Management Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:932
+msgid "Product Creation Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:937
+msgid "Product Modification Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:942
+msgid "Published Product Modification Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:947
+msgid "Manage Inventory Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:952
+msgid "Product Deletion Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:957
+msgid "Coupon Management Header Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:962
+msgid "Coupon Management Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:967
+msgid "Coupon Creation Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:972
+msgid "Coupon Modification Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:977
+msgid "Published Coupon Modification Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:982
+msgid "Coupon Deletion Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:987
+msgid "Order Management Header Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:992
+msgid "Order Management Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:997
+msgid "Order Status Modification Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1002
+msgid "Commission Info Display Field Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1011
+msgid "Store Overview Tab Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1016
+msgid "Store Products Tab Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1021
+msgid "Store Review Tab Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1026
+msgid "Store Enquiry Tab Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1031
+msgid "Store Terms & Conditions Tab Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1040
+msgid "Single Product Multi Vendor Header Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1045
+msgid "Product Name Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1050
+msgid "Price Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-localization.php:1060
+msgid "Action Column Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:28
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:71
+msgid "Messages"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:102
+#: includes/class-mvr-install.php:466 templates/dashboard-link.php:14
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:106
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-subscription.php:25
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-subscription.php:49
+msgid "Vendor Subscription"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:135
+msgid "User Role Not Eligible for Vendor Registration - Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:139
+msgid "Guest User(s) not Allowed for Vendor Registration - Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:147
+msgid "Vendor Application yet to be Approved - Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:151
+msgid "Vendor Application Rejected - Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:155
+msgid "Vendor Application Fields Need to be Filled - Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:159
+msgid "Vendor Dashboard Access Restricted - Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:167
+msgid "Subscription Notice Message"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:170
+msgid "Shortcodes supported:"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-messages.php:171
+msgid "Display subscription price"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:50
+msgid "Payment Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:54
+msgid "Enable PayPal Payout"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:61
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:68
+msgid "Client ID"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:75
+msgid "Secret Key"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:82
+msgid "Sandbox Client ID"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-payment.php:89
+msgid "Sandbox Secret Key"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:25
+msgid "Profile Management"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:48
+msgid "Profile Management Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:52
+msgid "Display Vendor's Review"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:58
+msgid "Display Vendor's Address"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:64
+msgid "Display Vendor's Email"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:70
+msgid "Display Vendor's Contact Number"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:76
+msgid "Display Vendor's Social Links"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:82
+msgid "Display Vendor's Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:88
+msgid "Display Vendor's Policies"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-profile-management.php:94
+msgid "Display Enquiry Form"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-spmv.php:48
+msgid "Single Product Multi Vendor Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-spmv.php:52
+msgid "Enable Single Product Multiple Vendors Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:48
+msgid "Vendor Registration Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:52
+msgid "Allow Logged-In Users to Register as Vendor"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:59
+msgid "Allowed Logged-In User role to become a vendor"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:67
+msgid "Allow Guest to Register as Vendor"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:74
+msgid "Vendor Application Should be Approved by Site Admin"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:80
+msgid "Remind Vendors to Accept the Terms & Conditions and Privacy Policy when Updated"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:91
+msgid "Registration Fields"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:95
+msgid "Email Address Field"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:101
+msgid "Create Password Field"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:107
+msgid "Confirm Password Field"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:113
+msgid "Vendor Name Field"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:119
+msgid "Store Name Field"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-registration.php:125
+msgid "Store Slug Field"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-staff.php:25
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-staff.php:41
+msgid "Vendor Staff"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-staff.php:45
+msgid "Allow Vendors to Create Staff for Managing their Shop"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-subscription.php:53
+msgid "Enable Vendor Subscription"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-subscription.php:80
+msgid "Create New Subscription Product"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-subscription.php:102
+msgid "Select Product"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-vendor-subscription.php:116
+msgid "Search Product(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:71
+msgid "Allow Vendors to Request for a Withdrawal"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:78
+msgid "Payment Method(s) for Withdrawal"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:86
+msgid "Enable Automatic Withdraw Method"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:93
+msgid "Automatic Withdrawal Options"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:98
+#: includes/functions/mvr-common-functions.php:366
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:106
+#: includes/functions/mvr-common-functions.php:367
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:109
+msgid "Select Week Start Day"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:124
+msgid "Bi-Weekly (Monthly Twice)"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:133
+#: includes/functions/mvr-common-functions.php:369
+msgid "Monthly"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:142
+#: includes/functions/mvr-common-functions.php:370
+msgid "Quarterly"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:146
+msgid "Minimum Commission Amount to Submit Withdrawal Request"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:153
+msgid "Hide Withdrawal Options when the Commission is set to be Received Automatically"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:159
+msgid "Allow Withdrawal Request After"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:163
+msgid "Days of Successful Order completion"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:180
+msgid "Enable Charge for Withdraw Request"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:187
+msgid "Charging type"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:195
+msgid "Charge Value"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:224
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:273
+msgid "Select Suitable Week and Day"
+msgstr ""
+
+#: includes/admin/settings-page/class-mvr-admin-settings-withdraw.php:320
+msgid "Select Suitable Month, Week and Day"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:14
+#: includes/admin/views/html-admin-add-commission.php:90
+msgid "Add Commission"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:18
+msgid "Add Commission from:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:22
+msgid "Existing Order"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:23
+msgid "Add Manual Commission"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:35
+#: includes/admin/views/html-admin-add-withdraw.php:23
+msgid "Select Vendor:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:41
+#: includes/admin/views/html-admin-add-withdraw.php:29
+msgid "Search vendor(s)"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:52
+msgid "Commission Amount:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:57
+msgid "Source ID:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:62
+msgid "Source From:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:71
+#: includes/admin/views/html-admin-add-withdraw.php:47
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:80
+msgid "Order ID:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:82
+msgid "Check"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-commission.php:91
+#: includes/admin/views/html-admin-add-staff.php:76
+#: includes/admin/views/html-admin-add-vendor.php:76
+#: includes/admin/views/html-admin-add-withdraw.php:61
+#: includes/admin/views/html-admin-pay-vendor.php:47
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:18
+msgid "Add Staff from:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:22
+#: includes/admin/views/html-admin-add-vendor.php:22
+msgid "Existing User"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:23
+#: includes/admin/views/html-admin-add-vendor.php:23
+msgid "Add New User"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:35
+#: includes/admin/views/html-admin-add-vendor.php:35
+msgid "Username:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:40
+#: includes/admin/views/html-admin-add-vendor.php:40
+msgid "User Email:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:45
+#: includes/admin/views/html-admin-add-vendor.php:45
+msgid "Create Password:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:50
+#: includes/admin/views/html-admin-add-vendor.php:50
+msgid "Confirm Password:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:55
+#: includes/admin/views/html-admin-add-vendor.php:55
+msgid "Select User:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-staff.php:61
+#: includes/admin/views/html-admin-add-vendor.php:61
+msgid "Search User(s)"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-vendor.php:14
+#: includes/admin/views/html-admin-add-vendor.php:75
+msgid "Add Vendor"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-vendor.php:18
+msgid "Add Vendor from:"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-withdraw.php:16
+#: includes/admin/views/html-admin-add-withdraw.php:60
+msgid "Add Withdraw"
+msgstr ""
+
+#: includes/admin/views/html-admin-add-withdraw.php:41
+msgid "Withdraw Amount:"
+msgstr ""
+
+#: includes/admin/views/html-admin-commission-preview.php:20
+#, php-format
+msgid "Commission #%s"
+msgstr ""
+
+#: includes/admin/views/html-admin-commission-preview.php:22
+msgid "Close modal panel"
+msgstr ""
+
+#: includes/admin/views/html-admin-commission-preview.php:56
+#: includes/export/class-mvr-withdraw-csv-exporter.php:103
+#: includes/functions/mvr-dashboard-functions.php:218
+#: includes/functions/mvr-dashboard-functions.php:243
+msgid "Date"
+msgstr ""
+
+#: includes/admin/views/html-admin-commission-preview.php:70
+msgid "Shipping"
+msgstr ""
+
+#: includes/admin/views/html-admin-commission-preview.php:92
+msgid "Edit this order"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:16
+msgid "Gross Sales in the Last 7 Days"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:26
+msgid "Admin Commission in the Last 7 Days"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:38
+#: templates/dashboard/home.php:61
+#, php-format
+msgid "%s items"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:41
+msgid "Sold in the Last 7 Days"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:53
+#: templates/dashboard/home.php:77
+#, php-format
+msgid "%s orders"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:56
+msgid "Received in the Last 7 Days"
+msgstr ""
+
+#: includes/admin/views/html-admin-dashboard.php:66
+msgid "Vendor Earnings in the Last 7 Days"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-payout.php:22
+msgid "Generate Payout for each Vendor"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-payout.php:23
+msgid "This tool allows you to generate a payout for the unpaid Vendor earnings."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-payout.php:30
+msgid "Payment Types for Payout"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-payout.php:33
+msgid "Payout all payment methods"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-payout.php:44
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:30
+msgid "Vendor(s) Selection"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-payout.php:75
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:145
+#: includes/admin/views/html-admin-page-withdraw-export.php:84
+msgid "Generate CSV"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:22
+msgid "Generate Payout for the Withdrawal Requests"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:23
+msgid "This tool allows you to generate a payout for the submitted Withdrawal requests"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:45
+msgid "Include Vendor(s) "
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:65
+msgid "Exclude Vendor(s) "
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:85
+#: includes/export/class-mvr-withdraw-csv-exporter.php:95
+msgid "Payment Type"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:100
+msgid "From Date"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:109
+msgid "To Date"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-generate-withdraw-payout.php:118
+msgid "Status to be Generated"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:17
+msgid "Export Withdraw"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:23
+msgid "Export withdraw to a CSV file"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:24
+msgid "This tool allows you to generate and download a CSV file containing a list of all withdraws."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:31
+msgid "Which columns should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:34
+msgid "Export all columns"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:45
+msgid "Which withdraw payment types should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:48
+msgid "Export all payment methods"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:59
+msgid "Which withdraw status should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-withdraw-export.php:62
+msgid "Export all status"
+msgstr ""
+
+#: includes/admin/views/html-admin-pay-vendor.php:16
+#: includes/admin/views/html-admin-pay-vendor.php:46
+msgid "Pay Vendor"
+msgstr ""
+
+#: includes/admin/views/html-admin-pay-vendor.php:32
+msgid "Minimum Withdrawal Amount"
+msgstr ""
+
+#: includes/admin/views/html-admin-pay-vendor.php:36
+msgid "Amount to pay:"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:76
+#: templates/dashboard/form-edit-address.php:138
+#: templates/dashboard/form-edit-payment.php:104
+#: templates/dashboard/form-edit-payout.php:79
+#: templates/dashboard/form-edit-profile.php:128
+#: templates/dashboard/form-edit-social-links.php:93
+#: templates/dashboard/form-edit-staff.php:256
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:93
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/views/html-admin-view-commission.php:12
+msgid "Commission Details"
+msgstr ""
+
+#: includes/admin/views/html-admin-view-commission.php:28
+msgid "Commission Settings"
+msgstr ""
+
+#: includes/admin/views/html-commission.php:20
+msgid "Create New Earning"
+msgstr ""
+
+#: includes/admin/views/html-commission.php:27
+#: includes/admin/views/html-enquiry.php:25
+#: includes/admin/views/html-notification.php:25
+#: includes/admin/views/html-payout-batch.php:24
+#: includes/admin/views/html-payout.php:25
+#: includes/admin/views/html-review.php:25
+#: includes/admin/views/html-transaction.php:26
+#: includes/admin/views/html-withdraw.php:27
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/admin/views/html-commission.php:33
+msgid "Search Earings"
+msgstr ""
+
+#: includes/admin/views/html-enquiry.php:29
+msgid "Search Enquiry"
+msgstr ""
+
+#: includes/admin/views/html-notification.php:29
+#: templates/dashboard/notification.php:45
+msgid "Search Notification"
+msgstr ""
+
+#: includes/admin/views/html-payout-batch.php:18
+msgid "Payout Batch Log"
+msgstr ""
+
+#: includes/admin/views/html-payout-batch.php:28
+msgid "Search Payout Batch"
+msgstr ""
+
+#: includes/admin/views/html-payout.php:29
+msgid "Search Payout"
+msgstr ""
+
+#: includes/admin/views/html-review.php:29
+msgid "Search Review"
+msgstr ""
+
+#: includes/admin/views/html-transaction.php:30
+msgid "Search Transactions"
+msgstr ""
+
+#: includes/admin/views/html-withdraw.php:20
+msgid "Create New Withdrawal Request"
+msgstr ""
+
+#: includes/admin/views/html-withdraw.php:31
+msgid "Search Withdrawal Request"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:75
+msgid "No user found"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:270 includes/class-mvr-ajax.php:368
+#: includes/class-mvr-ajax.php:408 includes/class-mvr-ajax.php:442
+#: includes/class-mvr-ajax.php:478 includes/class-mvr-ajax.php:528
+#: includes/class-mvr-ajax.php:556 includes/class-mvr-ajax.php:612
+#: includes/class-mvr-ajax.php:638
+msgid "Invalid response"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:276 includes/class-mvr-ajax.php:376
+#: includes/frontend/class-mvr-form-handler.php:305
+msgid "Invalid Product"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:283 includes/class-mvr-ajax.php:491
+#: includes/class-mvr-ajax.php:798 includes/class-mvr-ajax.php:804
+#: includes/class-mvr-ajax.php:1109 includes/class-mvr-ajax.php:1180
+#: includes/class-mvr-ajax.php:1186 includes/class-mvr-ajax.php:1270
+#: includes/class-mvr-ajax.php:1314 includes/class-mvr-ajax.php:1320
+#: includes/class-mvr-ajax.php:1373 includes/class-mvr-ajax.php:1379
+#: includes/class-mvr-ajax.php:1418 includes/class-mvr-ajax.php:1424
+#: includes/class-mvr-ajax.php:1447 includes/class-mvr-ajax.php:1453
+#: includes/data-stores/class-mvr-vendor-data-store-cpt.php:176
+#: includes/frontend/class-mvr-form-handler.php:450
+#: includes/frontend/class-mvr-form-handler.php:513
+#: includes/frontend/class-mvr-form-handler.php:567
+#: includes/frontend/class-mvr-form-handler.php:573
+#: includes/frontend/class-mvr-form-handler.php:695
+#: includes/frontend/class-mvr-form-handler.php:701
+#: includes/frontend/class-mvr-form-handler.php:813
+#: includes/frontend/class-mvr-form-handler.php:819
+#: includes/frontend/class-mvr-form-handler.php:937
+#: includes/frontend/class-mvr-form-handler.php:943
+#: includes/frontend/class-mvr-form-handler.php:1013
+#: includes/frontend/class-mvr-form-handler.php:1019
+#: includes/frontend/class-mvr-form-handler.php:1132
+#: includes/frontend/class-mvr-form-handler.php:1138
+msgid "Invalid Vendor"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:290
+msgid "Invalid Duplicate Product"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:320
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:327
+msgid "Product Already Linked to Vendor"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:382
+msgid "Invalid Object"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:415
+msgid "Please Enter the shop more than 3 or more characters"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:449
+msgid "Please Enter the slug more than 3 or more characters"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:485 includes/class-mvr-ajax.php:562
+msgid "Invalid Post"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:568
+#: includes/data-stores/class-mvr-payout-batch-data-store-cpt.php:121
+msgid "Invalid Payout Batch"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:575
+msgid "Invalid Payout Batch Note"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:647
+#: includes/data-stores/class-mvr-enquiry-data-store-cpt.php:127
+#: includes/functions/mvr-template-functions.php:1183
+msgid "Invalid Enquiry"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:650
+#, php-format
+msgid "Enquiry %s"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:654
+msgid "Please Enter a Message"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:658
+msgid "Something went wrong. Email not sent."
+msgstr ""
+
+#: includes/class-mvr-ajax.php:679
+msgid "Email Sent Successfully"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:705 includes/class-mvr-ajax.php:957
+#: includes/frontend/class-mvr-form-handler.php:579
+msgid "Username Required"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:711 includes/class-mvr-ajax.php:967
+#: includes/frontend/class-mvr-form-handler.php:589
+msgid "An account is already registered with your email address."
+msgstr ""
+
+#: includes/class-mvr-ajax.php:717 includes/class-mvr-ajax.php:973
+#: includes/frontend/class-mvr-form-handler.php:215
+#: includes/frontend/class-mvr-form-handler.php:595
+msgid "Password Required"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:723 includes/class-mvr-ajax.php:979
+#: includes/frontend/class-mvr-form-handler.php:221
+#: includes/frontend/class-mvr-form-handler.php:601
+msgid "Password Not Matching"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:731 includes/class-mvr-ajax.php:741
+#: includes/class-mvr-ajax.php:991 includes/class-mvr-ajax.php:1002
+#: includes/frontend/class-mvr-form-handler.php:99
+msgid "Invalid User"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:735
+msgid "This user is already a vendor."
+msgstr ""
+
+#: includes/class-mvr-ajax.php:810 includes/class-mvr-ajax.php:1192
+#: includes/frontend/class-mvr-form-handler.php:707
+msgid "Please Enter Valid Amount"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:816 includes/class-mvr-ajax.php:1198
+#: includes/frontend/class-mvr-form-handler.php:713
+msgid "Amount should not be less than the minimum amount"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:820 includes/class-mvr-ajax.php:1202
+#: includes/frontend/class-mvr-form-handler.php:717
+msgid "Amount should not be more than the maximum amount"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:827
+msgid "Invalid Amount"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:963
+#: includes/frontend/class-mvr-form-handler.php:585
+msgid "User Email Required"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:995
+msgid "This user is already a Staff."
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1046 includes/class-mvr-ajax.php:1052
+#: includes/class-mvr-ajax.php:1143 includes/class-mvr-ajax.php:1149
+#: includes/data-stores/class-mvr-order-data-store-cpt.php:118
+msgid "Invalid Order."
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1103
+msgid "Vendor Required"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1115
+msgid "Commission Amount Required"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1264
+msgid "Please Select a Vendor"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1274
+#, php-format
+msgid "Available Amount: %s"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1302 includes/class-mvr-ajax.php:1361
+msgid "Staff ID Required"
+msgstr ""
+
+#: includes/class-mvr-ajax.php:1308 includes/class-mvr-ajax.php:1367
+#: includes/data-stores/class-mvr-staff-data-store-cpt.php:130
+#: includes/frontend/class-mvr-form-handler.php:640
+msgid "Invalid Staff"
+msgstr ""
+
+#: includes/class-mvr-emails.php:250
+#, php-format
+msgid "<b>%1$s</b> email has been sent to %2$s."
+msgstr ""
+
+#: includes/class-mvr-emails.php:263
+#, php-format
+msgid "Failed to send <b>%1$s</b> email to %2$s."
+msgstr ""
+
+#: includes/class-mvr-install.php:67
+#, php-format
+msgid "Multi Vendor plugin will not work properly some of Tables are missing in the database %s. Please verify the database."
+msgstr ""
+
+#: includes/class-mvr-install.php:370
+msgid "Verifying database... One or more tables are still missing: "
+msgstr ""
+
+#: includes/class-mvr-install.php:465
+msgid "dashboard"
+msgstr ""
+
+#: includes/class-mvr-install.php:471
+msgid "vendor_register"
+msgstr ""
+
+#: includes/class-mvr-install.php:477
+msgid "vendor_login"
+msgstr ""
+
+#: includes/class-mvr-install.php:483
+msgid "stores"
+msgstr ""
+
+#: includes/class-mvr-install.php:484
+msgid "Stores"
+msgstr ""
+
+#: includes/class-mvr-multi-vendor.php:420
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:62
+#, php-format
+msgid "A withdraw request #%1$s rejected"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:92
+#, php-format
+msgid "A withdraw request #%1$s approved"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:117
+msgid "Sorry, Your Vendor Application has been Rejected"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:142
+msgid "Congratulations! Your Vendor Application has been Approved"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:175
+#, php-format
+msgid "Staff has been removed for you : %s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:221
+#, php-format
+msgid "A New Staff has been assigned for you : %s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:248
+#, php-format
+msgid "A New Review has been Received : %s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:274
+#, php-format
+msgid "New Vendor Registration : %s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:299
+#, php-format
+msgid "User Becomes a Vendor : %s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:325
+#, php-format
+msgid "Vendor %1$s submitted a withdrawal request %2$s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:352
+#: includes/class-mvr-notification-manager.php:366
+#, php-format
+msgid "New enquiry (%1$s) received form customer %2$s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:393
+#, php-format
+msgid "New Product(%1$s) Created from Vendor %2$s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:420
+#, php-format
+msgid "New Coupon(%1$s) Created from Vendor %2$s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:455
+#: includes/class-mvr-notification-manager.php:469
+#, php-format
+msgid "You have received an Order %s"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:516
+#, php-format
+msgid "%s updated by admin please check it"
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:519
+#, php-format
+msgid "%s updated by admin please check it."
+msgstr ""
+
+#: includes/class-mvr-notification-manager.php:519
+#: templates/form-user-vendor-register.php:75
+#: templates/form-vendor-register.php:111
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/class-mvr-order-manager.php:685
+#: includes/frontend/class-mvr-frontend.php:245
+msgid "Sold by"
+msgstr ""
+
+#: includes/class-mvr-payout-manager.php:162
+msgid "Successfully retrieved Payout data from PayPal."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:153 includes/class-mvr-post-types.php:154
+msgid "Add new Vendor"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:155
+msgid "New Vendor"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:156
+msgid "Edit Vendor"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:157
+msgid "View Vendor"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:158
+msgid "Store Logo"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:159
+msgid "Set Store Logo"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:160
+msgid "Remove Store Logo"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:161
+msgid "Use as Store Logo"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:163
+msgid "Search Vendors"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:164
+msgid "No Vendor Found."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:165
+msgid "No Vendor Found in Trash."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:167
+msgid "This is where store vendors are stored."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:202 includes/class-mvr-post-types.php:203
+msgid "Add new Staff"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:204
+msgid "New Staff"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:206
+msgid "View Staff"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:207
+msgid "All Staff"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:208
+msgid "Search Staff"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:209
+msgid "No Staff Found."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:210
+msgid "No Staff Found in Trash."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:239
+msgid "Payout Batches"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:240 includes/class-mvr-post-types.php:241
+msgid "Payout Batch"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:242 includes/class-mvr-post-types.php:243
+msgid "Add new payout batch"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:244
+msgid "New payout batch"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:245
+msgid "Edit payout batch"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:246
+msgid "View payout batch"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:247
+msgid "All payout batches"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:248
+msgid "Search payout batch"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:249
+msgid "No Payout Batch Found."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:250
+msgid "No Payout Batch Found in Trash."
+msgstr ""
+
+#: includes/class-mvr-post-types.php:326
+#: includes/functions/mvr-staff-functions.php:93
+#: includes/functions/mvr-vendor-functions.php:193
+msgid "Active"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:351
+#: includes/functions/mvr-staff-functions.php:94
+#: includes/functions/mvr-vendor-functions.php:194
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:376
+#: includes/functions/mvr-commission-functions.php:89
+#: includes/functions/mvr-common-functions.php:430
+#: includes/functions/mvr-common-functions.php:462
+#: includes/functions/mvr-payout-batch-functions.php:34
+#: includes/functions/mvr-staff-functions.php:95
+#: includes/functions/mvr-vendor-functions.php:195
+#: includes/functions/mvr-withdraw-functions.php:34
+msgid "Pending"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:401
+#: includes/functions/mvr-withdraw-functions.php:35
+msgid "In-Progress"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:426
+#: includes/functions/mvr-common-functions.php:29
+#: includes/functions/mvr-transaction-functions.php:34
+msgid "Processing"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:451
+#: includes/functions/mvr-common-functions.php:31
+#: includes/functions/mvr-transaction-functions.php:35
+msgid "Completed"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:476
+#: includes/functions/mvr-withdraw-functions.php:36
+msgid "Success"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:501
+#: includes/functions/mvr-commission-functions.php:90
+#: includes/functions/mvr-common-functions.php:34
+#: includes/functions/mvr-payout-batch-functions.php:36
+#: includes/functions/mvr-payout-functions.php:36
+#: includes/functions/mvr-transaction-functions.php:36
+#: includes/functions/mvr-withdraw-functions.php:37
+msgid "Failed"
+msgstr ""
+
+#: includes/class-mvr-post-types.php:551
+#: includes/functions/mvr-commission-functions.php:88
+#: includes/functions/mvr-payout-batch-functions.php:35
+#: includes/functions/mvr-payout-functions.php:34
+msgid "Paid"
+msgstr ""
+
+#: includes/class-mvr-query.php:110
+#, php-format
+msgid "Edit product #%s"
+msgstr ""
+
+#: includes/class-mvr-query.php:114
+#, php-format
+msgid "%1$s (page %2$d)"
+msgstr ""
+
+#: includes/class-mvr-query.php:119
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: includes/class-mvr-query.php:130
+#, php-format
+msgid "Edit coupon #%s"
+msgstr ""
+
+#: includes/class-mvr-query.php:166
+msgid "Add New Staff"
+msgstr ""
+
+#: includes/class-mvr-query.php:171
+#, php-format
+msgid "Edit Staff #%s"
+msgstr ""
+
+#: includes/class-mvr-query.php:204
+msgid "Logout"
+msgstr ""
+
+#: includes/class-mvr-query.php:215
+#, php-format
+msgid "Enquiry #%s"
+msgstr ""
+
+#: includes/class-mvr-register.php:41
+msgid "Became a Vendor"
+msgstr ""
+
+#: includes/data-stores/class-mvr-commission-data-store-cpt.php:130
+msgid "Invalid Commission"
+msgstr ""
+
+#: includes/data-stores/class-mvr-customer-data-store-cpt.php:143
+msgid "Invalid Customer."
+msgstr ""
+
+#: includes/data-stores/class-mvr-notification-data-store-cpt.php:115
+msgid "Invalid Notification."
+msgstr ""
+
+#: includes/data-stores/class-mvr-payout-data-store-cpt.php:133
+msgid "Invalid Payout."
+msgstr ""
+
+#: includes/data-stores/class-mvr-spmv-data-store-cpt.php:103
+msgid "Invalid Single Product Multi Vendor."
+msgstr ""
+
+#: includes/data-stores/class-mvr-transaction-data-store-cpt.php:127
+msgid "Invalid Transaction"
+msgstr ""
+
+#: includes/data-stores/class-mvr-withdraw-data-store-cpt.php:121
+msgid "Invalid Withdrawal"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-coupon-request.php:42
+msgid "New Coupon Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-coupon-request.php:43
+msgid "New Coupon Request emails are sent to Admin when a coupon request submitted by a vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-coupon-request.php:46
+msgid "{site_title}: New Coupon - Approval Needed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-coupon-request.php:47
+msgid "A New Coupon Submitted for Approval"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-order.php:49
+#: includes/functions/mvr-notification-functions.php:34
+msgid "New Order"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-order.php:50
+msgid "New Order emails are sent to Admin when a vendor received order submitted by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-order.php:53
+msgid "{site_title}: New Order Received for Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-order.php:54
+msgid "A New Order Received for Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-product-request.php:42
+msgid "New Product Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-product-request.php:43
+msgid "New Product Request emails are sent to Admin when a product request submitted by a vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-product-request.php:46
+msgid "{site_title}: New Product - Approval Needed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-product-request.php:47
+msgid "A New Product Submitted for Approval"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-review.php:40
+#: includes/emails/class-mvr-email-vendor-new-review.php:47
+msgid "New Review"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-review.php:41
+msgid "New Review emails are sent to Admin when a review submitted by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-review.php:44
+#: includes/emails/class-mvr-email-vendor-new-review.php:51
+msgid "{site_title}: New Review Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-review.php:45
+msgid "A New Review has been Received to Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-register.php:42
+msgid "New Vendor Register"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-register.php:43
+#: includes/emails/class-mvr-email-vendor-partial-register.php:43
+msgid "New Vendor Register emails are sent to Admin when a vendor registered by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-register.php:46
+msgid "{site_title}: New Vendor Registered"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-register.php:47
+msgid "New Vendor Registered on your Site"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-request.php:35
+msgid "New Vendor Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-request.php:36
+msgid "New Vendor Request emails are sent to Admin when a vendor request submitted by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-request.php:39
+msgid "{site_title}: New Vendor Application"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-vendor-request.php:40
+msgid "New Vendor Application Submitted on your Site"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-withdraw-request.php:42
+msgid "New Withdraw Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-withdraw-request.php:43
+msgid "New Withdraw Request emails are sent to Admin when a Withdraw request submitted by a vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-withdraw-request.php:46
+msgid "{site_title}: New Withdrawal Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-admin-new-withdraw-request.php:47
+msgid "A New Withdrawal Request Submitted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-assigned.php:40
+msgid "New Staff Assigned for Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-assigned.php:41
+msgid "Staff Assigned emails are sent to Staff when a admin assign Staff to Vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-assigned.php:44
+#: includes/emails/class-mvr-email-vendor-staff-assigned.php:44
+msgid "{site_title}: New Staff Assigned for Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-assigned.php:45
+#: includes/emails/class-mvr-email-vendor-staff-assigned.php:45
+msgid "A New Staff has been assigned for Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-deleted.php:40
+msgid "Staff Deleted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-deleted.php:41
+msgid "Staff Deleted emails are sent to Staff when an admin deleted Staff."
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-deleted.php:44
+#: includes/emails/class-mvr-email-vendor-staff-deleted.php:44
+msgid "{site_title}: Staff Deleted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-staff-deleted.php:45
+msgid "A Staff has been Deleted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-approved.php:33
+msgid "Vendor Application Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-approved.php:34
+msgid "Vendor Application Approved emails are sent to vendor when an admin accept vendor request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-approved.php:37
+#: includes/emails/class-mvr-email-vendor-new-account-created.php:37
+msgid "{site_title}: Vendor Application Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-approved.php:38
+#: includes/emails/class-mvr-email-vendor-new-account-created.php:38
+msgid "Your Vendor Application has been Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-approved.php:40
+msgid "Vendor - Coupon Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-approved.php:41
+msgid "Coupon Approved emails are sent to vendor when an Admin approve the coupon."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-approved.php:44
+msgid "{site_title}: New Coupon Submission Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-approved.php:45
+msgid "Your New Coupon Submission has been Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-rejected.php:40
+msgid "Vendor - Coupon Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-rejected.php:41
+msgid "Coupon Rejected emails are sent to vendor when an Admin reject the coupon."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-rejected.php:44
+msgid "{site_title}: New Coupon Submission Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-coupon-rejected.php:45
+msgid "Your New Coupon Submission has been Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-account-created.php:33
+msgid "Vendor Account Created - Without Admin approval"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-account-created.php:34
+msgid "Vendor Account Created emails are sent to vendor when a customer register as vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-coupon-submitted.php:40
+msgid "Vendor - Coupon Submitted Successfully"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-coupon-submitted.php:41
+msgid "Vendor coupon Submitted for Admin Approval emails are sent to vendor when an vendor submit the coupon request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-coupon-submitted.php:44
+msgid "{site_title}: New Coupon Submission Completed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-coupon-submitted.php:45
+msgid "Your New Coupon has been Submitted for Approval"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-enquiry.php:40
+msgid "New Enquiry Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-enquiry.php:41
+msgid "New Vendor Enquiry emails are sent to vendor when a customer submit enquiry."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-enquiry.php:44
+msgid "{site_title}: New Enquiry Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-enquiry.php:45
+msgid "A New Enquiry has been Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-order.php:47
+msgid "Vendor - New Order Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-order.php:48
+msgid "New Order emails are sent to vendor when a vendor received order submitted by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-order.php:51
+msgid "{site_title}: New Order Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-order.php:52
+msgid "A New Order has been received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-product-submitted.php:40
+msgid "Vendor Product Submitted for Admin Approval"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-product-submitted.php:41
+msgid "Vendor Product Submitted for Admin Approval emails are sent to vendor when an vendor submit the product request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-product-submitted.php:44
+msgid "{site_title}: New Product Submission Completed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-product-submitted.php:45
+msgid "Your New Product has been Submitted for Approval"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-register.php:40
+msgid "Vendor Application Submitted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-register.php:41
+msgid "Vendor Application Submitted emails are sent to vendor when a vendor register as a vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-register.php:44
+msgid "{site_title}: Vendor Application Submission Success"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-register.php:45
+msgid "Your Vendor Application has been successfully completed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-review.php:48
+msgid "New Review emails are sent to vendor when a review submitted by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-review.php:52
+msgid "A New Review has been Received"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-withdraw-request.php:40
+msgid "Vendor - New Withdraw Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-withdraw-request.php:41
+msgid "New Withdraw Request emails are sent to Vendor when a vendor submit withdraw request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-withdraw-request.php:44
+msgid "{site_title}: New Withdraw Request"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-new-withdraw-request.php:45
+msgid "New Withdraw Request on your Site"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-partial-register.php:42
+msgid "Vendor Application Partial Submission"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-partial-register.php:46
+msgid "{site_title}: Vendor Application Submission - Partially Completed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-partial-register.php:47
+msgid "Your Vendor Application has been partially completed"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-approved.php:40
+msgid "Vendor Product Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-approved.php:41
+msgid "Vendor Product Approved emails are sent to vendor when an admin approve vendor product request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-approved.php:44
+msgid "{site_title}: New Product Submission Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-approved.php:45
+msgid "Your New Product Submission has been Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-rejected.php:40
+msgid "Vendor Product Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-rejected.php:41
+msgid "Vendor Product Rejected emails are sent to vendor when an admin reject vendor product request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-rejected.php:44
+msgid "{site_title}: New Product Submission Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-product-rejected.php:45
+msgid "Your New Product Submission has been Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-rejected.php:33
+msgid "Vendor Application Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-rejected.php:34
+msgid "Vendor Application Rejected emails are sent to vendor when an admin reject vendor request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-rejected.php:37
+msgid "{site_title}: Vendor Application Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-rejected.php:38
+msgid "Your Vendor Application has been Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-credited.php:42
+msgid "Vendor - Revenue Credited"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-credited.php:43
+msgid "New Revenue Credited."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-credited.php:46
+msgid "{site_title}: Revenue Credited"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-credited.php:47
+msgid "New Revenue Credited"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-earned.php:46
+msgid "Vendor - Revenue Earned"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-earned.php:47
+msgid "Vendor Revenue Earned emails are sent to vendor when an order placed by a customer."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-earned.php:50
+msgid "{site_title}: Revenue Earned"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-revenue-earned.php:51
+msgid "New Revenue Earned"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-staff-assigned.php:40
+msgid "Vendor - New Staff Assigned for Vendor"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-staff-assigned.php:41
+msgid "Staff Assigned emails are sent to Staff when a admin assign Staff to vendor."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-staff-deleted.php:40
+msgid "Vendor - Staff Deleted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-staff-deleted.php:41
+msgid "Staff Deleted emails are sent to vendor when an admin delete the Staff."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-staff-deleted.php:45
+msgid "Your Staff has been Deleted"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-approved.php:40
+msgid "Withdraw Request Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-approved.php:41
+msgid "Withdraw Request Approved emails are sent to vendor when an admin approve a withdraw request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-approved.php:44
+msgid "{site_title}: New Withdraw Request Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-approved.php:45
+msgid "Your Withdraw Request has been Approved"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-rejected.php:40
+msgid "Withdraw Request Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-rejected.php:41
+msgid "Withdraw Request Rejected emails are sent to vendor when an admin reject a withdraw request."
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-rejected.php:44
+msgid "{site_title}: New Withdraw Request Rejected"
+msgstr ""
+
+#: includes/emails/class-mvr-email-vendor-withdraw-rejected.php:45
+msgid "Your Withdraw Request has been Rejected"
+msgstr ""
+
+#: includes/entity/class-mvr-commission.php:150
+#: includes/entity/class-mvr-payout-batch.php:177
+#: includes/entity/class-mvr-vendor.php:517
+#: includes/entity/class-mvr-withdraw.php:201
+#, php-format
+msgid "Status changed from <b>%1$s</b> to <b>%2$s</b>."
+msgstr ""
+
+#: includes/entity/class-mvr-payout-batch.php:204
+#, php-format
+msgid "Payout Batch status set to <b>%s</b>."
+msgstr ""
+
+#: includes/entity/class-mvr-payout-batch.php:252
+#: includes/entity/class-mvr-payout-batch.php:253
+#: includes/entity/class-mvr-vendor.php:592
+#: includes/entity/class-mvr-vendor.php:593
+#: includes/functions/mvr-payout-batch-functions.php:358
+#: includes/functions/mvr-vendor-functions.php:563
+#: includes/privacy/class-mvr-privacy.php:49
+msgid "Multi Vendor Marketplace"
+msgstr ""
+
+#: includes/entity/class-mvr-transaction.php:232
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: includes/entity/class-mvr-transaction.php:235
+#, php-format
+msgid "Withdraw #%s"
+msgstr ""
+
+#: includes/entity/class-mvr-vendor.php:544
+#, php-format
+msgid "Vendor status set to <b>%s</b>."
+msgstr ""
+
+#: includes/export/class-mvr-withdraw-csv-exporter.php:94
+msgid "Charge"
+msgstr ""
+
+#: includes/export/class-mvr-withdraw-csv-exporter.php:96
+msgid "PayPal Email Address"
+msgstr ""
+
+#: includes/export/class-mvr-withdraw-csv-exporter.php:98
+msgid "Bank Account Holder"
+msgstr ""
+
+#: includes/export/class-mvr-withdraw-csv-exporter.php:99
+msgid "Bank Account Number"
+msgstr ""
+
+#: includes/export/class-mvr-withdraw-csv-exporter.php:100
+msgid "Bank Account Type"
+msgstr ""
+
+#: includes/frontend/class-mvr-cart-manager.php:67
+msgid "You cannot add this product to the cart because your cart already contains product(s) from another Vendor."
+msgstr ""
+
+#: includes/frontend/class-mvr-cart-manager.php:90
+msgid "You can't complete the order because your cart contains different vendor products."
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:62
+#: includes/frontend/class-mvr-form-handler.php:169
+msgid "Please accept the Terms and Conditions"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:66
+#: includes/frontend/class-mvr-form-handler.php:173
+msgid "Please accept the Privacy Policy"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:72
+#: includes/frontend/class-mvr-form-handler.php:179
+msgid "Please enter a valid Vendor Name"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:140
+#: includes/frontend/class-mvr-form-handler.php:276
+msgid "Vendor Application Submitted."
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:185
+#: includes/frontend/class-mvr-form-handler.php:828
+msgid "Please enter  a valid Store Name"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:209
+#, php-format
+msgid "An account is already registered with your email address. <a href=\"%s\" class=\"showlogin\">Please log in.</a>"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:237
+#: includes/frontend/class-mvr-form-handler.php:613
+msgid "Invalid user."
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:319
+#: includes/frontend/class-mvr-form-handler.php:364
+#: includes/frontend/class-mvr-form-handler.php:409
+#, php-format
+msgid "%s has been deleted"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:350
+msgid "Invalid Coupon"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:395
+msgid "Invalid Staff ID"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:443
+msgid "Please enter your enquiry message"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:480
+msgid "Your enquiry has been submitted successfully."
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:506
+msgid "Rating Should not be empty"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:525
+msgid "Review Already Submitted"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:537
+msgid "Thank you for sharing your experience with us!"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:667
+msgid "Staff Created Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:758
+msgid "Request Submitted Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:863
+#: includes/frontend/class-mvr-form-handler.php:1054
+#: includes/frontend/class-mvr-form-handler.php:1255
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:907
+msgid "Profile Details Saved Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:984
+msgid "Payout Details Saved Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1102
+msgid "Address Saved Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1187
+msgid "Social Media Saved Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1228
+msgid "PayPal Email is required"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1306
+msgid "Payment Details Saved Successfully"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1370
+msgid "Invalid Order"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1380
+msgid "Updated by Vendor"
+msgstr ""
+
+#: includes/frontend/class-mvr-form-handler.php:1382
+msgid "Order Updated"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:160
+msgid "Choose Logo"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:161
+msgid "Add Logo"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:162
+msgid "Choose Banner"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:163
+msgid "Add Banner"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:212
+msgid "Loading failed"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:232
+#, php-format
+msgid "Amount to Withdraw should not be more then the Available amount (%s)"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend-scripts.php:234
+#, php-format
+msgid "Amount to Withdraw should not  be less then the Minimum withdraw amount of (%s)"
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend.php:378
+msgid "Sorry, this vendor coupon is not applicable to selected products."
+msgstr ""
+
+#: includes/frontend/class-mvr-frontend.php:438
+msgid "Subscribe"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:28
+msgid "Pending payment"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:30
+msgid "On hold"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:32
+msgid "Cancelled"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:33
+msgid "Refunded"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:107
+#: includes/functions/mvr-common-functions.php:139
+msgid "Global"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:108
+#: includes/functions/mvr-common-functions.php:140
+msgid "Custom"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:171
+#: includes/functions/mvr-common-functions.php:500
+msgid "Fixed"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:172
+#: includes/functions/mvr-common-functions.php:501
+msgid "Percentage"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:203
+msgid "From Vendor's First Order"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:204
+msgid "After Vendor Reaching Specific Number of Orders"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:205
+msgid "After Vendor has Earned more than a Specific Amount"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:206
+msgid "If Vendor's Product Price is more than a Specific Amount"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:237
+msgid "Only for Vendor"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:238
+msgid "Only for Admin"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:239
+msgid "Shared between Admin and Vendor"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:302
+msgid "Personal"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:303
+msgid "Business"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:334
+msgid "Manual"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:335
+msgid "Automatic"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:368
+msgid "Bi-Weekly"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:428
+#: includes/functions/mvr-common-functions.php:460
+msgid "Published"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:429
+#: includes/functions/mvr-common-functions.php:461
+msgid "Draft"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:552
+msgid "Sunday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:553
+msgid "Monday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:554
+msgid "Tuesday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:555
+msgid "Wednesday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:556
+msgid "Thursday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:557
+msgid "Friday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:558
+msgid "Saturday"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:589
+msgid "First Week"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:590
+msgid "Second Week"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:591
+msgid "Third Week"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:592
+msgid "Fourth Week"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:623
+msgid "January"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:624
+msgid "February"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:625
+msgid "March"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:626
+msgid "April"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:627
+msgid "May"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:628
+msgid "June"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:629
+msgid "July"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:630
+msgid "August"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:631
+msgid "September"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:632
+msgid "October"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:633
+msgid "November"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:634
+msgid "December"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:661
+#, php-format
+msgid "Every %s 11:00 pm"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:681
+#, php-format
+msgid "Every %1$s"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:695
+#, php-format
+msgid "Every Month %1$s 11:00 pm"
+msgstr ""
+
+#: includes/functions/mvr-common-functions.php:716
+msgid "Every day 11:00 pm"
+msgstr ""
+
+#: includes/functions/mvr-core-functions.php:438
+#: includes/functions/mvr-core-functions.php:474
+#, php-format
+msgid "%s not found in database"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:67
+msgid "Home"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:219
+msgid "Action"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:583
+msgid "Coupon"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:584
+#: templates/single-store/tab/overview.php:17
+msgid "Description"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:585
+msgid "Product IDs"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:586
+msgid "Usage / Limit"
+msgstr ""
+
+#: includes/functions/mvr-dashboard-functions.php:587
+msgid "Coupon Action"
+msgstr ""
+
+#: includes/functions/mvr-enquiry-functions.php:58
+#: includes/functions/mvr-notification-functions.php:92
+msgid "Read"
+msgstr ""
+
+#: includes/functions/mvr-enquiry-functions.php:59
+#: includes/functions/mvr-notification-functions.php:93
+msgid "Unread"
+msgstr ""
+
+#: includes/functions/mvr-notification-functions.php:35
+msgid "New Product"
+msgstr ""
+
+#: includes/functions/mvr-notification-functions.php:36
+msgid "New Coupon"
+msgstr ""
+
+#: includes/functions/mvr-notification-functions.php:37
+msgid "New Enquiry"
+msgstr ""
+
+#: includes/functions/mvr-payout-functions.php:35
+msgid "Unpaid"
+msgstr ""
+
+#: includes/functions/mvr-review-functions.php:174
+msgid "Approved"
+msgstr ""
+
+#: includes/functions/mvr-review-functions.php:176
+msgid "Moderated"
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:208
+msgid "Add New Product"
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:340
+#: includes/functions/mvr-template-functions.php:372
+msgid "Invalid order."
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:581
+msgid "Add New Coupon"
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:603
+msgid "Invalid Coupon."
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:2352
+msgid "Need to Fill Payment Method"
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:2493
+msgid "View"
+msgstr ""
+
+#: includes/functions/mvr-template-functions.php:2500
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/functions/mvr-time-functions.php:98
+#, php-format
+msgid "%1$s ago"
+msgstr ""
+
+#: includes/functions/mvr-time-functions.php:105
+#, php-format
+msgid "In %1$s"
+msgstr ""
+
+#: includes/payouts/class-mvr-paypal-payouts-api.php:177
+#: includes/payouts/class-mvr-paypal-payouts-api.php:210
+msgid "There was a problem connecting to the PayPal API endpoint."
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:70
+msgid "This includes the basics of what personal data your store may be collecting, storing and sharing. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary."
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:71
+msgid "WHAT DOES THE PLUGIN DO?"
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:72
+msgid "Using Multi Vendor Marketplace for WooCommerce you can convert your existing Woocommerce shop into a Multi Vendor Market"
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:73
+msgid "WHAT WE COLLECT AND STORE?"
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:74
+msgid "Username"
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:75
+msgid "To identify the Vendors within the Plugin."
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:76
+msgid "Vendor Related Info"
+msgstr ""
+
+#: includes/privacy/class-mvr-privacy.php:77
+msgid "We record the following details provided by the Vendor. This information is presented to the user on the Vendor Profile. First Name, Last Name, Door Number, Street, City, Country, State, Zip Code, Phone, Facebook Profile URL, X Profile URL, Youtube Profile URL, Instagram Profile URL, Linkedin Profile URL, Pinterest Profile URL"
+msgstr ""
+
+#: includes/shortcodes/class-mvr-shortcode-vendor-dashboard.php:57
+#: templates/form-user-vendor-register.php:92
+#: templates/form-vendor-register.php:138
+msgid "Register"
+msgstr ""
+
+#: includes/shortcodes/class-mvr-shortcode-vendor-dashboard.php:57
+msgid "Vendor Dashboard as a Guest"
+msgstr ""
+
+#: includes/shortcodes/class-mvr-shortcode-vendor-dashboard.php:67
+msgid "Register as Vendor"
+msgstr ""
+
+#: templates/dashboard/coupons.php:29 templates/dashboard/customers.php:22
+#: templates/dashboard/duplicate.php:23 templates/dashboard/enquiry.php:28
+#: templates/dashboard/notification.php:28 templates/dashboard/orders.php:27
+#: templates/dashboard/products.php:28 templates/dashboard/staff.php:28
+#: templates/dashboard/transaction.php:34 templates/dashboard/withdraw.php:29
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: templates/dashboard/coupons.php:37
+msgid "Search coupons"
+msgstr ""
+
+#: templates/dashboard/coupons.php:93
+#, php-format
+msgid "%1$s Code: %2$s"
+msgstr ""
+
+#: templates/dashboard/coupons.php:95
+#, php-format
+msgid "%1$s Coupon Type: %2$s"
+msgstr ""
+
+#: templates/dashboard/coupons.php:97
+#, php-format
+msgid "%1$s Coupon Amount: %2$s"
+msgstr ""
+
+#: templates/dashboard/coupons.php:108
+#, php-format
+msgid "%1$s Expiry Date: %2$s"
+msgstr ""
+
+#: templates/dashboard/coupons.php:171
+msgid "No coupons found"
+msgstr ""
+
+#: templates/dashboard/customers.php:118
+msgid "No customers found"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:80 templates/dashboard/products.php:100
+msgid "On backorder"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:82 templates/dashboard/products.php:102
+msgid "In stock"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:84 templates/dashboard/products.php:104
+msgid "Out of stock"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:99 templates/dashboard/products.php:119
+#, php-format
+msgid "%1$s Stock: %2$s"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:105 templates/dashboard/products.php:125
+#, php-format
+msgid "%1$s SKU: %2$s"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:109 templates/dashboard/products.php:130
+#: templates/dashboard/reply-enquiry.php:49
+#, php-format
+msgid "%1$s Date: %2$s"
+msgstr ""
+
+#: templates/dashboard/duplicate.php:208 templates/dashboard/products.php:210
+msgid "No products found"
+msgstr ""
+
+#: templates/dashboard/enquiry.php:36
+msgid "Search enquiry"
+msgstr ""
+
+#: templates/dashboard/enquiry.php:102
+msgid "Replied"
+msgstr ""
+
+#: templates/dashboard/enquiry.php:137
+msgid "No enquiry found"
+msgstr ""
+
+#: templates/dashboard/form-edit-staff.php:256
+msgid "Create Staff"
+msgstr ""
+
+#: templates/dashboard/home.php:27
+msgid "Gross sales this month"
+msgstr ""
+
+#: templates/dashboard/home.php:38
+msgid "Admin Commission this month"
+msgstr ""
+
+#: templates/dashboard/home.php:49
+msgid "Earnings of this month"
+msgstr ""
+
+#: templates/dashboard/home.php:65
+msgid "sold in this month"
+msgstr ""
+
+#: templates/dashboard/home.php:81
+msgid "received in this month"
+msgstr ""
+
+#: templates/dashboard/notification.php:130
+msgid "No notification found."
+msgstr ""
+
+#: templates/dashboard/order/order-details-customer.php:30
+msgid "Billing address"
+msgstr ""
+
+#: templates/dashboard/order/order-details-customer.php:33
+#: templates/dashboard/order/order-details-customer.php:50
+msgid "N/A"
+msgstr ""
+
+#: templates/dashboard/order/order-details-customer.php:48
+msgid "Shipping address"
+msgstr ""
+
+#: templates/dashboard/order/order-details-item.php:101
+#, php-format
+msgid "Commission: %s"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:30
+msgid "Order details"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:33
+msgid "Order Status:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:111
+msgid "Subtotal:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:135
+msgid "Tax:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:146
+msgid "Discount:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:160
+msgid "Payment method:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:168
+msgid "Total:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:182
+msgid "Admin Commission:"
+msgstr ""
+
+#: templates/dashboard/order/order-details.php:195
+msgid "Vendor(s) Earning:"
+msgstr ""
+
+#: templates/dashboard/orders.php:89
+msgid "#"
+msgstr ""
+
+#: templates/dashboard/orders.php:140
+msgid "No orders found"
+msgstr ""
+
+#: templates/dashboard/pagination.php:18
+msgid "Previous"
+msgstr ""
+
+#: templates/dashboard/pagination.php:22
+msgid "Next"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:18
+msgid "Enquiry ID"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:22
+msgid "Customer Name"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:26
+msgid "Customer Email"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:36
+msgid "Enquiry Message"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:52
+#, php-format
+msgid "%1$s Subject: %2$s"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:55
+#, php-format
+msgid "%1$s Message: %2$s"
+msgstr ""
+
+#: templates/dashboard/reply-enquiry.php:74
+msgid "Send"
+msgstr ""
+
+#: templates/dashboard/reviews.php:47
+msgid "User"
+msgstr ""
+
+#: templates/dashboard/reviews.php:103
+msgid "No reviews found"
+msgstr ""
+
+#: templates/dashboard/staff.php:133
+msgid "No staff found"
+msgstr ""
+
+#: templates/dashboard/transaction.php:122
+msgid "No transactions found."
+msgstr ""
+
+#: templates/dashboard/view-order.php:21
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: templates/dashboard/view-order.php:30
+msgid "Order updates"
+msgstr ""
+
+#: templates/dashboard/view-order.php:36
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: templates/dashboard/withdraw.php:122
+msgid "No request found"
+msgstr ""
+
+#: templates/dashboard/withdraw/form-withdraw.php:54
+#: templates/single-store/tab/enquiry.php:45
+#: templates/single-store/tab/reviews.php:119
+msgid "Submit"
+msgstr ""
+
+#: templates/emails/admin-new-coupon-request.php:33
+#, php-format
+msgid "A new coupon has been submitted for approval by %1$s on your site %2$s. The submitted coupon's details are as follows,"
+msgstr ""
+
+#: templates/emails/admin-new-coupon-request.php:50
+#, php-format
+msgid "You can review and respond to the coupon approval request by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/admin-new-coupon-request.php:54
+#: templates/emails/admin-new-order.php:54
+#: templates/emails/admin-new-product-request.php:54
+#: templates/emails/admin-new-review.php:37
+#: templates/emails/admin-new-vendor-register.php:54
+#: templates/emails/admin-new-vendor-request.php:54
+#: templates/emails/admin-new-withdraw-request.php:54
+#: templates/emails/staff-assigned.php:37 templates/emails/staff-deleted.php:37
+#: templates/emails/vendor-approved.php:37
+#: templates/emails/vendor-coupon-approved.php:37
+#: templates/emails/vendor-coupon-rejected.php:37
+#: templates/emails/vendor-new-account-created.php:37
+#: templates/emails/vendor-new-coupon-submitted.php:51
+#: templates/emails/vendor-new-enquiry.php:37
+#: templates/emails/vendor-new-order.php:55
+#: templates/emails/vendor-new-product-submitted.php:51
+#: templates/emails/vendor-new-register.php:37
+#: templates/emails/vendor-new-review.php:37
+#: templates/emails/vendor-new-withdraw-request.php:37
+#: templates/emails/vendor-partial-register.php:44
+#: templates/emails/vendor-product-approved.php:37
+#: templates/emails/vendor-product-rejected.php:37
+#: templates/emails/vendor-rejected.php:37
+#: templates/emails/vendor-revenue-credited.php:37
+#: templates/emails/vendor-revenue-earned.php:54
+#: templates/emails/vendor-staff-assigned.php:48
+#: templates/emails/vendor-staff-deleted.php:47
+#: templates/emails/vendor-withdraw-approved.php:37
+#: templates/emails/vendor-withdraw-rejected.php:37
+msgid "Thanks"
+msgstr ""
+
+#: templates/emails/admin-new-order.php:33
+#, php-format
+msgid "The %1$s Vendor on your site %2$s has received a new order %3$s. The order details are as follows,"
+msgstr ""
+
+#: templates/emails/admin-new-order.php:50
+#, php-format
+msgid "You can review the order by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/admin-new-product-request.php:33
+#, php-format
+msgid "A new product has been submitted for approval by %1$s on your site %2$s. The submitted product's details are as follows,"
+msgstr ""
+
+#: templates/emails/admin-new-product-request.php:50
+#, php-format
+msgid "You can review and respond to the product approval request by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/admin-new-review.php:33
+#, php-format
+msgid "A new Review has been posted for the Vendor %1$s with Shop %2$s on %3$s. You can view the review by clicking the link below,  %4$s <a href=\"%5$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/admin-new-vendor-register.php:33
+#, php-format
+msgid "A new Vendor has been registered on your site %1$s. The Vendor's basic details are as follows,"
+msgstr ""
+
+#: templates/emails/admin-new-vendor-register.php:50
+#, php-format
+msgid "You can review and respond to the application by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a> "
+msgstr ""
+
+#: templates/emails/admin-new-vendor-request.php:33
+#, php-format
+msgid "A new Vendor Application has been submitted on your site %1$s. The Applicant's details are as follows,"
+msgstr ""
+
+#: templates/emails/admin-new-vendor-request.php:50
+#, php-format
+msgid "You can review and respond to the application by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/admin-new-withdraw-request.php:33
+#, php-format
+msgid "A new Withdrawal Request has been submitted by %1$s on your site %2$s. The submitted withdrawal details are as follows,"
+msgstr ""
+
+#: templates/emails/admin-new-withdraw-request.php:50
+#, php-format
+msgid "You can review and respond to the withdrawal request by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/email-coupon-details.php:41
+#, php-format
+msgid "[Coupon #%s]"
+msgstr ""
+
+#: templates/emails/email-coupon-details.php:49
+msgid "Coupon Code"
+msgstr ""
+
+#: templates/emails/email-coupon-details.php:50
+msgid "Coupon type"
+msgstr ""
+
+#: templates/emails/email-coupon-details.php:51
+msgid "Coupon amount"
+msgstr ""
+
+#: templates/emails/email-coupon-details.php:52
+msgid "Expiry date"
+msgstr ""
+
+#: templates/emails/email-order-details.php:39
+#, php-format
+msgid "[Order #%s]"
+msgstr ""
+
+#: templates/emails/email-order-details.php:49
+#: templates/emails/email-product-details.php:54
+msgid "Price"
+msgstr ""
+
+#: templates/emails/email-product-details.php:41
+#: templates/emails/email-product-details.php:44
+#, php-format
+msgid "[Product #%s]"
+msgstr ""
+
+#: templates/emails/email-product-details.php:53
+msgid "Product Name"
+msgstr ""
+
+#: templates/emails/email-product-details.php:55
+msgid "Category"
+msgstr ""
+
+#: templates/emails/email-staff-details.php:39
+#, php-format
+msgid "[Staff #%s]"
+msgstr ""
+
+#: templates/emails/email-staff-details.php:50
+#: templates/emails/email-vendor-details.php:50
+msgid "Registered date"
+msgstr ""
+
+#: templates/emails/email-vendor-details.php:39
+#, php-format
+msgid "[Vendor #%s]"
+msgstr ""
+
+#: templates/emails/email-vendor-details.php:48
+msgid "Shop Name"
+msgstr ""
+
+#: templates/emails/email-withdraw-details.php:39
+#, php-format
+msgid "[Withdraw #%s]"
+msgstr ""
+
+#: templates/emails/email-withdraw-details.php:49
+msgid "Withdraw Charges"
+msgstr ""
+
+#: templates/emails/staff-assigned.php:33
+#, php-format
+msgid "A New Staff has been assigned to the Shop %1$s on %2$s."
+msgstr ""
+
+#: templates/emails/staff-deleted.php:33
+#, php-format
+msgid "A Staff for the Shop %1$s on %2$s has been deleted."
+msgstr ""
+
+#: templates/emails/vendor-approved.php:33
+#, php-format
+msgid "Your Vendor Application on site %1$s has been approved. You can now create products and sell it on the site."
+msgstr ""
+
+#: templates/emails/vendor-coupon-approved.php:33
+#, php-format
+msgid "Your %1$s coupon created on %2$s has been Approved."
+msgstr ""
+
+#: templates/emails/vendor-coupon-rejected.php:33
+#, php-format
+msgid "Your %1$s coupon created on %2$s has been Rejected."
+msgstr ""
+
+#: templates/emails/vendor-new-account-created.php:33
+#, php-format
+msgid "Your Vendor Application on site %1$s has been approved. You can now create products and sell it on the site. You will be notified when your application is approved."
+msgstr ""
+
+#: templates/emails/vendor-new-coupon-submitted.php:33
+#, php-format
+msgid "Your %1$s coupon created on %2$s has been submitted for approval.  The submitted coupon's details are as follows,"
+msgstr ""
+
+#: templates/emails/vendor-new-coupon-submitted.php:48
+msgid "You will be notified once the coupon is approved."
+msgstr ""
+
+#: templates/emails/vendor-new-enquiry.php:33
+#, php-format
+msgid "You have received a new Enquiry for your Shop %1$s on %2$s. You can view the review by clicking the link below, %3$s <a href=\"%4$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/vendor-new-order.php:33
+#, php-format
+msgid "You have received a new order %1$s on %2$s. The order details are as follows,"
+msgstr ""
+
+#: templates/emails/vendor-new-order.php:51
+#: templates/emails/vendor-revenue-earned.php:50
+#, php-format
+msgid "You can view the order by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/vendor-new-product-submitted.php:33
+#, php-format
+msgid "Your %1$s product created on %2$s has been submitted for approval.  The submitted product's details are as follows,"
+msgstr ""
+
+#: templates/emails/vendor-new-product-submitted.php:48
+msgid "You will be notified once the product is approved."
+msgstr ""
+
+#: templates/emails/vendor-new-register.php:33
+#, php-format
+msgid "You have successfully submitted your Vendor Application on site %1$s. You will be notified when your application is approved."
+msgstr ""
+
+#: templates/emails/vendor-new-review.php:33
+#, php-format
+msgid "You have received a new Review for your Shop %1$s on %2$s. You can view the review by clicking the link below, %3$s <a href=\"%4$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/vendor-new-withdraw-request.php:33
+#, php-format
+msgid "Your Withdrawal Request %1$s on %2$s has been Submitted. "
+msgstr ""
+
+#: templates/emails/vendor-partial-register.php:33
+#, php-format
+msgid "The Vendor Application which you have submitted on the site %1$s is partially Complete. You need to fill in additional details in order for the application to be fully complete."
+msgstr ""
+
+#: templates/emails/vendor-partial-register.php:40
+#, php-format
+msgid "You can fill in the additional details to your application by clicking the link below. %1$s <a href=\"%2$s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: templates/emails/vendor-product-approved.php:33
+#, php-format
+msgid "Your %1$s product created on %2$s has been Approved."
+msgstr ""
+
+#: templates/emails/vendor-product-rejected.php:33
+#, php-format
+msgid "Your %1$s product created on %2$s has been Rejected."
+msgstr ""
+
+#: templates/emails/vendor-rejected.php:33
+#, php-format
+msgid "We are sorry to inform you that your Vendor Application on site %1$s has been rejected."
+msgstr ""
+
+#: templates/emails/vendor-revenue-credited.php:33
+#, php-format
+msgid "You are eligible to withdraw the Revenue of %1$s earned for the order %2$s on %3$s."
+msgstr ""
+
+#: templates/emails/vendor-revenue-earned.php:33
+#, php-format
+msgid "You have earned a Revenue of %1$s for the order %2$s on %3$s. You will be able to withdraw the amount after %4$s days."
+msgstr ""
+
+#: templates/emails/vendor-staff-assigned.php:33
+#, php-format
+msgid "A New Staff has been assigned to your Shop %1$s on %2$s. The Staff details are as follows,"
+msgstr ""
+
+#: templates/emails/vendor-staff-deleted.php:33
+#, php-format
+msgid "Your Staff for your Shop %1$s on %2$s has been deleted. The Staff details are as follows,"
+msgstr ""
+
+#: templates/emails/vendor-withdraw-approved.php:33
+#, php-format
+msgid "Your Withdrawal Request %1$s on %2$s has been Approved."
+msgstr ""
+
+#: templates/emails/vendor-withdraw-rejected.php:33
+#, php-format
+msgid "Your Withdrawal Request %1$s on %2$s has been Rejected."
+msgstr ""
+
+#: templates/form-user-vendor-register.php:16
+msgid "Become a Vendor"
+msgstr ""
+
+#: templates/form-user-vendor-register.php:63
+#: templates/form-user-vendor-register.php:85
+#: templates/form-vendor-register.php:99 templates/form-vendor-register.php:121
+#, php-format
+msgid "I have read and accept the %s to become a Vendor on this site"
+msgstr ""
+
+#: templates/form-vendor-login.php:23
+msgid "Login"
+msgstr ""
+
+#: templates/form-vendor-login.php:37
+msgid "Username or email address"
+msgstr ""
+
+#: templates/form-vendor-login.php:42
+msgid "Password"
+msgstr ""
+
+#: templates/form-vendor-login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: templates/form-vendor-login.php:61
+msgid "Log in"
+msgstr ""
+
+#: templates/form-vendor-login.php:65
+msgid "Create Vendor"
+msgstr ""
+
+#: templates/form-vendor-login.php:69
+msgid "Lost your password?"
+msgstr ""
+
+#: templates/form-vendor-register.php:23
+msgid "Registration Form"
+msgstr ""
+
+#: templates/single-product-multi-vendor.php:63
+#, php-format
+msgid "<a href=\"%1$s\" class=\"woocommerce-review-link\" rel=\"nofollow\">( %2$s customer review )</a>"
+msgstr ""
+
+#: templates/single-product-multi-vendor.php:65
+#: templates/single-store/tab/reviews.php:92
+msgid "There are no reviews yet."
+msgstr ""
+
+#: templates/single-store/orderby.php:16 templates/stores/orderby.php:16
+msgid "Shop order"
+msgstr ""
+
+#: templates/single-store/product-filters.php:20
+#, php-format
+msgid "Total Product(s): %d"
+msgstr ""
+
+#: templates/single-store/product-filters.php:26
+msgid "Enter product name"
+msgstr ""
+
+#: templates/single-store/product-filters.php:30
+msgid "Search products"
+msgstr ""
+
+#: templates/single-store/store-header.php:63
+msgid "FOLLOW US"
+msgstr ""
+
+#: templates/single-store/tab/enquiry.php:20
+msgid "Email Address"
+msgstr ""
+
+#: templates/single-store/tab/enquiry.php:28
+msgid "Name"
+msgstr ""
+
+#: templates/single-store/tab/enquiry.php:35
+msgid "Your Enquiry"
+msgstr ""
+
+#: templates/single-store/tab/products.php:26
+msgid "Search results for:"
+msgstr ""
+
+#: templates/single-store/tab/products.php:77
+msgid "No products were found of this vendor."
+msgstr ""
+
+#: templates/single-store/tab/reviews.php:98
+msgid "Your rating"
+msgstr ""
+
+#: templates/single-store/tab/reviews.php:111
+msgid "Your Comment"
+msgstr ""
+
+#: templates/sold-by.php:16
+msgid "Sold by :"
+msgstr ""
+
+#: templates/stores/filters.php:19
+#, php-format
+msgid "Total Stores: %d"
+msgstr ""
+
+#: templates/stores/no-stores-found.php:16
+msgid "No stores were found matching your selection."
+msgstr ""

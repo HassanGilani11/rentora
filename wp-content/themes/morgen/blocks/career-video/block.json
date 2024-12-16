@@ -1,0 +1,16 @@
+{
+    "name": "acf/career-video",
+    "title": "Career Video",
+    "description": "A custom career video block that uses ACF fields.",
+    "style": [ "file:./career-video.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Career", "Video"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "career-video.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

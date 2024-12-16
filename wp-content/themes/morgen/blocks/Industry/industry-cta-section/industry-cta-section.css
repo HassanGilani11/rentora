@@ -1,0 +1,20 @@
+.cta-industry-heading{
+    font-family: 'TroisMilleRegular';
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 71.4px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #FFFF00;
+}
+
+.industry_cta_section_inner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+@media(max-width: 500px){
+    .cta-industry-heading{
+        font-size: 48px;
+    }
+}

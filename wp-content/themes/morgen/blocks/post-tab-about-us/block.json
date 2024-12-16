@@ -1,0 +1,17 @@
+{
+    "name": "acf/post-tab-about-us",
+    "title": "Post Tab About Us",
+    "description": "A custom Post Tab About Us block that uses ACF fields.",
+    "style": [ "file:./post-tab-about-us.css" ],
+    "script": ["file:./post-tab-about-us.js"],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["post", "tab"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "post-tab-about-us.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

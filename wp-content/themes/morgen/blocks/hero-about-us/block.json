@@ -1,0 +1,18 @@
+{
+    "name": "acf/hero-about-us",
+    "title": "Hero About Us",
+    "description": "A custom Hero About Us block for the hero section, using ACF fields.",
+    "style": [ "file:./hero-about-us.css" ],
+    "script": [ "file:./hero-about-us.js" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["hero", "featured", "about"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero-about-us.php"
+    },
+	"version": "1.0.0",
+    "supports": {
+        "anchor": true
+    }
+}

@@ -1,0 +1,69 @@
+.car-image-cst{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .cta-section .col-md-4{
+    height: 360px !important;
+} */
+.cta-section .card{
+    width: 100%;
+    padding: 48px;
+    height: 100% !important;
+    gap: 40px;
+}
+.cta-section .card-title{
+    font-family: 'TroisMilleRegular';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #1E3E37;
+}
+.cta-section .card-text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    color: #1E3E37;
+}
+
+.cta-section .card a{
+    border: 1px solid #1E3E37;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140% !important;
+    text-align: center;
+    background-color: transparent;
+    padding: 12px 24px;
+    color: #1E3E37;
+	transition: all 0.3s ease;
+}
+
+.card a:hover{
+	background-color: #A884FF;
+	color: #fff;
+	border: 0;
+}
+
+/*   @media(max-width: 768px){
+    .cta-section .col-md-4{
+        height: auto !important;
+    }
+    .cta-section .card-title{
+        font-size: 36px;        
+    }
+    .cta-section .card {
+        padding: 50px 20px;
+    }   
+    .car-image-cst {
+        height: 300px;
+    }
+    
+      
+  } */

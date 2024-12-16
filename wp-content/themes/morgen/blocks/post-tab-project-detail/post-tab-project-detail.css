@@ -1,0 +1,178 @@
+.post-tab-project-detail-container {
+    width: 100%;
+    height: auto;
+    background-color: #D7E6FF;
+    border: 1px solid;    
+}
+
+.post-tab-project-detail-heading-main {
+    color: #1E3E37;
+    font-family: 'TroisMilleRegular';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+.post-tab-project-detail-heading-col-12 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;    
+	border:1px solid;
+}
+.post-list.row {
+    margin: 0px;
+}
+.post-list.wrapper  .post-item.d-flex.align-items-start.col-12 {
+    border: 1px solid;
+}
+.post-list.wrapper  .post-item.d-flex.align-items-start.col-12 .col-6.post-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 50px;
+}
+a.post-tab-project-detail-pos-tab-url {
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    border: 1px solid #1E3E37;
+    background-color: transparent;
+    color: #1E3E37;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+}
+a.post-tab-project-detail-pos-tab-url:hover {
+    background-color: #A884FF;
+    color: #fff;
+    border: 0;
+}
+.post-list {
+    margin: 0px;
+}
+
+.post-item {
+    border-bottom: 1px solid #ddd;
+    padding: 0px;
+}
+
+.post-title {
+    margin: 10px 0;
+    font-family: 'TroisMilleRegular';
+    font-size: 36px;
+    font-weight: 400;
+}
+.post-title a {
+    color: #1E3E37;
+    text-decoration: none;
+}
+.post-date {
+    font-size: 16px;
+    color: #1E3E37;
+    margin-bottom: 10px;
+}
+
+.read-more{
+    margin-top: auto;
+}
+.read-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1E3E37;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+}
+.read-more a {
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.read-more a i.fas.fa-arrow-right{
+    text-decoration: underline;
+    
+}
+.post-featured-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-pills .post-tab-project-detail-link {
+    font-family: 'TroisMilleRegular';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #1E3E37;
+}
+
+.nav-pills .post-tab-project-detail-link.active, 
+.nav-pills .show>.post-tab-project-detail-link {
+    color: #A884FF !important;
+    background-color: transparent !important;
+}
+
+.post-tab-project-detail-date {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.post-tab-project-detail-title {
+    font-family: 'TroisMilleRegular';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.post-tab-project-detail-url {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 49.4px;
+    text-align: left;
+    text-decoration: none;
+    color: #1E3E37;
+    margin-bottom: 20px !important;
+}
+
+.post-tab-project-detail-scroller {
+    height: 600px;
+    z-index: -1;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.post-tab-project-detail-scroller .post-tab-project-detail-column {
+    scroll-snap-align: start;
+}
+
+.post-tab-project-detail-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+@media(max-width: 767px) {
+    .nav-pills .post-tab-project-detail-link {
+        font-family: 'TroisMilleRegular';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #1E3E37;
+    }
+    .post-tab-project-detail-featured-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+

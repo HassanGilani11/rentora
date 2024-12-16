@@ -1,0 +1,184 @@
+/* Register form */
+
+.multi-vendor-for-woocommerce {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.mvr-vendor-register-form-wrapper,
+.mvr-vendor-login-form-wrapper {
+	width: 60%;
+	margin-left: 20%;
+	border: 2px solid #c6c5c5;
+	box-shadow: 0 0 3px #d7d7d7;
+	float:initial;
+	padding: 35px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.mvr-vendor-register-form-wrapper h2,
+.mvr-vendor-login-form-wrapper h2 {
+	color: #000;
+	font-size: 22px;
+	font-weight: 600;
+	padding: 0;
+	padding-bottom: 0px;
+	margin: 0 0 20px 0;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #000;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login {
+	width: 100%;
+	float: initial;
+	display: block;
+	margin-bottom: 0 !important;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row,
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.form-row,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-form-row,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row {
+	width: 100%;
+	display: block;
+	float: initial;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-LostPassword,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-vendor-register {
+	width: 100%;
+	display: block;
+	float: initial;
+}
+
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-LostPassword a,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-vendor-register a {
+	text-decoration: none;
+	color: #00f;
+}
+
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-LostPassword a:hover,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-vendor-register a:hover {
+	text-decoration: underline;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row label,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-form-row label {
+	width: 100%;
+	display: block;
+	line-height: 2;
+	color: #666;
+	float: left;
+	font-size: 16px;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.form-row label,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row label {
+	width: 100%;
+	display: flex;
+	color: #666;
+	float: left;
+	font-size: 16px;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.form-row label input[type='checkbox'],
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row label input[type='checkbox'] {
+	margin-right: 10px;
+	padding: 0;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.form-row label span,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row label span {
+	font-size: 16px;
+	color: #6d6d6d;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row .woocommerce-button,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row .mvr-form-login-submit {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin-bottom: 5px;
+	background: #82237c;
+	border: #82237c;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+}
+
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row .mvr-form-login-submit {
+	margin: 15px 0 0 0;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row .woocommerce-button:hover,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row .mvr-form-login-submit:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000;
+	font-weight: bold;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row label .required,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.form-row lablel .required {
+	color: #82237c;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-rowselect,
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row input[type='text'],
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row input[type='number'],
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row input[type='tel'],
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row input[type='email'],
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row input[type='password'],
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register p.woocommerce-form-row textarea,
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-form-row input[type='password'],
+.mvr-vendor-login-form-wrapper form.woocommerce-form-login p.mvr-form-row input[type='text'] {
+	width: 100%;
+	display: block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-vendor-register-form-wrapper form p.woocommerce-form-row span.mvr-error {
+	color: #f00;
+}
+
+.mvr-vendor-register-form-wrapper form p.woocommerce-form-row span.mvr-store-url {
+	color: #1d296a;
+	display: inline-block;
+	width: 100%;
+}
+
+.mvr-vendor-register-form-wrapper form p.woocommerce-form-row span.mvr-store-slug-available {
+	color: #068206;
+}
+
+/* Register form end */
+
+@media screen and (max-width: 768px) {
+	.mvr-vendor-register-form-wrapper,
+	.mvr-vendor-login-form-wrapper {
+		width: 100%;
+		margin-left: 0%;
+		padding: 20px;
+	}
+}

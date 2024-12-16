@@ -1,0 +1,33 @@
+2024-10-16T10:32:13+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Rentora - Charge - Order #2133 ) ------------------->
+stdClass Object
+(
+    [id] => ch_3QAUWWJAyyZXevqD06V6WE0U
+    [amount] => 2010
+    [amount_refunded] => 0
+    [currency] => AUD
+    [order_amount] => 2010.00
+    [order_currency] => AUD
+    [captured] => Captured
+    [transaction_id] => txn_3QAUWWJAyyZXevqD0JyFGEIt
+    [mode] => Test
+    [metadata] => stdClass Object
+        (
+            [Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+            [Billing Email] => medi9397@gmail.com
+            [Customer IP] => 139.135.34.192
+            [Products] => Cordless Screwdriver
+            [Referer] => https://rentora.com.au/checkout/
+            [Total Shipping] => 10
+            [Total Tax] => 0
+            [WP customer #] => 31
+            [order_id] => 2133
+        )
+
+    [created] => 2024-10-16 10:32:12
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( credit )
+    [status] => succeeded
+    [origin_time] => 2024-10-16 10:32:13
+)

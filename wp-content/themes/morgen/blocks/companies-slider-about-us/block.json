@@ -1,0 +1,17 @@
+{
+    "name": "acf/companies-slider-about-us",
+    "title": "Companies Slider About Us",
+    "description": "A custom Company Slider About Us block that uses ACF fields.",
+    "script": "file:./companies-slider-about-us.js",
+    "style": [ "file:./companies-slider-about-us.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Companies", "Logos"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "companies-slider-about-us.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

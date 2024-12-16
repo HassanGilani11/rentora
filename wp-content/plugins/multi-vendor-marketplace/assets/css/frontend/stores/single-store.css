@@ -1,0 +1,891 @@
+.mvr-single-store-wrapper {
+	float: initial;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-single-store-header-wrapper {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.mvr-single-store-header-wrapper .mvr-single-store-left-col {
+	float: left;
+	width: 70%;
+	display: block;
+	margin-right: 2%;
+	padding: 15px;
+	position: relative;
+	background: #fcfcfc;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.mvr-single-store-left-col .mvr-single-store-banner {
+	width: 100%;
+	float: left;
+}
+
+.mvr-single-store-left-col .mvr-single-store-banner img {
+	width: 100%;
+	height: auto;
+}
+
+.mvr-single-store-left-col .mvr-single-store-profile {
+	position: absolute;
+	padding: 10px;
+	width: 60px;
+	height: auto;
+	box-sizing: border-box;
+	right: 40px;
+	top: 40px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.mvr-single-store-left-col .mvr-single-store-profile img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+.mvr-single-store-header-wrapper .mvr-single-store-right-col {
+	float: left;
+	width: 27.5%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	background: #fdfdfd;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #fcfcfc;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info {
+	width: 100%;
+	float: left;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	padding: 0 !important;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li {
+	list-style: none;
+	display: block;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li {
+	color: rgb(105, 105, 105);
+	display: block;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-vendor-info {
+	margin: 0 0 10px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #2b2a2a;
+	font-size: 22px;
+	font-weight: normal;
+	color: #000;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-phone {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+}
+
+/* social icon design- one */
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info {
+	margin: 15px 0;
+	float: left;
+	padding-top: 10px;
+	border-top: 1px dashed #ccc;
+	width: 100%;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info:before {
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a {
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin: 0 5px 0 0;
+	text-align: left;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a {
+	float: left;
+	width: 36px;
+	height: 36px;
+	margin: 0 7px 5px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a:before {
+	font-family: dashicons;
+	display: inline-block;
+	line-height: 2;
+	font-weight: 400;
+	font-style: normal;
+	width: 36px;
+	height: 36px;
+	font-size: 18px;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .25);
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-facebook:before {
+	content: "\f305";
+	background: #3b5998;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-twitter:before {
+	content: "\f301";
+	background: #00acee;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-youtube:before {
+	content: "\f19b";
+	background: #CD201F;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-instagram:before {
+	content: "\f12d";
+	background: #d62976;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-linkedin:before {
+	content: "\f18d";
+	background: #0A66C2;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-pinterest:before {
+	content: "\f192";
+	background: #E60023;
+}
+
+
+
+/* social icon design - two */
+
+/*.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a:before {
+		font-family: dashicons;
+		display: inline-block;
+		line-height: 1.8;
+		font-weight: 400;
+		font-style: normal;
+		width: 36px;
+		height: 36px;
+		font-size: 20px;
+		vertical-align: middle;
+		text-align: center;
+		color: #fff;
+		border-radius: 5px;
+
+		border-radius: 36px;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-facebook:before {
+		content: "\f305";
+		color: #3b5998;
+		border: 1px solid #3b5998;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-facebook:hover:before {
+		content: "\f305";
+		color: #fff;
+		background: #3b5998;
+		border: 1px solid #3b5998;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-twitter:before {
+		content: "\f301";
+		color: #00acee;
+		border: 1px solid #00acee;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-twitter:hover:before {
+		content: "\f301";
+		color: #fff;
+		background: #00acee;
+		border: 1px solid #00acee;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-youtube:before {
+		content: "\f19b";
+		color: #CD201F;
+		border: 1px solid #CD201F;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-youtube:hover:before {
+		content: "\f19b";
+		color: #fff;
+		background: #CD201F;
+		border: 1px solid #CD201F;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-instagram:before {
+		content: "\f12d";
+		color: #0A66C2;
+		border: 1px solid #0A66C2;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-instagram:hover:before {
+		content: "\f12d";
+		color: #fff;
+		background: #0A66C2;
+		border: 1px solid #0A66C2;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-linkedin:before {
+		content: "\f18d";
+		color: #0A66C2;
+		border: 1px solid #0A66C2;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-linkedin:hover:before {
+		content: "\f18d";
+		color: #fff;
+		background: #0A66C2;
+		border: 1px solid #0A66C2;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-pinterest:before {
+		content: "\f192";
+		color: #E60023;
+		border: 1px solid #E60023;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-social-info a.mvr-pinterest:hover:before {
+		content: "\f192";
+		color: #fff;
+		background: #E60023;
+		border: 1px solid #E60023;
+}*/
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-rating {
+	padding: 5px;
+	color: #fff;
+	background: rgb(36, 150, 63);
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	font-weight: 600;
+	line-height: 15px;
+}
+
+.mvr-single-store-right-col ul.mvr-single-store-info li.mvr-single-store-rating:after {
+	content: "\f155";
+	color: #fff;
+	font-size: 10px;
+	margin: 2px 0 0 2px;
+	font-family: dashicons;
+}
+
+.mvr-single-store-content-wrapper,
+.mvr-single-store-tabs {
+	width: 100%;
+	float: initial;
+	position: relative;
+	display: block;
+}
+
+.mvr-single-store-tabs ul {
+	width: 100%;
+	float: left;
+	position: relative;
+	display: block;
+	border-bottom: 2px solid #eee;
+	list-style: none;
+	margin: 15px 0;
+	padding: 0 !important;
+}
+
+.mvr-single-store-tabs ul li.mvr-single-store-tab {
+	list-style: none;
+	padding: 15px;
+	float: left;
+	margin: 0;
+}
+
+.mvr-single-store-info li.mvr-single-store-email {
+	word-break: break-word;
+}
+
+
+.mvr-single-store-tabs ul li.active {
+	border-bottom: 2px solid #f00;
+	margin-bottom: -2px;
+}
+
+.mvr-single-store-tabs ul li.mvr-single-store-tab a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: rgb(105, 105, 105);
+}
+
+.mvr-single-store-tabs ul li.active a {
+	color: #f00;
+}
+
+.mvr-vendor-products-wrapper {
+	width: 100%;
+	float: initial;
+	display: block;
+}
+
+.mvr-vendor-products-wrapper ul {
+	width: 100%;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+.mvr-vendor-products-wrapper ul li {
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 4.235801032em;
+	position: relative;
+	width: 30.4347826087%;
+	margin-right: 3.347826087%
+	float: inline-start;
+}
+
+.mvr-vendor-products-wrapper ul li.first {
+	clear: both !important
+}
+
+.mvr-vendor-products-wrapper ul li.last {
+	margin-right: 0 !important
+}
+
+.mvr-vendor-products-wrapper ul.columns-1 li {
+	width: 100%;
+	margin-right: 0;
+	float: none
+}
+
+.mvr-vendor-products-wrapper ul.columns-2 li {
+	width: 46.8260869565%;
+	margin-right: 4.347826087%;
+	float: inline-start;
+}
+
+.mvr-vendor-products-wrapper ul.columns-3 li {
+	width: 29.4347826087%;
+	margin-right: 4.347826087%;
+	float: inline-start;
+}
+
+.mvr-vendor-products-wrapper ul.columns-4 li {
+	width: 20.7391304348%;
+	margin-right: 4.347826087%;
+	float: inline-start;
+}
+
+.mvr-vendor-products-wrapper ul.columns-5 li {
+	width: 15.9%;
+	margin-right: 3.8%;
+	float: inline-start;
+}
+
+.mvr-vendor-products-wrapper ul.columns-6 li {
+	width: 12.0434782609%;
+	margin-right: 4.347826087%;
+	float: inline-start;
+}
+
+.mvr-vendor-products-wrapper li img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+.lty-frontend-table tfoot nav,
+.lty-lottery-winners-by-date-footer nav {
+	float: right;
+	border: 0;
+	clear: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.mvr-vendor-products-wrapper nav ul {
+	margin: 0;
+	list-style: none;
+	border: none !important;
+}
+
+.mvr-vendor-products-wrapper nav ul li {
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 0 !important;
+	width: auto !important;
+}
+
+.mvr-vendor-products-wrapper nav ul li span {
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-vendor-products-wrapper nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	background: #fafafa;
+	border: none;
+	color: #43454b;
+	text-decoration: none !important;
+}
+
+.mvr-vendor-products-wrapper nav ul li .current {
+	background: none;
+	border: none;
+}
+
+
+.mvr-vendor-products-wrapper nav ul li a.current,
+.mvr-vendor-products-wrapper nav ul li a:hover {
+	background: #ccc;
+	border: none;
+	color: #000;
+}
+
+.mvr-product-filter-wrapper {
+	margin: 20px 0;
+}
+
+.mvr-product-filter-wrapper,
+.mvr-store-filter-wrapper {
+	width: 100%;
+	float: initial;
+	display: flex;
+}
+
+.mvr-store-filter-wrapper .mvr-store-count,
+.mvr-store-filter-wrapper .mvr-stores-filter-area {
+	width: 50%;
+	display: inline-block;
+}
+
+.mvr-store-filter-wrapper .mvr-store-count p {
+	font-size: 18px;
+	color: #303030;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-stores-filter-area #mvr_product_search_form {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.mvr-stores-filter-area #mvr_product_search_form button {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	background: #82237c;
+	border: 1px solid #82237c;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+}
+
+.mvr-stores-filter-area #mvr_product_search_form button:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-stores-filter-area #mvr_product_search_form input[type='text'] {
+	width: 300px;
+	display: inline-block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-single-store-enquiry-wrapper {
+	float: initial;
+	width: 100%;
+}
+
+.mvr-single-store-enquiry-wrapper h2 {
+	font-size: 24px;
+	color: #303030;
+	font-weight: 500;
+}
+
+.mvr-single-store-enquiry-wrapper form,
+.mvr-single-store-enquiry-wrapper form div {
+	float: initial;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.mvr-single-store-enquiry-wrapper form div label {
+	width: 200px;
+	float: left;
+	color: #404040;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.mvr-single-store-enquiry-wrapper form div input[type='text'],
+.mvr-single-store-enquiry-wrapper form div input[type='email'],
+.mvr-single-store-enquiry-wrapper form div textarea {
+	width: 300px;
+	display: inline-block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-single-store-enquiry-wrapper div textarea {
+	min-height: 100px;
+}
+
+.mvr-single-store-enquiry-wrapper div button {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	background: #82237c;
+	border: 1px solid #82237c;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+}
+
+.mvr-single-store-enquiry-wrapper div button:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+/* store review */
+
+.mvr-single-store-review-wrapper div {
+	float: initial;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.mvr-single-store-review-wrapper div label {
+	width: 200px;
+	float: left;
+	color: #404040;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.mvr-single-store-review-wrapper div textarea {
+	width: 300px;
+	display: inline-block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-single-store-review-wrapper div textarea {
+	min-height: 100px;
+}
+
+.mvr-single-store-review-wrapper div button {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px 0 10px 200px;
+	background: #82237c;
+	border: 1px solid #82237c;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+}
+
+.mvr-single-store-review-wrapper div button:hover {
+	background: #fff !important;
+	border: 1px solid #82237c;
+	color: #000;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars {
+	display: inline-block;
+	margin: 0;
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars a {
+	color: #82237c;
+	position: relative;
+	height: 1em;
+	width: 1em;
+	text-indent: -999em;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars a:before {
+	content: "\f154";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1em;
+	height: 1em;
+	color: #82237c;
+	line-height: 1;
+	font-family: dashicons;
+	text-indent: 0;
+	opacity: 1;
+
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars a:hover~a::before {
+	content: "\f154";
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars:hover a::before {
+	content: "\f155";
+
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars.mvr-selected a.active::before {
+	content: "\f155";
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars.mvr-selected a.active~a::before {
+	content: "\f154";
+}
+
+.mvr-single-store-review-wrapper .mvr-rating p.mvr-stars.mvr-selected a:not(.active)::before {
+	content: "\f155";
+}
+
+.mvr-comments ol {
+	list-style: none !important;
+	margin: 0 !important;
+}
+
+.mvr-comments ol li {
+	margin: 0;
+	padding: 0;
+}
+
+.mvr-comments .star-rating {
+	overflow: hidden;
+	position: relative;
+	height: 1.618em;
+	line-height: 1.618;
+	font-size: 1em;
+	font-family: dashicons;
+	font-weight: 400;
+	float: right;
+	width: auto;
+}
+
+.mvr-comments .star-rating::before {
+	font-family: dashicons;
+	top: 0;
+	left: 0;
+	position: relative;
+	float: right;
+	color: #82237c;
+	content: "\f154\f154\f154\f154\f154" !important;
+	float: left;
+	font-size: 1em;
+}
+
+.mvr-comments .star-rating span {
+	overflow: hidden;
+	float: right;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding-top: 1.5em;
+	color: #82237c;
+	font-family: dashicons;
+}
+
+.mvr-comments .star-rating span::before {
+	content: "\f155\f155\f155\f155\f155" !important;
+	font-family: dashicons;
+	top: 0;
+	left: 0;
+	position: absolute;
+	color: #82237c;
+	font-size: 1em;
+	float: right;
+}
+
+.mvr-comments .mvr_store_review p {
+	font-size: 16px;
+	color: #666;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+.mvr-comments .mvr_store_review p strong {
+	font-size: 18px;
+	color: #666;
+	font-weight: 600;
+}
+
+.mvr-comments .mvr_store_review .description {
+	width: 100%;
+	float: left;
+	margin: 0 !important;
+}
+
+.mvr-comments .mvr_store_review .description p {
+	font-size: 16px;
+	color: #777;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+.mvr-comments .mvr_store_review .comment-text {
+	margin: 0 !important;
+	border-bottom: 1px dashed #cdcdcd;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.mvr-single-store-header-wrapper {
+		display: block;
+	}
+
+	.mvr-single-store-header-wrapper .mvr-single-store-left-col,
+	.mvr-single-store-header-wrapper .mvr-single-store-right-col {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 2%;
+	}
+
+	.mvr-vendor-products-wrapper ul li {
+		width: 100% !important;
+		list-style: none;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 3.235801032em;
+		text-align: center;
+		position: relative;
+	}
+
+	.mvr-vendor-products-wrapper ul li a img {
+		width: 100%;
+		height: auto;
+		margin: 0 auto 1.618em;
+	}
+
+	.mvr-store-filter-wrapper .mvr-store-count,
+	.mvr-store-filter-wrapper .mvr-stores-filter-area {
+		width: 100%;
+		float: left;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.mvr-store-filter-wrapper .mvr-stores-filter-area form {
+		float: left;
+
+	}
+
+	.mvr-store-filter-wrapper .mvr-stores-filter-area form input[type='text'] {
+		margin-bottom: 10px !important;
+	}
+
+	.mvr-single-store-enquiry-wrapper form div label {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.mvr-single-store-enquiry-wrapper form div input[type='text'],
+	.mvr-single-store-enquiry-wrapper form div input[type='email'],
+	.mvr-single-store-enquiry-wrapper form div textarea {
+		width: 100%;
+	}
+
+	.mvr-single-store-enquiry-wrapper div button {
+		margin-left: 0;
+	}
+}

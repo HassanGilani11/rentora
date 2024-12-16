@@ -1,0 +1,113 @@
+.post-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #D7E6FF;
+    padding: 40px 20px;
+}
+
+.heading-main{
+    color: #1E3E37;
+    font-family: 'TroisMilleRegular';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+.nav-pills .nav-link{
+    font-family: 'TroisMilleRegular';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #1E3E37;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #A884FF !important;
+    background-color: transparent !important;
+}
+.post-date{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    margin-top: 20px;
+}
+.post-title{
+    font-family: 'TroisMilleRegular';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.post-url{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 49.4px;
+    text-align: left;
+    text-decoration: none;
+    color: #1E3E37;
+    margin-bottom: 20px !important;
+}
+.scroller {
+    height: 600px;
+    z-index: -1;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.scroller .post-column {
+    scroll-snap-align: start;
+}
+.scroller::-webkit-scrollbar{
+    display: none;
+}
+.post-container .nav-post-sect button {
+    width: 300px !important;
+    display: block;
+    flex: 0 0 40%;
+    padding-bottom: 0 !important;
+    padding-top: 20px !important;
+}
+.nav-post-sect{
+    flex-wrap: nowrap !important;
+    overflow: scroll;
+}
+.nav-post-sect::-webkit-scrollbar {
+    width: 0px;
+}
+.home-news-sect{
+    margin-bottom: 20px;
+}
+.mobile-news-sect,
+.mobile-post-sect {
+    display: none !important;
+}
+.post-column img {
+    width: 596px;
+    height: 440px;
+}
+
+@media(max-width: 767px){
+    .scroller {
+        padding: 20px;
+    }
+    .post-featured-image{
+        width: 100% !important;
+        height: 300px;
+    }
+    .mobile-post-sect .post-column,
+    .mobile-news-sect .morgen-single-news-wrap {
+        margin-right: 20px;
+        width: 100%;
+        max-width: 500px;
+    }
+    .desktop-news-sect,
+    .desktop-post-sect{
+        display: none !important;
+    }
+    .mobile-news-sect,
+    .mobile-post-sect{
+        display: block !important;
+    }
+}

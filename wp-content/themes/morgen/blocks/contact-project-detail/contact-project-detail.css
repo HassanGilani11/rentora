@@ -1,0 +1,214 @@
+/* .contact-project-detail-hero-container {
+    width: 100vw;
+    height: 100vh;
+} */
+.contact-project-detail-hero-container.contact-project-detail-hero {
+    border: 1px solid #1E3E37;
+}
+
+.contact-project-detail-has-custom-acf-bg-image {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding: 80px 50px;
+}
+/* Extra Large screens (desktop and above) */
+@media (min-width: 1440px) {
+    .contact-project-detail-has-custom-acf-bg-image {
+        background-size: auto;
+        background-position: 250px 250px;
+        padding: 100px 100px;
+    }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .contact-project-detail-has-custom-acf-bg-image {
+        background-size: auto;
+        background-position: 200px 240px;
+        padding: 80px 50px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .contact-project-detail-has-custom-acf-bg-image {
+        background-size: contain;
+        background-position: center center;
+        padding: 60px 30px;
+    }
+}
+
+/* Small screens (mobile) */
+@media (max-width: 767px) {
+    .contact-project-detail-has-custom-acf-bg-image {
+        background-size: cover;
+        background-position: center top;
+        padding: 40px 20px;
+    }
+}
+.contact-project-detail-hero-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.contact-project-detail-border-left {
+    border-left: 1px solid #000;
+}
+.contact-project-detail-hero-col-6{
+    display: flex;
+    flex-basis: 50%;
+    
+}
+.contact-project-detail-hero-sec-section{
+     padding: 80px 50px;
+    gap: 40px;
+}
+.contact-project-detail-hero-side-image{
+    width: 100%;
+    /* height: auto; */
+    margin: 0;
+    padding: 0;
+}
+.contact-project-detail-hero-side-image video { width: 100%; height: 100%; margin: 0; padding: 0; object-fit: cover; }
+
+.contact-project-detail-hero-title{
+    font-family: 'TroisMilleRegular';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.contact-project-detail-hero-description{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+}
+
+.contact-project-detail-anchors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Space between columns */
+    padding: 30px 0px;
+}
+.contact-project-detail-anchor-group {
+    display: flex;
+    flex-direction: column; /* Stack label and link vertically */
+}
+.subtitle {
+    font-family: "Montserrat", system-ui;    
+    font-weight: 500;
+    font-size:18px;
+    margin-bottom: 5px; /* Space between the label (Email/Phone) and the link */
+}
+
+
+.contact-project-detail-anchor-1{
+    color: #1E3E37;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: underline;
+	transition: all 0.3s ease;
+}
+.contact-project-detail-anchor-2{
+    color: #1E3E37;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration: underline;
+	transition: all 0.3s ease;
+}
+input#gform_submit_button_1:hover{
+    background-color: #A884FF !important;
+    color: #fff !important;
+    border: 0 !important;
+    
+}
+input#gform_submit_button_1 {
+    padding: 12px 24px 12px 24px !important;
+    border-radius: 100px;
+    background-color: #1E3E37 !important;
+    color: #D7E6FF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.gform-theme--foundation .gfield textarea.medium {
+    background: #F5F5F5;
+}
+input#choice_1_9_1 {
+    padding: 0px !important;
+}
+label.gfield_label.gform-field-label {
+    font-family: "Montserrat", system-ui;
+    font-size: 16px;
+}
+legend.gfield_label.gform-field-label.gfield_label_before_complex{
+    font-family: "Montserrat", system-ui;
+    font-size: 16px;
+}
+.gform-theme--framework {
+    width: 550px;
+}
+
+#input_1_1_3::placeholder {
+    color: grey;
+    font-size: 14px;
+    opacity: 1;
+    font-family: "Montserrat", system-ui;
+}
+#input_1_5::placeholder{
+    color: grey;
+    font-size: 14px;
+    opacity: 1;
+    font-family: "Montserrat", system-ui; 
+}
+textarea#input_1_3{
+     color: grey;
+    font-size: 14px;
+    opacity: 1;
+    font-family: "Montserrat", system-ui;   
+}
+@media(max-width: 768px){
+    .contact-project-detail-hero-row{
+        flex-wrap: wrap;
+    }
+    .contact-project-detail-hero-sec-section{
+        order: 1;
+        /* width: 100%; */
+    }
+    .contact-project-detail-hero-col-6{
+        flex-basis: 100%;
+    }
+    .contact-project-detail-hero-title{
+        font-size: 40px;
+    }
+    
+    .contact-project-detail-hero-description{
+        font-size: 16px;    
+    }
+    .contact-project-detail-anchors{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-project-detail-anchors {
+        grid-template-columns: 1fr; /* One column on smaller screens */
+    }
+}

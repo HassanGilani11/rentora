@@ -1,0 +1,66 @@
+2024-10-11T03:57:09+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Rentora - Charge - Order #1988 ) ------------------->
+stdClass Object
+(
+    [id] => ch_3Q8ZySJAyyZXevqD1uoCzR9K
+    [amount] => 3000
+    [amount_refunded] => 0
+    [currency] => AUD
+    [order_amount] => 3000.00
+    [order_currency] => AUD
+    [captured] => Captured
+    [transaction_id] => txn_3Q8ZySJAyyZXevqD12aUAOE2
+    [mode] => Test
+    [metadata] => stdClass Object
+        (
+            [Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+            [Billing Email] => hammaddiligent@gmail.com
+            [Customer IP] => 139.135.34.192
+            [Products] => Lawn Mover
+            [Referer] => https://rentora.com.au/checkout/
+            [Total Shipping] => 0
+            [Total Tax] => 0
+            [WP customer #] => 26
+            [order_id] => 1988
+        )
+
+    [created] => 2024-10-11 03:57:08
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( credit )
+    [status] => succeeded
+    [origin_time] => 2024-10-11 03:57:08
+)
+2024-10-11T05:05:48+00:00 DEBUG <------------------- WebToffee Stripe Payment ( Rentora - Charge - Order #1990 ) ------------------->
+stdClass Object
+(
+    [id] => ch_3Q8b2tJAyyZXevqD0W4qB3ZX
+    [amount] => 4000
+    [amount_refunded] => 0
+    [currency] => AUD
+    [order_amount] => 4000.00
+    [order_currency] => AUD
+    [captured] => Captured
+    [transaction_id] => txn_3Q8b2tJAyyZXevqD0pGX4u4S
+    [mode] => Test
+    [metadata] => stdClass Object
+        (
+            [Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+            [Billing Email] => hammaddiligent@gmail.com
+            [Customer IP] => 139.135.34.192
+            [Products] => Lawn Mover
+            [Referer] => https://rentora.com.au/checkout/
+            [Total Shipping] => 0
+            [Total Tax] => 0
+            [WP customer #] => 27
+            [order_id] => 1990
+        )
+
+    [created] => 2024-10-11 05:05:47
+    [paid] => Paid
+    [receiptemail] => Receipt not send
+    [receiptnumber] => No Receipt Number
+    [source_type] => visa( credit )
+    [status] => succeeded
+    [origin_time] => 2024-10-11 05:05:48
+)

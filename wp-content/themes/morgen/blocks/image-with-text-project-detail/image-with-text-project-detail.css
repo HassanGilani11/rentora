@@ -1,0 +1,171 @@
+/* Main container for the section */
+.image-with-text-project-detail {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+/* Row container with no gaps */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+/* Column: 50% width for desktop, 100% for mobile */
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0;
+}
+
+/* Full width columns for mobile responsiveness */
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+}
+.col-12.text-box{
+	border:0.5px solid;
+}
+/* Image styling */
+.image-with-text-project-detail-image {
+    width: 100%;
+    height: auto;
+    display: block;
+	border: 0.5px solid;
+}
+img.image-with-text-project-detail-image-second-box {
+	width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+	border: 0.5px solid;	
+    /*margin-top: -35px;*/
+}
+.col-12.image-box {
+    overflow: hidden;
+}
+/* Text block */
+.image-with-text-project-detail-heading {
+    font-family: 'TroisMilleRegular';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.image-with-text-project-detail-paragraph {
+    font-family: Montserrat;
+    font-size: 16px;
+	font-weight: 500;
+    margin: 0;
+}
+
+/* Button styling */
+.image-with-text-project-detail-button {
+ display: inline-block;     
+    color: #1E3E37;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    transform: rotate(-45deg);    
+}
+
+
+/* Remove default spacing between columns and make full width */
+.row, .col-6, .col-12 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image-with-text-project-detail-layout.w-layout-cell1{
+	padding: 10px 20px;
+}
+.image-with-text-project-detail-layout.w-layout-cell1 {
+    display: flex;
+    justify-content: space-between;	
+}
+/* .image-with-text-project-detail-layout {
+    border: 1px solid;
+} */
+/* Responsive adjustments for mobile devices */
+@media screen and (max-width: 767px) {
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .image-with-text-project-detail-heading {
+        font-size: 36px;
+        line-height: 35px;
+    }
+
+    .image-with-text-project-detail-paragraph {
+        font-size: 16px;
+        color: #1E3E37;
+    }
+}
+
+.image-with-text-project-detail-layout {
+    position: relative;
+    overflow: hidden; /* Hide overflow for smooth transitions */
+}
+
+.w-layout-cell1 {
+    position: relative;
+    transform: translateY(0); /* Start at original position */
+}
+.image-with-text-project-detail-layout.w-layout-cell1 {
+    height: auto;
+	border: 0.5px solid;
+}
+
+.image-with-text-project-detail-layout:hover {
+    height: 88px;
+    transform: translateY(-45px);
+    background: #D7E6FF;
+    border: unset;
+    overflow: visible;
+    transition: transform 0.2s ease;
+    border-top: 1px solid;
+}
+/* Hide paragraph initially */
+.image-with-text-project-detail-paragraph {
+    opacity: 0; /* Initially hide the paragraph */
+    max-height: 0; /* Initially set height to 0 to hide it */
+   
+}
+
+/* Show paragraph on hover */
+.image-with-text-project-detail-layout:hover .image-with-text-project-detail-paragraph {
+    opacity: 1; /* Show the paragraph */
+    max-height: 100px; /* Adjust to fit paragraph content height */
+    margin-bottom: -45px;	
+}
+
+/* Hide button initially */
+.image-with-text-project-detail-button {
+    opacity: 0; /* Initially hide the button */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+/* Show button on hover */
+.image-with-text-project-detail-layout:hover .image-with-text-project-detail-button {
+    opacity: 1; /* Show the button */
+}
+
+/* Heading styling */
+.image-with-text-project-detail-heading {
+    margin-bottom: 10px; /* Adjust spacing if needed */
+}

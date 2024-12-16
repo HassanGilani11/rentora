@@ -1,0 +1,16 @@
+{
+    "name": "acf/intro-project-detail",
+    "title": "Intro Project Detail",
+    "description": "A custom Intro Project Detail block that uses ACF fields.",
+    "style": [ "file:./intro-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["project", "content", "intro"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "intro-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

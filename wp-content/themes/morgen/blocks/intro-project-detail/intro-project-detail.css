@@ -1,0 +1,90 @@
+/* General styles for the video container */
+.video-container {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: #fff; /* Text color */
+    position: relative; /* Position relative for the background image */
+    background-color: #000; /* Fallback color */
+    height:600px;
+}
+/* Background image styling */
+.video-container::before {
+    /* content: ''; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    opacity: 0.5; /* Adjust opacity for overlay effect */
+    z-index: 1; /* Place behind text */
+}
+
+
+
+/* Column styles */
+.video-col-12 {
+    width: 100%; /* Full width for the description */
+}
+
+
+
+/* Video link styling */
+.video {
+    display: flex; /* Use flexbox to center items */
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 20px; /* Space above the video link */
+    z-index: 2; /* Ensure it’s above the background */
+}
+.video-link {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center align icon and text */
+    text-decoration: none; /* Remove underline from links */
+    color: #ffcc00; /* Color for the link */
+    font-weight: bold; /* Bold text for emphasis */
+    padding: 10px; /* Padding for the link */
+}
+.play-icon {
+    width: 48px; /* Set width for the play icon */
+    height: 48px; /* Set height for the play icon */
+    margin-bottom: 10px; /* Space between the icon and text */
+}
+/* Hover effect for the link and bounce effect for play icon */
+.video-link:hover {
+    color: #000; /* Change text color on hover */
+}
+
+.video-link:hover .play-icon {
+    animation: bounce 0.6s; /* Apply bounce animation on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    .play-icon {
+        width: 20px; /* Adjust size on smaller screens */
+        height: 20px; /* Adjust size on smaller screens */
+    }
+    
+}
+/* Bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Original position */
+    }
+    40% {
+        transform: translateY(-10px); /* Move up */
+    }
+    60% {
+        transform: translateY(-5px); /* Slightly move down */
+    }
+}

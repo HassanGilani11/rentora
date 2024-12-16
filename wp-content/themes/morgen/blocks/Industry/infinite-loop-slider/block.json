@@ -1,0 +1,17 @@
+{
+    "name": "acf/infinite-loop-slider",
+    "title": "Loop Slider",
+    "description": "A custom Loop Slider block that uses ACF fields.",
+    "script": "file:./infinite-loop-slider.js",
+    "style": [ "file:./infinite-loop-slider.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Companies", "Logos"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "infinite-loop-slider.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

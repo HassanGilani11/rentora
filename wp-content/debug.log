@@ -1,0 +1,146 @@
+[24-Sep-2024 09:26:19 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:26:19 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php:4482
+Stack trace:
+#0 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php(4482): ltrim()
+#1 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/blocks/companies-project-detail/companies-project-detail.php(35): esc_url()
+#2 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(738): include('/home/u70044134...')
+#3 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#4 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(712): do_action()
+#7 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(610): acf_render_block()
+#8 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(533): acf_rendered_block()
+#9 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-block.php(519): acf_render_block_callback()
+#10 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2061): WP_Block->render()
+#11 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2113): render_block()
+#12 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): do_blocks()
+#13 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#14 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/post-template.php(256): apply_filters()
+#15 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/page.php(9): the_content()
+#16 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/template-loader.php(106): include('/home/u70044134...')
+#17 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-blog-header.php(19): require_once('/home/u70044134...')
+#18 /home/u700441347/domains/devwap.com/public_html/morgenenergy/index.php(17): require('/home/u70044134...')
+#19 {main}
+  thrown in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php on line 4482
+[24-Sep-2024 09:26:23 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:26:23 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php:4482
+Stack trace:
+#0 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php(4482): ltrim()
+#1 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/blocks/companies-project-detail/companies-project-detail.php(35): esc_url()
+#2 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(738): include('/home/u70044134...')
+#3 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#4 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(712): do_action()
+#7 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(610): acf_render_block()
+#8 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(533): acf_rendered_block()
+#9 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-block.php(519): acf_render_block_callback()
+#10 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2061): WP_Block->render()
+#11 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2113): render_block()
+#12 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): do_blocks()
+#13 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#14 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/post-template.php(256): apply_filters()
+#15 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/page.php(9): the_content()
+#16 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/template-loader.php(106): include('/home/u70044134...')
+#17 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-blog-header.php(19): require_once('/home/u70044134...')
+#18 /home/u700441347/domains/devwap.com/public_html/morgenenergy/index.php(17): require('/home/u70044134...')
+#19 {main}
+  thrown in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php on line 4482
+[24-Sep-2024 09:26:37 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:26:37 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php:4482
+Stack trace:
+#0 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php(4482): ltrim()
+#1 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/blocks/companies-project-detail/companies-project-detail.php(35): esc_url()
+#2 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(738): include('/home/u70044134...')
+#3 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#4 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(712): do_action()
+#7 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(610): acf_render_block()
+#8 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(533): acf_rendered_block()
+#9 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-block.php(519): acf_render_block_callback()
+#10 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2061): WP_Block->render()
+#11 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2113): render_block()
+#12 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): do_blocks()
+#13 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#14 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/post-template.php(256): apply_filters()
+#15 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/page.php(9): the_content()
+#16 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/template-loader.php(106): include('/home/u70044134...')
+#17 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-blog-header.php(19): require_once('/home/u70044134...')
+#18 /home/u700441347/domains/devwap.com/public_html/morgenenergy/index.php(17): require('/home/u70044134...')
+#19 {main}
+  thrown in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php on line 4482
+[24-Sep-2024 09:26:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:26:38 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php:4482
+Stack trace:
+#0 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php(4482): ltrim()
+#1 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/blocks/companies-project-detail/companies-project-detail.php(35): esc_url()
+#2 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(738): include('/home/u70044134...')
+#3 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#4 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(712): do_action()
+#7 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(610): acf_render_block()
+#8 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(533): acf_rendered_block()
+#9 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-block.php(519): acf_render_block_callback()
+#10 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2061): WP_Block->render()
+#11 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2113): render_block()
+#12 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): do_blocks()
+#13 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#14 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/post-template.php(256): apply_filters()
+#15 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/page.php(9): the_content()
+#16 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/template-loader.php(106): include('/home/u70044134...')
+#17 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-blog-header.php(19): require_once('/home/u70044134...')
+#18 /home/u700441347/domains/devwap.com/public_html/morgenenergy/index.php(17): require('/home/u70044134...')
+#19 {main}
+  thrown in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php on line 4482
+[24-Sep-2024 09:27:20 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:27:20 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php:4482
+Stack trace:
+#0 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php(4482): ltrim()
+#1 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/blocks/companies-project-detail/companies-project-detail.php(35): esc_url()
+#2 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(738): include('/home/u70044134...')
+#3 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#4 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(712): do_action()
+#7 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(610): acf_render_block()
+#8 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(533): acf_rendered_block()
+#9 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-block.php(519): acf_render_block_callback()
+#10 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2061): WP_Block->render()
+#11 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2113): render_block()
+#12 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): do_blocks()
+#13 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#14 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/post-template.php(256): apply_filters()
+#15 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/page.php(9): the_content()
+#16 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/template-loader.php(106): include('/home/u70044134...')
+#17 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-blog-header.php(19): require_once('/home/u70044134...')
+#18 /home/u700441347/domains/devwap.com/public_html/morgenenergy/index.php(17): require('/home/u70044134...')
+#19 {main}
+  thrown in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php on line 4482
+[24-Sep-2024 09:27:27 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:27:27 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php:4482
+Stack trace:
+#0 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php(4482): ltrim()
+#1 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/blocks/companies-project-detail/companies-project-detail.php(35): esc_url()
+#2 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(738): include('/home/u70044134...')
+#3 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#4 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(712): do_action()
+#7 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(610): acf_render_block()
+#8 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(533): acf_rendered_block()
+#9 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-block.php(519): acf_render_block_callback()
+#10 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2061): WP_Block->render()
+#11 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/blocks.php(2113): render_block()
+#12 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/class-wp-hook.php(324): do_blocks()
+#13 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#14 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/post-template.php(256): apply_filters()
+#15 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-content/themes/morgen/page.php(9): the_content()
+#16 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/template-loader.php(106): include('/home/u70044134...')
+#17 /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-blog-header.php(19): require_once('/home/u70044134...')
+#18 /home/u700441347/domains/devwap.com/public_html/morgenenergy/index.php(17): require('/home/u70044134...')
+#19 {main}
+  thrown in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/formatting.php on line 4482
+[24-Sep-2024 09:27:36 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805
+[24-Sep-2024 09:27:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/u700441347/domains/devwap.com/public_html/morgenenergy/wp-includes/kses.php on line 1805

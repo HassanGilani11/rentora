@@ -1,0 +1,3 @@
+Dec 16 2024 06:46:03
+{"type":8192,"message":"Creation of dynamic property acfe_form_front::$fields is deprecated","file":"C:\\xampp\\htdocs\\github-repo\\wp-content\\plugins\\acf-extended-pro\\includes\\modules\\forms-front.php","line":14}
+

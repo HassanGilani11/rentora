@@ -1,0 +1,17 @@
+{
+    "name": "acf/solution-section",
+    "title": "Solution Section",
+    "description": "A custom Industry Solution block that uses ACF fields.",
+    "script": "file:./solution-section.js",
+    "style": [ "file:./solution-section.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Companies", "Logos"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "solution-section.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

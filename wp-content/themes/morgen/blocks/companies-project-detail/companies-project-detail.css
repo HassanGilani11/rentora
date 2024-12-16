@@ -1,0 +1,79 @@
+section.section-4.companies {
+    border-top: 2px solid;
+}
+
+.section-4 {
+    background-color: #FFFF00;
+  }
+
+  .text-block-4 {
+    color: #1e3e37;
+    text-align: center;
+    padding-top: 60px;
+    font-family: Montserrat;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .company-heading{
+    color: #1e3e37;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family: 'TroisMilleRegular';
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .bg-slider {
+    background-color: #FFFF00;
+  }
+  .section-3 {
+    background-color: #FFFF00;
+    flex-flow: row;
+    width: auto;
+    padding-bottom: 60px;
+    display: flex;
+  }
+  .div-block-5 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex: none;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+
+
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap; /* To allow icons to wrap on smaller screens */
+    justify-content: center;
+}
+.icon-item {
+    text-align: center;
+    margin: 25px;
+    flex-basis: 15%;
+}
+
+
+.icon-image {
+    max-width: 100px; /* Set a maximum width for the icon image */
+    height: auto;
+}
+
+
+.icon-title {
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'TroisMilleRegular';
+}
+
+.icon-description {
+    font-size: 18px;; /* Font size for description */
+    margin-top: 5px; /* Space above description */
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+}
+

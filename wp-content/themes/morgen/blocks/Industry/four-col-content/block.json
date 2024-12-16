@@ -1,0 +1,17 @@
+{
+    "name": "acf/four-col-content",
+    "title": "Four Columns Icon Card Section",
+    "description": "A custom Column block that uses ACF fields.",
+    "style": [ "file:./four-col-content.css" ],
+    "script": [ "file:./four-col-content.js" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Content", "Columns"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "four-col-content.php"
+    },
+    "supports": {
+        "anchor": false
+    }
+}

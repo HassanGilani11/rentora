@@ -1,0 +1,16 @@
+{
+    "name": "acf/companies-project-detail",
+    "title": "Companies Project Detail",
+    "description": "A custom Companies Project Detail block that uses ACF fields.",
+    "style": [ "file:./companies-project-detail.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["Companies", "Logos", "ProjectDetail"],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "companies-project-detail.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

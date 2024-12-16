@@ -1,0 +1,26 @@
+.elementor-865 .elementor-element.elementor-element-e21b7ac{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}.elementor-865 .elementor-element.elementor-element-1e3ed6f .elementor-heading-title{font-family:"Noto Sans", Sans-serif;font-size:1.4rem;font-weight:600;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(30px/2);}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(30px/2);}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(30px/2);margin-left:calc(30px/2);}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-30px/2);margin-left:calc(-30px/2);}body.rtl .elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-30px/2);}body:not(.rtl) .elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-30px/2);}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-item:not(:last-child):after{content:"";border-color:#BEBEBE;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-top-style:solid;border-top-width:1px;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-left-style:solid;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-left-width:1px;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-icon{width:14px;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-icon i{font-size:14px;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-icon svg{--e-icon-list-icon-size:14px;}.elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-text, .elementor-865 .elementor-element.elementor-element-f12655a .elementor-icon-list-text a{color:var( --e-global-color-ed10d87 );}.elementor-865 .elementor-element.elementor-element-3b6dd82 .elementor-widget-container{color:var( --e-global-color-primary );}/* Start custom CSS for image, class: .elementor-element-9997c0d */.post-image {
+    position: relative; /* Ensure the container is positioned relative */
+    overflow: hidden; /* Prevent overflow of the hover effect */
+}
+
+.post-image a {
+    display: block; /* Make the anchor tag block-level for better positioning */
+    position: relative; /* Relative positioning for the pseudo-element */
+}
+
+.post-image a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 116, 239); /* Background color on hover */
+    z-index: 1; /* Ensure it is above the image */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.5s linear; /* Smooth transition for opacity */
+}
+
+.post-image a:hover::after {
+    opacity: 0.5; /* Show background color on hover */
+}/* End custom CSS */

@@ -1,0 +1,137 @@
+div.mvr-become-vendor-form-wrapper {
+	display: none;
+}
+
+.mvr-become-vendor-wrapper {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.mvr-become-vendor-button-wrapper {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.mvr-become-vendor-form-wrapper {
+	margin: 15px 0 0 0;
+	width: 100%;
+	float: left;
+	padding: 20px;
+	box-shadow: 0 0 3px #000;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.mvr-become-vendor-form-wrapper form {
+	margin: 0 !important;
+}
+
+.mvr-become-vendor-button-wrapper .mvr-become-vendor-btn {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin-bottom: 5px;
+	background: #82237c;
+	border: 1px solid #82237c;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #000 inset;
+}
+
+.mvr-vendor-register-form-wrapper form.mvr-vendor-form-register {
+	width: 100%;
+	float: left;
+	display: block;
+	margin-bottom: 0 !important;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row {
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row label{
+	width: 100%;
+	display: block;
+	line-height: 2;
+	color: #666;
+	float: left;
+	font-size: 16px;
+}
+
+.mvr-become-vendor-form-wrapper form p .woocommerce-Button {
+	display: inline-block;
+	padding: .6180469716em 1.41575em;
+	margin-bottom: 5px;
+	background: #fff;
+	border: 1px solid #82237c;
+	color: #000;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	-webkit-appearance: none;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-become-vendor-form-wrapper form p .woocommerce-Button:hover {
+	background: #82237c !important;
+	border: 1px solid #82237c;
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 0 3px #82237c inset;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row label .required {
+	color: #82237c;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row span {
+	display: block;
+	font-size: 16px;
+	margin: 5px 0;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row span.mvr-error {
+	color: #f00;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row span.mvr-store-url {
+	color: #1d296a;
+	display: inline-block;
+	width: 100%;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row span.mvr-store-slug-available {
+	color: #068206;
+}
+
+.mvr-become-vendor-form-wrapper form p.woocommerce-form-row input[type='text'] {
+	width: 100%;
+	display: block;
+	margin: 0px;
+	color: #666;
+	padding: 0 5px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,.04);
+	border-radius: 4px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+.mvr-become-vendor-wrapper .mvr-become-vendor-form-wrapper form p.woocommerce-form-row span {
+	display: inline !important;
+}

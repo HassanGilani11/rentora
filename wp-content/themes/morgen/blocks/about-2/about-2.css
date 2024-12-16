@@ -1,0 +1,122 @@
+.section-5 {
+    border-top: 2px solid #1e3e37;
+    border-bottom: 2px solid #1e3e37;
+  }
+  .flex-layout-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .w-layout-cell1{
+    padding: 20px 40px;
+    gap: 20px;
+  }
+
+  .custom-layout {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-basis: 49%;
+  }
+  
+  .custom-stack-2 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: var(--sky-blue);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  .cell-4 {
+    color: var(--aquatic-green);
+    border-left: 2px solid #1e3e37;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding-left: 40px; */
+  }
+  
+  .heading-6 {
+    font-family: 'TroisMilleRegular';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 43.2px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .paragraph,
+  .paragraph-2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  
+  .div-block-8 {
+    /* grid-column-gap: 21px; */
+    grid-row-gap: 21px;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 90%;
+    display: flex;
+  }
+  
+  .button-2 {
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    background-color: #1E3E37;
+    color: #D7E6FF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: center;
+    text-decoration: none;
+	  transition: all 0.3s ease;
+  }
+.button-2:hover{
+	background-color: #A884FF;
+	color: #fff;
+}
+  .w-button {
+    display: inline-block;
+    padding: 9px 15px;
+  
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+
+  @media screen and (max-width: 991px) {
+    .cell-9 {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .flex-layout-layout {
+      /* display: flex;
+      align-items: center;
+      justify-content: space-between; */
+      flex-direction: column;
+    }
+    .w-layout-cell {
+      /* flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      display: flex; */
+      flex-basis: 100%;
+    }
+    .heading-6 {
+      font-size: 40px;
+    }
+  }
